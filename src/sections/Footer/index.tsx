@@ -17,7 +17,7 @@ export const Footer = ({ branding, social, navigation, location, copyright, stat
                 
                 if (socialItem === "Instagram") {
                   return (
-                    <a key="instagram" href="https://www.instagram.com/fusa.labs?igsh=anJydmE0N2ZiMHh3" target="_blank" rel="noopener noreferrer">
+                    <a key="instagram" href="https://www.instagram.com/fusa.labs/" target="_blank" rel="noopener noreferrer">
                       <div className={`${baseStyle} hover:bg-gradient-to-tr hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:border-transparent hover:text-white`}><Instagram size={20} strokeWidth={1.5} /></div>
                     </a>
                   );
