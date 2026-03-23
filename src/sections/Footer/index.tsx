@@ -13,31 +13,31 @@ export const Footer = ({ branding, social, navigation, location, copyright, stat
             </div>
             <div className="flex gap-6">
               {social.map((socialItem) => {
-                const baseStyle = "w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/60 transition-all duration-300 hover:scale-110";
+                const baseStyle = "w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/60 transition-all duration-300 hover:scale-110 cursor-pointer";
                 
                 if (socialItem === "Instagram") {
                   return (
-                    <a key="instagram" href="https://www.instagram.com/fusa.labs/" target="_blank" rel="noopener noreferrer">
+                    <a key="instagram" href="https://www.instagram.com/fusa.labs?igsh=anJydmE0N2ZiMHh3" target="_blank" rel="noopener noreferrer" className="block">
                       <div className={`${baseStyle} hover:bg-gradient-to-tr hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:border-transparent hover:text-white`}><Instagram size={20} strokeWidth={1.5} /></div>
                     </a>
                   );
                 }
                 if (socialItem === "Github") {
                   return (
-                    <a key="github" href="https://github.com/Silicon-Fusa" target="_blank" rel="noopener noreferrer">
+                    <a key="github" href="https://github.com/Silicon-Fusa" target="_blank" rel="noopener noreferrer" className="block">
                       <div className={`${baseStyle} hover:bg-white hover:text-black hover:border-transparent`}><Github size={20} strokeWidth={1.5} /></div>
                     </a>
                   );
                 }
                 if (socialItem === "WhatsApp") {
                   return (
-                    <a key="whatsapp" href="https://wa.me/5493518799794?text=Hola%20Fusa%20Labs" target="_blank" rel="noopener noreferrer">
+                    <a key="whatsapp" href="https://wa.me/5493518799794?text=Hola%20Fusa%20Labs" target="_blank" rel="noopener noreferrer" className="block">
                       <div className={`${baseStyle} hover:bg-[#25D366] hover:text-white hover:border-[#25D366]`}><MessageCircle size={20} strokeWidth={1.5} /></div>
                     </a>
                   );
                 }
                 return (
-                  <a key="mail" href="mailto:labsfusa@gmail.com">
+                  <a key="mail" href="mailto:labsfusa@gmail.com" className="block">
                     <div className={`${baseStyle} hover:bg-fusa-indigo hover:text-white hover:border-fusa-indigo`}><Mail size={20} strokeWidth={1.5} /></div>
                   </a>
                 );
