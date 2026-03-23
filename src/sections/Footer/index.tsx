@@ -1,5 +1,6 @@
 import { Instagram, Github, Mail, MessageCircle } from "lucide-react";
 import { FooterLinkGroup } from "./FooterLinkGroup";
+import { Logo } from "../../components/Logo";
 import type { FooterProps } from "./types";
 
 export const Footer = ({ branding, social, navigation, location, copyright, status }: FooterProps) => {
@@ -8,8 +9,8 @@ export const Footer = ({ branding, social, navigation, location, copyright, stat
       <div className="max-w-[1600px] mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-24 mb-32">
           <div className="flex flex-col gap-10">
-            <div className="text-2xl font-bold tracking-tighter">
-              {branding.footer}
+            <div className="cursor-pointer inline-block">
+              <Logo />
             </div>
             <div className="flex gap-6">
               {social.map((socialItem) => {
