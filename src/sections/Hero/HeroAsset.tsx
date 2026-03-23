@@ -272,7 +272,6 @@ export const HeroAsset = ({ videoUrl, isVisible }: HeroAssetProps) => {
               muted
               loop
               playsInline
-              poster="/video-poster.webp"
             />
             
             {/* Matrix & Particle Genesis */}

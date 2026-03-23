@@ -21,8 +21,11 @@ export const ContactForm = ({ form }: ContactFormProps) => {
     e.preventDefault();
     setEmailError("");
 
-    const formData = new FormData(e.currentTarget);
+    const formElement = e.currentTarget; // Guardamos la referencia aquí
+    const formData = new FormData(formElement);
     const email = formData.get("email")?.toString() || "";
+    const name = formData.get("name")?.toString() || "";
+    const message = formData.get("message")?.toString() || "";
 
     // Expresión regular estándar para validación de emails
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -33,22 +36,38 @@ export const ContactForm = ({ form }: ContactFormProps) => {
 
     setStatus("loading");
 
-    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "");
+    const payload = {
+      access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+      name: name,
+      email: email,
+      message: message,
+      from_name: "FUSA LABS Landing"
+    };
+
+    console.log("Enviando datos:", payload);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData,
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify(payload),
       });
-      const data = await response.json();
-      if (data.success) {
+      
+      const result = (await response.json()) as { success?: boolean };
+      console.log("Respuesta de API:", response.status, result);
+
+      if (response.status === 200 || result.success) {
         setStatus("success");
-        e.currentTarget.reset();
+        formElement.reset(); // Usamos la referencia guardada, no e.currentTarget
         setTimeout(() => setStatus("idle"), 5000); // Vuelve al estado normal tras 5 seg
       } else {
         setStatus("error");
       }
     } catch (error) {
+      console.error("Error en el catch:", error);
       setStatus("error");
     }
   };
@@ -105,13 +124,19 @@ export const ContactForm = ({ form }: ContactFormProps) => {
             <span>ERROR DE TRANSMISIÓN. INTENTA NUEVAMENTE.</span>
           </div>
         )}
+        {status === "success" && (
+          <div className="mb-4 p-4 rounded-sm bg-green-500/10 border border-green-500/30 flex items-center justify-center gap-3 text-green-400 text-[10px] font-conthrax tracking-widest">
+            <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.8)]" />
+            <span>MENSAJE ENVIADO CON ÉXITO.</span>
+          </div>
+        )}
         <button
           type="submit"
           disabled={status === "loading" || status === "success"}
           className="w-full bg-fusa-indigo text-fusa-white py-5 rounded-full font-conthrax text-base hover:bg-fusa-indigo/90 transition-all flex items-center justify-center gap-3 group shadow-[0_0_15px_rgba(28,5,142,0.3)] disabled:opacity-80 disabled:cursor-default"
         >
           <span>
-            {status === "loading" ? "ENVIANDO..." : status === "success" ? "TRANSMISIÓN EXITOSA" : form.submitButton}
+            {status === "loading" ? "ENVIANDO..." : status === "success" ? "MENSAJE ENVIADO CON ÉXITO" : form.submitButton}
           </span>
           {status === "idle" && (
             <ArrowRight

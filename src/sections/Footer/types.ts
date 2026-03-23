@@ -7,10 +7,6 @@ export interface FooterProps {
     title: string;
     links: string[];
   };
-  legal: {
-    title: string;
-    links: string[];
-  };
   location: {
     title: string;
     text: string;

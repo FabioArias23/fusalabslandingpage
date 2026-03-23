@@ -1,7 +1,15 @@
 import { useState, MouseEvent } from "react";
 import { Globe } from "lucide-react";
 import { Logo } from "../../components/Logo";
-import type { NavigationProps } from "./types";
+
+interface NavigationProps {
+  isScrolled: boolean;
+  branding: Record<string, string>;
+  menuItems: string[];
+  ctaButton: string;
+  languageLabel: string;
+  toggleLanguage: () => void;
+}
 
 export const Navigation = ({
   isScrolled,
@@ -10,7 +18,7 @@ export const Navigation = ({
   ctaButton,
   languageLabel,
   toggleLanguage,
-}: any) => {
+}: NavigationProps) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
 

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ChevronDown, Mail, MessageCircle, Check } from "lucide-react";
+import { ChevronDown, Mail, MessageCircle, CheckCircle } from "lucide-react";
 import type { PricingMode } from "./types";
 
 interface PricingCardProps {
@@ -37,20 +37,26 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
         }`}
       >
         <div>
+          {/* @ts-ignore - Fallback dinámico si existe badge en JSON */}
+          {(mode.card1 as any).badge && (
+            <div className="inline-block px-3 py-1 bg-fusa-indigo/10 border border-fusa-indigo/20 rounded-full text-fusa-indigo text-[9px] font-black tracking-widest mb-5">
+              {(mode.card1 as any).badge}
+            </div>
+          )}
           <h3 className="text-xl md:text-2xl font-conthrax mb-5 text-white leading-tight">
             {mode.card1.title}
           </h3>
           {type === "suscripcion" ? (
             <>
-              <p className="text-white/60 text-sm md:text-base leading-relaxed mb-4">
+              <p className="text-white/60 font-inter text-sm md:text-base leading-relaxed mb-4">
                 {mode.card1.description1}
               </p>
-              <p className="text-white/60 text-sm md:text-base leading-relaxed">
+              <p className="text-white/60 font-inter text-sm md:text-base leading-relaxed">
                 {mode.card1.description2}
               </p>
             </>
           ) : (
-            <p className="text-white/60 text-sm md:text-base leading-relaxed">
+            <p className="text-white/60 font-inter text-sm md:text-base leading-relaxed">
               {mode.card1.description}
             </p>
           )}
@@ -69,7 +75,7 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
             <h3 className="text-xl md:text-2xl font-conthrax mb-3 text-white">
               {mode.card2.title}
             </h3>
-            <p className="text-white/60 text-sm leading-relaxed">
+            <p className="text-white/60 font-inter text-sm leading-relaxed">
               {mode.card2.subtitle}
             </p>
           </div>
@@ -87,7 +93,7 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
                   {mode.card2.priceTo}
                 </span>
               </div>
-              <p className="text-white/60 text-base">{mode.card2.period}</p>
+              <p className="text-white/60 font-inter text-base">{mode.card2.period}</p>
             </>
           ) : (
             <>
@@ -96,7 +102,7 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
                   {mode.card2.price}
                 </span>
               </div>
-              <p className="text-white/60 text-base">{mode.card2.period}</p>
+              <p className="text-white/60 font-inter text-base">{mode.card2.period}</p>
             </>
           )}
         </div>
@@ -105,10 +111,8 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
         <div className="space-y-4 mb-10 flex-1">
           {mode.card2.features.map((feature, idx) => (
             <div key={idx} className="flex items-start gap-3 group/feature">
-              <div className="mt-1 w-5 h-5 rounded-sm bg-fusa-indigo/10 flex items-center justify-center flex-shrink-0 border border-fusa-indigo/30 group-hover/feature:bg-fusa-indigo/20 group-hover/feature:border-fusa-indigo/50 transition-colors">
-                <Check size={12} className="text-fusa-indigo" strokeWidth={3} />
-              </div>
-              <span className="text-white/80 group-hover/feature:text-white transition-colors text-sm md:text-base">{feature}</span>
+              <CheckCircle size={20} className="text-fusa-indigo mt-0.5 flex-shrink-0" strokeWidth={1.5} />
+              <span className="text-white/80 group-hover/feature:text-white transition-colors text-sm md:text-base font-inter">{feature}</span>
             </div>
           ))}
         </div>
@@ -116,16 +120,16 @@ export const PricingCard = ({ mode, type }: PricingCardProps) => {
         {/* Delivery Time & Disclaimer */}
         <div className="border-t border-white/10 pt-6 mb-8 flex flex-col gap-4">
           <div className="flex justify-between items-center">
-            <span className="text-white/60 text-sm md:text-base">
+            <span className="text-white/60 font-inter text-sm md:text-base">
               {mode.card2.deliveryLabel}
             </span>
-            <span className="text-white text-sm md:text-base font-semibold">
+            <span className="text-white font-inter text-sm md:text-base font-semibold">
               {mode.card2.deliveryTime}
             </span>
           </div>
           {/* @ts-ignore - Rendering disclaimer safely from JSON data */}
           {(mode.card2 as any).disclaimer && (
-            <p className="text-[10px] text-white/40 font-inter leading-relaxed">
+            <p className="text-[11px] text-white/40 font-inter leading-relaxed bg-fusa-indigo/5 border border-fusa-indigo/10 p-3 rounded-lg">
               * {(mode.card2 as any).disclaimer}
             </p>
           )}

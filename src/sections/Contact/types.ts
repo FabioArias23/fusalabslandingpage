@@ -16,7 +16,6 @@ export interface ContactProps {
     messageLabel: string;
     messagePlaceholder: string;
     submitButton: string;
-    terms: string;
   };
   cards: ContactCard[];
 }
