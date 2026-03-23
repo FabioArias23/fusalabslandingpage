@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+bower_components/
+
+# Formatos de paquetes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Salidas de compilación
+dist/
+build/
+.next/
+out/
+.vercel/
+*.log
+
+# Archivos de entorno y secretos
+.env*
+.secrets
+*.pem
+*.key
+
+# Multimedia (Para que el texto no se llene de binarios)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.mp4
+*.webm
+
+# Git y Configuración de editores
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+
+# Tests y Documentación pesada
+tests/
+__tests__/
+*.test.js
+*.spec.js
+README.md
+LICENSE

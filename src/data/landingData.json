@@ -1,0 +1,156 @@
+{
+  "es": {
+    "branding": {
+      "name": "FUSA LABS",
+      "suffix": "SYSTEMS",
+      "tagline": "© 2026 FUSA LABS SYSTEMS",
+      "footer": "FUSA LABS / 2026"
+    },
+    "navigation": {
+      "languageLabel": "ENGLISH",
+      "menuItems": ["Inicio", "Productos", "Proyectos"],
+      "ctaButton": "CONTACTO"
+    },
+    "hero": {
+      "tags": ["Redes Multiagente", "Venture Builder", "SaaS con IA", "Escalabilidad"],
+      "title": "FUSA",
+      "subtitle": "/ LABS",
+      "description": "Creamos, escalamos y optimizamos soluciones con redes de agentes de IA que simplifican tu forma de trabajar e integran inteligencia en tu stack actual.",
+      "highlightedText": "redes de agentes de IA",
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+    },
+    "services": {
+      "sectionNumber": "(02)",
+      "sectionLabel": "Qué hacemos",
+      "title": "Nuestros Servicios.",
+      "subtitle": "Soluciones de IA a medida para resolver desafíos empresariales específicos.",
+      "items": [
+        { "num": "001", "title": "Desarrollo de Agentes de IA", "description": "Agentes a medida diseñados para resolver desafíos específicos, optimizar flujos de trabajo y aumentar la eficiencia automatizada.", "tags": ["Agente IA", "Automatización", "Integración"], "icon": "Cpu" },
+        { "num": "002", "title": "Automatización con IA Personalizada", "description": "Eliminamos tareas repetitivas y nos integramos sin problemas con tus sistemas existentes para aumentos medibles en productividad.", "tags": ["Optimización", "Flujos de trabajo", "ROI"], "icon": "Layers" },
+        { "num": "003", "title": "Aplicaciones SaaS por Sector", "description": "Soluciones de IA adaptadas a los requisitos únicos de tu industria, utilizando plataformas propietarias.", "tags": ["SaaS", "Específico", "Cloud"], "icon": "Zap" },
+        { "num": "004", "title": "Consultoría en Implementación", "description": "Orientación estratégica para navegar tu trayectoria de adopción de IA, desde la evaluación hasta la optimización.", "tags": ["Estrategia", "Planning", "Transformación"], "icon": "Target" }
+      ]
+    },
+    "methodology": {
+      "sectionLabel": "Sobre nosotros",
+      "title": "Cómo construimos el impacto.",
+      "description": "No entrenamos modelos aislados. Integramos IA avanzada conectada a tu stack tecnológico actual.",
+      "steps": [
+        { "num": "01", "title": "Análisis estratégico", "description": "Identificamos oportunidades de automatización con IA de alto ROI." },
+        { "num": "02", "title": "Soluciones personalizadas", "description": "Arquitectura que se integra perfectamente con tu ecosistema." },
+        { "num": "03", "title": "Implementación flexible", "description": "Despliegue en nuestra infraestructura segura o en tus servidores." },
+        { "num": "04", "title": "Optimización & Resultados", "description": "Testeo continuo con métricas reales y resultados medibles." }
+      ]
+    },
+    "pricing": {
+      "badge": "Productos internos",
+      "title": "Precios.",
+      "modes": {
+        "suscripcion": {
+          "label": "Suscripción",
+          "card1": { "title": "Soluciones SaaS", "description1": "Suscripción mensual flexible.", "description2": "Sin compromisos de largo plazo." },
+          "card2": { "title": "Modelo por suscripción", "subtitle": "Contactate para opciones personalizadas", "priceFrom": "$150 -", "priceTo": "personalizado", "period": "/mes", "features": ["Soluciones a partir de $150"], "deliveryLabel": "Tiempo de entrega", "deliveryTime": "Recurrente", "ctaButton": "Contactate" }
+        },
+        "instalacion": {
+          "label": "Instalación",
+          "card1": { "title": "¿Desarrollo a medida?", "description": "Contáctanos para recibir una propuesta personalizada." },
+          "card2": { "price": "$1,000 - 5,000", "period": "/instalación", "features": ["Implementación y personalización", "Integración con tu stack"], "deliveryLabel": "Tiempo de entrega", "deliveryTime": "3-4 semanas", "ctaButton": "Contactate" }
+        }
+      }
+    },
+    "contact": {
+      "title": "Tenés un proyecto en mente?",
+      "greeting": "Hola.",
+      "description": "Contanos sobre tu proyecto. Ya sea desarrollo personalizado, consultoría estratégica o un Producto IA.",
+      "form": { "nameLabel": "Tu nombre*", "namePlaceholder": "Juan Ramirez", "emailLabel": "Correo electrónico*", "emailPlaceholder": "juan@site.com", "messageLabel": "Mensaje", "messagePlaceholder": "Tu mensaje", "submitButton": "Enviar mensaje" },
+      "cards": [
+        { "icon": "Zap", "title": "Respuesta rápida.", "description": "Te responderemos en breve para colaborar." },
+        { "icon": "CheckCircle", "title": "Próximos pasos.", "description": "Te proporcionaremos un plan detallado y presupuesto." }
+      ]
+    },
+    "footer": {
+      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "navigation": { "title": "Navegación", "links": ["Inicio", "Productos", "Proyectos"] },
+      "location": { "title": "Ubicación", "text": "Sede en Argentina.\nFormosa." },
+      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
+      "status": { "text": "Ronda de inversión abierta", "active": true }
+    }
+  },
+  "en": {
+    "branding": {
+      "name": "FUSA LABS",
+      "suffix": "SYSTEMS",
+      "tagline": "© 2026 FUSA LABS SYSTEMS",
+      "footer": "FUSA LABS / 2026"
+    },
+    "navigation": {
+      "languageLabel": "ESPAÑOL",
+      "menuItems": ["Home", "Products", "Projects"],
+      "ctaButton": "CONTACT US"
+    },
+    "hero": {
+      "tags": ["Multi-agent Networks", "Venture Builder", "AI SaaS", "Scalability"],
+      "title": "FUSA",
+      "subtitle": "/ LABS",
+      "description": "We build, scale, and optimize solutions with AI agent networks that simplify your workflow and integrate intelligence into your stack.",
+      "highlightedText": "AI agent networks",
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+    },
+    "services": {
+      "sectionNumber": "(02)",
+      "sectionLabel": "What we do",
+      "title": "Our Services.",
+      "subtitle": "Tailored AI solutions to solve specific business challenges.",
+      "items": [
+        { "num": "001", "title": "AI Agent Development", "description": "Custom agents designed to solve specific challenges, optimize workflows, and increase automated efficiency.", "tags": ["AI Agent", "Automation", "Integration"], "icon": "Cpu" },
+        { "num": "002", "title": "Custom AI Automation", "description": "We eliminate repetitive tasks and seamlessly integrate with your existing systems for measurable ROI.", "tags": ["Optimization", "Workflows", "ROI"], "icon": "Layers" },
+        { "num": "003", "title": "Industry-specific SaaS", "description": "AI solutions adapted to your industry's unique requirements, using proprietary platforms.", "tags": ["SaaS", "Specific", "Cloud"], "icon": "Zap" },
+        { "num": "004", "title": "Implementation Consulting", "description": "Strategic guidance to navigate your AI adoption journey, from evaluation to continuous optimization.", "tags": ["Strategy", "Planning", "Transformation"], "icon": "Target" }
+      ]
+    },
+    "methodology": {
+      "sectionLabel": "About us",
+      "title": "How we build impact.",
+      "description": "We don't train isolated models. We integrate advanced AI connected to your current tech stack.",
+      "steps": [
+        { "num": "01", "title": "Strategic Analysis", "description": "We identify high-ROI AI automation opportunities." },
+        { "num": "02", "title": "Custom Solutions", "description": "Architecture that perfectly integrates with your ecosystem." },
+        { "num": "03", "title": "Flexible Deployment", "description": "Deployment on our secure infrastructure or your own servers." },
+        { "num": "04", "title": "Optimization & Results", "description": "Continuous testing with real metrics and measurable results." }
+      ]
+    },
+    "pricing": {
+      "badge": "Internal Products",
+      "title": "Pricing.",
+      "modes": {
+        "suscripcion": {
+          "label": "Monthly Subscription",
+          "card1": { "title": "SaaS Solutions", "description1": "Flexible monthly subscription.", "description2": "No long-term commitments." },
+          "card2": { "title": "Subscription-based pricing", "subtitle": "Contact us for custom pricing options", "priceFrom": "$150 -", "priceTo": "custom", "period": "/month", "features": ["Solutions starting at $150"], "deliveryLabel": "Delivery time", "deliveryTime": "Recurring", "ctaButton": "Contact Us" }
+        },
+        "instalacion": {
+          "label": "Installation",
+          "card1": { "title": "Looking for custom development?", "description": "Contact us to define the scope and receive a custom proposal." },
+          "card2": { "price": "$1,000 - 5,000", "period": "/installation", "features": ["Implementation and customization", "Integration with your tech stack"], "deliveryLabel": "Delivery time", "deliveryTime": "3-4 weeks", "ctaButton": "Contact Us" }
+        }
+      }
+    },
+    "contact": {
+      "title": "Have a project in mind?",
+      "greeting": "Hello.",
+      "description": "Tell us about your project—whether you need a discovery call, custom development, or AI Products.",
+      "form": { "nameLabel": "Your name*", "namePlaceholder": "John Doe", "emailLabel": "Email address*", "emailPlaceholder": "john@site.com", "messageLabel": "Message", "messagePlaceholder": "Your message", "submitButton": "Send Message" },
+      "cards": [
+        { "icon": "Zap", "title": "Fast response.", "description": "We will get back to you shortly to collaborate." },
+        { "icon": "CheckCircle", "title": "Next steps.", "description": "We will provide a detailed plan, budget, and timeline." }
+      ]
+    },
+    "footer": {
+      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "navigation": { "title": "Navigation", "links": ["Home", "Products", "Projects"] },
+      "location": { "title": "Location", "text": "HQ in Argentina.\nFormosa." },
+      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
+      "status": { "text": "Investment round open", "active": true }
+    }
+  }
+}
