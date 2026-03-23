@@ -18,9 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Fusa Labs | AI Venture Builder & Neural Systems</title>
         <meta name="description" content="Creamos, escalamos y optimizamos soluciones con redes de agentes de IA para transformar la complejidad operativa en éxito empresarial." />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <link rel="icon" type="image/svg+xml" href="/img/LOGOTIPO1.svg" />
-        <link rel="shortcut icon" href="/img/LOGOTIPO1.svg" />
-        <link rel="apple-touch-icon" href="/img/LOGOTIPO1.svg" />
+        <link rel="icon" href="/img/logofusalabs.png.png" />
+        <link rel="shortcut icon" href="/img/logofusalabs.png.png" />
+        <link rel="apple-touch-icon" href="/img/logofusalabs.png.png" />
 
         {/* Theming PWA y Navegador */}
         <meta name="theme-color" content="#1C058E" />
@@ -31,7 +31,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:url" content="https://www.fusalabs.com/" />
         <meta property="og:title" content="Fusa Labs | AI Venture Builder" />
         <meta property="og:description" content="Integrando Inteligencia Artificial en el ADN de tu negocio." />
-        <meta property="og:image" content="https://www.fusalabs.com/img/LOGOTIPO1.svg" />
+        <meta property="og:image" content="https://www.fusalabs.com/img/logofusalabs.png.png" />
+        <meta property="og:image:secure_url" content="https://www.fusalabs.com/img/logofusalabs.png.png" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -39,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fusa Labs | AI Venture Builder" />
         <meta name="twitter:description" content="Integrando Inteligencia Artificial en el ADN de tu negocio." />
-        <meta name="twitter:image" content="https://www.fusalabs.com/img/LOGOTIPO1.svg" />
+        <meta name="twitter:image" content="https://www.fusalabs.com/img/logofusalabs.png.png" />
       </Head>
       <Component {...pageProps} />
     </div>
