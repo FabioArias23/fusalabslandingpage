@@ -17,7 +17,7 @@ export const Services = ({
             <span className="text-[10px] font-black uppercase tracking-[0.5em] text-white/30 mb-8 block">
               {sectionNumber} {sectionLabel}
             </span>
-            <h2 className="text-5xl md:text-8xl font-bold tracking-tighter leading-none">
+            <h2 className="text-3xl md:text-8xl font-bold tracking-tight leading-none">
               {title.split(" ").slice(0, -1).join(" ")} <br />
               {title.split(" ").slice(-1).join(" ")}
             </h2>

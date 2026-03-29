@@ -15,7 +15,7 @@ export const Methodology = ({
           <span className="text-[10px] font-black uppercase tracking-[0.5em] text-white/30 mb-8 block">
             {sectionLabel}
           </span>
-          <h2 className="text-5xl md:text-7xl font-conthrax mb-12 leading-tight">
+          <h2 className="text-3xl md:text-7xl font-conthrax mb-12 leading-tight tracking-tight">
             {title.split(" ").slice(0, 2).join(" ")} <br />
             {title.split(" ").slice(2).join(" ")}
           </h2>
