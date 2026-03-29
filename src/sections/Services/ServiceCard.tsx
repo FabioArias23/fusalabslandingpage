@@ -59,7 +59,7 @@ export const ServiceCard = ({
     </div>
 
     <div className="relative z-10">
-      <h3 className="text-4xl md:text-5xl font-bold mb-8 group-hover:translate-x-2 transition-transform duration-500 ease-in-out leading-tight font-conthrax text-fusa-white">
+      <h3 className="text-4xl md:text-5xl font-bold mb-8 group-hover:translate-x-2 transition-transform duration-500 ease-in-out leading-tight font-conthrax text-fusa-white break-words">
         {title}
       </h3>
       <p className="text-white/60 text-lg font-inter leading-relaxed max-w-sm transition-colors duration-500">

@@ -29,7 +29,7 @@ export const Layout = ({ children }: LayoutProps) => {
         languageLabel={currentData.navigation.languageLabel}
         toggleLanguage={toggleLanguage}
       />
-      <main className="pt-32">{children}</main>
+      <main className="pt-[160px] md:pt-32">{children}</main>
       <Footer {...currentData.footer} branding={currentData.branding} />
       <WhatsAppFAB />
     </div>

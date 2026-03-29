@@ -12,7 +12,7 @@ export const Hero = ({
 }: HeroProps) => {
 
   return (
-    <section id="inicio" className="relative pt-36 lg:pt-48 px-6 md:px-12 z-10 overflow-hidden">
+    <section id="inicio" className="relative pt-44 lg:pt-48 px-6 md:px-12 z-10 overflow-hidden">
       <div className="max-w-[1600px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
           <div className="lg:col-span-8">

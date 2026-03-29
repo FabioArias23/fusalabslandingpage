@@ -143,9 +143,23 @@ h1, h2, h3 {
 }
 
 @layer base {
-  h1 { font-size: clamp(2.5rem, 10vw, 8rem); }
-  h2 { font-size: clamp(2rem, 8vw, 5rem); line-height: 1.1; }
-  h3 { font-size: clamp(1.5rem, 5vw, 3rem); line-height: 1.2; }
+  h1 { 
+    font-size: clamp(2.2rem, 10vw, 8rem); 
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  h2 { 
+    font-size: clamp(1.8rem, 8vw, 5rem); 
+    line-height: 1.1; 
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  h3 { 
+    font-size: clamp(1.4rem, 5vw, 3rem); 
+    line-height: 1.2; 
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
 }
 
 @layer base {
