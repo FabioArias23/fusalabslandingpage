@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Layout } from "../components/Layout";
 import { LanguageProvider, useLanguage } from "../context/LanguageContext";
 import landingData from "../data/landingData.json";
@@ -21,11 +22,12 @@ function EquipoContent() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {members.map((member: any, i: number) => (
-            <div
+            <Link
               key={i}
-              className={`animate-reveal delay-${(i % 3) + 1} bg-white/[0.02] border border-white/5 rounded-sm p-6 md:p-8 hover:border-fusa-indigo/20 transition-all duration-500 group`}
+              href={`/equipo/${member.slug}`}
+              className={`animate-reveal delay-${(i % 3) + 1} bg-white/[0.02] border border-white/5 rounded-sm p-6 md:p-8 hover:border-fusa-indigo/40 hover:bg-white/[0.04] transition-all duration-500 group relative block`}
             >
-              <div className="w-14 h-14 rounded-full bg-fusa-indigo/10 border border-fusa-indigo/20 flex items-center justify-center mb-5">
+              <div className="w-14 h-14 rounded-full bg-fusa-indigo/10 border border-fusa-indigo/20 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-500">
                 <span className="font-conthrax text-sm text-fusa-indigo">
                   {member.name
                     .split(" ")
@@ -35,7 +37,7 @@ function EquipoContent() {
                 </span>
               </div>
 
-              <h3 className="font-conthrax text-sm text-fusa-white tracking-wide">
+              <h3 className="font-conthrax text-sm text-fusa-white tracking-wide group-hover:text-fusa-indigo transition-colors">
                 {member.name}
               </h3>
               <p className="text-[10px] uppercase tracking-widest text-fusa-indigo font-conthrax mt-1">
@@ -49,10 +51,15 @@ function EquipoContent() {
                 {member.bio}
               </p>
 
-              <span className="text-[9px] uppercase tracking-widest text-white/20 border border-white/10 px-2 py-1 rounded-sm font-conthrax">
-                {member.area}
-              </span>
-            </div>
+              <div className="flex items-center justify-between mt-auto">
+                <span className="text-[9px] uppercase tracking-widest text-white/20 border border-white/10 px-2 py-1 rounded-sm font-conthrax">
+                  {member.area}
+                </span>
+                <span className="text-[10px] font-conthrax text-fusa-indigo opacity-0 group-hover:opacity-100 transition-opacity">
+                  VIEW PROFILE →
+                </span>
+              </div>
+            </Link>
           ))}
         </div>
       </div>
