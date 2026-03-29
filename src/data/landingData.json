@@ -8,7 +8,7 @@
     },
     "navigation": {
       "languageLabel": "ENGLISH",
-      "menuItems": ["Inicio", "Productos", "Proyectos"],
+      "menuItems": ["Equipo", "Servicios", "Productos", "Lab"],
       "ctaButton": "CONTACTO"
     },
     "hero": {
@@ -68,9 +68,94 @@
         { "icon": "CheckCircle", "title": "Próximos pasos.", "description": "Te proporcionaremos un plan detallado y presupuesto." }
       ]
     },
+    "metrics": [
+      { "value": "4+", "label": "Productos SaaS" },
+      { "value": "8", "label": "Ingenieros y expertos" },
+      { "value": "7", "label": "Áreas de expertise" },
+      { "value": "24hs", "label": "Tiempo de respuesta" }
+    ],
+    "trustPoints": [
+      { "icon": "Shield", "title": "Arquitectura soberana", "description": "Tu código, tu infraestructura, sin vendor lock-in. Control total sobre tu stack." },
+      { "icon": "TrendingUp", "title": "IA orientada a ROI", "description": "No modelos aislados. IA integrada directamente en tu stack para resultados medibles." },
+      { "icon": "Code2", "title": "Stack de última generación", "description": "Next.js, NestJS, TypeORM, LangChain — siempre con las mejores herramientas." },
+      { "icon": "Users", "title": "Equipo real de ingenieros", "description": "Ingenieros electromecánicos, aeroespaciales y de software. No freelancers rotativos." }
+    ],
+    "testimonials": [
+      { "quote": "Fusa Labs automatizó nuestro flujo de turnos y la comunicación con pacientes. El impacto fue inmediato.", "name": "Clínica Odontológica", "company": "Dentalogic", "result": "70% menos tiempo en gestión de turnos" },
+      { "quote": "Integraron IA en nuestro e-commerce sin tocar la infraestructura existente. Profesionales de verdad.", "name": "E-commerce Regional", "company": "Platform AI", "result": "3x más conversiones en 2 meses" },
+      { "quote": "La automatización de contenido cambió por completo nuestra operación editorial diaria.", "name": "Medio Digital", "company": "Periodistapp", "result": "50% más artículos publicados por día" }
+    ],
+    "cta": {
+      "title": "¿Listo para integrar IA?",
+      "subtitle": "Hablemos sobre cómo podemos potenciar tu negocio con soluciones de IA a medida.",
+      "buttonText": "Empecemos",
+      "buttonLink": "#contacto"
+    },
+    "productsSection": {
+      "title": "Nuestros productos",
+      "subtitle": "Plataformas SaaS propias con IA integrada, listas para escalar tu operación."
+    },
+    "team": {
+      "title": "Las personas detrás de Fusa",
+      "subtitle": "Un equipo multidisciplinario de ingenieros y especialistas comprometidos con la innovación.",
+      "members": [
+        { "name": "Adrián Gamarra", "role": "CEO & Founder", "title": "Ingeniero Electromecánico", "bio": "Ingeniero electromecánico con visión de producto y experiencia en sistemas industriales e IA aplicada.", "area": "Liderazgo / Ingeniería", "linkedin": "" },
+        { "name": "Fabio Arias", "role": "CTO & Co-Founder", "title": "Ingeniero de Software", "bio": "Arquitecto full-stack especializado en NestJS, React y sistemas de IA multiagente.", "area": "Software / IA", "linkedin": "" },
+        { "name": "Miembro 3", "role": "Ingeniero Aeroespacial", "title": "Ingeniero Aeroespacial", "bio": "Especialista en sistemas complejos, modelado y optimización de procesos de alta precisión.", "area": "Aeroespacial / Sistemas", "linkedin": "" },
+        { "name": "Miembro 4", "role": "Ingeniero Electromecánico", "title": "Ingeniero Electromecánico", "bio": "Experto en automatización industrial, IoT y sistemas embebidos con integración de IA.", "area": "Electromecánica / IoT", "linkedin": "" },
+        { "name": "Miembro 5", "role": "Ingeniero de Software", "title": "Ingeniero de Software", "bio": "Desarrollador especializada en frontend, experiencia de usuario y sistemas de diseño.", "area": "Software / UX", "linkedin": "" },
+        { "name": "Miembro 6", "role": "Ingeniero de Datos", "title": "Ingeniero de Software & Datos", "bio": "Especialista en modelos de machine learning, pipelines de datos y analytics avanzado.", "area": "IA / Datos", "linkedin": "" },
+        { "name": "Miembro 7", "role": "Ingeniero de Sistemas", "title": "Ingeniero de Sistemas", "bio": "Consultor con experiencia en transformación digital, ventas B2B y go-to-market.", "area": "Negocios / Estrategia", "linkedin": "" },
+        { "name": "Miembro 8", "role": "Ingeniero de Bioingeniería", "title": "Ingeniero Bioingeniero", "bio": "Investigador en bioingeniería con foco en IA aplicada a salud y dispositivos médicos.", "area": "Bioingeniería / Salud", "linkedin": "" }
+      ]
+    },
+    "lab": {
+      "badge": "Innovation Lab",
+      "title": "Lab de Ideas.",
+      "description": "Donde exploramos el límite de lo posible. Proyectos experimentales y prototipos. I+D",
+      "ctaButton": "Explorar el Journal",
+      "newsletter": {
+        "label": "Newsletter",
+        "placeholder": "Tu email"
+      }
+    },
+    "servicesPage": {
+      "title": "Soluciones a tu medida",
+      "subtitle": "Desarrollo personalizado y consultoría estratégica con ingenieros especializados.",
+      "devSteps": [
+        { "num": "01", "icon": "Search", "title": "Análisis y diseño", "description": "Relevamiento completo, arquitectura de solución y planificación del proyecto con ingenieros especializados." },
+        { "num": "02", "icon": "Code2", "title": "Desarrollo e integración", "description": "Código de calidad, APIs, agentes de IA y despliegue continuo integrado a tu stack." },
+        { "num": "03", "icon": "Rocket", "title": "Deploy y soporte", "description": "Puesta en producción, monitoreo, optimización continua y soporte técnico dedicado." }
+      ],
+      "consultingAreas": [
+        { "icon": "TrendingUp", "title": "Ventas", "description": "Estrategias de venta B2B, pipelines CRM y automatización comercial." },
+        { "icon": "Megaphone", "title": "Marketing", "description": "Growth hacking, funnels de conversión y automatización de campañas." },
+        { "icon": "Code2", "title": "Software", "description": "Arquitectura, desarrollo full-stack, DevOps y sistemas escalables." },
+        { "icon": "Cpu", "title": "Inteligencia Artificial", "description": "Agentes de IA, LLMs, RAG, redes multiagente y automatización cognitiva." },
+        { "icon": "Heart", "title": "Bioingeniería", "description": "IA aplicada a salud, dispositivos médicos y sistemas clínicos." },
+        { "icon": "Plane", "title": "Aeroespacial", "description": "Modelado, simulación, optimización de sistemas y control de alta precisión." },
+        { "icon": "Zap", "title": "Electromecánica", "description": "Automatización industrial, IoT, sistemas embebidos y mantenimiento predictivo." }
+      ],
+      "form": {
+        "title": "¿Tenés un proyecto?",
+        "fields": {
+          "nameLabel": "Nombre*",
+          "namePlaceholder": "Tu nombre",
+          "companyLabel": "Empresa",
+          "companyPlaceholder": "Tu empresa",
+          "emailLabel": "Email*",
+          "emailPlaceholder": "tu@email.com",
+          "typeLabel": "Tipo de proyecto",
+          "typeOptions": ["Desarrollo custom", "Consultoría IA", "Integración", "Automatización", "Otro"],
+          "descriptionLabel": "Descripción del proyecto",
+          "descriptionPlaceholder": "Contanos sobre tu proyecto..."
+        },
+        "submitButton": "Enviar consulta"
+      }
+    },
     "footer": {
       "social": ["Instagram", "Github", "Mail", "WhatsApp"],
-      "navigation": { "title": "Navegación", "links": ["Inicio", "Productos", "Proyectos"] },
+      "navigation": { "title": "Navegación", "links": ["Inicio", "Equipo", "Servicios", "Productos"] },
       "location": { "title": "Ubicación", "text": "Sede en Argentina.\nFormosa." },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
       "status": { "text": "Ronda de inversión abierta", "active": true }
@@ -85,7 +170,7 @@
     },
     "navigation": {
       "languageLabel": "ESPAÑOL",
-      "menuItems": ["Home", "Products", "Projects"],
+      "menuItems": ["Team", "Services", "Products", "Lab"],
       "ctaButton": "CONTACT US"
     },
     "hero": {
@@ -145,9 +230,94 @@
         { "icon": "CheckCircle", "title": "Next steps.", "description": "We will provide a detailed plan, budget, and timeline." }
       ]
     },
+    "metrics": [
+      { "value": "4+", "label": "SaaS Products" },
+      { "value": "8", "label": "Engineers & Experts" },
+      { "value": "7", "label": "Expertise Areas" },
+      { "value": "24hs", "label": "Response Time" }
+    ],
+    "trustPoints": [
+      { "icon": "Shield", "title": "Sovereign Architecture", "description": "Your code, your infrastructure, no vendor lock-in. Full control over your stack." },
+      { "icon": "TrendingUp", "title": "ROI-focused AI", "description": "Not isolated models. AI integrated directly into your stack for measurable results." },
+      { "icon": "Code2", "title": "Cutting-edge Stack", "description": "Next.js, NestJS, TypeORM, LangChain — always with the best tools available." },
+      { "icon": "Users", "title": "Real Engineering Team", "description": "Electromechanical, aerospace, and software engineers. Not rotating freelancers." }
+    ],
+    "testimonials": [
+      { "quote": "Fusa Labs automated our appointment flow and patient communication. The impact was immediate.", "name": "Dental Clinic", "company": "Dentalogic", "result": "70% less time managing appointments" },
+      { "quote": "They integrated AI into our e-commerce without touching existing infrastructure. True professionals.", "name": "Regional E-commerce", "company": "Platform AI", "result": "3x more conversions in 2 months" },
+      { "quote": "Content automation completely changed our daily editorial operations.", "name": "Digital Media", "company": "Periodistapp", "result": "50% more articles published per day" }
+    ],
+    "cta": {
+      "title": "Ready to integrate AI?",
+      "subtitle": "Let's talk about how we can power your business with tailored AI solutions.",
+      "buttonText": "Let's start",
+      "buttonLink": "#contacto"
+    },
+    "productsSection": {
+      "title": "Our Products",
+      "subtitle": "Proprietary SaaS platforms with integrated AI, ready to scale your operation."
+    },
+    "team": {
+      "title": "The people behind Fusa",
+      "subtitle": "A multidisciplinary team of engineers and specialists committed to innovation.",
+      "members": [
+        { "name": "Adrián Gamarra", "role": "CEO & Founder", "title": "Electromechanical Engineer", "bio": "Electromechanical engineer with product vision and experience in industrial systems and applied AI.", "area": "Leadership / Engineering", "linkedin": "" },
+        { "name": "Fabio Arias", "role": "CTO & Co-Founder", "title": "Software Engineer", "bio": "Full-stack architect specialized in NestJS, React, and multi-agent AI systems.", "area": "Software / AI", "linkedin": "" },
+        { "name": "Member 3", "role": "Aerospace Engineer", "title": "Aerospace Engineer", "bio": "Specialist in complex systems, modeling, and high-precision process optimization.", "area": "Aerospace / Systems", "linkedin": "" },
+        { "name": "Member 4", "role": "Electromechanical Engineer", "title": "Electromechanical Engineer", "bio": "Expert in industrial automation, IoT, and embedded systems with AI integration.", "area": "Electromechanics / IoT", "linkedin": "" },
+        { "name": "Member 5", "role": "Software Engineer", "title": "Software Engineer", "bio": "Developer specialized in frontend, user experience, and design systems.", "area": "Software / UX", "linkedin": "" },
+        { "name": "Member 6", "role": "Data Engineer", "title": "Software & Data Engineer", "bio": "Specialist in machine learning models, data pipelines, and advanced analytics.", "area": "AI / Data", "linkedin": "" },
+        { "name": "Member 7", "role": "Systems Engineer", "title": "Systems Engineer", "bio": "Consultant with experience in digital transformation, B2B sales, and go-to-market.", "area": "Business / Strategy", "linkedin": "" },
+        { "name": "Member 8", "role": "Bioengineering Engineer", "title": "Bioengineering Engineer", "bio": "Researcher in bioengineering focused on AI applied to health and medical devices.", "area": "Bioengineering / Health", "linkedin": "" }
+      ]
+    },
+    "lab": {
+      "badge": "Innovation Lab",
+      "title": "Ideas Lab.",
+      "description": "Where we explore the edge of the possible. Experimental projects and prototypes. R&D",
+      "ctaButton": "Explore Journal",
+      "newsletter": {
+        "label": "Newsletter",
+        "placeholder": "Your email"
+      }
+    },
+    "servicesPage": {
+      "title": "Tailored Solutions",
+      "subtitle": "Custom development and strategic consulting with specialized engineers.",
+      "devSteps": [
+        { "num": "01", "icon": "Search", "title": "Analysis & Design", "description": "Complete assessment, solution architecture, and project planning with specialized engineers." },
+        { "num": "02", "icon": "Code2", "title": "Development & Integration", "description": "Quality code, APIs, AI agents, and continuous deployment integrated into your stack." },
+        { "num": "03", "icon": "Rocket", "title": "Deploy & Support", "description": "Production deployment, monitoring, continuous optimization, and dedicated technical support." }
+      ],
+      "consultingAreas": [
+        { "icon": "TrendingUp", "title": "Sales", "description": "B2B sales strategies, CRM pipelines, and commercial automation." },
+        { "icon": "Megaphone", "title": "Marketing", "description": "Growth hacking, conversion funnels, and campaign automation." },
+        { "icon": "Code2", "title": "Software", "description": "Architecture, full-stack development, DevOps, and scalable systems." },
+        { "icon": "Cpu", "title": "Artificial Intelligence", "description": "AI agents, LLMs, RAG, multi-agent networks, and cognitive automation." },
+        { "icon": "Heart", "title": "Bioengineering", "description": "AI applied to health, medical devices, and clinical systems." },
+        { "icon": "Plane", "title": "Aerospace", "description": "Modeling, simulation, system optimization, and high-precision control." },
+        { "icon": "Zap", "title": "Electromechanics", "description": "Industrial automation, IoT, embedded systems, and predictive maintenance." }
+      ],
+      "form": {
+        "title": "Have a project?",
+        "fields": {
+          "nameLabel": "Name*",
+          "namePlaceholder": "Your name",
+          "companyLabel": "Company",
+          "companyPlaceholder": "Your company",
+          "emailLabel": "Email*",
+          "emailPlaceholder": "you@email.com",
+          "typeLabel": "Project type",
+          "typeOptions": ["Custom development", "AI Consulting", "Integration", "Automation", "Other"],
+          "descriptionLabel": "Project description",
+          "descriptionPlaceholder": "Tell us about your project..."
+        },
+        "submitButton": "Send inquiry"
+      }
+    },
     "footer": {
       "social": ["Instagram", "Github", "Mail", "WhatsApp"],
-      "navigation": { "title": "Navigation", "links": ["Home", "Products", "Projects"] },
+      "navigation": { "title": "Navigation", "links": ["Home", "Team", "Services", "Products"] },
       "location": { "title": "Location", "text": "HQ in Argentina.\nFormosa." },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
       "status": { "text": "Investment round open", "active": true }

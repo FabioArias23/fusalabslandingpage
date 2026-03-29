@@ -1,0 +1,165 @@
+{
+  "products": {
+    "dentalogic": {
+      "name": "Dentalogic",
+      "slug": "dentalogic",
+      "icon": "Cpu",
+      "tagline": {
+        "es": "Gestión inteligente para clínicas dentales",
+        "en": "Smart management for dental clinics"
+      },
+      "description": {
+        "es": "Sistema integral con IA para la gestión de turnos, historias clínicas, facturación y comunicación automatizada vía WhatsApp para clínicas odontológicas.",
+        "en": "Comprehensive AI system for appointment management, clinical records, billing, and automated WhatsApp communication for dental clinics."
+      },
+      "tags": ["Salud", "IA", "WhatsApp"],
+      "features": {
+        "es": [
+          "Gestión de turnos con IA predictiva",
+          "Historias clínicas digitales",
+          "Facturación y cobros automatizados",
+          "Recordatorios automáticos por WhatsApp",
+          "Dashboard de métricas de la clínica",
+          "Integración con obras sociales"
+        ],
+        "en": [
+          "AI-powered appointment scheduling",
+          "Digital clinical records",
+          "Automated billing and payments",
+          "Automatic WhatsApp reminders",
+          "Clinic metrics dashboard",
+          "Insurance integration"
+        ]
+      },
+      "pricing": null,
+      "demoUrl": "",
+      "appUrl": "",
+      "docsUrl": "",
+      "active": true
+    },
+    "platform-ai": {
+      "name": "Platform AI Solutions",
+      "slug": "platform-ai",
+      "icon": "Layers",
+      "tagline": {
+        "es": "E-commerce omnicanal potenciado con IA",
+        "en": "AI-powered omnichannel e-commerce"
+      },
+      "description": {
+        "es": "Plataforma de comercio electrónico con agentes de IA integrados para atención al cliente, gestión de inventario y optimización de ventas multicanal.",
+        "en": "E-commerce platform with integrated AI agents for customer service, inventory management, and multichannel sales optimization."
+      },
+      "tags": ["Omnicanal", "IA", "E-commerce"],
+      "features": {
+        "es": [
+          "Catálogo de productos con IA",
+          "Atención al cliente automatizada",
+          "Gestión de inventario inteligente",
+          "Pasarela de pagos integrada",
+          "Analytics de ventas en tiempo real",
+          "Integración con marketplaces"
+        ],
+        "en": [
+          "AI-powered product catalog",
+          "Automated customer support",
+          "Smart inventory management",
+          "Integrated payment gateway",
+          "Real-time sales analytics",
+          "Marketplace integration"
+        ]
+      },
+      "pricing": {
+        "plans": [
+          { "name": "Free Trial", "price": "$0", "period": "10 días", "periodEn": "10 days" },
+          { "name": "Pro", "price": "$99", "period": "/mes", "periodEn": "/month" },
+          { "name": "Enterprise", "price": "Custom", "period": "", "periodEn": "" }
+        ]
+      },
+      "demoUrl": "",
+      "appUrl": "",
+      "docsUrl": "",
+      "active": true
+    },
+    "periodistapp": {
+      "name": "Periodistapp",
+      "slug": "periodistapp",
+      "icon": "Zap",
+      "tagline": {
+        "es": "Automatización de medios con IA",
+        "en": "AI-powered media automation"
+      },
+      "description": {
+        "es": "Plataforma SaaS para medios de comunicación que automatiza la generación, curación y distribución de contenido periodístico con agentes de IA.",
+        "en": "SaaS platform for media outlets that automates the generation, curation, and distribution of journalistic content with AI agents."
+      },
+      "tags": ["Medios", "IA", "Automatización"],
+      "features": {
+        "es": [
+          "Generación de artículos con IA",
+          "Curación automática de noticias",
+          "Distribución multicanal",
+          "Editor colaborativo inteligente",
+          "SEO automático",
+          "Analytics de audiencia"
+        ],
+        "en": [
+          "AI article generation",
+          "Automated news curation",
+          "Multichannel distribution",
+          "Smart collaborative editor",
+          "Automatic SEO",
+          "Audience analytics"
+        ]
+      },
+      "pricing": {
+        "plans": [
+          { "name": "Trial", "price": "$0", "period": "7 días", "periodEn": "7 days" },
+          { "name": "Starter", "price": "$29", "period": "/mes", "periodEn": "/month" },
+          { "name": "Pro", "price": "$79", "period": "/mes", "periodEn": "/month" },
+          { "name": "Enterprise", "price": "$199", "period": "/mes", "periodEn": "/month" }
+        ]
+      },
+      "demoUrl": "",
+      "appUrl": "",
+      "docsUrl": "",
+      "active": true
+    },
+    "crm-ventas": {
+      "name": "CRM de Ventas",
+      "slug": "crm-ventas",
+      "icon": "Target",
+      "tagline": {
+        "es": "CRM inteligente para equipos de ventas",
+        "en": "Smart CRM for sales teams"
+      },
+      "description": {
+        "es": "CRM con IA integrada para gestión de leads, pipeline de ventas, automatización de seguimiento y comunicación directa por WhatsApp.",
+        "en": "CRM with integrated AI for lead management, sales pipeline, follow-up automation, and direct WhatsApp communication."
+      },
+      "tags": ["Ventas", "CRM", "IA", "WhatsApp"],
+      "features": {
+        "es": [
+          "Pipeline de ventas visual",
+          "Seguimiento automático de leads",
+          "Integración con WhatsApp Business",
+          "Predicción de cierre con IA",
+          "Reportes y dashboards",
+          "Automatización de tareas repetitivas"
+        ],
+        "en": [
+          "Visual sales pipeline",
+          "Automated lead follow-up",
+          "WhatsApp Business integration",
+          "AI-powered close prediction",
+          "Reports and dashboards",
+          "Repetitive task automation"
+        ]
+      },
+      "pricing": null,
+      "demoUrl": "",
+      "appUrl": "",
+      "docsUrl": "",
+      "active": true
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { useState, MouseEvent } from "react";
 import { Globe } from "lucide-react";
+import Link from "next/link";
 import { Logo } from "../../components/Logo";
 
 interface NavigationProps {
@@ -10,6 +11,16 @@ interface NavigationProps {
   languageLabel: string;
   toggleLanguage: () => void;
 }
+
+const routeMap: Record<string, string> = {
+  Equipo: "/equipo",
+  Servicios: "/servicios",
+  Productos: "/productos",
+  Lab: "/lab",
+  Team: "/equipo",
+  Services: "/servicios",
+  Products: "/productos",
+};
 
 export const Navigation = ({
   isScrolled,
@@ -30,15 +41,9 @@ export const Navigation = ({
   const playHoverSound = () => {
     try {
       const audio = new Audio("/sounds/terminal-hover.mp3");
-      audio.volume = 0.15; // Volumen bajo para que sea sutil
-      audio.play().catch(() => {}); // Evita errores si el navegador bloquea el autoplay
+      audio.volume = 0.15;
+      audio.play().catch(() => {});
     } catch (error) {}
-  };
-
-  const sectionMap: Record<string, string> = {
-    Inicio: "#inicio",
-    Productos: "#productos",
-    Proyectos: "#proyectos",
   };
 
   return (
@@ -49,38 +54,38 @@ export const Navigation = ({
           : "py-8 border-b border-transparent"
       }`}
     >
-      <div className="max-w-[1600px] mx-auto px-6 md:px-12 flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
         <div className="cursor-pointer">
           <Logo />
         </div>
 
         <div
-          className="hidden lg:flex items-center gap-14 text-[10px] font-bold tracking-[0.25em] text-fusa-white/40 uppercase font-conthrax relative px-8 py-4 rounded-sm"
+          className="flex items-center gap-3 sm:gap-6 lg:gap-14 text-[8px] sm:text-[9px] lg:text-[10px] font-bold tracking-[0.15em] sm:tracking-[0.25em] text-fusa-white/40 uppercase font-conthrax relative px-3 sm:px-8 py-4 rounded-sm"
           onMouseMove={handleMouseMove}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
           <div
-            className="absolute inset-0 pointer-events-none transition-opacity duration-300 z-0"
+            className="absolute inset-0 pointer-events-none transition-opacity duration-300 z-0 hidden lg:block"
             style={{
               opacity: isHovered ? 1 : 0,
               background: `radial-gradient(100px circle at ${mousePos.x}px ${mousePos.y}px, rgba(28, 5, 142, 0.2), transparent 100%)`,
             }}
           />
           {menuItems.map((item) => (
-            <a
+            <Link
               key={item}
-              href={sectionMap[item] || "#"}
+              href={routeMap[item] || "/"}
               className="hover:text-fusa-white transition-colors relative group z-10"
               onMouseEnter={playHoverSound}
             >
               {item}
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-fusa-indigo transition-all duration-300 delay-150 group-hover:w-full shadow-[0_0_10px_rgba(28,5,142,0.8)]" />
-            </a>
+            </Link>
           ))}
         </div>
 
-        <div className="flex items-center gap-3 md:gap-6">
+        <div className="flex items-center gap-2 sm:gap-3 md:gap-6">
           <button
             onClick={toggleLanguage}
             className="flex items-center gap-2 text-[9px] md:text-[10px] font-bold text-white/30 tracking-widest px-3 py-2 md:px-5 md:py-3 border border-white/10 rounded-full font-conthrax hover:bg-white/5 hover:text-white transition-all cursor-pointer active:scale-95"
