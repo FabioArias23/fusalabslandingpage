@@ -45,7 +45,7 @@ export const Footer = ({ branding, social, navigation, location, copyright, stat
               })}
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
             <FooterLinkGroup title={navigation.title} links={navigation.links} />
             <div className="flex flex-col gap-8 md:text-right md:items-end">
               <span className="text-[10px] font-black uppercase tracking-widest opacity-30">

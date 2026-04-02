@@ -13,7 +13,7 @@ export const Lab = ({
   return (
     <section
       id="lab"
-      className="py-28 px-5 md:px-10 bg-white text-black relative z-10 rounded-t-[4rem]"
+      className="py-28 px-5 md:px-10 bg-white text-black relative z-10 rounded-t-[2rem] md:rounded-t-[4rem]"
     >
       <div className="max-w-[1600px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start gap-16 mb-24">

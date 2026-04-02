@@ -38,7 +38,7 @@ export const ServiceCard = ({
   return (
     <div
       ref={cardRef}
-      className={`group relative px-6 py-8 md:p-12 rounded-sm bg-[#080808] border border-white/5 transition-all duration-500 ease-in-out h-[500px] flex flex-col justify-between overflow-hidden hover:border-fusa-indigo hover:shadow-[0_0_40px_rgba(28,5,142,0.1)] hover:-translate-y-2 opacity-0 ${
+      className={`group relative px-6 py-8 md:p-12 rounded-sm bg-[#080808] border border-white/5 transition-all duration-500 ease-in-out min-h-[500px] flex flex-col justify-between overflow-hidden hover:border-fusa-indigo hover:shadow-[0_0_40px_rgba(28,5,142,0.1)] hover:-translate-y-2 opacity-0 ${
         isVisible ? "animate-reveal" : ""
       }`}
       style={{ animationDelay: `${index * 0.15}s` }}
