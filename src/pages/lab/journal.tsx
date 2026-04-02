@@ -3,6 +3,25 @@ import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import { LabCardGrid } from "../../components/lab";
 import labData from "../../data/lab.json";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Journal | Fusa Lab",
+  description:
+    "El Journal documenta avances, experimentos y líneas de pensamiento dentro del Lab. Procesos, iteraciones y criterios de exploración.",
+  alternates: {
+    canonical: "/lab/journal",
+  },
+  openGraph: {
+    title: "Journal | Fusa Lab",
+    description:
+      "El Journal documenta avances, experimentos y líneas de pensamiento dentro del Lab. Procesos, iteraciones y criterios de exploración.",
+    url: "/lab/journal",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+};
 
 function JournalContent() {
   const { lang } = useLanguage();

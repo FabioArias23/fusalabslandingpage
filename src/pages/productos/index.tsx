@@ -2,6 +2,30 @@ import { Layout } from "../../components/Layout";
 import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import landingData from "../../data/landingData.json";
 import { ProductsSection } from "../../sections/Products";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Productos IA: Agents, RAG y Omnicanal | Fusa Labs",
+  description:
+    "Explorá FUSA AGENTS, FUSA RAG y FUSA OMNICANAL: productos propios para automatizar procesos y ampliar capacidad operativa.",
+  alternates: {
+    canonical: "/productos",
+  },
+  openGraph: {
+    title: "Productos IA: Agents, RAG y Omnicanal | Fusa Labs",
+    description:
+      "Explorá FUSA AGENTS, FUSA RAG y FUSA OMNICANAL: productos propios para automatizar procesos y ampliar capacidad operativa.",
+    url: "/productos",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    title: "Productos IA: Agents, RAG y Omnicanal | Fusa Labs",
+    description:
+      "Explorá FUSA AGENTS, FUSA RAG y FUSA OMNICANAL: productos propios para automatizar procesos y ampliar capacidad operativa.",
+  },
+};
 
 function ProductsPageContent() {
   const { lang } = useLanguage();

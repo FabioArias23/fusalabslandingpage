@@ -15,8 +15,32 @@ import { Pricing } from "../sections/Pricing";
 import { Contact } from "../sections/Contact";
 import { Footer } from "../sections/Footer";
 import { WhatsAppFAB } from "../components/WhatsAppFAB";
+import { Metadata } from "next";
 
 import landingData from "../data/landingData.json";
+
+export const metadata: Metadata = {
+  title: "Fusa Labs | AI Venture Builder & Neural Systems",
+  description:
+    "Diseñamos productos, automatizaciones y sistemas con IA aplicada para equipos que necesitan operar, escalar y construir con criterio.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Fusa Labs | AI Venture Builder & Neural Systems",
+    description:
+      "Diseñamos productos, automatizaciones y sistemas con IA aplicada para equipos que necesitan operar, escalar y construir con criterio.",
+    url: "/",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    title: "Fusa Labs | AI Venture Builder & Neural Systems",
+    description:
+      "Diseñamos productos, automatizaciones y sistemas con IA aplicada para equipos que necesitan operar, escalar y construir con criterio.",
+  },
+};
 
 export default function Home() {
   const isScrolled = useScrolled();

@@ -9,6 +9,30 @@ import {
   ArchiveCard,
 } from "../components/lab";
 import labData from "../data/lab.json";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fusa Lab | Prototipos, experimentos y journal",
+  description:
+    "Fusa Lab documenta prototipos, experimentos, notas y exploraciones aplicadas en IA, producto y sistemas.",
+  alternates: {
+    canonical: "/lab",
+  },
+  openGraph: {
+    title: "Fusa Lab | Prototipos, experimentos y journal",
+    description:
+      "Fusa Lab documenta prototipos, experimentos, notas y exploraciones aplicadas en IA, producto y sistemas.",
+    url: "/lab",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    title: "Fusa Lab | Prototipos, experimentos y journal",
+    description:
+      "Fusa Lab documenta prototipos, experimentos, notas y exploraciones aplicadas en IA, producto y sistemas.",
+  },
+};
 
 function LabHub() {
   const { lang } = useLanguage();

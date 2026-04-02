@@ -5,6 +5,7 @@ import { iconMap } from "../../components/IconMap";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import productsConfig from "../../data/productsConfig.json";
 import landingData from "../../data/landingData.json";
+import { Metadata } from "next";
 
 interface Product {
   name: string;
@@ -28,6 +29,32 @@ interface Product {
 
 interface ProductPageProps {
   product: Product;
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const slug = params.slug;
+  const product = (productsConfig.products as any)[slug];
+  if (!product) return {};
+
+  return {
+    title: `${product.name} | Fusa Labs`,
+    description: product.tagline.es,
+    alternates: {
+      canonical: `/productos/${slug}`,
+    },
+    openGraph: {
+      title: `${product.name} | Fusa Labs`,
+      description: product.tagline.es,
+      url: `/productos/${slug}`,
+      siteName: "Fusa Labs",
+      locale: "es_AR",
+      type: "website",
+    },
+    twitter: {
+      title: `${product.name} | Fusa Labs`,
+      description: product.tagline.es,
+    },
+  };
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {

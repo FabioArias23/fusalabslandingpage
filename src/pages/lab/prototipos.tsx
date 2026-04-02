@@ -3,6 +3,25 @@ import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import { LabCardGrid } from "../../components/lab";
 import labData from "../../data/lab.json";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Prototipos | Fusa Lab",
+  description:
+    "Versiones funcionales o semiestructuradas de ideas que ya pasaron una primera etapa de exploración.",
+  alternates: {
+    canonical: "/lab/prototipos",
+  },
+  openGraph: {
+    title: "Prototipos | Fusa Lab",
+    description:
+      "Versiones funcionales o semiestructuradas de ideas que ya pasaron una primera etapa de exploración.",
+    url: "/lab/prototipos",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+};
 
 function PrototiposContent() {
   const { lang } = useLanguage();

@@ -3,6 +3,25 @@ import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import { LabCardGrid } from "../../components/lab";
 import labData from "../../data/lab.json";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Notas | Fusa Lab",
+  description:
+    "Textos cortos, observaciones, decisiones de diseño, aprendizajes técnicos y apuntes de investigación.",
+  alternates: {
+    canonical: "/lab/notas",
+  },
+  openGraph: {
+    title: "Notas | Fusa Lab",
+    description:
+      "Textos cortos, observaciones, decisiones de diseño, aprendizajes técnicos y apuntes de investigación.",
+    url: "/lab/notas",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+};
 
 function NotasContent() {
   const { lang } = useLanguage();

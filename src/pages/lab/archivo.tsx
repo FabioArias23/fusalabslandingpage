@@ -3,6 +3,25 @@ import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import { LabCardGrid } from "../../components/lab";
 import labData from "../../data/lab.json";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Archivo | Fusa Lab",
+  description:
+    "Repositorio de líneas ya exploradas. Proyectos cerrados, ideas pausadas e iteraciones anteriores. El archivo es memoria del Lab.",
+  alternates: {
+    canonical: "/lab/archivo",
+  },
+  openGraph: {
+    title: "Archivo | Fusa Lab",
+    description:
+      "Repositorio de líneas ya exploradas. Proyectos cerrados, ideas pausadas e iteraciones anteriores. El archivo es memoria del Lab.",
+    url: "/lab/archivo",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+};
 
 function ArchivoContent() {
   const { lang } = useLanguage();

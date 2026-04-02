@@ -3,6 +3,25 @@ import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import { LabCardGrid } from "../../components/lab";
 import labData from "../../data/lab.json";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Experimentos | Fusa Lab",
+  description:
+    "Pruebas tempranas para entender si una idea merece avanzar. Pruebas de concepto, hipótesis de interacción y ensayos sobre nuevas direcciones.",
+  alternates: {
+    canonical: "/lab/experimentos",
+  },
+  openGraph: {
+    title: "Experimentos | Fusa Lab",
+    description:
+      "Pruebas tempranas para entender si una idea merece avanzar. Pruebas de concepto, hipótesis de interacción y ensayos sobre nuevas direcciones.",
+    url: "/lab/experimentos",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+};
 
 function ExperimentosContent() {
   const { lang } = useLanguage();

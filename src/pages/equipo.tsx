@@ -2,6 +2,30 @@ import Link from "next/link";
 import { Layout } from "../components/Layout";
 import { LanguageProvider, useLanguage } from "../context/LanguageContext";
 import landingData from "../data/landingData.json";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Equipo multidisciplinario | Fusa Labs",
+  description:
+    "Equipo multidisciplinario con experiencia en IA, automatización, sistemas y producto. Conocé a las personas detrás de Fusa Labs.",
+  alternates: {
+    canonical: "/equipo",
+  },
+  openGraph: {
+    title: "Equipo multidisciplinario | Fusa Labs",
+    description:
+      "Equipo multidisciplinario con experiencia en IA, automatización, sistemas y producto. Conocé a las personas detrás de Fusa Labs.",
+    url: "/equipo",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    title: "Equipo multidisciplinario | Fusa Labs",
+    description:
+      "Equipo multidisciplinario con experiencia en IA, automatización, sistemas y producto. Conocé a las personas detrás de Fusa Labs.",
+  },
+};
 
 function EquipoContent() {
   const { lang } = useLanguage();

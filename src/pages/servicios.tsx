@@ -3,6 +3,30 @@ import { Layout } from "../components/Layout";
 import { LanguageProvider, useLanguage } from "../context/LanguageContext";
 import { iconMap, IconName } from "../components/IconMap";
 import landingData from "../data/landingData.json";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Servicios de IA y Automatización | Fusa Labs",
+  description:
+    "Arquitectura, desarrollo, automatización e IA aplicada para llevar procesos y productos a producción.",
+  alternates: {
+    canonical: "/servicios",
+  },
+  openGraph: {
+    title: "Servicios de IA y Automatización | Fusa Labs",
+    description:
+      "Arquitectura, desarrollo, automatización e IA aplicada para llevar procesos y productos a producción.",
+    url: "/servicios",
+    siteName: "Fusa Labs",
+    locale: "es_AR",
+    type: "website",
+  },
+  twitter: {
+    title: "Servicios de IA y Automatización | Fusa Labs",
+    description:
+      "Arquitectura, desarrollo, automatización e IA aplicada para llevar procesos y productos a producción.",
+  },
+};
 
 function ServiciosContent() {
   const { lang } = useLanguage();
