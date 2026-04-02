@@ -101,10 +101,10 @@
           "card2": {
             "title": "Modelo por suscripción",
             "subtitle": "Contactate para opciones personalizadas",
-            "priceFrom": "$150 -",
+            "priceFrom": "Desde $99",
             "priceTo": "personalizado",
             "period": "/mes",
-            "features": ["Soluciones a partir de $150"],
+            "features": ["Soluciones desde $99/mes"],
             "deliveryLabel": "Tiempo de entrega",
             "deliveryTime": "Recurrente",
             "ctaButton": "Contactate"
@@ -117,7 +117,7 @@
             "description": "Contactanos para recibir una propuesta personalizada."
           },
           "card2": {
-            "price": "$1,000 - 5,000",
+            "price": "Desde $1,000",
             "period": "/instalación",
             "features": [
               "Implementación y personalización",
@@ -586,10 +586,10 @@
           "card2": {
             "title": "Subscription-based pricing",
             "subtitle": "Contact us for custom pricing options",
-            "priceFrom": "$150 -",
+            "priceFrom": "From $99",
             "priceTo": "custom",
             "period": "/month",
-            "features": ["Solutions starting at $150"],
+            "features": ["Solutions starting at $99/month"],
             "deliveryLabel": "Delivery time",
             "deliveryTime": "Recurring",
             "ctaButton": "Contact Us"
@@ -602,7 +602,7 @@
             "description": "Contact us to define the scope and receive a custom proposal."
           },
           "card2": {
-            "price": "$1,000 - 5,000",
+            "price": "From $1,000",
             "period": "/installation",
             "features": [
               "Implementation and customization",
