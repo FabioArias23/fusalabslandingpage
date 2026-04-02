@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Lightbulb, ArrowRight } from "lucide-react";
 import { Newsletter } from "./Newsletter";
 import type { LabProps } from "./types";
@@ -32,12 +33,15 @@ export const Lab = ({
             <p className="text-2xl font-medium leading-relaxed mb-12 opacity-70">
               {description}
             </p>
-            <button className="flex items-center gap-6 group text-xl font-bold">
+            <Link
+              href="/lab/journal"
+              className="flex items-center gap-6 group text-xl font-bold no-underline"
+            >
               <span>{ctaButton}</span>
               <div className="w-14 h-14 bg-black text-white rounded-full flex items-center justify-center group-hover:translate-x-3 transition-transform">
                 <ArrowRight />
               </div>
-            </button>
+            </Link>
           </div>
 
           <Newsletter
