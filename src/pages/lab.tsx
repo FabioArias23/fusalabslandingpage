@@ -35,7 +35,7 @@ function LabContent() {
             <ul className="space-y-4">
               <li className="flex items-center gap-4 group">
                 <div className="w-1 h-1 bg-fusa-indigo rounded-full shadow-[0_0_10px_rgba(28,5,142,1)]" />
-                <span className="text-sm text-white/60 group-hover:text-white transition-colors">Neural Predictor v0.4</span>
+                <span className="text-sm text-white/60 group-hover:text-white transition-colors">AI Predictor v0.4</span>
               </li>
               <li className="flex items-center gap-4 group">
                 <div className="w-1 h-1 bg-fusa-indigo rounded-full shadow-[0_0_10px_rgba(28,5,142,1)]" />

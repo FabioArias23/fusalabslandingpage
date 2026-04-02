@@ -5,6 +5,7 @@ interface ProductCardProps {
   name: string;
   slug: string;
   tagline: string;
+  description: string;
   icon: string;
   tags: string[];
   demoUrl?: string;
@@ -17,6 +18,7 @@ export const ProductCard = ({
   name,
   slug,
   tagline,
+  description,
   icon,
   tags,
   demoUrl,
@@ -38,9 +40,13 @@ export const ProductCard = ({
           <h3 className="font-conthrax text-sm md:text-base text-fusa-white tracking-wide">
             {name}
           </h3>
-          <p className="text-xs text-white/40 mt-1">{tagline}</p>
+          <p className="text-xs text-white/50 mt-1 leading-relaxed">{tagline}</p>
         </div>
       </div>
+
+      <p className="text-xs text-white/40 mb-6 leading-relaxed line-clamp-3">
+        {description}
+      </p>
 
       <div className="flex flex-wrap gap-2 mb-6">
         {tags.map((tag) => (

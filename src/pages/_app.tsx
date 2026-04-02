@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className={`${inter.variable} font-sans`}>
         <Head>
           {/* SEO Básico */}
-          <title>Fusa Labs | AI Venture Builder & Neural Systems</title>
+          <title>Fusa Labs | AI Venture Builder</title>
           <meta name="description" content="Creamos, escalamos y optimizamos soluciones con redes de agentes de IA para transformar la complejidad operativa en éxito empresarial." />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
           <link rel="icon" href="/img/logofusalabs.png.png" />

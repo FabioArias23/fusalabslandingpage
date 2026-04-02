@@ -1,34 +1,66 @@
 {
   "products": {
-    "dentalogic": {
-      "name": "Dentalogic",
-      "slug": "dentalogic",
+    "fusa-agents": {
+      "name": "FUSA AGENTS",
+      "slug": "fusa-agents",
       "icon": "Cpu",
       "tagline": {
-        "es": "Gestión inteligente para clínicas dentales",
-        "en": "Smart management for dental clinics"
+        "es": "Redes multiagente para automatizar operaciones de punta a punta.",
+        "en": "Multi-agent networks to automate operations end-to-end."
       },
       "description": {
-        "es": "Sistema integral con IA para la gestión de turnos, historias clínicas, facturación y comunicación automatizada vía WhatsApp para clínicas odontológicas.",
-        "en": "Comprehensive AI system for appointment management, clinical records, billing, and automated WhatsApp communication for dental clinics."
+        "es": "Coordina tareas, decisiones e integraciones en un mismo flujo operativo para reducir fricción, escalar ejecución y ordenar procesos complejos.",
+        "en": "Coordinates tasks, decisions, and integrations in a single operational flow to reduce friction, scale execution, and organize complex processes."
       },
-      "tags": ["Salud", "IA", "WhatsApp"],
-      "features": {
+      "whatSolves": {
         "es": [
-          "Gestión de turnos con IA predictiva",
-          "Historias clínicas digitales",
-          "Facturación y cobros automatizados",
-          "Recordatorios automáticos por WhatsApp",
-          "Dashboard de métricas de la clínica",
-          "Integración con obras sociales"
+          "Procesos fragmentados entre múltiples herramientas",
+          "Tareas repetitivas con alto costo operativo",
+          "Falta de continuidad entre decisión, ejecución y seguimiento",
+          "Dependencia excesiva de intervención manual"
         ],
         "en": [
-          "AI-powered appointment scheduling",
-          "Digital clinical records",
-          "Automated billing and payments",
-          "Automatic WhatsApp reminders",
-          "Clinic metrics dashboard",
-          "Insurance integration"
+          "Processes fragmented across multiple tools",
+          "Repetitive tasks with high operational cost",
+          "Lack of continuity between decision, execution, and follow-up",
+          "Excessive dependence on manual intervention"
+        ]
+      },
+      "whereItAddsValue": {
+        "es": [
+          "Automatización de operaciones internas",
+          "Orquestación de tareas complejas",
+          "Integración entre canales, herramientas y procesos",
+          "Escalabilidad operativa"
+        ],
+        "en": [
+          "Internal operations automation",
+          "Complex task orchestration",
+          "Integration across channels, tools, and processes",
+          "Operational scalability"
+        ]
+      },
+      "idealFor": {
+        "es": "Equipos que necesitan automatizar flujos de trabajo completos y construir una operación más ordenada, continua y escalable.",
+        "en": "Teams that need to automate complete workflows and build a more orderly, continuous, and scalable operation."
+      },
+      "tags": ["Multiagente", "IA", "Automatización"],
+      "features": {
+        "es": [
+          "Orquestación de múltiples agentes IA",
+          "Comunicación entre bases de datos heterogéneas",
+          "Ejecución de decisiones en tiempo real",
+          "Escalabilidad horizontal automática",
+          "Monitoreo y logging centralizado",
+          "Integración con APIs externas"
+        ],
+        "en": [
+          "Multi-agent AI orchestration",
+          "Heterogeneous database communication",
+          "Real-time decision execution",
+          "Automatic horizontal scaling",
+          "Centralized monitoring and logging",
+          "External API integration"
         ]
       },
       "pricing": null,
@@ -37,42 +69,90 @@
       "docsUrl": "",
       "active": true
     },
-    "platform-ai": {
-      "name": "Platform AI Solutions",
-      "slug": "platform-ai",
+    "fusa-rag": {
+      "name": "FUSA RAG",
+      "slug": "fusa-rag",
       "icon": "Layers",
       "tagline": {
-        "es": "E-commerce omnicanal potenciado con IA",
-        "en": "AI-powered omnichannel e-commerce"
+        "es": "Consulta inteligente sobre documentos, conocimiento interno y fuentes de información.",
+        "en": "Intelligent query over documents, internal knowledge, and information sources."
       },
       "description": {
-        "es": "Plataforma de comercio electrónico con agentes de IA integrados para atención al cliente, gestión de inventario y optimización de ventas multicanal.",
-        "en": "E-commerce platform with integrated AI agents for customer service, inventory management, and multichannel sales optimization."
+        "es": "Convierte información dispersa en respuestas claras, trazables y utilizables para equipos que necesitan encontrar contexto rápido y actuar con mejor criterio.",
+        "en": "Transforms scattered information into clear, traceable, and usable responses for teams that need to find context quickly and act with better judgment."
       },
-      "tags": ["Omnicanal", "IA", "E-commerce"],
-      "features": {
+      "whatSolves": {
         "es": [
-          "Catálogo de productos con IA",
-          "Atención al cliente automatizada",
-          "Gestión de inventario inteligente",
-          "Pasarela de pagos integrada",
-          "Analytics de ventas en tiempo real",
-          "Integración con marketplaces"
+          "Documentación distribuida y difícil de consultar",
+          "Pérdida de tiempo buscando contexto",
+          "Respuestas inconsistentes entre equipos",
+          "Baja trazabilidad del conocimiento interno"
         ],
         "en": [
-          "AI-powered product catalog",
-          "Automated customer support",
-          "Smart inventory management",
-          "Integrated payment gateway",
-          "Real-time sales analytics",
-          "Marketplace integration"
+          "Distributed documentation hard to consult",
+          "Time loss searching for context",
+          "Inconsistent responses across teams",
+          "Low traceability of internal knowledge"
+        ]
+      },
+      "whereItAddsValue": {
+        "es": [
+          "Organización documental",
+          "Consulta contextual",
+          "Recuperación inteligente de información",
+          "Acceso rápido a conocimiento operativo"
+        ],
+        "en": [
+          "Document organization",
+          "Contextual query",
+          "Intelligent information retrieval",
+          "Fast access to operational knowledge"
+        ]
+      },
+      "idealFor": {
+        "es": "Equipos que necesitan trabajar mejor con documentos, bases de conocimiento y contenido interno de alta complejidad.",
+        "en": "Teams that need to work better with documents, knowledge bases, and high-complexity internal content."
+      },
+      "tags": ["RAG", "Documentos", "Búsqueda"],
+      "features": {
+        "es": [
+          "Indexación de documentos a gran escala",
+          "Búsqueda semántica con embeddings",
+          "Retrieval-Augmented Generation",
+          "Procesamiento de múltiples formatos",
+          "Actualización incremental de índices",
+          "Cumplimiento LGPD/GDPR"
+        ],
+        "en": [
+          "Large-scale document indexing",
+          "Semantic search with embeddings",
+          "Retrieval-Augmented Generation",
+          "Multiple format processing",
+          "Incremental index updates",
+          "LGPD/GDPR compliance"
         ]
       },
       "pricing": {
         "plans": [
-          { "name": "Free Trial", "price": "$0", "period": "10 días", "periodEn": "10 days" },
-          { "name": "Pro", "price": "$99", "period": "/mes", "periodEn": "/month" },
-          { "name": "Enterprise", "price": "Custom", "period": "", "periodEn": "" }
+          {
+            "name": "Starter",
+            "price": "$99",
+            "period": "/mes",
+            "periodEn": "/month"
+          },
+          {
+            "name": "Pro",
+            "price": "$299",
+            "period": "/mes",
+            "periodEn": "/month",
+            "highlight": true
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "period": "",
+            "periodEn": ""
+          }
         ]
       },
       "demoUrl": "",
@@ -80,82 +160,92 @@
       "docsUrl": "",
       "active": true
     },
-    "periodistapp": {
-      "name": "Periodistapp",
-      "slug": "periodistapp",
+    "fusa-omni canal": {
+      "name": "FUSA OMNICANAL",
+      "slug": "fusa-omni canal",
       "icon": "Zap",
       "tagline": {
-        "es": "Automatización de medios con IA",
-        "en": "AI-powered media automation"
+        "es": "Automatización y atención unificada en todos tus canales.",
+        "en": "Unified automation and support across all your channels."
       },
       "description": {
-        "es": "Plataforma SaaS para medios de comunicación que automatiza la generación, curación y distribución de contenido periodístico con agentes de IA.",
-        "en": "SaaS platform for media outlets that automates the generation, curation, and distribution of journalistic content with AI agents."
+        "es": "Centraliza conversaciones, organiza interacciones y permite operar con más continuidad en WhatsApp, web y otros puntos de contacto sin fragmentar la experiencia.",
+        "en": "Centralizes conversations, organizes interactions, and enables more continuous operations across WhatsApp, web, and other contact points without fragmenting the experience."
       },
-      "tags": ["Medios", "IA", "Automatización"],
-      "features": {
+      "whatSolves": {
         "es": [
-          "Generación de artículos con IA",
-          "Curación automática de noticias",
-          "Distribución multicanal",
-          "Editor colaborativo inteligente",
-          "SEO automático",
-          "Analytics de audiencia"
+          "Conversaciones dispersas entre canales",
+          "Seguimiento manual e inconsistente",
+          "Respuesta fragmentada al usuario",
+          "Pérdida de continuidad operativa"
         ],
         "en": [
-          "AI article generation",
-          "Automated news curation",
-          "Multichannel distribution",
-          "Smart collaborative editor",
-          "Automatic SEO",
-          "Audience analytics"
+          "Conversations scattered across channels",
+          "Manual and inconsistent follow-up",
+          "Fragmented user response",
+          "Loss of operational continuity"
+        ]
+      },
+      "whereItAddsValue": {
+        "es": [
+          "Centralización de canales",
+          "Automatización conversacional",
+          "Continuidad operativa",
+          "Mejora de experiencia de atención"
+        ],
+        "en": [
+          "Channel centralization",
+          "Conversational automation",
+          "Operational continuity",
+          "Improved support experience"
+        ]
+      },
+      "idealFor": {
+        "es": "Equipos que necesitan ordenar su operación multicanal y sostener una atención más clara, unificada y eficiente.",
+        "en": "Teams that need to organize their multichannel operations and sustain clearer, unified, and more efficient support."
+      },
+      "tags": ["Omnicanal", "WhatsApp", "Chatbot"],
+      "features": {
+        "es": [
+          "Unificación de WhatsApp, Telegram y web",
+          "Historial de conversaciones centralizado",
+          "Routing inteligente por tipo de consulta",
+          "Respuestas automáticas 24/7",
+          "Escalada a agentes humanos",
+          "Analytics multicanal en tiempo real"
+        ],
+        "en": [
+          "WhatsApp, Telegram, and web unification",
+          "Centralized conversation history",
+          "Intelligent routing by query type",
+          "24/7 automated responses",
+          "Human agent escalation",
+          "Real-time multichannel analytics"
         ]
       },
       "pricing": {
         "plans": [
-          { "name": "Trial", "price": "$0", "period": "7 días", "periodEn": "7 days" },
-          { "name": "Starter", "price": "$29", "period": "/mes", "periodEn": "/month" },
-          { "name": "Pro", "price": "$79", "period": "/mes", "periodEn": "/month" },
-          { "name": "Enterprise", "price": "$199", "period": "/mes", "periodEn": "/month" }
+          {
+            "name": "Starter",
+            "price": "$49",
+            "period": "/mes",
+            "periodEn": "/month"
+          },
+          {
+            "name": "Pro",
+            "price": "$149",
+            "period": "/mes",
+            "periodEn": "/month",
+            "highlight": true
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "period": "",
+            "periodEn": ""
+          }
         ]
       },
-      "demoUrl": "",
-      "appUrl": "",
-      "docsUrl": "",
-      "active": true
-    },
-    "crm-ventas": {
-      "name": "CRM de Ventas",
-      "slug": "crm-ventas",
-      "icon": "Target",
-      "tagline": {
-        "es": "CRM inteligente para equipos de ventas",
-        "en": "Smart CRM for sales teams"
-      },
-      "description": {
-        "es": "CRM con IA integrada para gestión de leads, pipeline de ventas, automatización de seguimiento y comunicación directa por WhatsApp.",
-        "en": "CRM with integrated AI for lead management, sales pipeline, follow-up automation, and direct WhatsApp communication."
-      },
-      "tags": ["Ventas", "CRM", "IA", "WhatsApp"],
-      "features": {
-        "es": [
-          "Pipeline de ventas visual",
-          "Seguimiento automático de leads",
-          "Integración con WhatsApp Business",
-          "Predicción de cierre con IA",
-          "Reportes y dashboards",
-          "Automatización de tareas repetitivas"
-        ],
-        "en": [
-          "Visual sales pipeline",
-          "Automated lead follow-up",
-          "WhatsApp Business integration",
-          "AI-powered close prediction",
-          "Reports and dashboards",
-          "Repetitive task automation"
-        ]
-      },
-      "pricing": null,
       "demoUrl": "",
       "appUrl": "",
       "docsUrl": "",

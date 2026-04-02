@@ -22,13 +22,14 @@ export const ProductsSection = ({ title, subtitle, lang }: ProductsSectionProps)
           </h2>
           <p className="text-sm text-white/40 mt-3 max-w-xl">{subtitle}</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {products.map((product, i) => (
             <div key={product.slug} className={`animate-reveal delay-${(i % 3) + 1}`}>
               <ProductCard
                 name={product.name}
                 slug={product.slug}
                 tagline={(product.tagline as any)[lang]}
+                description={(product.description as any)[lang]}
                 icon={product.icon}
                 tags={product.tags}
                 demoUrl={product.demoUrl || undefined}

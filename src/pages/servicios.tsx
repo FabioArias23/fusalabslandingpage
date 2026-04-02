@@ -7,7 +7,7 @@ import landingData from "../data/landingData.json";
 function ServiciosContent() {
   const { lang } = useLanguage();
   const data = (landingData as any)[lang];
-  const { title, subtitle, devSteps, consultingAreas, form } = data.servicesPage;
+  const { title, subtitle, subtitle2, devSteps, consultingAreas, formIntro, form } = data.servicesPage;
 
   const [formData, setFormData] = useState({
     name: "",
@@ -41,15 +41,24 @@ function ServiciosContent() {
     <section className="pb-20 md:pb-32">
       <div className="max-w-[1600px] mx-auto px-6 md:px-12">
         {/* Hero */}
-        <div className="mb-20 animate-reveal">
+        <div className="mb-16 animate-reveal">
+          <p className="text-[10px] uppercase tracking-[0.3em] text-fusa-indigo font-conthrax mb-4">
+            (02)
+          </p>
           <h1 className="font-conthrax text-3xl md:text-4xl lg:text-5xl text-fusa-white tracking-wide mb-4">
             {title}
           </h1>
-          <p className="text-sm md:text-base text-white/40 max-w-2xl">{subtitle}</p>
+          <p className="text-base md:text-lg text-white/50 max-w-2xl mb-3 leading-relaxed">{subtitle}</p>
+          <p className="text-sm text-white/30 max-w-2xl leading-relaxed">{subtitle2}</p>
         </div>
 
-        {/* Development Steps */}
+        {/* Cómo trabajamos */}
         <div className="mb-20">
+          <div className="mb-10 animate-reveal">
+            <p className="text-[10px] uppercase tracking-[0.3em] text-fusa-indigo font-conthrax mb-4">
+              {lang === "es" ? "Cómo trabajamos" : "How we work"}
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             {devSteps.map((step: any, i: number) => {
               const StepIcon = iconMap[step.icon as IconName];
@@ -74,11 +83,11 @@ function ServiciosContent() {
           </div>
         </div>
 
-        {/* Consulting Areas */}
+        {/* Áreas de especialización */}
         <div className="mb-20">
           <div className="mb-10 animate-reveal">
             <p className="text-[10px] uppercase tracking-[0.3em] text-fusa-indigo font-conthrax mb-4">
-              {lang === "es" ? "Áreas de consultoría" : "Consulting Areas"}
+              {lang === "es" ? "Áreas de especialización" : "Areas of expertise"}
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -104,11 +113,21 @@ function ServiciosContent() {
           </div>
         </div>
 
-        {/* Project Inquiry Form */}
-        <div className="max-w-2xl mx-auto animate-reveal">
-          <h2 className="font-conthrax text-xl md:text-2xl text-fusa-white tracking-wide mb-8 text-center">
-            {form.title}
+        {/* Form intro */}
+        <div className="mb-12 max-w-2xl mx-auto text-center animate-reveal">
+          <h2 className="font-conthrax text-xl md:text-2xl text-fusa-white tracking-wide mb-4">
+            {formIntro.title}
           </h2>
+          <p className="text-sm text-white/40 leading-relaxed">
+            {formIntro.description}
+          </p>
+        </div>
+
+        {/* Form */}
+        <div className="max-w-2xl mx-auto animate-reveal">
+          <h3 className="font-conthrax text-lg text-fusa-white tracking-wide mb-8 text-center">
+            {form.title}
+          </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>

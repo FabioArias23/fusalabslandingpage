@@ -11,6 +11,9 @@ interface Product {
   slug: string;
   tagline: { es: string; en: string };
   description: { es: string; en: string };
+  whatSolves: { es: string[]; en: string[] };
+  whereItAddsValue: { es: string[]; en: string[] };
+  idealFor: { es: string; en: string };
   icon: string;
   tags: string[];
   features: { es: string[]; en: string[] };
@@ -50,6 +53,9 @@ function ProductContent({ product }: { product: Product }) {
   
   const currentTagline = product.tagline[lang];
   const currentDescription = product.description[lang];
+  const currentWhatSolves = product.whatSolves[lang];
+  const currentWhereAddsValue = product.whereItAddsValue[lang];
+  const currentIdealFor = product.idealFor[lang];
   const currentFeatures = product.features[lang];
   
   const labels = (landingData as any)[lang].productsSection;
@@ -77,7 +83,7 @@ function ProductContent({ product }: { product: Product }) {
             {currentDescription}
           </p>
           
-          <div className="flex flex-wrap gap-3 mb-12">
+          <div className="flex flex-wrap gap-3 mb-6">
             {product.tags.map((tag) => (
               <span
                 key={tag}
@@ -119,16 +125,56 @@ function ProductContent({ product }: { product: Product }) {
           </div>
         </div>
 
+        {/* Qué resuelve */}
+        <div className="mb-20 animate-reveal delay-100">
+          <h2 className="text-xl md:text-2xl font-conthrax text-fusa-white tracking-tight mb-8 uppercase">
+            {lang === 'es' ? 'Qué resuelve' : 'What it solves'}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {currentWhatSolves.map((item, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-4 p-6 rounded-sm border border-white/5 bg-white/[0.02] hover:border-fusa-indigo/20 transition-all duration-500"
+              >
+                <span className="text-fusa-indigo mt-0.5 flex-shrink-0">—</span>
+                <span className="text-sm text-white/50 leading-relaxed">
+                  {item}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Dónde aporta valor */}
+        <div className="mb-20 animate-reveal delay-200">
+          <h2 className="text-xl md:text-2xl font-conthrax text-fusa-white tracking-tight mb-8 uppercase">
+            {lang === 'es' ? 'Dónde aporta valor' : 'Where it adds value'}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {currentWhereAddsValue.map((item, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-4 p-6 rounded-sm border border-white/5 bg-white/[0.02] hover:border-fusa-indigo/20 transition-all duration-500"
+              >
+                <span className="text-fusa-indigo mt-0.5 flex-shrink-0">—</span>
+                <span className="text-sm text-white/50 leading-relaxed">
+                  {item}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Features */}
-        <div className="mb-24 animate-reveal delay-200">
-          <h2 className="text-2xl md:text-3xl font-conthrax text-fusa-white tracking-tight mb-12 uppercase">
+        <div className="mb-20 animate-reveal delay-300">
+          <h2 className="text-xl md:text-2xl font-conthrax text-fusa-white tracking-tight mb-8 uppercase">
             {lang === 'es' ? 'Funcionalidades' : 'Features'}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {currentFeatures.map((feature, i) => (
               <div
                 key={i}
-                className="flex items-start gap-4 p-8 rounded-sm border border-white/5 bg-white/[0.02] hover:border-fusa-indigo/20 transition-all duration-500"
+                className="flex items-start gap-4 p-6 rounded-sm border border-white/5 bg-white/[0.02] hover:border-fusa-indigo/20 transition-all duration-500"
               >
                 <CheckCircle
                   size={18}
@@ -142,13 +188,25 @@ function ProductContent({ product }: { product: Product }) {
           </div>
         </div>
 
+        {/* Ideal para */}
+        <div className="mb-20 animate-reveal delay-400">
+          <div className="p-10 rounded-sm border border-fusa-indigo/20 bg-fusa-indigo/5">
+            <h2 className="text-xl md:text-2xl font-conthrax text-fusa-white tracking-tight mb-4 uppercase">
+              {lang === 'es' ? 'Ideal para' : 'Ideal for'}
+            </h2>
+            <p className="text-white/50 text-sm md:text-base leading-relaxed">
+              {currentIdealFor}
+            </p>
+          </div>
+        </div>
+
         {/* Pricing */}
         {product.pricing && (
-          <div className="mb-24 animate-reveal delay-300">
-            <h2 className="text-2xl md:text-3xl font-conthrax text-fusa-white tracking-tight mb-12 uppercase">
+          <div className="mb-20 animate-reveal delay-500">
+            <h2 className="text-xl md:text-2xl font-conthrax text-fusa-white tracking-tight mb-8 uppercase">
               {lang === 'es' ? 'Planes' : 'Pricing'}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {product.pricing.plans.map((plan, i) => (
                 <div
                   key={i}
@@ -179,7 +237,7 @@ function ProductContent({ product }: { product: Product }) {
         )}
 
         {/* Closing CTA */}
-        <div className="p-12 md:p-20 rounded-sm border border-white/5 bg-white/[0.02] text-center animate-reveal delay-400">
+        <div className="p-12 md:p-20 rounded-sm border border-white/5 bg-white/[0.02] text-center animate-reveal delay-600">
           <h2 className="text-2xl md:text-4xl font-conthrax text-fusa-white tracking-tight mb-6 uppercase">
             {lang === 'es' ? '¿Listo para escalar?' : 'Ready to scale?'}
           </h2>

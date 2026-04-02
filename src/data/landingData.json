@@ -3,7 +3,7 @@
     "branding": {
       "name": "FUSA LABS",
       "suffix": "SYSTEMS",
-      "tagline": "© 2026 FUSA LABS SYSTEMS",
+      "tagline": "® 2026 FUSA LABS SYSTEMS",
       "footer": "FUSA LABS / 2026"
     },
     "navigation": {
@@ -12,7 +12,12 @@
       "ctaButton": "CONTACTO"
     },
     "hero": {
-      "tags": ["Redes Multiagente", "Venture Builder", "SaaS con IA", "Escalabilidad"],
+      "tags": [
+        "Redes Multiagente",
+        "Venture Builder",
+        "SaaS con IA",
+        "Escalabilidad"
+      ],
       "title": "FUSA",
       "subtitle": "/ LABS",
       "description": "Creamos, escalamos y optimizamos soluciones con redes de agentes de IA que simplifican tu forma de trabajar e integran inteligencia en tu stack actual.",
@@ -25,10 +30,34 @@
       "title": "Nuestros Servicios.",
       "subtitle": "Soluciones de IA a medida para resolver desafíos empresariales específicos.",
       "items": [
-        { "num": "001", "title": "Desarrollo de Agentes de IA", "description": "Agentes a medida diseñados para resolver desafíos específicos, optimizar flujos de trabajo y aumentar la eficiencia automatizada.", "tags": ["Agente IA", "Automatización", "Integración"], "icon": "Cpu" },
-        { "num": "002", "title": "Automatización con IA Personalizada", "description": "Eliminamos tareas repetitivas y nos integramos sin problemas con tus sistemas existentes para aumentos medibles en productividad.", "tags": ["Optimización", "Flujos de trabajo", "ROI"], "icon": "Layers" },
-        { "num": "003", "title": "Aplicaciones SaaS por Sector", "description": "Soluciones de IA adaptadas a los requisitos únicos de tu industria, utilizando plataformas propietarias.", "tags": ["SaaS", "Específico", "Cloud"], "icon": "Zap" },
-        { "num": "004", "title": "Consultoría en Implementación", "description": "Orientación estratégica para navegar tu trayectoria de adopción de IA, desde la evaluación hasta la optimización.", "tags": ["Estrategia", "Planning", "Transformación"], "icon": "Target" }
+        {
+          "num": "001",
+          "title": "Desarrollo de Agentes de IA",
+          "description": "Agentes a medida diseñados para resolver desafíos específicos, optimizar flujos de trabajo y aumentar la eficiencia automatizada.",
+          "tags": ["Agente IA", "Automatización", "Integración"],
+          "icon": "Cpu"
+        },
+        {
+          "num": "002",
+          "title": "Automatización con IA Personalizada",
+          "description": "Eliminamos tareas repetitivas y nos integramos sin problemas con tus sistemas existentes para aumentos medibles en productividad.",
+          "tags": ["Optimización", "Flujos de trabajo", "ROI"],
+          "icon": "Layers"
+        },
+        {
+          "num": "003",
+          "title": "Aplicaciones SaaS por Sector",
+          "description": "Soluciones de IA adaptadas a los requisitos únicos de tu industria, utilizando plataformas propietarias.",
+          "tags": ["SaaS", "Específico", "Cloud"],
+          "icon": "Zap"
+        },
+        {
+          "num": "004",
+          "title": "Consultoría en Implementación",
+          "description": "Orientación estratégica para navegar tu trayectoria de adopción de IA, desde la evaluación hasta la optimización.",
+          "tags": ["Estrategia", "Planning", "Transformación"],
+          "icon": "Target"
+        }
       ]
     },
     "methodology": {
@@ -36,10 +65,26 @@
       "title": "Cómo construimos el impacto.",
       "description": "No entrenamos modelos aislados. Integramos IA avanzada conectada a tu stack tecnológico actual.",
       "steps": [
-        { "num": "01", "title": "Análisis estratégico", "description": "Identificamos oportunidades de automatización con IA de alto ROI." },
-        { "num": "02", "title": "Soluciones personalizadas", "description": "Arquitectura que se integra perfectamente con tu ecosistema." },
-        { "num": "03", "title": "Implementación flexible", "description": "Despliegue en nuestra infraestructura segura o en tus servidores." },
-        { "num": "04", "title": "Optimización & Resultados", "description": "Testeo continuo con métricas reales y resultados medibles." }
+        {
+          "num": "01",
+          "title": "Análisis estratégico",
+          "description": "Identificamos oportunidades de automatización con IA de alto ROI."
+        },
+        {
+          "num": "02",
+          "title": "Soluciones personalizadas",
+          "description": "Arquitectura que se integra perfectamente con tu ecosistema."
+        },
+        {
+          "num": "03",
+          "title": "Implementación flexible",
+          "description": "Despliegue en nuestra infraestructura segura o en tus servidores."
+        },
+        {
+          "num": "04",
+          "title": "Optimización & Resultados",
+          "description": "Testeo continuo con métricas reales y resultados medibles."
+        }
       ]
     },
     "pricing": {
@@ -48,42 +93,116 @@
       "modes": {
         "suscripcion": {
           "label": "Suscripción",
-          "card1": { "title": "Soluciones SaaS", "description1": "Suscripción mensual flexible.", "description2": "Sin compromisos de largo plazo." },
-          "card2": { "title": "Modelo por suscripción", "subtitle": "Contactate para opciones personalizadas", "priceFrom": "$150 -", "priceTo": "personalizado", "period": "/mes", "features": ["Soluciones a partir de $150"], "deliveryLabel": "Tiempo de entrega", "deliveryTime": "Recurrente", "ctaButton": "Contactate" }
+          "card1": {
+            "title": "Soluciones SaaS",
+            "description1": "Suscripción mensual flexible.",
+            "description2": "Sin compromisos de largo plazo."
+          },
+          "card2": {
+            "title": "Modelo por suscripción",
+            "subtitle": "Contactate para opciones personalizadas",
+            "priceFrom": "$150 -",
+            "priceTo": "personalizado",
+            "period": "/mes",
+            "features": ["Soluciones a partir de $150"],
+            "deliveryLabel": "Tiempo de entrega",
+            "deliveryTime": "Recurrente",
+            "ctaButton": "Contactate"
+          }
         },
         "instalacion": {
           "label": "Instalación",
-          "card1": { "title": "¿Desarrollo a medida?", "description": "Contáctanos para recibir una propuesta personalizada." },
-          "card2": { "price": "$1,000 - 5,000", "period": "/instalación", "features": ["Implementación y personalización", "Integración con tu stack"], "deliveryLabel": "Tiempo de entrega", "deliveryTime": "3-4 semanas", "ctaButton": "Contactate" }
+          "card1": {
+            "title": "¿Desarrollo a medida?",
+            "description": "Contactanos para recibir una propuesta personalizada."
+          },
+          "card2": {
+            "price": "$1,000 - 5,000",
+            "period": "/instalación",
+            "features": [
+              "Implementación y personalización",
+              "Integración con tu stack"
+            ],
+            "deliveryLabel": "Tiempo de entrega",
+            "deliveryTime": "3-4 semanas",
+            "ctaButton": "Contactate"
+          }
         }
       }
     },
     "contact": {
-      "title": "Tenés un proyecto en mente?",
+      "title": "¿Tenés un proyecto en mente?",
       "greeting": "Hola.",
       "description": "Contanos sobre tu proyecto. Ya sea desarrollo personalizado, consultoría estratégica o un Producto IA.",
-      "form": { "nameLabel": "Tu nombre*", "namePlaceholder": "Juan Ramirez", "emailLabel": "Correo electrónico*", "emailPlaceholder": "juan@site.com", "messageLabel": "Mensaje", "messagePlaceholder": "Tu mensaje", "submitButton": "Enviar mensaje" },
+      "form": {
+        "nameLabel": "Tu nombre*",
+        "namePlaceholder": "Juan Ramirez",
+        "emailLabel": "Correo electrónico*",
+        "emailPlaceholder": "juan@site.com",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Tu mensaje",
+        "submitButton": "Enviar mensaje"
+      },
       "cards": [
-        { "icon": "Zap", "title": "Respuesta rápida.", "description": "Te responderemos en breve para colaborar." },
-        { "icon": "CheckCircle", "title": "Próximos pasos.", "description": "Te proporcionaremos un plan detallado y presupuesto." }
+        {
+          "icon": "Zap",
+          "title": "Respuesta rápida.",
+          "description": "Te responderemos en breve para colaborar."
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Próximos pasos.",
+          "description": "Te proporcionaremos un plan detallado y presupuesto."
+        }
       ]
     },
     "metrics": [
-      { "value": "4+", "label": "Productos SaaS" },
+      { "value": "3", "label": "Productos FUSA" },
       { "value": "8", "label": "Ingenieros y expertos" },
       { "value": "7", "label": "Áreas de expertise" },
       { "value": "24hs", "label": "Tiempo de respuesta" }
     ],
     "trustPoints": [
-      { "icon": "Shield", "title": "Arquitectura soberana", "description": "Tu código, tu infraestructura, sin vendor lock-in. Control total sobre tu stack." },
-      { "icon": "TrendingUp", "title": "IA orientada a ROI", "description": "No modelos aislados. IA integrada directamente en tu stack para resultados medibles." },
-      { "icon": "Code2", "title": "Stack de última generación", "description": "Next.js, NestJS, TypeORM, LangChain — siempre con las mejores herramientas." },
-      { "icon": "Users", "title": "Equipo real de ingenieros", "description": "Ingenieros electromecánicos, aeroespaciales y de software. No freelancers rotativos." }
+      {
+        "icon": "Shield",
+        "title": "Arquitectura soberana",
+        "description": "Tu código, tu infraestructura, sin vendor lock-in. Control total sobre tu stack."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "IA orientada a ROI",
+        "description": "No modelos aislados. IA integrada directamente en tu stack para resultados medibles."
+      },
+      {
+        "icon": "Code2",
+        "title": "Stack de última generación",
+        "description": "Next.js, NestJS, TypeORM, LangChain — siempre con las mejores herramientas."
+      },
+      {
+        "icon": "Users",
+        "title": "Equipo real de ingenieros",
+        "description": "Ingenieros electromecánicos, aeroespaciales y de software. No freelancers rotativos."
+      }
     ],
     "testimonials": [
-      { "quote": "Fusa Labs automatizó nuestro flujo de turnos y la comunicación con pacientes. El impacto fue inmediato.", "name": "Clínica Odontológica", "company": "Dentalogic", "result": "70% menos tiempo en gestión de turnos" },
-      { "quote": "Integraron IA en nuestro e-commerce sin tocar la infraestructura existente. Profesionales de verdad.", "name": "E-commerce Regional", "company": "Platform AI", "result": "3x más conversiones en 2 meses" },
-      { "quote": "La automatización de contenido cambió por completo nuestra operación editorial diaria.", "name": "Medio Digital", "company": "Periodistapp", "result": "50% más artículos publicados por día" }
+      {
+        "quote": "FUSA AGENTS transformó nuestra operación. Automatizaron procesos que requerían 3 equipos completos.",
+        "name": "CEO",
+        "company": "Tech Startup",
+        "result": "70% reducción en tiempo de proceso"
+      },
+      {
+        "quote": "FUSA RAG indexó toda nuestra base de conocimientos en horas. Ahora respondemos consultas en segundos.",
+        "name": "Head of Operations",
+        "company": "Legal Consultant",
+        "result": "3x más rápido acceso a información"
+      },
+      {
+        "quote": "FUSA OMNICANAL unificó todos nuestros canales. Satisfacción del cliente subió 40% en el primer mes.",
+        "name": "Marketing Director",
+        "company": "Retail Chain",
+        "result": "+40% satisfacción del cliente"
+      }
     ],
     "cta": {
       "title": "¿Listo para integrar IA?",
@@ -93,20 +212,164 @@
     },
     "productsSection": {
       "title": "Nuestros productos",
-      "subtitle": "Plataformas SaaS propias con IA integrada, listas para escalar tu operación."
+      "subtitle": "Productos propios diseñados para automatizar procesos, organizar información y ampliar capacidad operativa."
     },
     "team": {
       "title": "Las personas detrás de Fusa",
-      "subtitle": "Un equipo multidisciplinario de ingenieros y especialistas comprometidos con la innovación.",
+      "subtitle": "Equipo multidisciplinario: tech, marketing, finanzas, RRHH para soluciones end-to-end. Cumplimos con cada estrato del ciclo de vida de los negocios, de un producto y del software.",
       "members": [
-        { "name": "Adrián Gamarra", "slug": "adrian-gamarra", "email": "gamarraadrian200@gmail.com", "role": "CEO & Founder", "title": "Ingeniero Electromecánico", "bio": "Ingeniero electromecánico con visión de producto y experiencia en sistemas industriales e IA aplicada.", "area": "Liderazgo / Ingeniería", "linkedin": "" },
-        { "name": "Fabio Arias", "slug": "fabio-arias", "email": "fabio-adrian-arias@hotmail.com", "role": "CTO & Co-Founder", "title": "Ingeniero de Software", "bio": "Arquitecto full-stack especializado en NestJS, React y sistemas de IA multiagente.", "area": "Software / IA", "linkedin": "" },
-        { "name": "Patricio Polo", "slug": "patricio-polo", "email": "gypp54@gmail.com", "role": "Ingeniero Aeroespacial", "title": "Ingeniero Aeroespacial", "bio": "Especialista en sistemas complejos, modelado y optimización de procesos de alta precisión.", "area": "Aeroespacial / Sistemas", "linkedin": "" },
-        { "name": "Jesús Fleitas", "slug": "jesus-fleitas", "email": "jesusfleitas909@gmail.com", "role": "Ingeniero Electromecánico", "title": "Ingeniero Electromecánico", "bio": "Experto en automatización industrial, IoT y sistemas embebidos con integración de IA.", "area": "Electromecánica / IoT", "linkedin": "" },
-        { "name": "Pedro Enríquez", "slug": "pedro-enriquez", "email": "agustinenriquez321@gmail.com", "role": "Ingeniero de Software", "title": "Ingeniero de Software", "bio": "Desarrollador especializada en frontend, experiencia de usuario y sistemas de diseño.", "area": "Software / UX", "linkedin": "" },
-        { "name": "Lisandro Ratto", "slug": "lisandro-ratto", "email": "lisandroratto@gmail.com", "role": "Ingeniero de Datos", "title": "Ingeniero de Software & Datos", "bio": "Especialista en modelos de machine learning, pipelines de datos y analytics avanzado.", "area": "IA / Datos", "linkedin": "" },
-        { "name": "Facundo Majda", "slug": "facundo-majda", "email": "facundomajda19@gmail.com", "role": "Ingeniero de Sistemas", "title": "Ingeniero de Sistemas", "bio": "Consultor con experiencia en transformación digital, ventas B2B y go-to-market.", "area": "Negocios / Estrategia", "linkedin": "" },
-        { "name": "Ezequiel Lopez", "slug": "ezequiel-lopez", "email": "ezequiel128@gmail.com", "role": "Ingeniero de Bioingeniería", "title": "Ingeniero Bioingeniero", "bio": "Investigador en bioingeniería con foco en IA aplicada a salud y dispositivos médicos.", "area": "Bioingeniería / Salud", "linkedin": "" }
+        {
+          "name": "Jesús Fleitas",
+          "slug": "jesus-fleitas",
+          "email": "jesusfleitas909@gmail.com",
+          "title": "Ing. Aeroespacial & Marketing",
+          "bio": "Aeroespacial UNC. Marketing proyectos tech. Coordinación operativa.",
+          "highlight": "Proyectos",
+          "keywords": ["Aeroespacial", "Marketing", "Proyectos"],
+          "linkedin": "",
+          "resumen": "Ingeniero aeroespacial con experiencia en marketing tech y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
+          "aporte": "Coordina proyectos entre equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
+          "areasEnfoque": [
+            "Coordinación de proyectos",
+            "Marketing tech",
+            "Gestión operativa",
+            "Aeroespacial",
+            "Análisis técnico"
+          ]
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
+          "highlight": "Marketing",
+          "keywords": ["Marketing", "Growth", "Branding"],
+          "linkedin": "",
+          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
+          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
+          "areasEnfoque": [
+            "Estrategia de contenidos",
+            "Growth B2B",
+            "Optimización ROI/CAC",
+            "Lead generation",
+            "Branding institucional"
+          ]
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI/ML Engineer & Solutions Architect",
+          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
+          "highlight": "Arquitectura",
+          "keywords": ["Arquitectura", "IA", "Fullstack"],
+          "linkedin": "",
+          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
+          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
+          "areasEnfoque": [
+            "Arquitectura de soluciones",
+            "Inteligencia artificial aplicada",
+            "Desarrollo full-stack",
+            "Sistemas escalables",
+            "Automatización inteligente"
+          ]
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
+          "highlight": "Producto",
+          "keywords": ["Fullstack", "IA", "Producto"],
+          "linkedin": "",
+          "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
+          "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
+          "areasEnfoque": [
+            "Desarrollo full-stack",
+            "Integración IA",
+            "Delivery de producto",
+            "Stack NestJS/React",
+            "Sistemas distribuidos"
+          ]
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Contador & Comercio Exterior",
+          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
+          "highlight": "Operación",
+          "keywords": ["Finanzas", "Export", "Aduanas"],
+          "linkedin": "",
+          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
+          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
+          "areasEnfoque": [
+            "Gestión aduanera",
+            "Comercio internacional",
+            "Optimización fiscal B2B",
+            "Import/Export",
+            "Estructura financiera"
+          ]
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Lic. Relaciones Internacionales",
+          "bio": "Negocios globales. Diplomacia comercial B2B. Expansión mercados.",
+          "highlight": "Negocios",
+          "keywords": ["Internacional", "B2B", "Diplomacia"],
+          "linkedin": "",
+          "resumen": "Profesional en relaciones internacionales especializado en negocios globales, negociación B2B y expansión de mercados.",
+          "aporte": "Articula relaciones comerciales a nivel internacional. Identifica oportunidades de expansión y gestiona negociación con stakeholders globales.",
+          "areasEnfoque": [
+            "Negociación B2B",
+            "Expansión internacional",
+            "Diplomacia comercial",
+            "Alianzas estratégicas",
+            "Mercados globales"
+          ]
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "Lic. RRPP & RRHH",
+          "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "keywords": ["RRHH", "RRPP", "Talent"],
+          "linkedin": "",
+          "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
+          "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
+          "areasEnfoque": [
+            "Talent acquisition tech",
+            "Estrategia institucional",
+            "Employer branding",
+            "Comunicación interna",
+            "Gestión de personas"
+          ]
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "slug": "ezequiel-lopez",
+          "email": "ezequiel128@gmail.com",
+          "title": "Ing. Electromecánico",
+          "bio": "Electromecánica industrial. Automatización. Infra IoT.",
+          "highlight": "Infra",
+          "keywords": ["Electromecánica", "IoT", "Automatización"],
+          "linkedin": "",
+          "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
+          "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
+          "areasEnfoque": [
+            "Automatización industrial",
+            "Sistemas IoT",
+            "Electromecánica",
+            "Infraestructura operativa",
+            "Integración física-digital"
+          ]
+        }
       ]
     },
     "lab": {
@@ -120,24 +383,72 @@
       }
     },
     "servicesPage": {
-      "title": "Soluciones a tu medida",
-      "subtitle": "Desarrollo personalizado y consultoría estratégica con ingenieros especializados.",
+      "title": "Servicios",
+      "subtitle": "Diseñamos e implementamos soluciones tecnológicas a medida para equipos que necesitan operar mejor, automatizar procesos y escalar con criterio.",
+      "subtitle2": "Combinamos arquitectura, desarrollo, automatización e inteligencia artificial para convertir necesidades reales en sistemas utilizables, mantenibles y listos para producción.",
       "devSteps": [
-        { "num": "01", "icon": "Search", "title": "Análisis y diseño", "description": "Relevamiento completo, arquitectura de solución y planificación del proyecto con ingenieros especializados." },
-        { "num": "02", "icon": "Code2", "title": "Desarrollo e integración", "description": "Código de calidad, APIs, agentes de IA y despliegue continuo integrado a tu stack." },
-        { "num": "03", "icon": "Rocket", "title": "Deploy y soporte", "description": "Puesta en producción, monitoreo, optimización continua y soporte técnico dedicado." }
+        {
+          "num": "01",
+          "icon": "Search",
+          "title": "Diagnóstico",
+          "description": "Entendemos el problema, el contexto operativo y las restricciones del proyecto para definir una solución viable."
+        },
+        {
+          "num": "02",
+          "icon": "Code2",
+          "title": "Diseño e implementación",
+          "description": "Traducimos la estrategia en arquitectura, desarrollo e integración con foco en claridad, escalabilidad y ejecución."
+        },
+        {
+          "num": "03",
+          "icon": "Rocket",
+          "title": "Puesta en marcha",
+          "description": "Acompañamos el despliegue, la validación y la mejora continua para que la solución funcione en entornos reales."
+        }
       ],
       "consultingAreas": [
-        { "icon": "TrendingUp", "title": "Ventas", "description": "Estrategias de venta B2B, pipelines CRM y automatización comercial." },
-        { "icon": "Megaphone", "title": "Marketing", "description": "Growth hacking, funnels de conversión y automatización de campañas." },
-        { "icon": "Code2", "title": "Software", "description": "Arquitectura, desarrollo full-stack, DevOps y sistemas escalables." },
-        { "icon": "Cpu", "title": "Inteligencia Artificial", "description": "Agentes de IA, LLMs, RAG, redes multiagente y automatización cognitiva." },
-        { "icon": "Heart", "title": "Bioingeniería", "description": "IA aplicada a salud, dispositivos médicos y sistemas clínicos." },
-        { "icon": "Plane", "title": "Aeroespacial", "description": "Modelado, simulación, optimización de sistemas y control de alta precisión." },
-        { "icon": "Zap", "title": "Electromecánica", "description": "Automatización industrial, IoT, sistemas embebidos y mantenimiento predictivo." }
+        {
+          "icon": "Layers",
+          "title": "Arquitectura de soluciones",
+          "description": "Definición técnica, estructura de sistemas y diseño de soluciones pensadas para crecer con orden."
+        },
+        {
+          "icon": "Code2",
+          "title": "Desarrollo de software",
+          "description": "Construcción de aplicaciones y plataformas adaptadas a necesidades reales de operación."
+        },
+        {
+          "icon": "Cpu",
+          "title": "Inteligencia artificial aplicada",
+          "description": "Integración de capacidades de IA en procesos, productos y sistemas existentes."
+        },
+        {
+          "icon": "Zap",
+          "title": "Automatización de procesos",
+          "description": "Reducción de tareas repetitivas, mejora de flujos y aumento de eficiencia operativa."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Marketing y growth",
+          "description": "Automatización comercial, generación de demanda y optimización de procesos de adquisición."
+        },
+        {
+          "icon": "Settings",
+          "title": "Operaciones y expansión",
+          "description": "Acompañamiento en procesos de crecimiento, organización operativa y articulación comercial."
+        },
+        {
+          "icon": "Shield",
+          "title": "Sistemas técnicos especializados",
+          "description": "Aplicación de conocimiento técnico en contextos específicos que requieren mayor precisión y criterio."
+        }
       ],
+      "formIntro": {
+        "title": "¿Tenés un proyecto en mente?",
+        "description": "Contanos qué estás construyendo, qué querés optimizar o qué proceso necesitás resolver. Te ayudamos a definir el camino técnico más conveniente para llevarlo a producción."
+      },
       "form": {
-        "title": "¿Tenés un proyecto?",
+        "title": "Envianos tu consulta",
         "fields": {
           "nameLabel": "Nombre*",
           "namePlaceholder": "Tu nombre",
@@ -146,7 +457,13 @@
           "emailLabel": "Email*",
           "emailPlaceholder": "tu@email.com",
           "typeLabel": "Tipo de proyecto",
-          "typeOptions": ["Desarrollo custom", "Consultoría IA", "Integración", "Automatización", "Otro"],
+          "typeOptions": [
+            "Desarrollo a medida",
+            "Consultoría IA",
+            "Integración de sistemas",
+            "Automatización",
+            "Otro"
+          ],
           "descriptionLabel": "Descripción del proyecto",
           "descriptionPlaceholder": "Contanos sobre tu proyecto..."
         },
@@ -155,8 +472,14 @@
     },
     "footer": {
       "social": ["Instagram", "Github", "Mail", "WhatsApp"],
-      "navigation": { "title": "Navegación", "links": ["Inicio", "Equipo", "Servicios", "Productos"] },
-      "location": { "title": "Ubicación", "text": "Sede en Argentina.\nFormosa." },
+      "navigation": {
+        "title": "Navegación",
+        "links": ["Inicio", "Equipo", "Servicios", "Productos"]
+      },
+      "location": {
+        "title": "Ubicación",
+        "text": "Sede en Argentina.\nFormosa."
+      },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
       "status": { "text": "Ronda de inversión abierta", "active": true }
     }
@@ -165,7 +488,7 @@
     "branding": {
       "name": "FUSA LABS",
       "suffix": "SYSTEMS",
-      "tagline": "© 2026 FUSA LABS SYSTEMS",
+      "tagline": "® 2026 FUSA LABS SYSTEMS",
       "footer": "FUSA LABS / 2026"
     },
     "navigation": {
@@ -174,7 +497,12 @@
       "ctaButton": "CONTACT US"
     },
     "hero": {
-      "tags": ["Multi-agent Networks", "Venture Builder", "AI SaaS", "Scalability"],
+      "tags": [
+        "Multi-agent Networks",
+        "Venture Builder",
+        "AI SaaS",
+        "Scalability"
+      ],
       "title": "FUSA",
       "subtitle": "/ LABS",
       "description": "We build, scale, and optimize solutions with AI agent networks that simplify your workflow and integrate intelligence into your stack.",
@@ -187,10 +515,34 @@
       "title": "Our Services.",
       "subtitle": "Tailored AI solutions to solve specific business challenges.",
       "items": [
-        { "num": "001", "title": "AI Agent Development", "description": "Custom agents designed to solve specific challenges, optimize workflows, and increase automated efficiency.", "tags": ["AI Agent", "Automation", "Integration"], "icon": "Cpu" },
-        { "num": "002", "title": "Custom AI Automation", "description": "We eliminate repetitive tasks and seamlessly integrate with your existing systems for measurable ROI.", "tags": ["Optimization", "Workflows", "ROI"], "icon": "Layers" },
-        { "num": "003", "title": "Industry-specific SaaS", "description": "AI solutions adapted to your industry's unique requirements, using proprietary platforms.", "tags": ["SaaS", "Specific", "Cloud"], "icon": "Zap" },
-        { "num": "004", "title": "Implementation Consulting", "description": "Strategic guidance to navigate your AI adoption journey, from evaluation to continuous optimization.", "tags": ["Strategy", "Planning", "Transformation"], "icon": "Target" }
+        {
+          "num": "001",
+          "title": "AI Agent Development",
+          "description": "Custom agents designed to solve specific challenges, optimize workflows, and increase automated efficiency.",
+          "tags": ["AI Agent", "Automation", "Integration"],
+          "icon": "Cpu"
+        },
+        {
+          "num": "002",
+          "title": "Custom AI Automation",
+          "description": "We eliminate repetitive tasks and seamlessly integrate with your existing systems for measurable ROI.",
+          "tags": ["Optimization", "Workflows", "ROI"],
+          "icon": "Layers"
+        },
+        {
+          "num": "003",
+          "title": "Industry-specific SaaS",
+          "description": "AI solutions adapted to your industry's unique requirements, using proprietary platforms.",
+          "tags": ["SaaS", "Specific", "Cloud"],
+          "icon": "Zap"
+        },
+        {
+          "num": "004",
+          "title": "Implementation Consulting",
+          "description": "Strategic guidance to navigate your AI adoption journey, from evaluation to continuous optimization.",
+          "tags": ["Strategy", "Planning", "Transformation"],
+          "icon": "Target"
+        }
       ]
     },
     "methodology": {
@@ -198,10 +550,26 @@
       "title": "How we build impact.",
       "description": "We don't train isolated models. We integrate advanced AI connected to your current tech stack.",
       "steps": [
-        { "num": "01", "title": "Strategic Analysis", "description": "We identify high-ROI AI automation opportunities." },
-        { "num": "02", "title": "Custom Solutions", "description": "Architecture that perfectly integrates with your ecosystem." },
-        { "num": "03", "title": "Flexible Deployment", "description": "Deployment on our secure infrastructure or your own servers." },
-        { "num": "04", "title": "Optimization & Results", "description": "Continuous testing with real metrics and measurable results." }
+        {
+          "num": "01",
+          "title": "Strategic Analysis",
+          "description": "We identify high-ROI AI automation opportunities."
+        },
+        {
+          "num": "02",
+          "title": "Custom Solutions",
+          "description": "Architecture that perfectly integrates with your ecosystem."
+        },
+        {
+          "num": "03",
+          "title": "Flexible Deployment",
+          "description": "Deployment on our secure infrastructure or your own servers."
+        },
+        {
+          "num": "04",
+          "title": "Optimization & Results",
+          "description": "Continuous testing with real metrics and measurable results."
+        }
       ]
     },
     "pricing": {
@@ -210,42 +578,116 @@
       "modes": {
         "suscripcion": {
           "label": "Monthly Subscription",
-          "card1": { "title": "SaaS Solutions", "description1": "Flexible monthly subscription.", "description2": "No long-term commitments." },
-          "card2": { "title": "Subscription-based pricing", "subtitle": "Contact us for custom pricing options", "priceFrom": "$150 -", "priceTo": "custom", "period": "/month", "features": ["Solutions starting at $150"], "deliveryLabel": "Delivery time", "deliveryTime": "Recurring", "ctaButton": "Contact Us" }
+          "card1": {
+            "title": "SaaS Solutions",
+            "description1": "Flexible monthly subscription.",
+            "description2": "No long-term commitments."
+          },
+          "card2": {
+            "title": "Subscription-based pricing",
+            "subtitle": "Contact us for custom pricing options",
+            "priceFrom": "$150 -",
+            "priceTo": "custom",
+            "period": "/month",
+            "features": ["Solutions starting at $150"],
+            "deliveryLabel": "Delivery time",
+            "deliveryTime": "Recurring",
+            "ctaButton": "Contact Us"
+          }
         },
         "instalacion": {
           "label": "Installation",
-          "card1": { "title": "Looking for custom development?", "description": "Contact us to define the scope and receive a custom proposal." },
-          "card2": { "price": "$1,000 - 5,000", "period": "/installation", "features": ["Implementation and customization", "Integration with your tech stack"], "deliveryLabel": "Delivery time", "deliveryTime": "3-4 weeks", "ctaButton": "Contact Us" }
+          "card1": {
+            "title": "Looking for custom development?",
+            "description": "Contact us to define the scope and receive a custom proposal."
+          },
+          "card2": {
+            "price": "$1,000 - 5,000",
+            "period": "/installation",
+            "features": [
+              "Implementation and customization",
+              "Integration with your tech stack"
+            ],
+            "deliveryLabel": "Delivery time",
+            "deliveryTime": "3-4 weeks",
+            "ctaButton": "Contact Us"
+          }
         }
       }
     },
     "contact": {
       "title": "Have a project in mind?",
       "greeting": "Hello.",
-      "description": "Tell us about your project—whether you need a discovery call, custom development, or AI Products.",
-      "form": { "nameLabel": "Your name*", "namePlaceholder": "John Doe", "emailLabel": "Email address*", "emailPlaceholder": "john@site.com", "messageLabel": "Message", "messagePlaceholder": "Your message", "submitButton": "Send Message" },
+      "description": "Tell us about your project — whether you need a discovery call, custom development, or AI Products.",
+      "form": {
+        "nameLabel": "Your name*",
+        "namePlaceholder": "John Doe",
+        "emailLabel": "Email address*",
+        "emailPlaceholder": "john@site.com",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Your message",
+        "submitButton": "Send Message"
+      },
       "cards": [
-        { "icon": "Zap", "title": "Fast response.", "description": "We will get back to you shortly to collaborate." },
-        { "icon": "CheckCircle", "title": "Next steps.", "description": "We will provide a detailed plan, budget, and timeline." }
+        {
+          "icon": "Zap",
+          "title": "Fast response.",
+          "description": "We will get back to you shortly to collaborate."
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Next steps.",
+          "description": "We will provide a detailed plan, budget, and timeline."
+        }
       ]
     },
     "metrics": [
-      { "value": "4+", "label": "SaaS Products" },
+      { "value": "3", "label": "FUSA Products" },
       { "value": "8", "label": "Engineers & Experts" },
       { "value": "7", "label": "Expertise Areas" },
       { "value": "24hs", "label": "Response Time" }
     ],
     "trustPoints": [
-      { "icon": "Shield", "title": "Sovereign Architecture", "description": "Your code, your infrastructure, no vendor lock-in. Full control over your stack." },
-      { "icon": "TrendingUp", "title": "ROI-focused AI", "description": "Not isolated models. AI integrated directly into your stack for measurable results." },
-      { "icon": "Code2", "title": "Cutting-edge Stack", "description": "Next.js, NestJS, TypeORM, LangChain — always with the best tools available." },
-      { "icon": "Users", "title": "Real Engineering Team", "description": "Electromechanical, aerospace, and software engineers. Not rotating freelancers." }
+      {
+        "icon": "Shield",
+        "title": "Sovereign Architecture",
+        "description": "Your code, your infrastructure, no vendor lock-in. Full control over your stack."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "ROI-focused AI",
+        "description": "Not isolated models. AI integrated directly into your stack for measurable results."
+      },
+      {
+        "icon": "Code2",
+        "title": "Cutting-edge Stack",
+        "description": "Next.js, NestJS, TypeORM, LangChain — always with the best tools available."
+      },
+      {
+        "icon": "Users",
+        "title": "Real Engineering Team",
+        "description": "Electromechanical, aerospace, and software engineers. Not rotating freelancers."
+      }
     ],
     "testimonials": [
-      { "quote": "Fusa Labs automated our appointment flow and patient communication. The impact was immediate.", "name": "Dental Clinic", "company": "Dentalogic", "result": "70% less time managing appointments" },
-      { "quote": "They integrated AI into our e-commerce without touching existing infrastructure. True professionals.", "name": "Regional E-commerce", "company": "Platform AI", "result": "3x more conversions in 2 months" },
-      { "quote": "Content automation completely changed our daily editorial operations.", "name": "Digital Media", "company": "Periodistapp", "result": "50% more articles published per day" }
+      {
+        "quote": "FUSA AGENTS transformed our operations. They automated processes that required 3 full teams.",
+        "name": "CEO",
+        "company": "Tech Startup",
+        "result": "70% reduction in process time"
+      },
+      {
+        "quote": "FUSA RAG indexed our entire knowledge base in hours. Now we answer queries in seconds.",
+        "name": "Head of Operations",
+        "company": "Legal Consultant",
+        "result": "3x faster information access"
+      },
+      {
+        "quote": "FUSA OMNICANAL unified all our channels. Customer satisfaction up 40% in the first month.",
+        "name": "Marketing Director",
+        "company": "Retail Chain",
+        "result": "+40% customer satisfaction"
+      }
     ],
     "cta": {
       "title": "Ready to integrate AI?",
@@ -255,20 +697,164 @@
     },
     "productsSection": {
       "title": "Our Products",
-      "subtitle": "Proprietary SaaS platforms with integrated AI, ready to scale your operation."
+      "subtitle": "Proprietary products designed to automate processes, organize information, and expand operational capacity."
     },
     "team": {
       "title": "The people behind Fusa",
-      "subtitle": "A multidisciplinary team of engineers and specialists committed to innovation.",
+      "subtitle": "Multidisciplinary team: tech, marketing, finance, HR for end-to-end solutions. We cover every layer of the business lifecycle, product lifecycle, and software lifecycle.",
       "members": [
-        { "name": "Adrián Gamarra", "slug": "adrian-gamarra", "email": "gamarraadrian200@gmail.com", "role": "CEO & Founder", "title": "Electromechanical Engineer", "bio": "Electromechanical engineer with product vision and experience in industrial systems and applied AI.", "area": "Leadership / Engineering", "linkedin": "" },
-        { "name": "Fabio Arias", "slug": "fabio-arias", "email": "fabio-adrian-arias@hotmail.com", "role": "CTO & Co-Founder", "title": "Software Engineer", "bio": "Full-stack architect specialized in NestJS, React, and multi-agent AI systems.", "area": "Software / AI", "linkedin": "" },
-        { "name": "Patricio Polo", "slug": "patricio-polo", "email": "gypp54@gmail.com", "role": "Aerospace Engineer", "title": "Aerospace Engineer", "bio": "Specialist in complex systems, modeling, and high-precision process optimization.", "area": "Aerospace / Systems", "linkedin": "" },
-        { "name": "Jesús Fleitas", "slug": "jesus-fleitas", "email": "jesusfleitas909@gmail.com", "role": "Electromechanical Engineer", "title": "Electromechanical Engineer", "bio": "Expert in industrial automation, IoT, and embedded systems with AI integration.", "area": "Electromechanics / IoT", "linkedin": "" },
-        { "name": "Pedro Enríquez", "slug": "pedro-enriquez", "email": "agustinenriquez321@gmail.com", "role": "Software Engineer", "title": "Software Engineer", "bio": "Developer specialized in frontend, user experience, and design systems.", "area": "Software / UX", "linkedin": "" },
-        { "name": "Lisandro Ratto", "slug": "lisandro-ratto", "email": "lisandroratto@gmail.com", "role": "Data Engineer", "title": "Software & Data Engineer", "bio": "Specialist in machine learning models, data pipelines, and advanced analytics.", "area": "AI / Data", "linkedin": "" },
-        { "name": "Facundo Majda", "slug": "facundo-majda", "email": "facundomajda19@gmail.com", "role": "Systems Engineer", "title": "Systems Engineer", "bio": "Consultant with experience in digital transformation, B2B sales, and go-to-market.", "area": "Business / Strategy", "linkedin": "" },
-        { "name": "Ezequiel Lopez", "slug": "ezequiel-lopez", "email": "ezequiel128@gmail.com", "role": "Bioengineering Engineer", "title": "Bioengineering Engineer", "bio": "Researcher in bioengineering focused on AI applied to health and medical devices.", "area": "Bioengineering / Health", "linkedin": "" }
+        {
+          "name": "Jesús Fleitas",
+          "slug": "jesus-fleitas",
+          "email": "jesusfleitas909@gmail.com",
+          "title": "Aerospace Eng. & Marketing",
+          "bio": "Aerospace UNC. Tech projects marketing. Operational coordination.",
+          "highlight": "Projects",
+          "keywords": ["Aerospace", "Marketing", "Projects"],
+          "linkedin": "",
+          "resumen": "Aerospace engineer with experience in tech marketing and project coordination. Hybrid profile between technology and communications.",
+          "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
+          "areasEnfoque": [
+            "Project coordination",
+            "Tech marketing",
+            "Operational management",
+            "Aerospace",
+            "Technical analysis"
+          ]
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
+          "highlight": "Marketing",
+          "keywords": ["Marketing", "Growth", "Branding"],
+          "linkedin": "",
+          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
+          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
+          "areasEnfoque": [
+            "Content strategy",
+            "B2B Growth",
+            "ROI/CAC optimization",
+            "Lead generation",
+            "Institutional branding"
+          ]
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI/ML Engineer & Solutions Architect",
+          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
+          "highlight": "Architecture",
+          "keywords": ["Architecture", "IA", "Fullstack"],
+          "linkedin": "",
+          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
+          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
+          "areasEnfoque": [
+            "Solution architecture",
+            "Applied artificial intelligence",
+            "Full-stack development",
+            "Scalable systems",
+            "Intelligent automation"
+          ]
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
+          "highlight": "Product",
+          "keywords": ["Fullstack", "IA", "Product"],
+          "linkedin": "",
+          "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
+          "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
+          "areasEnfoque": [
+            "Full-stack development",
+            "AI integration",
+            "Product delivery",
+            "NestJS/React stack",
+            "Distributed systems"
+          ]
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Accountant & Foreign Trade",
+          "bio": "Customs import-export management. B2B tax optimization. International trade.",
+          "highlight": "Operations",
+          "keywords": ["Finance", "Export", "Customs"],
+          "linkedin": "",
+          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
+          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
+          "areasEnfoque": [
+            "Customs management",
+            "International trade",
+            "B2B tax optimization",
+            "Import/Export",
+            "Financial structure"
+          ]
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Intl. Relations Degree",
+          "bio": "Global business. B2B commercial diplomacy. Market expansion.",
+          "highlight": "Business",
+          "keywords": ["International", "B2B", "Diplomacy"],
+          "linkedin": "",
+          "resumen": "International relations professional specialized in global business, B2B negotiation, and market expansion.",
+          "aporte": "Articulates commercial relations internationally. Identifies expansion opportunities and manages negotiation with global stakeholders.",
+          "areasEnfoque": [
+            "B2B negotiation",
+            "International expansion",
+            "Commercial diplomacy",
+            "Strategic alliances",
+            "Global markets"
+          ]
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "PR & HR Degree",
+          "bio": "Institutional strategy. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "keywords": ["HR", "PR", "Talent"],
+          "linkedin": "",
+          "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
+          "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
+          "areasEnfoque": [
+            "Tech talent acquisition",
+            "Institutional strategy",
+            "Employer branding",
+            "Internal communication",
+            "People management"
+          ]
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "slug": "ezequiel-lopez",
+          "email": "ezequiel128@gmail.com",
+          "title": "Electromechanical Eng.",
+          "bio": "Industrial electromechanics. Automation. IoT infra.",
+          "highlight": "Infra",
+          "keywords": ["Electromechanics", "IoT", "Automation"],
+          "linkedin": "",
+          "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
+          "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
+          "areasEnfoque": [
+            "Industrial automation",
+            "IoT systems",
+            "Electromechanics",
+            "Operational infrastructure",
+            "Physical-digital integration"
+          ]
+        }
       ]
     },
     "lab": {
@@ -282,24 +868,72 @@
       }
     },
     "servicesPage": {
-      "title": "Tailored Solutions",
-      "subtitle": "Custom development and strategic consulting with specialized engineers.",
+      "title": "Services",
+      "subtitle": "We design and implement tailor-made technology solutions for teams that need to operate better, automate processes, and scale with criteria.",
+      "subtitle2": "We combine architecture, development, automation, and artificial intelligence to transform real needs into usable, maintainable systems ready for production.",
       "devSteps": [
-        { "num": "01", "icon": "Search", "title": "Analysis & Design", "description": "Complete assessment, solution architecture, and project planning with specialized engineers." },
-        { "num": "02", "icon": "Code2", "title": "Development & Integration", "description": "Quality code, APIs, AI agents, and continuous deployment integrated into your stack." },
-        { "num": "03", "icon": "Rocket", "title": "Deploy & Support", "description": "Production deployment, monitoring, continuous optimization, and dedicated technical support." }
+        {
+          "num": "01",
+          "icon": "Search",
+          "title": "Diagnosis",
+          "description": "We understand the problem, the operational context, and project constraints to define a viable solution."
+        },
+        {
+          "num": "02",
+          "icon": "Code2",
+          "title": "Design & Implementation",
+          "description": "We translate strategy into architecture, development, and integration with a focus on clarity, scalability, and execution."
+        },
+        {
+          "num": "03",
+          "icon": "Rocket",
+          "title": "Launch",
+          "description": "We support deployment, validation, and continuous improvement so the solution works in real environments."
+        }
       ],
       "consultingAreas": [
-        { "icon": "TrendingUp", "title": "Sales", "description": "B2B sales strategies, CRM pipelines, and commercial automation." },
-        { "icon": "Megaphone", "title": "Marketing", "description": "Growth hacking, conversion funnels, and campaign automation." },
-        { "icon": "Code2", "title": "Software", "description": "Architecture, full-stack development, DevOps, and scalable systems." },
-        { "icon": "Cpu", "title": "Artificial Intelligence", "description": "AI agents, LLMs, RAG, multi-agent networks, and cognitive automation." },
-        { "icon": "Heart", "title": "Bioengineering", "description": "AI applied to health, medical devices, and clinical systems." },
-        { "icon": "Plane", "title": "Aerospace", "description": "Modeling, simulation, system optimization, and high-precision control." },
-        { "icon": "Zap", "title": "Electromechanics", "description": "Industrial automation, IoT, embedded systems, and predictive maintenance." }
+        {
+          "icon": "Layers",
+          "title": "Solution architecture",
+          "description": "Technical definition, system structure, and solution design built to grow in an orderly manner."
+        },
+        {
+          "icon": "Code2",
+          "title": "Software development",
+          "description": "Building applications and platforms tailored to real operational needs."
+        },
+        {
+          "icon": "Cpu",
+          "title": "Applied artificial intelligence",
+          "description": "Integrating AI capabilities into existing processes, products, and systems."
+        },
+        {
+          "icon": "Zap",
+          "title": "Process automation",
+          "description": "Reducing repetitive tasks, improving workflows, and increasing operational efficiency."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Marketing & growth",
+          "description": "Commercial automation, demand generation, and optimization of acquisition processes."
+        },
+        {
+          "icon": "Settings",
+          "title": "Operations & expansion",
+          "description": "Support in growth processes, operational organization, and commercial articulation."
+        },
+        {
+          "icon": "Shield",
+          "title": "Specialized technical systems",
+          "description": "Application of technical knowledge in specific contexts that require greater precision and criteria."
+        }
       ],
+      "formIntro": {
+        "title": "Have a project in mind?",
+        "description": "Tell us what you're building, what you want to optimize, or what process you need to solve. We'll help you define the most convenient technical path to take it to production."
+      },
       "form": {
-        "title": "Have a project?",
+        "title": "Send us your inquiry",
         "fields": {
           "nameLabel": "Name*",
           "namePlaceholder": "Your name",
@@ -308,7 +942,13 @@
           "emailLabel": "Email*",
           "emailPlaceholder": "you@email.com",
           "typeLabel": "Project type",
-          "typeOptions": ["Custom development", "AI Consulting", "Integration", "Automation", "Other"],
+          "typeOptions": [
+            "Custom development",
+            "AI Consulting",
+            "Systems integration",
+            "Automation",
+            "Other"
+          ],
           "descriptionLabel": "Project description",
           "descriptionPlaceholder": "Tell us about your project..."
         },
@@ -317,7 +957,10 @@
     },
     "footer": {
       "social": ["Instagram", "Github", "Mail", "WhatsApp"],
-      "navigation": { "title": "Navigation", "links": ["Home", "Team", "Services", "Products"] },
+      "navigation": {
+        "title": "Navigation",
+        "links": ["Home", "Team", "Services", "Products"]
+      },
       "location": { "title": "Location", "text": "HQ in Argentina.\nFormosa." },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
       "status": { "text": "Investment round open", "active": true }
