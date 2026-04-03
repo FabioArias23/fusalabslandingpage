@@ -1,7 +1,7 @@
 export const Logo = () => (
   <div className="flex items-center gap-4 group">
     <img
-      src="/img/LOGOTIPO1.svg"
+      src="/img/ISOTIPO1.svg"
       alt="FUSA LABS Logo"
       className="h-11 md:h-12 w-auto transition-transform duration-700 group-hover:scale-105"
     />
