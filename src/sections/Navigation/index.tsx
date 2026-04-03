@@ -63,7 +63,7 @@ export const Navigation = ({
 
           {/* Desktop/Large Menu (Hidden on mobile) */}
           <div
-            className="hidden lg:flex items-center gap-14 text-[10px] font-bold tracking-[0.25em] text-fusa-white/40 uppercase font-conthrax relative px-8 py-4 rounded-sm"
+            className="hidden lg:flex items-center gap-14 text-[13px] font-bold tracking-[0.25em] text-white uppercase font-conthrax relative px-8 py-4 rounded-sm"
             onMouseMove={handleMouseMove}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -107,7 +107,7 @@ export const Navigation = ({
         </div>
 
         {/* Bottom Row: Mobile Menu (Hidden on Desktop) */}
-        <div className="lg:hidden mt-6 flex justify-center items-center gap-6 sm:gap-10 border-t border-white/5 pt-5 text-[9px] sm:text-[11px] font-bold tracking-[0.2em] text-fusa-white/30 uppercase font-conthrax">
+        <div className="lg:hidden mt-6 flex justify-center items-center gap-6 sm:gap-10 border-t border-white/5 pt-5 text-[11px] sm:text-[13px] font-bold tracking-[0.2em] text-white uppercase font-conthrax">
           {menuItems.map((item) => (
             <Link
               key={item}
