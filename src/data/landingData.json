@@ -235,7 +235,48 @@
             "Gestión operativa",
             "Aeroespacial",
             "Análisis técnico"
-          ]
+          ],
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "categoria": "operations",
+          "subcategoria": "Gestión de Proyectos",
+          "trayectoria": "Más de 5 años coordinando proyectos tecnológicos entre equipos técnicos y comerciales. Experiencia en el sector aeroespacial y su aplicación en proyectos de innovación.",
+          "formacion": [
+            {
+              "titulo": "Ingeniero Aeroespacial",
+              "institucion": "Universidad Nacional de Córdoba (UNC)",
+              "anio": "2018-2023"
+            },
+            {
+              "titulo": "Certificación en Gestión de Proyectos Ágiles",
+              "institucion": "Scrum Master",
+              "anio": "2024"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "50+",
+              "label": "Proyectos coordinados"
+            },
+            {
+              "metric": "30%",
+              "label": "Reducción en tiempos de entrega"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA AGENTS",
+              "descripcion": "Coordinación del desarrollo del producto SaaS multiagente"
+            },
+            {
+              "nombre": "FUSA RAG",
+              "descripcion": "Gestión de implementación del sistema de knowledge base"
+            }
+          ],
+          "stack": ["Project Management", "Notion", "Jira", "Agile", "Scrum", "Trello"],
+          "cita": "La tecnología sin ejecución es solo idea. Lo que importa es transformar conceptos en resultados tangibles.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de coordinación y gestión"
         },
         {
           "name": "Adrián Gamarra",
@@ -254,7 +295,53 @@
             "Optimización ROI/CAC",
             "Lead generation",
             "Branding institucional"
-          ]
+          ],
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "trayectoria": "Especialista en crecimiento digital B2B con enfoque en métricas de acquisition y retención. Ha liderado estrategias de branding para startups tech.",
+          "formacion": [
+            {
+              "titulo": "Licenciatura en Marketing Digital",
+              "institucion": "Universidad de Palermo",
+              "anio": "2019-2023"
+            },
+            {
+              "titulo": "Google Analytics Certified",
+              "institucion": "Google",
+              "anio": "2023"
+            },
+            {
+              "titulo": "HubSpot Inbound Marketing",
+              "institucion": "HubSpot Academy",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "3x",
+              "label": "Incremento en leads cualificados"
+            },
+            {
+              "metric": "45%",
+              "label": "Reducción en costo de adquisición"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "Brand Strategy FUSA",
+              "descripcion": "Desarrollo de identidad de marca y estrategia de contenidos"
+            },
+            {
+              "nombre": "Growth Campaign 2025",
+              "descripcion": "Campaña de adquisición de clientes B2B"
+            }
+          ],
+          "stack": ["HubSpot", "Google Analytics", "SEMrush", "Mailchimp", "Buffer", "Figma"],
+          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos"
         },
         {
           "name": "Facundo Majda",
@@ -273,7 +360,53 @@
             "Desarrollo full-stack",
             "Sistemas escalables",
             "Automatización inteligente"
-          ]
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Arquitectura",
+          "trayectoria": "Arquitecto de sistemas con experiencia en diseño de soluciones enterprise. Especializado en integración de IA/ML en productos escalables.",
+          "formacion": [
+            {
+              "titulo": "Ingeniero en Sistemas de Información",
+              "institucion": "UTN - Universidad Tecnológica Nacional",
+              "anio": "2017-2022"
+            },
+            {
+              "titulo": "Machine Learning Specialization",
+              "institucion": "Stanford Online",
+              "anio": "2023"
+            },
+            {
+              "titulo": "AWS Solutions Architect Professional",
+              "institucion": "Amazon Web Services",
+              "anio": "2024"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "10+",
+              "label": "Sistemas arquitectados en producción"
+            },
+            {
+              "metric": "99.9%",
+              "label": "Uptime en arquitecturas críticas"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA RAG Engine",
+              "descripcion": "Arquitectura del sistema de Retrieval-Augmented Generation"
+            },
+            {
+              "nombre": "Multi-Agent Orchestration",
+              "descripcion": "Diseño de red de agentes IA para automatización"
+            }
+          ],
+          "stack": ["Python", "TensorFlow", "LangChain", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis", "GraphQL"],
+          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA"
         },
         {
           "name": "Fabio Arias",
@@ -292,7 +425,53 @@
             "Delivery de producto",
             "Stack NestJS/React",
             "Sistemas distribuidos"
-          ]
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "trayectoria": "Desarrollador con experiencia en delivery de productos tech. Especializado en integración de capacidades de IA en sistemas existentes.",
+          "formacion": [
+            {
+              "titulo": "Analista de Sistemas",
+              "institucion": "Instituto Tecnológico de Buenos Aires (ITBA)",
+              "anio": "2018-2022"
+            },
+            {
+              "titulo": "React & Next.js Master",
+              "institucion": "Frontend Masters",
+              "anio": "2023"
+            },
+            {
+              "titulo": "NestJS Developer Certification",
+              "institucion": "NestJS",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "20+",
+              "label": "Features entregados en producción"
+            },
+            {
+              "metric": "100%",
+              "label": "Delivery dentro de deadline"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA OMNICANAL",
+              "descripcion": "Desarrollo del sistema de gestión multicanal"
+            },
+            {
+              "nombre": "Dashboard Analytics",
+              "descripcion": "Plataforma de métricas en tiempo real"
+            }
+          ],
+          "stack": ["TypeScript", "React", "Next.js", "NestJS", "PostgreSQL", "Redis", "Docker", "Git", "CI/CD"],
+          "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de desarrollo fullstack"
         },
         {
           "name": "Patricio Polo",
@@ -311,7 +490,53 @@
             "Optimización fiscal B2B",
             "Import/Export",
             "Estructura financiera"
-          ]
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finanzas & Comercio",
+          "trayectoria": "Contador público con especialización en comercio internacional. Experiencia en gestión aduanera y optimización fiscal para empresas B2B.",
+          "formacion": [
+            {
+              "titulo": "Contador Público",
+              "institucion": "Universidad Nacional de Córdoba (UNC)",
+              "anio": "2016-2021"
+            },
+            {
+              "titulo": "Especialización en Comercio Exterior",
+              "institucion": "AAECE - Asociación Argentino de Estudios de Comercio Exterior",
+              "anio": "2022"
+            },
+            {
+              "titulo": "Certificación en Gestión Aduanera",
+              "institucion": "AFIP",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "$2M+",
+              "label": "En operaciones de import/export"
+            },
+            {
+              "metric": "25%",
+              "label": "Ahorro fiscal para clientes"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "Estructura Fiscal FUSA",
+              "descripcion": "Optimización de estructura financiera y fiscal"
+            },
+            {
+              "nombre": "Supply Chain Compliance",
+              "descripcion": "Implementación de procesos de compliance aduanero"
+            }
+          ],
+          "stack": ["SAP", "Excel Avanzado", "Tango", "Sistema AFIP", "Dynamics 365"],
+          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal"
         },
         {
           "name": "Pedro Enríquez",
@@ -330,7 +555,53 @@
             "Diplomacia comercial",
             "Alianzas estratégicas",
             "Mercados globales"
-          ]
+          ],
+          "foto": "/img/equipo/pedro-enriquez.jpg",
+          "categoria": "business",
+          "subcategoria": "Negocios Internacionales",
+          "trayectoria": "Especialista en negociación internacional con experiencia en expansión de mercados Latam y formación de alianzas estratégicas.",
+          "formacion": [
+            {
+              "titulo": "Licenciatura en Relaciones Internacionales",
+              "institucion": "Universidad de Belgrano",
+              "anio": "2017-2021"
+            },
+            {
+              "titulo": "Máster en Comercio Internacional",
+              "institucion": "ESCP Business School",
+              "anio": "2022"
+            },
+            {
+              "titulo": "Certificación en Negociación Internacional",
+              "institucion": "Harvard Business School Online",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "15+",
+              "label": "Alianzas estratégicas formadas"
+            },
+            {
+              "metric": "3",
+              "label": "Mercados nuevos penetrated"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA Expansion Latam",
+              "descripcion": "Estrategia de expansión regional"
+            },
+            {
+              "nombre": "Strategic Partnerships",
+              "descripcion": "Desarrollo de red de socios comerciales internacionales"
+            }
+          ],
+          "stack": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo", "Excel", "PowerPoint", "CRM"],
+          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas"
         },
         {
           "name": "Lisandro Ratto",
@@ -349,7 +620,53 @@
             "Employer branding",
             "Comunicación interna",
             "Gestión de personas"
-          ]
+          ],
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "categoria": "operations",
+          "subcategoria": "RRHH & Cultura",
+          "trayectoria": "Profesional con experiencia en employer branding y adquisición de talento tech. Gestión de comunicación institucional y cultura organizacional.",
+          "formacion": [
+            {
+              "titulo": "Licenciatura en Relaciones Públicas",
+              "institucion": "Universidad de Palermo",
+              "anio": "2016-2020"
+            },
+            {
+              "titulo": "Specialization in Talent Acquisition",
+              "institucion": "LinkedIn Learning",
+              "anio": "2022"
+            },
+            {
+              "titulo": "HR Business Partner Certification",
+              "institucion": "SHRM",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "40+",
+              "label": "Talentos hired en roles tech"
+            },
+            {
+              "metric": "85%",
+              "label": "Retention rate primer año"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "Employer Branding FUSA",
+              "descripcion": "Desarrollo de marca empleadora y estrategia de atracción de talento"
+            },
+            {
+              "nombre": "Candidate Experience",
+              "descripcion": "Rediseño del proceso de atracción y selección"
+            }
+          ],
+          "stack": ["LinkedIn Recruiter", "Workday", "BambooHR", "Greenhouse", "Notion", "Figma"],
+          "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding"
         },
         {
           "name": "Ezequiel Lopez",
@@ -368,7 +685,53 @@
             "Electromecánica",
             "Infraestructura operativa",
             "Integración física-digital"
-          ]
+          ],
+          "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "categoria": "tech",
+          "subcategoria": "Electromecánica & IoT",
+          "trayectoria": "Ingeniero con experiencia en diseño de sistemas electromecánicos e integración IoT para operaciones industriales.",
+          "formacion": [
+            {
+              "titulo": "Ingeniero Electromecánico",
+              "institucion": "UTN - Universidad Tecnológica Nacional",
+              "anio": "2015-2021"
+            },
+            {
+              "titulo": "Certificación en IoT Industrial",
+              "institucion": "Siemens",
+              "anio": "2022"
+            },
+            {
+              "titulo": "Automatización Industrial con PLC",
+              "institucion": "Rockwell Automation",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "8",
+              "label": "Sistemas IoT implementados"
+            },
+            {
+              "metric": "40%",
+              "label": "Eficiencia operativa en plantas"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "Smart Factory Integration",
+              "descripcion": "Implementación de sensores y conectividad IoT en planta"
+            },
+            {
+              "nombre": "Automation Dashboard",
+              "descripcion": "Sistema de monitoreo de equipos industriales"
+            }
+          ],
+          "stack": ["PLC Siemens", "Node-RED", "MQTT", "Arduino", "Raspberry Pi", "AutoCAD", "SolidWorks"],
+          "cta": "El futuro de la industria está en la convergencia entre lo físico y lo digital.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de automatización industrial e IoT"
         }
       ]
     },
@@ -720,7 +1083,48 @@
             "Operational management",
             "Aerospace",
             "Technical analysis"
-          ]
+          ],
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "categoria": "operations",
+          "subcategoria": "Project Management",
+          "trayectoria": "Over 5 years coordinating tech projects between technical and commercial teams. Experience in aerospace sector and its application in innovation projects.",
+          "formacion": [
+            {
+              "titulo": "Aerospace Engineer",
+              "institucion": "Universidad Nacional de Córdoba (UNC)",
+              "anio": "2018-2023"
+            },
+            {
+              "titulo": "Agile Project Management Certification",
+              "institucion": "Scrum Master",
+              "anio": "2024"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "50+",
+              "label": "Projects coordinated"
+            },
+            {
+              "metric": "30%",
+              "label": "Delivery time reduction"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA AGENTS",
+              "descripcion": "Coordination of multi-agent SaaS product development"
+            },
+            {
+              "nombre": "FUSA RAG",
+              "descripcion": "Implementation management of knowledge base system"
+            }
+          ],
+          "stack": ["Project Management", "Notion", "Jira", "Agile", "Scrum", "Trello"],
+          "cita": "Technology without execution is just an idea. What matters is transforming concepts into tangible results.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for coordination and management projects"
         },
         {
           "name": "Adrián Gamarra",
@@ -739,7 +1143,53 @@
             "ROI/CAC optimization",
             "Lead generation",
             "Institutional branding"
-          ]
+          ],
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "trayectoria": "B2B digital growth specialist focused on acquisition and retention metrics. Has led branding strategies for tech startups.",
+          "formacion": [
+            {
+              "titulo": "Digital Marketing Degree",
+              "institucion": "Universidad de Palermo",
+              "anio": "2019-2023"
+            },
+            {
+              "titulo": "Google Analytics Certified",
+              "institucion": "Google",
+              "anio": "2023"
+            },
+            {
+              "titulo": "HubSpot Inbound Marketing",
+              "institucion": "HubSpot Academy",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "3x",
+              "label": "Increase in qualified leads"
+            },
+            {
+              "metric": "45%",
+              "label": "Reduction in acquisition cost"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA Brand Strategy",
+              "descripcion": "Brand identity development and content strategy"
+            },
+            {
+              "nombre": "Growth Campaign 2025",
+              "descripcion": "B2B customer acquisition campaign"
+            }
+          ],
+          "stack": ["HubSpot", "Google Analytics", "SEMrush", "Mailchimp", "Buffer", "Figma"],
+          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for growth consulting and content strategy"
         },
         {
           "name": "Facundo Majda",
@@ -758,7 +1208,53 @@
             "Full-stack development",
             "Scalable systems",
             "Intelligent automation"
-          ]
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Architecture",
+          "trayectoria": "Systems architect with experience in enterprise solution design. Specialized in AI/ML integration in scalable products.",
+          "formacion": [
+            {
+              "titulo": "Information Systems Engineer",
+              "institucion": "UTN - Universidad Tecnológica Nacional",
+              "anio": "2017-2022"
+            },
+            {
+              "titulo": "Machine Learning Specialization",
+              "institucion": "Stanford Online",
+              "anio": "2023"
+            },
+            {
+              "titulo": "AWS Solutions Architect Professional",
+              "institucion": "Amazon Web Services",
+              "anio": "2024"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "10+",
+              "label": "Systems architected in production"
+            },
+            {
+              "metric": "99.9%",
+              "label": "Uptime on critical architectures"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA RAG Engine",
+              "descripcion": "Retrieval-Augmented Generation system architecture"
+            },
+            {
+              "nombre": "Multi-Agent Orchestration",
+              "descripcion": "AI agent network design for automation"
+            }
+          ],
+          "stack": ["Python", "TensorFlow", "LangChain", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis", "GraphQL"],
+          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for architecture and AI implementation projects"
         },
         {
           "name": "Fabio Arias",
@@ -777,7 +1273,53 @@
             "Product delivery",
             "NestJS/React stack",
             "Distributed systems"
-          ]
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "trayectoria": "Developer with experience in tech product delivery. Specialized in AI capabilities integration in existing systems.",
+          "formacion": [
+            {
+              "titulo": "Systems Analyst",
+              "institucion": "Instituto Tecnológico de Buenos Aires (ITBA)",
+              "anio": "2018-2022"
+            },
+            {
+              "titulo": "React & Next.js Master",
+              "institucion": "Frontend Masters",
+              "anio": "2023"
+            },
+            {
+              "titulo": "NestJS Developer Certification",
+              "institucion": "NestJS",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "20+",
+              "label": "Features delivered to production"
+            },
+            {
+              "metric": "100%",
+              "label": "Delivery on deadline"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA OMNICANAL",
+              "descripcion": "Multichannel management system development"
+            },
+            {
+              "nombre": "Dashboard Analytics",
+              "descripcion": "Real-time metrics platform"
+            }
+          ],
+          "stack": ["TypeScript", "React", "Next.js", "NestJS", "PostgreSQL", "Redis", "Docker", "Git", "CI/CD"],
+          "cta": "Code is the means, not the end. What matters is solving real problems.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for fullstack development projects"
         },
         {
           "name": "Patricio Polo",
@@ -796,7 +1338,53 @@
             "B2B tax optimization",
             "Import/Export",
             "Financial structure"
-          ]
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finance & Trade",
+          "trayectoria": "Public accountant with specialization in international trade. Experience in customs management and tax optimization for B2B companies.",
+          "formacion": [
+            {
+              "titulo": "Public Accountant",
+              "institucion": "Universidad Nacional de Córdoba (UNC)",
+              "anio": "2016-2021"
+            },
+            {
+              "titulo": "Foreign Trade Specialization",
+              "institucion": "AAECE - Asociación Argentino de Estudios de Comercio Exterior",
+              "anio": "2022"
+            },
+            {
+              "titulo": "Customs Management Certification",
+              "institucion": "AFIP",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "$2M+",
+              "label": "In import/export operations"
+            },
+            {
+              "metric": "25%",
+              "label": "Tax savings for clients"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA Fiscal Structure",
+              "descripcion": "Financial and tax structure optimization"
+            },
+            {
+              "nombre": "Supply Chain Compliance",
+              "descripcion": "Customs compliance process implementation"
+            }
+          ],
+          "stack": ["SAP", "Excel Avanzado", "Tango", "Sistema AFIP", "Dynamics 365"],
+          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for foreign trade and tax optimization consulting"
         },
         {
           "name": "Pedro Enríquez",
@@ -815,7 +1403,53 @@
             "Commercial diplomacy",
             "Strategic alliances",
             "Global markets"
-          ]
+          ],
+          "foto": "/img/equipo/pedro-enriquez.jpg",
+          "categoria": "business",
+          "subcategoria": "International Business",
+          "trayectoria": "International negotiation specialist with experience in Latam market expansion and strategic alliance formation.",
+          "formacion": [
+            {
+              "titulo": "International Relations Degree",
+              "institucion": "Universidad de Belgrano",
+              "anio": "2017-2021"
+            },
+            {
+              "titulo": "Master in International Trade",
+              "institucion": "ESCP Business School",
+              "anio": "2022"
+            },
+            {
+              "titulo": "International Negotiation Certification",
+              "institucion": "Harvard Business School Online",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "15+",
+              "label": "Strategic alliances formed"
+            },
+            {
+              "metric": "3",
+              "label": "New markets penetrated"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA Latam Expansion",
+              "descripcion": "Regional expansion strategy"
+            },
+            {
+              "nombre": "Strategic Partnerships",
+              "descripcion": "International commercial partner network development"
+            }
+          ],
+          "stack": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo", "Excel", "PowerPoint", "CRM"],
+          "cta": "International business is built with trust, not contracts.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for international expansion and strategic alliances"
         },
         {
           "name": "Lisandro Ratto",
@@ -834,7 +1468,53 @@
             "Employer branding",
             "Internal communication",
             "People management"
-          ]
+          ],
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "categoria": "operations",
+          "subcategoria": "HR & Culture",
+          "trayectoria": "Professional with experience in employer branding and tech talent acquisition. Management of institutional communication and organizational culture.",
+          "formacion": [
+            {
+              "titulo": "Public Relations Degree",
+              "institucion": "Universidad de Palermo",
+              "anio": "2016-2020"
+            },
+            {
+              "titulo": "Specialization in Talent Acquisition",
+              "institucion": "LinkedIn Learning",
+              "anio": "2022"
+            },
+            {
+              "titulo": "HR Business Partner Certification",
+              "institucion": "SHRM",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "40+",
+              "label": "Tech talents hired"
+            },
+            {
+              "metric": "85%",
+              "label": "First-year retention rate"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "FUSA Employer Branding",
+              "descripcion": "Employer brand development and talent attraction strategy"
+            },
+            {
+              "nombre": "Candidate Experience",
+              "descripcion": "Attraction and selection process redesign"
+            }
+          ],
+          "stack": ["LinkedIn Recruiter", "Workday", "BambooHR", "Greenhouse", "Notion", "Figma"],
+          "cta": "People don't stay for salary. They stay for culture and purpose.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for recruitment processes and employer branding strategy"
         },
         {
           "name": "Ezequiel Lopez",
@@ -853,7 +1533,53 @@
             "Electromechanics",
             "Operational infrastructure",
             "Physical-digital integration"
-          ]
+          ],
+          "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "categoria": "tech",
+          "subcategoria": "Electromechanics & IoT",
+          "trayectoria": "Engineer with experience in electromechanical system design and IoT integration for industrial operations.",
+          "formacion": [
+            {
+              "titulo": "Electromechanical Engineer",
+              "institucion": "UTN - Universidad Tecnológica Nacional",
+              "anio": "2015-2021"
+            },
+            {
+              "titulo": "Industrial IoT Certification",
+              "institucion": "Siemens",
+              "anio": "2022"
+            },
+            {
+              "titulo": "Industrial Automation with PLC",
+              "institucion": "Rockwell Automation",
+              "anio": "2023"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "8",
+              "label": "IoT systems implemented"
+            },
+            {
+              "metric": "40%",
+              "label": "Operational efficiency in plants"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "Smart Factory Integration",
+              "descripcion": "IoT sensors and connectivity implementation in plant"
+            },
+            {
+              "nombre": "Automation Dashboard",
+              "descripcion": "Industrial equipment monitoring system"
+            }
+          ],
+          "stack": ["PLC Siemens", "Node-RED", "MQTT", "Arduino", "Raspberry Pi", "AutoCAD", "SolidWorks"],
+          "cta": "The future of industry is in the convergence between physical and digital.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for industrial automation and IoT projects"
         }
       ]
     },
