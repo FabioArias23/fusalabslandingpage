@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Layout } from "../components/Layout";
 import { LanguageProvider, useLanguage } from "../context/LanguageContext";
 import landingData from "../data/landingData.json";
@@ -51,14 +52,24 @@ function EquipoContent() {
               href={`/equipo/${member.slug}`}
               className="animate-reveal group relative block bg-gradient-to-b from-white/[0.04] to-white/[0.01] border border-white/[0.06] rounded-sm p-6 hover:border-fusa-indigo/50 hover:bg-white/[0.06] transition-all duration-500"
             >
-              {/* Initials Circle */}
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-fusa-indigo/20 to-fusa-indigo/5 border border-fusa-indigo/30 flex items-center justify-center mb-5 group-hover:scale-105 transition-transform duration-500">
-                <span className="font-conthrax text-lg text-fusa-indigo tracking-wide">
-                  {member.name
-                    .split(" ")
-                    .map((n: string) => n[0])
-                    .join("")}
-                </span>
+              {/* Avatar - Photo or Initials */}
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-fusa-indigo/20 to-fusa-indigo/5 border border-fusa-indigo/30 flex items-center justify-center mb-5 group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+                {member.foto ? (
+                  <Image 
+                    src={member.foto} 
+                    alt={member.name}
+                    width={64}
+                    height={64}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span className="font-conthrax text-lg text-fusa-indigo tracking-wide">
+                    {member.name
+                      .split(" ")
+                      .map((n: string) => n[0])
+                      .join("")}
+                  </span>
+                )}
               </div>
 
               {/* Name */}
