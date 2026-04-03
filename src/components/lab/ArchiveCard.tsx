@@ -31,7 +31,7 @@ export function ArchiveCard({ entry, lang }: Props) {
 
   return (
     <Link
-      href="/lab/archivo"
+      href={`/lab/archivo/${entry.id.replace("arch-", "")}`}
       className="group block bg-white/[0.03] border border-white/5 rounded-sm p-8 opacity-60 hover:opacity-100 hover:border-fusa-indigo/20 transition-all duration-500"
     >
       <div className="flex items-start justify-between gap-4 mb-6">

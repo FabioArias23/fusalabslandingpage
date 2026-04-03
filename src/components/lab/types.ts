@@ -59,6 +59,16 @@ export interface JournalEntry extends BaseLabEntry {
   body: string;
 }
 
+export interface BlogEntry extends BaseLabEntry {
+  type: string;
+  body: string;
+  autor: {
+    name: string;
+    slug: string;
+    role: string;
+  };
+}
+
 export interface ArchivoEntry extends BaseLabEntry {
   type: string;
   status: string;
@@ -70,11 +80,13 @@ export type LabEntry =
   | PrototipoEntry
   | NotaEntry
   | JournalEntry
-  | ArchivoEntry;
+  | ArchivoEntry
+  | BlogEntry;
 
 export interface LabContentData {
   hero: LabHero;
   categories: LabCategoryDef[];
+  blog: BlogEntry[];
   experimentos: ExperimentoEntry[];
   prototipos: PrototipoEntry[];
   notas: NotaEntry[];

@@ -41,7 +41,7 @@ export function ExperimentCard({ entry, lang }: Props) {
 
   return (
     <Link
-      href="/lab/experimentos"
+      href={`/lab/experimentos/${entry.id.replace("exp-", "")}`}
       className="group block bg-white/[0.02] border border-white/5 rounded-sm p-8 hover:border-fusa-indigo/20 transition-all duration-500"
     >
       <div className="flex items-start justify-between gap-4 mb-6">

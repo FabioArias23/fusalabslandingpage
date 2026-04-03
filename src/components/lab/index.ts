@@ -3,5 +3,6 @@ export { PrototypeCard } from "./PrototypeCard";
 export { NoteCard } from "./NoteCard";
 export { JournalCard } from "./JournalCard";
 export { ArchiveCard } from "./ArchiveCard";
+export { BlogCard } from "./BlogCard";
 export { LabCardGrid } from "./LabCardGrid";
 export * from "./types";

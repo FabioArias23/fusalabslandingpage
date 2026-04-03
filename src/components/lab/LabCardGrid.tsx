@@ -4,23 +4,26 @@ import type {
   NotaEntry,
   JournalEntry,
   ArchivoEntry,
+  BlogEntry,
 } from "./types";
 import { ExperimentCard } from "./ExperimentCard";
 import { PrototypeCard } from "./PrototypeCard";
 import { NoteCard } from "./NoteCard";
 import { JournalCard } from "./JournalCard";
 import { ArchiveCard } from "./ArchiveCard";
+import { BlogCard } from "./BlogCard";
 
 type Entry =
   | ExperimentoEntry
   | PrototipoEntry
   | NotaEntry
   | JournalEntry
-  | ArchivoEntry;
+  | ArchivoEntry
+  | BlogEntry;
 
 interface Props {
   entries: Entry[];
-  type: "experimento" | "prototipo" | "nota" | "journal" | "archivo";
+  type: "experimento" | "prototipo" | "nota" | "journal" | "archivo" | "blog";
   lang: "es" | "en";
 }
 
@@ -47,6 +50,8 @@ export function LabCardGrid({ entries, type, lang }: Props) {
             return <JournalCard key={entry.id} entry={entry as JournalEntry} lang={lang} />;
           case "archivo":
             return <ArchiveCard key={entry.id} entry={entry as ArchivoEntry} lang={lang} />;
+          case "blog":
+            return <BlogCard key={entry.id} entry={entry as BlogEntry} lang={lang} />;
         }
       })}
     </div>

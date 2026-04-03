@@ -41,7 +41,7 @@ export function NoteCard({ entry, lang }: Props) {
 
   return (
     <Link
-      href="/lab/notas"
+      href={`/lab/notas/${entry.id.replace("nota-", "")}`}
       className="group block bg-white/[0.02] border border-white/5 rounded-sm p-8 hover:border-fusa-indigo/20 transition-all duration-500"
     >
       <div className="flex items-center justify-between gap-4 mb-6">
