@@ -8,7 +8,7 @@ export const Logo = () => (
     <img
       src="/img/WORDMARK 1.svg"
       alt="FUSA LABS"
-      className="h-6 md:h-7 w-auto transition-opacity duration-500 group-hover:opacity-90"
+      className="h-[14px] md:h-[17px] w-auto transition-opacity duration-500 group-hover:opacity-90"
     />
   </div>
 );
