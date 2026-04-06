@@ -157,10 +157,22 @@
       ]
     },
     "metrics": [
-      { "value": "3", "label": "Productos FUSA" },
-      { "value": "8", "label": "Ingenieros y expertos" },
-      { "value": "7", "label": "Áreas de expertise" },
-      { "value": "24hs", "label": "Tiempo de respuesta" }
+      {
+        "value": "3",
+        "label": "Productos FUSA"
+      },
+      {
+        "value": "8",
+        "label": "Ingenieros y expertos"
+      },
+      {
+        "value": "7",
+        "label": "Áreas de expertise"
+      },
+      {
+        "value": "24hs",
+        "label": "Tiempo de respuesta"
+      }
     ],
     "trustPoints": [
       {
@@ -242,14 +254,14 @@
           "trayectoria": "Más de 5 años coordinando proyectos tecnológicos entre equipos técnicos y comerciales. Experiencia en el sector aeroespacial y su aplicación en proyectos de innovación.",
           "formacion": [
             {
-              "titulo": "Ingeniero Aeroespacial",
-              "institucion": "Universidad Nacional de Córdoba (UNC)",
-              "anio": "2018-2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Certificación en Gestión de Proyectos Ágiles",
-              "institucion": "Scrum Master",
-              "anio": "2024"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -264,15 +276,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA AGENTS",
-              "descripcion": "Coordinación del desarrollo del producto SaaS multiagente"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "FUSA RAG",
-              "descripcion": "Gestión de implementación del sistema de knowledge base"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Project Management", "Notion", "Jira", "Agile", "Scrum", "Trello"],
+          "stack": [
+            "Project Management",
+            "Notion",
+            "Jira",
+            "Agile",
+            "Scrum",
+            "Trello"
+          ],
           "cita": "La tecnología sin ejecución es solo idea. Lo que importa es transformar conceptos en resultados tangibles.",
           "disponible": true,
           "links": [],
@@ -302,19 +321,19 @@
           "trayectoria": "Especialista en crecimiento digital B2B con enfoque en métricas de acquisition y retención. Ha liderado estrategias de branding para startups tech.",
           "formacion": [
             {
-              "titulo": "Licenciatura en Marketing Digital",
-              "institucion": "Universidad de Palermo",
-              "anio": "2019-2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Google Analytics Certified",
-              "institucion": "Google",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "HubSpot Inbound Marketing",
-              "institucion": "HubSpot Academy",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -329,15 +348,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "Brand Strategy FUSA",
-              "descripcion": "Desarrollo de identidad de marca y estrategia de contenidos"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Growth Campaign 2025",
-              "descripcion": "Campaña de adquisición de clientes B2B"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["HubSpot", "Google Analytics", "SEMrush", "Mailchimp", "Buffer", "Figma"],
+          "stack": [
+            "HubSpot",
+            "Google Analytics",
+            "SEMrush",
+            "Mailchimp",
+            "Buffer",
+            "Figma"
+          ],
           "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
           "disponible": true,
           "links": [],
@@ -367,19 +393,19 @@
           "trayectoria": "Arquitecto de sistemas con experiencia en diseño de soluciones enterprise. Especializado en integración de IA/ML en productos escalables.",
           "formacion": [
             {
-              "titulo": "Ingeniero en Sistemas de Información",
-              "institucion": "UTN - Universidad Tecnológica Nacional",
-              "anio": "2017-2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Machine Learning Specialization",
-              "institucion": "Stanford Online",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "AWS Solutions Architect Professional",
-              "institucion": "Amazon Web Services",
-              "anio": "2024"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -394,15 +420,25 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA RAG Engine",
-              "descripcion": "Arquitectura del sistema de Retrieval-Augmented Generation"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Multi-Agent Orchestration",
-              "descripcion": "Diseño de red de agentes IA para automatización"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Python", "TensorFlow", "LangChain", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis", "GraphQL"],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "LangChain",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "PostgreSQL",
+            "Redis",
+            "GraphQL"
+          ],
           "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
           "disponible": true,
           "links": [],
@@ -432,19 +468,19 @@
           "trayectoria": "Desarrollador con experiencia en delivery de productos tech. Especializado en integración de capacidades de IA en sistemas existentes.",
           "formacion": [
             {
-              "titulo": "Analista de Sistemas",
-              "institucion": "Instituto Tecnológico de Buenos Aires (ITBA)",
-              "anio": "2018-2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "React & Next.js Master",
-              "institucion": "Frontend Masters",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "NestJS Developer Certification",
-              "institucion": "NestJS",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -459,15 +495,25 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA OMNICANAL",
-              "descripcion": "Desarrollo del sistema de gestión multicanal"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Dashboard Analytics",
-              "descripcion": "Plataforma de métricas en tiempo real"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["TypeScript", "React", "Next.js", "NestJS", "PostgreSQL", "Redis", "Docker", "Git", "CI/CD"],
+          "stack": [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "Git",
+            "CI/CD"
+          ],
           "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
           "disponible": true,
           "links": [],
@@ -497,19 +543,19 @@
           "trayectoria": "Contador público con especialización en comercio internacional. Experiencia en gestión aduanera y optimización fiscal para empresas B2B.",
           "formacion": [
             {
-              "titulo": "Contador Público",
-              "institucion": "Universidad Nacional de Córdoba (UNC)",
-              "anio": "2016-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Especialización en Comercio Exterior",
-              "institucion": "AAECE - Asociación Argentino de Estudios de Comercio Exterior",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Certificación en Gestión Aduanera",
-              "institucion": "AFIP",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -524,15 +570,21 @@
           ],
           "proyectos": [
             {
-              "nombre": "Estructura Fiscal FUSA",
-              "descripcion": "Optimización de estructura financiera y fiscal"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Supply Chain Compliance",
-              "descripcion": "Implementación de procesos de compliance aduanero"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["SAP", "Excel Avanzado", "Tango", "Sistema AFIP", "Dynamics 365"],
+          "stack": [
+            "SAP",
+            "Excel Avanzado",
+            "Tango",
+            "Sistema AFIP",
+            "Dynamics 365"
+          ],
           "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
           "disponible": true,
           "links": [],
@@ -542,39 +594,44 @@
           "name": "Pedro Enríquez",
           "slug": "pedro-enriquez",
           "email": "agustinenriquez321@gmail.com",
-          "title": "Lic. Relaciones Internacionales",
-          "bio": "Negocios globales. Diplomacia comercial B2B. Expansión mercados.",
-          "highlight": "Negocios",
-          "keywords": ["Internacional", "B2B", "Diplomacia"],
+          "title": "Project Manager",
+          "bio": "Internacionalización de empresas. Gestor de operaciones internacionales. Copywriting estratégico.",
+          "highlight": "Project Management",
+          "keywords": [
+            "Geopolítica",
+            "Negociación",
+            "Liderazgo",
+            "Optimización"
+          ],
           "linkedin": "",
-          "resumen": "Profesional en relaciones internacionales especializado en negocios globales, negociación B2B y expansión de mercados.",
-          "aporte": "Articula relaciones comerciales a nivel internacional. Identifica oportunidades de expansión y gestiona negociación con stakeholders globales.",
+          "resumen": "Project Manager enfocado en internacionalización de empresas, coordinación de operaciones internacionales y construcción de mensajes estratégicos mediante copywriting.",
+          "aporte": "Diseña y ejecuta iniciativas de expansión internacional, lidera negociaciones multiculturales y optimiza procesos operativos para escalar resultados.",
           "areasEnfoque": [
-            "Negociación B2B",
-            "Expansión internacional",
-            "Diplomacia comercial",
-            "Alianzas estratégicas",
-            "Mercados globales"
+            "Internacionalización de empresas",
+            "Gestión de operaciones internacionales",
+            "Copywriting estratégico",
+            "Negociación multicultural",
+            "Optimización de procesos"
           ],
           "foto": "/img/equipo/pedro-enriquez.jpg",
           "categoria": "business",
-          "subcategoria": "Negocios Internacionales",
-          "trayectoria": "Especialista en negociación internacional con experiencia en expansión de mercados Latam y formación de alianzas estratégicas.",
+          "subcategoria": "Project Management Internacional",
+          "trayectoria": "Lidera procesos de internacionalización combinando visión geopolítica, negociación estratégica, liderazgo de equipos y optimización continua.",
           "formacion": [
             {
-              "titulo": "Licenciatura en Relaciones Internacionales",
-              "institucion": "Universidad de Belgrano",
-              "anio": "2017-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Máster en Comercio Internacional",
-              "institucion": "ESCP Business School",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Certificación en Negociación Internacional",
-              "institucion": "Harvard Business School Online",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -589,15 +646,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA Expansion Latam",
-              "descripcion": "Estrategia de expansión regional"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Strategic Partnerships",
-              "descripcion": "Desarrollo de red de socios comerciales internacionales"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo", "Excel", "PowerPoint", "CRM"],
+          "stack": [
+            "Salesforce",
+            "LinkedIn Sales Navigator",
+            "ZoomInfo",
+            "Excel",
+            "PowerPoint",
+            "CRM"
+          ],
           "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
           "disponible": true,
           "links": [],
@@ -627,19 +691,19 @@
           "trayectoria": "Profesional con experiencia en employer branding y adquisición de talento tech. Gestión de comunicación institucional y cultura organizacional.",
           "formacion": [
             {
-              "titulo": "Licenciatura en Relaciones Públicas",
-              "institucion": "Universidad de Palermo",
-              "anio": "2016-2020"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Specialization in Talent Acquisition",
-              "institucion": "LinkedIn Learning",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "HR Business Partner Certification",
-              "institucion": "SHRM",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -654,15 +718,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "Employer Branding FUSA",
-              "descripcion": "Desarrollo de marca empleadora y estrategia de atracción de talento"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Candidate Experience",
-              "descripcion": "Rediseño del proceso de atracción y selección"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["LinkedIn Recruiter", "Workday", "BambooHR", "Greenhouse", "Notion", "Figma"],
+          "stack": [
+            "LinkedIn Recruiter",
+            "Workday",
+            "BambooHR",
+            "Greenhouse",
+            "Notion",
+            "Figma"
+          ],
           "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
           "disponible": true,
           "links": [],
@@ -692,19 +763,19 @@
           "trayectoria": "Ingeniero con experiencia en diseño de sistemas electromecánicos e integración IoT para operaciones industriales.",
           "formacion": [
             {
-              "titulo": "Ingeniero Electromecánico",
-              "institucion": "UTN - Universidad Tecnológica Nacional",
-              "anio": "2015-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Certificación en IoT Industrial",
-              "institucion": "Siemens",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Automatización Industrial con PLC",
-              "institucion": "Rockwell Automation",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -719,15 +790,23 @@
           ],
           "proyectos": [
             {
-              "nombre": "Smart Factory Integration",
-              "descripcion": "Implementación de sensores y conectividad IoT en planta"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Automation Dashboard",
-              "descripcion": "Sistema de monitoreo de equipos industriales"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["PLC Siemens", "Node-RED", "MQTT", "Arduino", "Raspberry Pi", "AutoCAD", "SolidWorks"],
+          "stack": [
+            "PLC Siemens",
+            "Node-RED",
+            "MQTT",
+            "Arduino",
+            "Raspberry Pi",
+            "AutoCAD",
+            "SolidWorks"
+          ],
           "cta": "El futuro de la industria está en la convergencia entre lo físico y lo digital.",
           "disponible": true,
           "links": [],
@@ -844,7 +923,10 @@
         "text": "Sede en Argentina.\nFormosa."
       },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
-      "status": { "text": "Ronda de inversión abierta", "active": true }
+      "status": {
+        "text": "Ronda de inversión abierta",
+        "active": true
+      }
     }
   },
   "en": {
@@ -1005,10 +1087,22 @@
       ]
     },
     "metrics": [
-      { "value": "3", "label": "FUSA Products" },
-      { "value": "8", "label": "Engineers & Experts" },
-      { "value": "7", "label": "Expertise Areas" },
-      { "value": "24hs", "label": "Response Time" }
+      {
+        "value": "3",
+        "label": "FUSA Products"
+      },
+      {
+        "value": "8",
+        "label": "Engineers & Experts"
+      },
+      {
+        "value": "7",
+        "label": "Expertise Areas"
+      },
+      {
+        "value": "24hs",
+        "label": "Response Time"
+      }
     ],
     "trustPoints": [
       {
@@ -1090,14 +1184,14 @@
           "trayectoria": "Over 5 years coordinating tech projects between technical and commercial teams. Experience in aerospace sector and its application in innovation projects.",
           "formacion": [
             {
-              "titulo": "Aerospace Engineer",
-              "institucion": "Universidad Nacional de Córdoba (UNC)",
-              "anio": "2018-2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Agile Project Management Certification",
-              "institucion": "Scrum Master",
-              "anio": "2024"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1112,15 +1206,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA AGENTS",
-              "descripcion": "Coordination of multi-agent SaaS product development"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "FUSA RAG",
-              "descripcion": "Implementation management of knowledge base system"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Project Management", "Notion", "Jira", "Agile", "Scrum", "Trello"],
+          "stack": [
+            "Project Management",
+            "Notion",
+            "Jira",
+            "Agile",
+            "Scrum",
+            "Trello"
+          ],
           "cita": "Technology without execution is just an idea. What matters is transforming concepts into tangible results.",
           "disponible": true,
           "links": [],
@@ -1150,19 +1251,19 @@
           "trayectoria": "B2B digital growth specialist focused on acquisition and retention metrics. Has led branding strategies for tech startups.",
           "formacion": [
             {
-              "titulo": "Digital Marketing Degree",
-              "institucion": "Universidad de Palermo",
-              "anio": "2019-2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Google Analytics Certified",
-              "institucion": "Google",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "HubSpot Inbound Marketing",
-              "institucion": "HubSpot Academy",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1177,15 +1278,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA Brand Strategy",
-              "descripcion": "Brand identity development and content strategy"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Growth Campaign 2025",
-              "descripcion": "B2B customer acquisition campaign"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["HubSpot", "Google Analytics", "SEMrush", "Mailchimp", "Buffer", "Figma"],
+          "stack": [
+            "HubSpot",
+            "Google Analytics",
+            "SEMrush",
+            "Mailchimp",
+            "Buffer",
+            "Figma"
+          ],
           "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
           "disponible": true,
           "links": [],
@@ -1215,19 +1323,19 @@
           "trayectoria": "Systems architect with experience in enterprise solution design. Specialized in AI/ML integration in scalable products.",
           "formacion": [
             {
-              "titulo": "Information Systems Engineer",
-              "institucion": "UTN - Universidad Tecnológica Nacional",
-              "anio": "2017-2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Machine Learning Specialization",
-              "institucion": "Stanford Online",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "AWS Solutions Architect Professional",
-              "institucion": "Amazon Web Services",
-              "anio": "2024"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1242,15 +1350,25 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA RAG Engine",
-              "descripcion": "Retrieval-Augmented Generation system architecture"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Multi-Agent Orchestration",
-              "descripcion": "AI agent network design for automation"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Python", "TensorFlow", "LangChain", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis", "GraphQL"],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "LangChain",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "PostgreSQL",
+            "Redis",
+            "GraphQL"
+          ],
           "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
           "disponible": true,
           "links": [],
@@ -1280,19 +1398,19 @@
           "trayectoria": "Developer with experience in tech product delivery. Specialized in AI capabilities integration in existing systems.",
           "formacion": [
             {
-              "titulo": "Systems Analyst",
-              "institucion": "Instituto Tecnológico de Buenos Aires (ITBA)",
-              "anio": "2018-2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "React & Next.js Master",
-              "institucion": "Frontend Masters",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "NestJS Developer Certification",
-              "institucion": "NestJS",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1307,15 +1425,25 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA OMNICANAL",
-              "descripcion": "Multichannel management system development"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Dashboard Analytics",
-              "descripcion": "Real-time metrics platform"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["TypeScript", "React", "Next.js", "NestJS", "PostgreSQL", "Redis", "Docker", "Git", "CI/CD"],
+          "stack": [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "Git",
+            "CI/CD"
+          ],
           "cta": "Code is the means, not the end. What matters is solving real problems.",
           "disponible": true,
           "links": [],
@@ -1345,19 +1473,19 @@
           "trayectoria": "Public accountant with specialization in international trade. Experience in customs management and tax optimization for B2B companies.",
           "formacion": [
             {
-              "titulo": "Public Accountant",
-              "institucion": "Universidad Nacional de Córdoba (UNC)",
-              "anio": "2016-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Foreign Trade Specialization",
-              "institucion": "AAECE - Asociación Argentino de Estudios de Comercio Exterior",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Customs Management Certification",
-              "institucion": "AFIP",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1372,15 +1500,21 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA Fiscal Structure",
-              "descripcion": "Financial and tax structure optimization"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Supply Chain Compliance",
-              "descripcion": "Customs compliance process implementation"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["SAP", "Excel Avanzado", "Tango", "Sistema AFIP", "Dynamics 365"],
+          "stack": [
+            "SAP",
+            "Excel Avanzado",
+            "Tango",
+            "Sistema AFIP",
+            "Dynamics 365"
+          ],
           "cta": "Numbers tell the truth. My job is to make them speak for the business.",
           "disponible": true,
           "links": [],
@@ -1390,39 +1524,44 @@
           "name": "Pedro Enríquez",
           "slug": "pedro-enriquez",
           "email": "agustinenriquez321@gmail.com",
-          "title": "Intl. Relations Degree",
-          "bio": "Global business. B2B commercial diplomacy. Market expansion.",
-          "highlight": "Business",
-          "keywords": ["International", "B2B", "Diplomacy"],
+          "title": "Project Manager",
+          "bio": "Business internationalization. International operations management. Strategic copywriting.",
+          "highlight": "Project Management",
+          "keywords": [
+            "Geopolitics",
+            "Negotiation",
+            "Leadership",
+            "Optimization"
+          ],
           "linkedin": "",
-          "resumen": "International relations professional specialized in global business, B2B negotiation, and market expansion.",
-          "aporte": "Articulates commercial relations internationally. Identifies expansion opportunities and manages negotiation with global stakeholders.",
+          "resumen": "Project Manager focused on company internationalization, international operations management, and strategic copywriting to position offers clearly.",
+          "aporte": "Leads international expansion initiatives, drives cross-cultural negotiations, and optimizes operational workflows to improve delivery and growth.",
           "areasEnfoque": [
-            "B2B negotiation",
-            "International expansion",
-            "Commercial diplomacy",
-            "Strategic alliances",
-            "Global markets"
+            "Business internationalization",
+            "International operations management",
+            "Strategic copywriting",
+            "Cross-cultural negotiation",
+            "Process optimization"
           ],
           "foto": "/img/equipo/pedro-enriquez.jpg",
           "categoria": "business",
-          "subcategoria": "International Business",
-          "trayectoria": "International negotiation specialist with experience in Latam market expansion and strategic alliance formation.",
+          "subcategoria": "International Project Management",
+          "trayectoria": "Leads internationalization processes combining geopolitical awareness, strategic negotiation, team leadership, and continuous optimization.",
           "formacion": [
             {
-              "titulo": "International Relations Degree",
-              "institucion": "Universidad de Belgrano",
-              "anio": "2017-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Master in International Trade",
-              "institucion": "ESCP Business School",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "International Negotiation Certification",
-              "institucion": "Harvard Business School Online",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1437,15 +1576,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA Latam Expansion",
-              "descripcion": "Regional expansion strategy"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Strategic Partnerships",
-              "descripcion": "International commercial partner network development"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo", "Excel", "PowerPoint", "CRM"],
+          "stack": [
+            "Salesforce",
+            "LinkedIn Sales Navigator",
+            "ZoomInfo",
+            "Excel",
+            "PowerPoint",
+            "CRM"
+          ],
           "cta": "International business is built with trust, not contracts.",
           "disponible": true,
           "links": [],
@@ -1475,19 +1621,19 @@
           "trayectoria": "Professional with experience in employer branding and tech talent acquisition. Management of institutional communication and organizational culture.",
           "formacion": [
             {
-              "titulo": "Public Relations Degree",
-              "institucion": "Universidad de Palermo",
-              "anio": "2016-2020"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Specialization in Talent Acquisition",
-              "institucion": "LinkedIn Learning",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "HR Business Partner Certification",
-              "institucion": "SHRM",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1502,15 +1648,22 @@
           ],
           "proyectos": [
             {
-              "nombre": "FUSA Employer Branding",
-              "descripcion": "Employer brand development and talent attraction strategy"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Candidate Experience",
-              "descripcion": "Attraction and selection process redesign"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["LinkedIn Recruiter", "Workday", "BambooHR", "Greenhouse", "Notion", "Figma"],
+          "stack": [
+            "LinkedIn Recruiter",
+            "Workday",
+            "BambooHR",
+            "Greenhouse",
+            "Notion",
+            "Figma"
+          ],
           "cta": "People don't stay for salary. They stay for culture and purpose.",
           "disponible": true,
           "links": [],
@@ -1540,19 +1693,19 @@
           "trayectoria": "Engineer with experience in electromechanical system design and IoT integration for industrial operations.",
           "formacion": [
             {
-              "titulo": "Electromechanical Engineer",
-              "institucion": "UTN - Universidad Tecnológica Nacional",
-              "anio": "2015-2021"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Industrial IoT Certification",
-              "institucion": "Siemens",
-              "anio": "2022"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             },
             {
-              "titulo": "Industrial Automation with PLC",
-              "institucion": "Rockwell Automation",
-              "anio": "2023"
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
             }
           ],
           "logros": [
@@ -1567,15 +1720,23 @@
           ],
           "proyectos": [
             {
-              "nombre": "Smart Factory Integration",
-              "descripcion": "IoT sensors and connectivity implementation in plant"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             },
             {
-              "nombre": "Automation Dashboard",
-              "descripcion": "Industrial equipment monitoring system"
+              "nombre": "to be set",
+              "descripcion": "to be set"
             }
           ],
-          "stack": ["PLC Siemens", "Node-RED", "MQTT", "Arduino", "Raspberry Pi", "AutoCAD", "SolidWorks"],
+          "stack": [
+            "PLC Siemens",
+            "Node-RED",
+            "MQTT",
+            "Arduino",
+            "Raspberry Pi",
+            "AutoCAD",
+            "SolidWorks"
+          ],
           "cta": "The future of industry is in the convergence between physical and digital.",
           "disponible": true,
           "links": [],
@@ -1687,9 +1848,15 @@
         "title": "Navigation",
         "links": ["Home", "Team", "Services", "Products"]
       },
-      "location": { "title": "Location", "text": "HQ in Argentina.\nFormosa." },
+      "location": {
+        "title": "Location",
+        "text": "HQ in Argentina.\nFormosa."
+      },
       "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
-      "status": { "text": "Investment round open", "active": true }
+      "status": {
+        "text": "Investment round open",
+        "active": true
+      }
     }
   }
 }
