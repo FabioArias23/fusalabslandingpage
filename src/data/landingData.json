@@ -8,7 +8,12 @@
     },
     "navigation": {
       "languageLabel": "ENGLISH",
-      "menuItems": ["Equipo", "Servicios", "Productos", "Lab"],
+      "menuItems": [
+        "Equipo",
+        "Servicios",
+        "Productos",
+        "Lab"
+      ],
       "ctaButton": "CONTACTO"
     },
     "hero": {
@@ -34,28 +39,44 @@
           "num": "001",
           "title": "Desarrollo de Agentes de IA",
           "description": "Agentes a medida diseñados para resolver desafíos específicos, optimizar flujos de trabajo y aumentar la eficiencia automatizada.",
-          "tags": ["Agente IA", "Automatización", "Integración"],
+          "tags": [
+            "Agente IA",
+            "Automatización",
+            "Integración"
+          ],
           "icon": "Cpu"
         },
         {
           "num": "002",
           "title": "Automatización con IA Personalizada",
           "description": "Eliminamos tareas repetitivas y nos integramos sin problemas con tus sistemas existentes para aumentos medibles en productividad.",
-          "tags": ["Optimización", "Flujos de trabajo", "ROI"],
+          "tags": [
+            "Optimización",
+            "Flujos de trabajo",
+            "ROI"
+          ],
           "icon": "Layers"
         },
         {
           "num": "003",
           "title": "Aplicaciones SaaS por Sector",
           "description": "Soluciones de IA adaptadas a los requisitos únicos de tu industria, utilizando plataformas propietarias.",
-          "tags": ["SaaS", "Específico", "Cloud"],
+          "tags": [
+            "SaaS",
+            "Específico",
+            "Cloud"
+          ],
           "icon": "Zap"
         },
         {
           "num": "004",
           "title": "Consultoría en Implementación",
           "description": "Orientación estratégica para navegar tu trayectoria de adopción de IA, desde la evaluación hasta la optimización.",
-          "tags": ["Estrategia", "Planning", "Transformación"],
+          "tags": [
+            "Estrategia",
+            "Planning",
+            "Transformación"
+          ],
           "icon": "Target"
         }
       ]
@@ -104,7 +125,9 @@
             "priceFrom": "Desde $99",
             "priceTo": "personalizado",
             "period": "/mes",
-            "features": ["Soluciones desde $99/mes"],
+            "features": [
+              "Soluciones desde $99/mes"
+            ],
             "deliveryLabel": "Tiempo de entrega",
             "deliveryTime": "Recurrente",
             "ctaButton": "Contactate"
@@ -237,7 +260,11 @@
           "title": "Ing. Aeroespacial & Marketing",
           "bio": "Aeroespacial UNC. Marketing proyectos tech. Coordinación operativa.",
           "highlight": "Proyectos",
-          "keywords": ["Aeroespacial", "Marketing", "Proyectos"],
+          "keywords": [
+            "Aeroespacial",
+            "Marketing",
+            "Proyectos"
+          ],
           "linkedin": "",
           "resumen": "Ingeniero aeroespacial con experiencia en marketing tech y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
           "aporte": "Coordina proyectos entre equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
@@ -266,12 +293,12 @@
           ],
           "logros": [
             {
-              "metric": "50+",
-              "label": "Proyectos coordinados"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "30%",
-              "label": "Reducción en tiempos de entrega"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -304,7 +331,11 @@
           "title": "Content & Marketing Strategist",
           "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
           "highlight": "Marketing",
-          "keywords": ["Marketing", "Growth", "Branding"],
+          "keywords": [
+            "Marketing",
+            "Growth",
+            "Branding"
+          ],
           "linkedin": "",
           "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
           "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
@@ -338,12 +369,12 @@
           ],
           "logros": [
             {
-              "metric": "3x",
-              "label": "Incremento en leads cualificados"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "45%",
-              "label": "Reducción en costo de adquisición"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -368,227 +399,6 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos"
-        },
-        {
-          "name": "Facundo Majda",
-          "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
-          "title": "AI/ML Engineer & Solutions Architect",
-          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
-          "highlight": "Arquitectura",
-          "keywords": ["Arquitectura", "IA", "Fullstack"],
-          "linkedin": "",
-          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
-          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
-          "areasEnfoque": [
-            "Arquitectura de soluciones",
-            "Inteligencia artificial aplicada",
-            "Desarrollo full-stack",
-            "Sistemas escalables",
-            "Automatización inteligente"
-          ],
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Arquitectura",
-          "trayectoria": "Arquitecto de sistemas con experiencia en diseño de soluciones enterprise. Especializado en integración de IA/ML en productos escalables.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "10+",
-              "label": "Sistemas arquitectados en producción"
-            },
-            {
-              "metric": "99.9%",
-              "label": "Uptime en arquitecturas críticas"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "Python",
-            "TensorFlow",
-            "LangChain",
-            "AWS",
-            "Docker",
-            "Kubernetes",
-            "PostgreSQL",
-            "Redis",
-            "GraphQL"
-          ],
-          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA"
-        },
-        {
-          "name": "Fabio Arias",
-          "slug": "fabio-arias",
-          "email": "fabio-adrian-arias@hotmail.com",
-          "title": "Full-Stack Developer",
-          "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
-          "highlight": "Producto",
-          "keywords": ["Fullstack", "IA", "Producto"],
-          "linkedin": "",
-          "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
-          "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
-          "areasEnfoque": [
-            "Desarrollo full-stack",
-            "Integración IA",
-            "Delivery de producto",
-            "Stack NestJS/React",
-            "Sistemas distribuidos"
-          ],
-          "foto": "/img/equipo/fabio-arias.jpg",
-          "categoria": "tech",
-          "subcategoria": "Full-Stack Development",
-          "trayectoria": "Desarrollador con experiencia en delivery de productos tech. Especializado en integración de capacidades de IA en sistemas existentes.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "20+",
-              "label": "Features entregados en producción"
-            },
-            {
-              "metric": "100%",
-              "label": "Delivery dentro de deadline"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "TypeScript",
-            "React",
-            "Next.js",
-            "NestJS",
-            "PostgreSQL",
-            "Redis",
-            "Docker",
-            "Git",
-            "CI/CD"
-          ],
-          "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de desarrollo fullstack"
-        },
-        {
-          "name": "Patricio Polo",
-          "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
-          "title": "Contador & Comercio Exterior",
-          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
-          "highlight": "Operación",
-          "keywords": ["Finanzas", "Export", "Aduanas"],
-          "linkedin": "",
-          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
-          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
-          "areasEnfoque": [
-            "Gestión aduanera",
-            "Comercio internacional",
-            "Optimización fiscal B2B",
-            "Import/Export",
-            "Estructura financiera"
-          ],
-          "foto": "/img/equipo/patricio-polo.jpg",
-          "categoria": "business",
-          "subcategoria": "Finanzas & Comercio",
-          "trayectoria": "Contador público con especialización en comercio internacional. Experiencia en gestión aduanera y optimización fiscal para empresas B2B.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "$2M+",
-              "label": "En operaciones de import/export"
-            },
-            {
-              "metric": "25%",
-              "label": "Ahorro fiscal para clientes"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "SAP",
-            "Excel Avanzado",
-            "Tango",
-            "Sistema AFIP",
-            "Dynamics 365"
-          ],
-          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal"
         },
         {
           "name": "Pedro Enríquez",
@@ -636,12 +446,12 @@
           ],
           "logros": [
             {
-              "metric": "15+",
-              "label": "Alianzas estratégicas formadas"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "3",
-              "label": "Mercados nuevos penetrated"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -668,13 +478,250 @@
           "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas"
         },
         {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI/ML Engineer & Solutions Architect",
+          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
+          "highlight": "Arquitectura",
+          "keywords": [
+            "Arquitectura",
+            "IA",
+            "Fullstack"
+          ],
+          "linkedin": "",
+          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
+          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
+          "areasEnfoque": [
+            "Arquitectura de soluciones",
+            "Inteligencia artificial aplicada",
+            "Desarrollo full-stack",
+            "Sistemas escalables",
+            "Automatización inteligente"
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Arquitectura",
+          "trayectoria": "Arquitecto de sistemas con experiencia en diseño de soluciones enterprise. Especializado en integración de IA/ML en productos escalables.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "LangChain",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "PostgreSQL",
+            "Redis",
+            "GraphQL"
+          ],
+          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA"
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
+          "highlight": "Producto",
+          "keywords": [
+            "Fullstack",
+            "IA",
+            "Producto"
+          ],
+          "linkedin": "",
+          "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
+          "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
+          "areasEnfoque": [
+            "Desarrollo full-stack",
+            "Integración IA",
+            "Delivery de producto",
+            "Stack NestJS/React",
+            "Sistemas distribuidos"
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "trayectoria": "Desarrollador con experiencia en delivery de productos tech. Especializado en integración de capacidades de IA en sistemas existentes.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "Git",
+            "CI/CD"
+          ],
+          "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de desarrollo fullstack"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Contador & Comercio Exterior",
+          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
+          "highlight": "Operación",
+          "keywords": [
+            "Finanzas",
+            "Export",
+            "Aduanas"
+          ],
+          "linkedin": "",
+          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
+          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
+          "areasEnfoque": [
+            "Gestión aduanera",
+            "Comercio internacional",
+            "Optimización fiscal B2B",
+            "Import/Export",
+            "Estructura financiera"
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finanzas & Comercio",
+          "trayectoria": "Contador público con especialización en comercio internacional. Experiencia en gestión aduanera y optimización fiscal para empresas B2B.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "SAP",
+            "Excel Avanzado",
+            "Tango",
+            "Sistema AFIP",
+            "Dynamics 365"
+          ],
+          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal"
+        },
+        {
           "name": "Lisandro Ratto",
           "slug": "lisandro-ratto",
           "email": "lisandroratto@gmail.com",
           "title": "Lic. RRPP & RRHH",
           "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
           "highlight": "Talent",
-          "keywords": ["RRHH", "RRPP", "Talent"],
+          "keywords": [
+            "RRHH",
+            "RRPP",
+            "Talent"
+          ],
           "linkedin": "",
           "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
           "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
@@ -708,12 +755,12 @@
           ],
           "logros": [
             {
-              "metric": "40+",
-              "label": "Talentos hired en roles tech"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "85%",
-              "label": "Retention rate primer año"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -746,7 +793,11 @@
           "title": "Ing. Electromecánico",
           "bio": "Electromecánica industrial. Automatización. Infra IoT.",
           "highlight": "Infra",
-          "keywords": ["Electromecánica", "IoT", "Automatización"],
+          "keywords": [
+            "Electromecánica",
+            "IoT",
+            "Automatización"
+          ],
           "linkedin": "",
           "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
           "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
@@ -780,12 +831,12 @@
           ],
           "logros": [
             {
-              "metric": "8",
-              "label": "Sistemas IoT implementados"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "40%",
-              "label": "Eficiencia operativa en plantas"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -913,10 +964,20 @@
       }
     },
     "footer": {
-      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "social": [
+        "Instagram",
+        "Github",
+        "Mail",
+        "WhatsApp"
+      ],
       "navigation": {
         "title": "Navegación",
-        "links": ["Inicio", "Equipo", "Servicios", "Productos"]
+        "links": [
+          "Inicio",
+          "Equipo",
+          "Servicios",
+          "Productos"
+        ]
       },
       "location": {
         "title": "Ubicación",
@@ -938,7 +999,12 @@
     },
     "navigation": {
       "languageLabel": "ESPAÑOL",
-      "menuItems": ["Team", "Services", "Products", "Lab"],
+      "menuItems": [
+        "Team",
+        "Services",
+        "Products",
+        "Lab"
+      ],
       "ctaButton": "CONTACT US"
     },
     "hero": {
@@ -964,28 +1030,44 @@
           "num": "001",
           "title": "AI Agent Development",
           "description": "Custom agents designed to solve specific challenges, optimize workflows, and increase automated efficiency.",
-          "tags": ["AI Agent", "Automation", "Integration"],
+          "tags": [
+            "AI Agent",
+            "Automation",
+            "Integration"
+          ],
           "icon": "Cpu"
         },
         {
           "num": "002",
           "title": "Custom AI Automation",
           "description": "We eliminate repetitive tasks and seamlessly integrate with your existing systems for measurable ROI.",
-          "tags": ["Optimization", "Workflows", "ROI"],
+          "tags": [
+            "Optimization",
+            "Workflows",
+            "ROI"
+          ],
           "icon": "Layers"
         },
         {
           "num": "003",
           "title": "Industry-specific SaaS",
           "description": "AI solutions adapted to your industry's unique requirements, using proprietary platforms.",
-          "tags": ["SaaS", "Specific", "Cloud"],
+          "tags": [
+            "SaaS",
+            "Specific",
+            "Cloud"
+          ],
           "icon": "Zap"
         },
         {
           "num": "004",
           "title": "Implementation Consulting",
           "description": "Strategic guidance to navigate your AI adoption journey, from evaluation to continuous optimization.",
-          "tags": ["Strategy", "Planning", "Transformation"],
+          "tags": [
+            "Strategy",
+            "Planning",
+            "Transformation"
+          ],
           "icon": "Target"
         }
       ]
@@ -1034,7 +1116,9 @@
             "priceFrom": "From $99",
             "priceTo": "custom",
             "period": "/month",
-            "features": ["Solutions starting at $99/month"],
+            "features": [
+              "Solutions starting at $99/month"
+            ],
             "deliveryLabel": "Delivery time",
             "deliveryTime": "Recurring",
             "ctaButton": "Contact Us"
@@ -1167,7 +1251,11 @@
           "title": "Aerospace Eng. & Marketing",
           "bio": "Aerospace UNC. Tech projects marketing. Operational coordination.",
           "highlight": "Projects",
-          "keywords": ["Aerospace", "Marketing", "Projects"],
+          "keywords": [
+            "Aerospace",
+            "Marketing",
+            "Projects"
+          ],
           "linkedin": "",
           "resumen": "Aerospace engineer with experience in tech marketing and project coordination. Hybrid profile between technology and communications.",
           "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
@@ -1196,12 +1284,12 @@
           ],
           "logros": [
             {
-              "metric": "50+",
-              "label": "Projects coordinated"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "30%",
-              "label": "Delivery time reduction"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -1234,7 +1322,11 @@
           "title": "Content & Marketing Strategist",
           "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
           "highlight": "Marketing",
-          "keywords": ["Marketing", "Growth", "Branding"],
+          "keywords": [
+            "Marketing",
+            "Growth",
+            "Branding"
+          ],
           "linkedin": "",
           "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
           "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
@@ -1268,12 +1360,12 @@
           ],
           "logros": [
             {
-              "metric": "3x",
-              "label": "Increase in qualified leads"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "45%",
-              "label": "Reduction in acquisition cost"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -1298,227 +1390,6 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for growth consulting and content strategy"
-        },
-        {
-          "name": "Facundo Majda",
-          "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
-          "title": "AI/ML Engineer & Solutions Architect",
-          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
-          "highlight": "Architecture",
-          "keywords": ["Architecture", "IA", "Fullstack"],
-          "linkedin": "",
-          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
-          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
-          "areasEnfoque": [
-            "Solution architecture",
-            "Applied artificial intelligence",
-            "Full-stack development",
-            "Scalable systems",
-            "Intelligent automation"
-          ],
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Architecture",
-          "trayectoria": "Systems architect with experience in enterprise solution design. Specialized in AI/ML integration in scalable products.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "10+",
-              "label": "Systems architected in production"
-            },
-            {
-              "metric": "99.9%",
-              "label": "Uptime on critical architectures"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "Python",
-            "TensorFlow",
-            "LangChain",
-            "AWS",
-            "Docker",
-            "Kubernetes",
-            "PostgreSQL",
-            "Redis",
-            "GraphQL"
-          ],
-          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for architecture and AI implementation projects"
-        },
-        {
-          "name": "Fabio Arias",
-          "slug": "fabio-arias",
-          "email": "fabio-adrian-arias@hotmail.com",
-          "title": "Full-Stack Developer",
-          "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
-          "highlight": "Product",
-          "keywords": ["Fullstack", "IA", "Product"],
-          "linkedin": "",
-          "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
-          "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
-          "areasEnfoque": [
-            "Full-stack development",
-            "AI integration",
-            "Product delivery",
-            "NestJS/React stack",
-            "Distributed systems"
-          ],
-          "foto": "/img/equipo/fabio-arias.jpg",
-          "categoria": "tech",
-          "subcategoria": "Full-Stack Development",
-          "trayectoria": "Developer with experience in tech product delivery. Specialized in AI capabilities integration in existing systems.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "20+",
-              "label": "Features delivered to production"
-            },
-            {
-              "metric": "100%",
-              "label": "Delivery on deadline"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "TypeScript",
-            "React",
-            "Next.js",
-            "NestJS",
-            "PostgreSQL",
-            "Redis",
-            "Docker",
-            "Git",
-            "CI/CD"
-          ],
-          "cta": "Code is the means, not the end. What matters is solving real problems.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for fullstack development projects"
-        },
-        {
-          "name": "Patricio Polo",
-          "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
-          "title": "Accountant & Foreign Trade",
-          "bio": "Customs import-export management. B2B tax optimization. International trade.",
-          "highlight": "Operations",
-          "keywords": ["Finance", "Export", "Customs"],
-          "linkedin": "",
-          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
-          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
-          "areasEnfoque": [
-            "Customs management",
-            "International trade",
-            "B2B tax optimization",
-            "Import/Export",
-            "Financial structure"
-          ],
-          "foto": "/img/equipo/patricio-polo.jpg",
-          "categoria": "business",
-          "subcategoria": "Finance & Trade",
-          "trayectoria": "Public accountant with specialization in international trade. Experience in customs management and tax optimization for B2B companies.",
-          "formacion": [
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            },
-            {
-              "titulo": "to be set",
-              "institucion": "to be set",
-              "anio": "to be set"
-            }
-          ],
-          "logros": [
-            {
-              "metric": "$2M+",
-              "label": "In import/export operations"
-            },
-            {
-              "metric": "25%",
-              "label": "Tax savings for clients"
-            }
-          ],
-          "proyectos": [
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            },
-            {
-              "nombre": "to be set",
-              "descripcion": "to be set"
-            }
-          ],
-          "stack": [
-            "SAP",
-            "Excel Avanzado",
-            "Tango",
-            "Sistema AFIP",
-            "Dynamics 365"
-          ],
-          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for foreign trade and tax optimization consulting"
         },
         {
           "name": "Pedro Enríquez",
@@ -1566,12 +1437,12 @@
           ],
           "logros": [
             {
-              "metric": "15+",
-              "label": "Strategic alliances formed"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "3",
-              "label": "New markets penetrated"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -1598,13 +1469,250 @@
           "disponibilidad": "Available for international expansion and strategic alliances"
         },
         {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI/ML Engineer & Solutions Architect",
+          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
+          "highlight": "Architecture",
+          "keywords": [
+            "Architecture",
+            "IA",
+            "Fullstack"
+          ],
+          "linkedin": "",
+          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
+          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
+          "areasEnfoque": [
+            "Solution architecture",
+            "Applied artificial intelligence",
+            "Full-stack development",
+            "Scalable systems",
+            "Intelligent automation"
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Architecture",
+          "trayectoria": "Systems architect with experience in enterprise solution design. Specialized in AI/ML integration in scalable products.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "LangChain",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "PostgreSQL",
+            "Redis",
+            "GraphQL"
+          ],
+          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for architecture and AI implementation projects"
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
+          "highlight": "Product",
+          "keywords": [
+            "Fullstack",
+            "IA",
+            "Product"
+          ],
+          "linkedin": "",
+          "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
+          "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
+          "areasEnfoque": [
+            "Full-stack development",
+            "AI integration",
+            "Product delivery",
+            "NestJS/React stack",
+            "Distributed systems"
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "trayectoria": "Developer with experience in tech product delivery. Specialized in AI capabilities integration in existing systems.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "Git",
+            "CI/CD"
+          ],
+          "cta": "Code is the means, not the end. What matters is solving real problems.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for fullstack development projects"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Accountant & Foreign Trade",
+          "bio": "Customs import-export management. B2B tax optimization. International trade.",
+          "highlight": "Operations",
+          "keywords": [
+            "Finance",
+            "Export",
+            "Customs"
+          ],
+          "linkedin": "",
+          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
+          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
+          "areasEnfoque": [
+            "Customs management",
+            "International trade",
+            "B2B tax optimization",
+            "Import/Export",
+            "Financial structure"
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finance & Trade",
+          "trayectoria": "Public accountant with specialization in international trade. Experience in customs management and tax optimization for B2B companies.",
+          "formacion": [
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            },
+            {
+              "titulo": "to be set",
+              "institucion": "to be set",
+              "anio": "to be set"
+            }
+          ],
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "proyectos": [
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            },
+            {
+              "nombre": "to be set",
+              "descripcion": "to be set"
+            }
+          ],
+          "stack": [
+            "SAP",
+            "Excel Avanzado",
+            "Tango",
+            "Sistema AFIP",
+            "Dynamics 365"
+          ],
+          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for foreign trade and tax optimization consulting"
+        },
+        {
           "name": "Lisandro Ratto",
           "slug": "lisandro-ratto",
           "email": "lisandroratto@gmail.com",
           "title": "PR & HR Degree",
           "bio": "Institutional strategy. Talent acquisition. Employer branding.",
           "highlight": "Talent",
-          "keywords": ["HR", "PR", "Talent"],
+          "keywords": [
+            "HR",
+            "PR",
+            "Talent"
+          ],
           "linkedin": "",
           "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
           "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
@@ -1638,12 +1746,12 @@
           ],
           "logros": [
             {
-              "metric": "40+",
-              "label": "Tech talents hired"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "85%",
-              "label": "First-year retention rate"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -1676,7 +1784,11 @@
           "title": "Electromechanical Eng.",
           "bio": "Industrial electromechanics. Automation. IoT infra.",
           "highlight": "Infra",
-          "keywords": ["Electromechanics", "IoT", "Automation"],
+          "keywords": [
+            "Electromechanics",
+            "IoT",
+            "Automation"
+          ],
           "linkedin": "",
           "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
           "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
@@ -1710,12 +1822,12 @@
           ],
           "logros": [
             {
-              "metric": "8",
-              "label": "IoT systems implemented"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "40%",
-              "label": "Operational efficiency in plants"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
           "proyectos": [
@@ -1843,10 +1955,20 @@
       }
     },
     "footer": {
-      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "social": [
+        "Instagram",
+        "Github",
+        "Mail",
+        "WhatsApp"
+      ],
       "navigation": {
         "title": "Navigation",
-        "links": ["Home", "Team", "Services", "Products"]
+        "links": [
+          "Home",
+          "Team",
+          "Services",
+          "Products"
+        ]
       },
       "location": {
         "title": "Location",
