@@ -18,12 +18,6 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-interface Formacion {
-  titulo: string;
-  institucion: string;
-  anio: string;
-}
-
 interface Logro {
   metric: string;
   label: string;
@@ -56,8 +50,6 @@ interface MemberData {
   foto: string;
   categoria: "tech" | "business" | "operations";
   subcategoria: string;
-  trayectoria: string;
-  formacion: Formacion[];
   logros: Logro[];
   proyectos: Proyecto[];
   stack: string[];
