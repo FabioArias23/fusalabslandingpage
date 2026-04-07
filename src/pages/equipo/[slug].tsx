@@ -23,11 +23,6 @@ interface Logro {
   label: string;
 }
 
-interface Proyecto {
-  nombre: string;
-  descripcion: string;
-}
-
 interface LinkExterno {
   tipo: string;
   url: string;
@@ -51,7 +46,6 @@ interface MemberData {
   categoria: "tech" | "business" | "operations";
   subcategoria: string;
   logros: Logro[];
-  proyectos: Proyecto[];
   stack: string[];
   cita: string;
   disponible: boolean;
@@ -95,6 +89,11 @@ const categoriaLabels = {
 function MemberProfileContent({ member }: MemberProps) {
   const { lang } = useLanguage();
   const m = lang === "es" ? member.es : member.en;
+  const linkedInHref = m.linkedin?.trim()
+    ? m.linkedin
+    : `https://www.linkedin.com/search/results/all/?keywords=${encodeURIComponent(
+        m.name,
+      )}`;
   const cat = categoriaColors[m.categoria];
   const catLabel =
     lang === "es"
@@ -209,33 +208,6 @@ function MemberProfileContent({ member }: MemberProps) {
               </div>
             )}
 
-            {/* Social Buttons */}
-            {(m.linkedin || m.github) && (
-              <div className="flex flex-wrap gap-3">
-                {m.linkedin && (
-                  <a
-                    href={m.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-white/[0.03] border border-white/[0.08] rounded-sm text-fusa-indigo/70 hover:text-fusa-indigo hover:border-fusa-indigo/40 transition-all font-conthrax text-[10px] uppercase tracking-widest"
-                  >
-                    <Linkedin size={14} />
-                    LinkedIn
-                  </a>
-                )}
-                {m.github && (
-                  <a
-                    href={m.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-white/[0.03] border border-white/[0.08] rounded-sm text-fusa-indigo/70 hover:text-fusa-indigo hover:border-fusa-indigo/40 transition-all font-conthrax text-[10px] uppercase tracking-widest"
-                  >
-                    <Github size={14} />
-                    GitHub
-                  </a>
-                )}
-              </div>
-            )}
           </div>
         </div>
 
@@ -276,38 +248,6 @@ function MemberProfileContent({ member }: MemberProps) {
                 {m.resumen}
               </p>
             </section>
-
-            {/* Proyectos */}
-            {m.proyectos && m.proyectos.length > 0 && (
-              <section className="animate-reveal delay-3">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-8 h-px bg-fusa-indigo/40" />
-                  <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                    {lang === "es"
-                      ? "Proyectos destacados"
-                      : "Featured Projects"}
-                  </h2>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {m.proyectos.map((proy, i) => (
-                    <div
-                      key={i}
-                      className="p-5 bg-white/[0.02] border border-white/[0.05] rounded-sm hover:border-fusa-indigo/30 hover:bg-white/[0.04] transition-all group"
-                    >
-                      <div className="flex items-center gap-2 mb-3">
-                        <div className="w-1.5 h-1.5 rounded-full bg-fusa-indigo/50 group-hover:bg-fusa-indigo transition-colors" />
-                        <h3 className="text-sm font-conthrax text-fusa-indigo uppercase tracking-wider">
-                          {proy.nombre}
-                        </h3>
-                      </div>
-                      <p className="text-xs text-white/50 leading-relaxed">
-                        {proy.descripcion}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
 
             {/* Stack */}
             {m.stack && m.stack.length > 0 && (
@@ -398,6 +338,29 @@ function MemberProfileContent({ member }: MemberProps) {
                     </p>
                   </div>
                 </a>
+
+                <div className="flex items-center gap-3 mt-4">
+                  <a
+                    href={linkedInHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    className="w-11 h-11 rounded-full border border-white/10 flex items-center justify-center text-white/60 transition-all duration-300 hover:scale-110 hover:bg-[#0A66C2] hover:border-transparent hover:text-white"
+                  >
+                    <Linkedin size={18} strokeWidth={1.5} />
+                  </a>
+                  {m.github && (
+                    <a
+                      href={m.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="GitHub"
+                      className="w-11 h-11 rounded-full border border-white/10 flex items-center justify-center text-white/60 transition-all duration-300 hover:scale-110 hover:bg-white hover:text-black hover:border-transparent"
+                    >
+                      <Github size={18} strokeWidth={1.5} />
+                    </a>
+                  )}
+                </div>
               </div>
 
               {/* Availability Info */}
