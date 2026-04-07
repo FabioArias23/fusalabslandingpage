@@ -2,7 +2,19 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { Layout } from "../../components/Layout";
 import { LanguageProvider, useLanguage } from "../../context/LanguageContext";
 import landingData from "../../data/landingData.json";
-import { Mail, ArrowLeft, Linkedin, Github, ExternalLink, Award, BookOpen, Briefcase, Code, Globe, TrendingUp, Shield } from "lucide-react";
+import {
+  Mail,
+  ArrowLeft,
+  Linkedin,
+  Github,
+  ExternalLink,
+  Award,
+  Briefcase,
+  Code,
+  Globe,
+  TrendingUp,
+  Shield,
+} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -63,9 +75,24 @@ interface MemberProps {
 }
 
 const categoriaColors = {
-  tech: { bg: "bg-blue-500/10", border: "border-blue-500/30", text: "text-blue-400", glow: "shadow-blue-500/20" },
-  business: { bg: "bg-emerald-500/10", border: "border-emerald-500/30", text: "text-emerald-400", glow: "shadow-emerald-500/20" },
-  operations: { bg: "bg-violet-500/10", border: "border-violet-500/30", text: "text-violet-400", glow: "shadow-violet-500/20" },
+  tech: {
+    bg: "bg-blue-500/10",
+    border: "border-blue-500/30",
+    text: "text-blue-400",
+    glow: "shadow-blue-500/20",
+  },
+  business: {
+    bg: "bg-emerald-500/10",
+    border: "border-emerald-500/30",
+    text: "text-emerald-400",
+    glow: "shadow-emerald-500/20",
+  },
+  operations: {
+    bg: "bg-violet-500/10",
+    border: "border-violet-500/30",
+    text: "text-violet-400",
+    glow: "shadow-violet-500/20",
+  },
 };
 
 const categoriaLabels = {
@@ -77,9 +104,14 @@ function MemberProfileContent({ member }: MemberProps) {
   const { lang } = useLanguage();
   const m = lang === "es" ? member.es : member.en;
   const cat = categoriaColors[m.categoria];
-  const catLabel = lang === "es" 
-    ? { tech: "TECH", business: "BUSINESS", operations: "OPERATIONS" }[m.categoria]
-    : { tech: "TECH", business: "BUSINESS", operations: "OPERATIONS" }[m.categoria];
+  const catLabel =
+    lang === "es"
+      ? { tech: "TECH", business: "BUSINESS", operations: "OPERATIONS" }[
+          m.categoria
+        ]
+      : { tech: "TECH", business: "BUSINESS", operations: "OPERATIONS" }[
+          m.categoria
+        ];
 
   return (
     <div className="min-h-screen pb-20 md:pb-32 pt-8">
@@ -89,7 +121,10 @@ function MemberProfileContent({ member }: MemberProps) {
           href="/equipo"
           className="inline-flex items-center gap-2 text-fusa-indigo/60 hover:text-fusa-indigo transition-colors font-conthrax text-[10px] tracking-widest uppercase mb-10 group"
         >
-          <ArrowLeft size={14} className="group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft
+            size={14}
+            className="group-hover:-translate-x-1 transition-transform"
+          />
           {lang === "es" ? "Volver al Equipo" : "Back to Team"}
         </Link>
 
@@ -100,8 +135,8 @@ function MemberProfileContent({ member }: MemberProps) {
             <div className="relative aspect-[4/5] rounded-sm overflow-hidden bg-gradient-to-br from-fusa-indigo/10 to-white/[0.02] border border-fusa-indigo/20 group">
               <div className="absolute inset-0 bg-radial-gradient from-fusa-indigo/15 to-transparent opacity-60" />
               {m.foto ? (
-                <Image 
-                  src={m.foto} 
+                <Image
+                  src={m.foto}
                   alt={m.name}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -109,13 +144,21 @@ function MemberProfileContent({ member }: MemberProps) {
               ) : (
                 <div className="absolute inset-0 flex items-center justify-center">
                   <span className="font-conthrax text-8xl md:text-9xl text-fusa-indigo/30 group-hover:scale-105 transition-transform duration-700">
-                    {m.name.split(" ").map((n: string) => n[0]).join("").slice(0, 2)}
+                    {m.name
+                      .split(" ")
+                      .map((n: string) => n[0])
+                      .join("")
+                      .slice(0, 2)}
                   </span>
                 </div>
               )}
               {/* Category Badge */}
-              <div className={`absolute top-4 left-4 ${cat.bg} ${cat.border} border px-3 py-1.5 rounded-sm`}>
-                <span className={`font-conthrax text-[9px] tracking-widest ${cat.text}`}>
+              <div
+                className={`absolute top-4 left-4 ${cat.bg} ${cat.border} border px-3 py-1.5 rounded-sm`}
+              >
+                <span
+                  className={`font-conthrax text-[9px] tracking-widest ${cat.text}`}
+                >
                   {catLabel}
                 </span>
               </div>
@@ -137,7 +180,7 @@ function MemberProfileContent({ member }: MemberProps) {
             <p className="text-[10px] font-conthrax text-fusa-indigo/50 uppercase tracking-[0.3em] mb-2">
               {m.subcategoria}
             </p>
-            
+
             {/* Name */}
             <h1 className="font-conthrax text-4xl md:text-5xl lg:text-6xl text-fusa-white tracking-tight uppercase mb-3">
               {m.name}
@@ -208,7 +251,7 @@ function MemberProfileContent({ member }: MemberProps) {
         {m.logros && m.logros.length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             {m.logros.map((logro, i) => (
-              <div 
+              <div
                 key={i}
                 className="p-6 bg-white/[0.02] border border-white/[0.05] rounded-sm hover:border-fusa-indigo/30 hover:bg-white/[0.04] transition-all group"
               >
@@ -227,27 +270,14 @@ function MemberProfileContent({ member }: MemberProps) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           {/* Main Content Column */}
           <div className="lg:col-span-8 space-y-12">
-            {/* Trayectoria */}
-            {m.trayectoria && (
-              <section className="animate-reveal">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-8 h-px bg-fusa-indigo/40" />
-                  <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                    {lang === "es" ? "Trayectoria" : "Background"}
-                  </h2>
-                </div>
-                <p className="text-base md:text-lg text-white/60 leading-relaxed">
-                  {m.trayectoria}
-                </p>
-              </section>
-            )}
-
             {/* Resumen */}
             <section className="animate-reveal delay-1">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-px bg-fusa-indigo/40" />
                 <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                  {lang === "es" ? "Perfil profesional" : "Professional Profile"}
+                  {lang === "es"
+                    ? "Perfil profesional"
+                    : "Professional Profile"}
                 </h2>
               </div>
               <p className="text-base md:text-lg text-white/60 leading-relaxed">
@@ -255,53 +285,20 @@ function MemberProfileContent({ member }: MemberProps) {
               </p>
             </section>
 
-            {/* Formacion */}
-            {m.formacion && m.formacion.length > 0 && (
-              <section className="animate-reveal delay-2">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-8 h-px bg-fusa-indigo/40" />
-                  <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                    {lang === "es" ? "Formación & Certificaciones" : "Education & Certifications"}
-                  </h2>
-                </div>
-                <div className="space-y-4">
-                  {m.formacion.map((edu, i) => (
-                    <div 
-                      key={i}
-                      className="flex items-start gap-4 p-4 bg-white/[0.02] border border-white/[0.05] rounded-sm hover:border-fusa-indigo/20 hover:bg-white/[0.03] transition-all group"
-                    >
-                      <div className="w-10 h-10 rounded-full bg-fusa-indigo/10 flex items-center justify-center text-fusa-indigo/60 group-hover:bg-fusa-indigo/20 group-hover:text-fusa-indigo transition-all shrink-0">
-                        <BookOpen size={18} />
-                      </div>
-                      <div>
-                        <h3 className="text-sm font-conthrax text-white/80 mb-1">
-                          {edu.titulo}
-                        </h3>
-                        <p className="text-xs text-white/40 mb-1">
-                          {edu.institucion}
-                        </p>
-                        <p className="text-[10px] text-fusa-indigo/50 uppercase tracking-wider">
-                          {edu.anio}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
             {/* Proyectos */}
             {m.proyectos && m.proyectos.length > 0 && (
               <section className="animate-reveal delay-3">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-8 h-px bg-fusa-indigo/40" />
                   <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                    {lang === "es" ? "Proyectos destacados" : "Featured Projects"}
+                    {lang === "es"
+                      ? "Proyectos destacados"
+                      : "Featured Projects"}
                   </h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {m.proyectos.map((proy, i) => (
-                    <div 
+                    <div
                       key={i}
                       className="p-5 bg-white/[0.02] border border-white/[0.05] rounded-sm hover:border-fusa-indigo/30 hover:bg-white/[0.04] transition-all group"
                     >
@@ -360,7 +357,9 @@ function MemberProfileContent({ member }: MemberProps) {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-px bg-fusa-indigo/40" />
                 <h2 className="text-[10px] font-conthrax text-fusa-indigo uppercase tracking-[0.25em]">
-                  {lang === "es" ? "Áreas de especialización" : "Areas of expertise"}
+                  {lang === "es"
+                    ? "Áreas de especialización"
+                    : "Areas of expertise"}
                 </h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -399,8 +398,12 @@ function MemberProfileContent({ member }: MemberProps) {
                     <Mail size={20} />
                   </div>
                   <div>
-                    <p className="text-[10px] text-white/30 uppercase font-conthrax tracking-widest mb-1">Email</p>
-                    <p className="text-sm text-white/70 group-hover:text-white transition-colors break-all">{m.email}</p>
+                    <p className="text-[10px] text-white/30 uppercase font-conthrax tracking-widest mb-1">
+                      Email
+                    </p>
+                    <p className="text-sm text-white/70 group-hover:text-white transition-colors break-all">
+                      {m.email}
+                    </p>
                   </div>
                 </a>
               </div>
@@ -441,7 +444,10 @@ function MemberProfileContent({ member }: MemberProps) {
                         <span className="text-sm text-white/60 group-hover:text-white/80">
                           {link.label}
                         </span>
-                        <ExternalLink size={14} className="text-fusa-indigo/40 group-hover:text-fusa-indigo" />
+                        <ExternalLink
+                          size={14}
+                          className="text-fusa-indigo/40 group-hover:text-fusa-indigo"
+                        />
                       </a>
                     ))}
                   </div>

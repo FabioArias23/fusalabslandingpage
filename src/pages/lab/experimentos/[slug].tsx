@@ -36,13 +36,13 @@ const CATEGORY_LABELS_EN: Record<string, string> = {
 const STATUS_LABELS_ES: Record<string, string> = {
   exploracion: "En exploración",
   validacion: "En validación",
-  completado: "Completado",
+  pausa: "Pausado",
 };
 
 const STATUS_LABELS_EN: Record<string, string> = {
   exploracion: "Exploring",
   validacion: "Validating",
-  completado: "Completed",
+  pausa: "Paused",
 };
 
 function formatDate(dateStr: string, lang: "es" | "en"): string {

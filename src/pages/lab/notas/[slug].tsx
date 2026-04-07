@@ -99,13 +99,15 @@ function NotaEntryContent({ entry }: NotaPageProps) {
         </div>
 
         {/* Excerpt as main content */}
-        <article className="prose prose-invert prose-lg max-w-none">
-          <div className="p-8 bg-white/[0.02] border border-white/10 rounded-sm">
-            <p className="text-lg md:text-xl text-white/70 italic leading-relaxed">
-              {e.excerpt}
-            </p>
-          </div>
-        </article>
+        {e.excerpt && (
+          <article className="prose prose-invert prose-lg max-w-none">
+            <div className="p-8 bg-white/[0.02] border border-white/10 rounded-sm">
+              <p className="text-lg md:text-xl text-white/70 italic leading-relaxed">
+                {e.excerpt}
+              </p>
+            </div>
+          </article>
+        )}
 
         {/* Footer navigation */}
         <div className="mt-16 pt-8 border-t border-white/10">

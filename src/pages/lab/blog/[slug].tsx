@@ -3,7 +3,6 @@ import { Layout } from "../../../components/Layout";
 import { LanguageProvider, useLanguage } from "../../../context/LanguageContext";
 import labData from "../../../data/lab.json";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import type { BlogEntry } from "../../../components/lab/types";
 
@@ -83,26 +82,24 @@ function BlogEntryContent({ entry }: BlogPageProps) {
           </p>
 
           {/* Autor */}
-          {e.autor && (
-            <Link 
-              href={`/equipo/${e.autor.slug}`}
-              className="flex items-center gap-4 p-4 bg-white/[0.02] border border-white/5 rounded-sm hover:border-fusa-indigo/20 transition-all group mb-6"
-            >
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-fusa-indigo/20 to-fusa-indigo/5 border border-fusa-indigo/30 flex items-center justify-center overflow-hidden">
-                <span className="font-conthrax text-sm text-fusa-indigo">
-                  {e.autor.name.split(" ").map((n) => n[0]).join("")}
-                </span>
-              </div>
-              <div>
-                <p className="text-sm font-conthrax text-fusa-white uppercase tracking-wider group-hover:text-fusa-indigo transition-colors">
-                  {e.autor.name}
-                </p>
-                <p className="text-xs text-white/40">
-                  {e.autor.role}
-                </p>
-              </div>
-            </Link>
-          )}
+          <Link 
+            href={`/equipo/${e.autor.slug}`}
+            className="flex items-center gap-4 p-4 bg-white/[0.02] border border-white/5 rounded-sm hover:border-fusa-indigo/20 transition-all group mb-6"
+          >
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-fusa-indigo/20 to-fusa-indigo/5 border border-fusa-indigo/30 flex items-center justify-center overflow-hidden">
+              <span className="font-conthrax text-sm text-fusa-indigo">
+                {e.autor.name.split(" ").map((n) => n[0]).join("")}
+              </span>
+            </div>
+            <div>
+              <p className="text-sm font-conthrax text-fusa-white uppercase tracking-wider group-hover:text-fusa-indigo transition-colors">
+                {e.autor.name}
+              </p>
+              <p className="text-xs text-white/40">
+                {e.autor.role}
+              </p>
+            </div>
+          </Link>
 
           <div className="flex items-center gap-4 text-[10px] font-conthrax tracking-widest text-white/20 uppercase">
             <span>{formatDate(e.date, lang)}</span>

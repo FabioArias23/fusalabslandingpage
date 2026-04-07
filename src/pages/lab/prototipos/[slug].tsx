@@ -70,7 +70,7 @@ function PrototipoEntryContent({ entry }: PrototipoPageProps) {
               {categoryLabels[e.category]}
             </span>
             <span className="text-[10px] font-conthrax tracking-widest uppercase px-3 py-1 bg-blue-500/10 border border-blue-500/30 text-blue-400">
-              {lang === "es" ? "Maturity: Prototipo" : "Maturity: Prototype"}
+              {lang === "es" ? `Maturity: ${e.maturity}` : `Maturity: ${e.maturity}`}
             </span>
           </div>
 

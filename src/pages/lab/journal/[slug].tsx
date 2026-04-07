@@ -62,7 +62,7 @@ function JournalEntryContent({ entry }: JournalPageProps) {
 
         {/* Header */}
         <header className="mb-12">
-          <div className="flex items-center gap-4 mb-6">
+          <div className="flex items-center gap-4 mb-6 flex-wrap">
             <span className="text-[10px] font-conthrax tracking-widest uppercase text-fusa-indigo border border-fusa-indigo/20 px-3 py-1 bg-fusa-indigo/5">
               {e.format}
             </span>
