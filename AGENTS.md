@@ -1,83 +1,108 @@
-# AGENTS.md
+<!-- BEGIN:nextjs-agent-rules -->
 
-## Rol
+# This is NOT the Next.js you know
 
-Agente de software integrado al equipo de desarrollo. Produce código correcto, trazable y sin suposiciones no marcadas.
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 
----
+<!-- END:nextjs-agent-rules -->
 
-## Reglas
+ESTÁ COMPLETAMENTE PROHIBIDO GENERAR CODIGO CSS, JAMAS BAJO NINGUNA CIRCUNSTANCIA EDITAR O CREAR NUEVO CSS, TODO ES 100% A TRAVES DE TW Y SHADCN
 
-### No hardcodear valores
+# Fusa Landing
 
-Todo valor que pueda cambiar entre entornos (dev/staging/prod) o instancias debe ser configurable vía variable de entorno o constante nombrada. Credenciales y secretos no aparecen en el código fuente bajo ninguna circunstancia.
+## Stack
 
-### No afirmar lo que no verificaste
+- Next.js (App Router)
+- Tailwind CSS 4
+- shadcn/ui
 
-Antes de afirmar que algo funciona, existe o se comporta de cierta manera, necesitás evidencia: documentación oficial, ejecución real, o contexto provisto en el task.
+Este proyecto usa Tailwind 4. No usamos el esquema de Tailwind 3 para tokens.
 
-**No hacer:**
+## Regla de estilos (obligatoria)
 
-- Afirmar que una API tiene un endpoint sin haberlo confirmado
-- Inventar nombres de métodos, parámetros o campos de schemas
-- Completar interfaces con campos no documentados
-- Decir "debería funcionar" sobre código no ejecutado
+- Una sola hoja global: app/globals.css
+- Estilos de UI via Tailwind utilities + componentes shadcn/ui
+- No agregar CSS legacy en rutas paralelas
 
-**Hacer:**
+Estado actual verificado:
 
-- Si no tenés certeza → declararlo explícitamente
-- Si asumís un comportamiento → marcarlo con `// ASSUMPTION: confirmar en docs v{x}`
-- Si necesitás un ejemplo de respuesta → marcarlo con `// PLACEHOLDER`
+- CSS existentes en el repo: app/globals.css
+- Import global activo: app/layout.tsx importa app/globals.css
 
-### No reportar trabajo como terminado sin validarlo
+## Design Tokens (Tailwind 4)
 
-"Listo" significa: el flujo principal fue revisado manualmente, los errores están manejados, y lo que describís que hace el código es lo que realmente hace.
+Los tokens viven en app/globals.css y se conectan a utilidades de Tailwind con @theme inline.
 
-### Vibe coding
+### 1. Tokens base
 
-Válido para exploración y prototipado. No válido para entrega sin revisión del flujo principal. Si el desarrollo fue 100% iterativo sin validación, solicitá revisión antes de marcar como listo.
+Definidos como variables CSS en :root y .dark:
 
----
+- Superficie y texto: --background, --foreground
+- Componentes: --card, --popover, --primary, --secondary, --muted, --accent, --destructive
+- Bordes y foco: --border, --input, --ring
+- Data viz: --chart-1 ... --chart-5
+- Sidebar: --sidebar-\*
+- Radius: --radius
 
-## Manejo de Incertidumbre
+Valores actuales en formato oklch(...) para mejor consistencia visual.
 
-| Situación                     | Respuesta                                                                      |
-| ----------------------------- | ------------------------------------------------------------------------------ |
-| No sé cómo funciona X         | Declararlo. "No verifiqué el comportamiento de X. Requiere revisión de docs."  |
-| No ejecuté el código          | Marcarlo. `// UNVERIFIED: validar antes de merge`                              |
-| Hay un posible edge case      | Declararlo. "Identifico edge case en [X]. No cubierto en esta implementación." |
-| No tengo el schema de una API | Marcarlo. `// PLACEHOLDER: reemplazar con schema real del servicio`            |
+### 2. Mapeo a Tailwind
 
----
+En @theme inline se exponen esos tokens como utilidades (--color-_, --radius-_, etc).
 
-## Marcadores
+Ejemplos:
 
-Obligatorios cuando el código es incompleto, no ejecutado, o contiene suposiciones:
+- --color-background: var(--background) -> bg-background
+- --color-foreground: var(--foreground) -> text-foreground
+- --color-border: var(--border) -> border-border
+- --radius-lg: var(--radius) -> rounded-lg
 
-```ts
-// TODO: verificar comportamiento con casos edge en producción
-// FIXME: valor placeholder — reemplazar con dato real
-// UNVERIFIED: no ejecutado — validar antes de merge
-// ASSUMPTION: asumo que X se comporta así — confirmar en docs v{version}
-// PLACEHOLDER: reemplazar con respuesta real del servicio
-```
+### 3. Consumo en componentes
 
-Código no verificado sin marcador produce errores difíciles de trazar.
+Usar clases utilitarias tokenizadas, por ejemplo:
 
----
+- bg-background text-foreground
+- border-border
+- bg-card text-card-foreground
+- bg-primary text-primary-foreground
 
-## Variables de Entorno
+## Identidad Fusa Labs (colores)
 
-```bash
-# .env.example — commiteado, valores vacíos, comentarios descriptivos
-DATABASE_URL=        # PostgreSQL connection string
-API_KEY=             # Clave del servicio X — obtener de vault
-JWT_SECRET=          # Mínimo 32 chars
-FEATURE_FLAG_X=false # Feature Y — activar en staging
-```
+Paleta de marca (referencia de uso en UI):
 
-- `.env` → `.gitignore`, nunca commiteado
-- `.env.example` → commiteado, siempre sincronizado con `.env`
-- Nueva variable → `.env.example` actualizado en el mismo PR
+- Fusa Black: #050505
+- Fusa White: #FDFDFD
+- Fusa Indigo: #1C058E
 
----
+Paleta de apoyo que aparece en variantes legacy de marca:
+
+- Brand 1 (light): #8E4EC6
+- Brand 2 (light): #713CA1
+- Brand 1 (dark): #A855F7
+- Brand 2 (dark): #BD34FE
+
+## Identidad Fusa Labs (tipografias)
+
+Familias objetivo:
+
+- Headings: Conthrax
+- Body/UI: Inter
+
+Archivos de fuente disponibles hoy en public/fonts:
+
+- Conthrax-SemiBold.otf
+- Conthrax-SemiBold.woff
+- Conthrax-SemiBold.woff2
+- Inter-VariableFont_opsz,wght.ttf
+- Inter-Italic-VariableFont_opsz,wght.ttf
+
+Nota para assets tipograficos:
+
+- Si diseno/prod exige TTF como fuente canonica, usar los .ttf de Inter ya presentes.
+- Para web performance, preferir .woff2 para entrega final en navegador.
+
+## Checklist rapido
+
+- Tokens centralizados en app/globals.css
+- Una sola entrada global de estilos via app/layout.tsx
+- Colores y fuentes de Fusa Labs documentados en este README

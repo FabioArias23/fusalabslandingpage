@@ -1,0 +1,1158 @@
+{
+  "es": {
+    "branding": {
+      "name": "FUSA LABS",
+      "suffix": "SYSTEMS",
+      "tagline": "® 2026 FUSA LABS SYSTEMS",
+      "footer": "FUSA LABS / 2026"
+    },
+    "navigation": {
+      "languageLabel": "ENGLISH",
+      "menuItems": ["Contacto"],
+      "ctaButton": "CONTACTO"
+    },
+    "hero": {
+      "tags": [
+        "Redes Multiagente",
+        "Venture Builder",
+        "SaaS con IA",
+        "Escalabilidad"
+      ],
+      "title": "¿Procesos repetitivos, software inadecuado o marca imperceptible?",
+      "subtitle": "",
+      "description": "Concentrate en lo que importa y volvé a tomar el control de tu negocio. Del resto nos encargamos nosotros",
+      "highlightedText": "redes de agentes de IA",
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+    },
+    "services": {
+      "sectionNumber": "(02)",
+      "sectionLabel": "SERVICIOS",
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones estratégicas para potenciar el crecimiento de tu empresa.",
+      "pillars": [
+        {
+          "title": "IA y Automatización",
+          "description": "Recuperar el tiempo para lo que importa: Automatizamos procesos para que tu empresa sea más ágil, pero sobre todo, más humana.",
+          "modalTitle": "Recuperar el tiempo para lo que importa",
+          "modalMessage": "Sentimos que la tecnología debería trabajar para las personas, y no al revés. Por eso diseñamos sistemas inteligentes que se hacen cargo de la carga operativa diaria, permitiendo que tu equipo recupere tiempo y espacio para crear y decidir. Automatizamos procesos para que tu empresa sea más ágil, pero sobre todo, para que sea más humana.",
+          "author": "Adrián Gamarra",
+          "icon": "Cpu",
+          "media": [
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/software-services/software-services1.jpg",
+            "/assets/services/marketing-services/digital-marketing-1.jpg"
+          ]
+        },
+        {
+          "title": "Desarrollo de Software",
+          "description": "Tranquilidad técnica a largo plazo: Sistemas robustos y escalables, pensados para acompañar tu crecimiento.",
+          "modalTitle": "Tranquilidad técnica a largo plazo",
+          "modalMessage": "Entendemos que un negocio es sólido, no sólo gracias al aporte humano de sus integrantes, sino también debido a las herramientas que lo sostienen. En Fusa Labs trabajamos en el desarrollo de sistemas robustos y escalables, pensados para acompañar tu crecimiento. Nuestro enfoque está en crear una base técnica confiable que te dé la seguridad necesaria para proyectar y crecer de manera sostenida, asegurando el futuro de tu empresa con claridad.",
+          "author": "Facundo Majda",
+          "icon": "Code2",
+          "media": [
+            "/assets/services/software-services/software-services1.jpg",
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/marketing-services/digital-marketing-1.jpg"
+          ]
+        },
+        {
+          "title": "Branding y Marketing",
+          "description": "Coherencia y posicionamiento: Construimos identidades visuales que reflejen el valor real de tu proyecto.",
+          "modalTitle": "Coherencia y posicionamiento",
+          "modalMessage": "Sabemos que una marca fuerte es la que logra transmitir confianza a primera vista. Es por eso que construimos identidades visuales y estrategias de comunicación que reflejen el valor real de tu proyecto, asegurando que el mensaje llegue de forma profesional y efectiva a tus clientes. Nos enfocamos en hacer de la inteligencia artificial un puente entre tu marca y el mercado.",
+          "author": "Jesús Fleitas",
+          "icon": "TrendingUp",
+          "media": [
+            "/assets/services/marketing-services/digital-marketing-1.jpg",
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/software-services/software-services1.jpg"
+          ]
+        }
+      ]
+    },
+
+    "contact": {
+      "title": "¿Tenés un proyecto en mente?",
+      "greeting": "Hola.",
+      "description": "Contanos sobre tu proyecto. Ya sea desarrollo personalizado, consultoría estratégica o un Producto IA.",
+      "form": {
+        "nameLabel": "Tu nombre*",
+        "namePlaceholder": "Juan Ramirez",
+        "emailLabel": "Correo electrónico*",
+        "emailPlaceholder": "juan@site.com",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Tu mensaje",
+        "submitButton": "Enviar mensaje"
+      },
+      "cards": [
+        {
+          "icon": "Zap",
+          "title": "Respuesta rápida.",
+          "description": "Te responderemos en breve para colaborar."
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Próximos pasos.",
+          "description": "Te proporcionaremos un plan detallado y presupuesto."
+        }
+      ]
+    },
+    "trustPoints": [
+      {
+        "icon": "Shield",
+        "title": "Arquitectura soberana",
+        "description": "Tu código, tu infraestructura, sin vendor lock-in. Control total sobre tu stack."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "IA orientada a ROI",
+        "description": "No modelos aislados. IA integrada directamente en tu stack para resultados medibles."
+      },
+      {
+        "icon": "Code2",
+        "title": "Stack de última generación",
+        "description": "Siempre con las mejores herramientas del mercado."
+      },
+      {
+        "icon": "Users",
+        "title": "Equipo real de ingenieros",
+        "description": "Ingenieros electromecánicos, aeroespaciales y de software. No freelancers rotativos."
+      }
+    ],
+    "cta": {
+      "title": "¿Listo para integrar IA?",
+      "subtitle": "Hablemos sobre cómo podemos potenciar tu negocio con soluciones de IA a medida.",
+      "buttonText": "Empecemos",
+      "buttonLink": "#contacto"
+    },
+    "productsSection": {
+      "title": "Nuestros productos",
+      "subtitle": "Productos propios diseñados para automatizar procesos, organizar información y ampliar capacidad operativa."
+    },
+    "team": {
+      "title": "Las personas detrás de Fusa",
+      "subtitle": "Equipo multidisciplinario: tech, marketing, finanzas, RRHH para soluciones end-to-end. Cumplimos con cada estrato del ciclo de vida de los negocios, de un producto y del software.",
+      "members": [
+        {
+          "name": "Jesús Fleitas",
+          "slug": "jesus-fleitas",
+          "email": "jesusfleitas909@gmail.com",
+          "title": "Ing. Aeroespacial & Marketing",
+          "bio": "Aeroespacial UNC. Marketing proyectos tech. Coordinación operativa.",
+          "highlight": "Proyectos",
+          "keywords": ["Aeroespacial", "Marketing", "Proyectos"],
+          "linkedin": "",
+          "resumen": "Ingeniero aeroespacial con experiencia en marketing tech y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
+          "aporte": "Coordina proyectos entre equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
+          "areasEnfoque": [
+            "Coordinación de proyectos",
+            "Marketing tech",
+            "Gestión operativa",
+            "Aeroespacial",
+            "Análisis técnico"
+          ],
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "categoria": "operations",
+          "subcategoria": "Gestión de Proyectos",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cita": "La tecnología sin ejecución es solo idea. Lo que importa es transformar conceptos en resultados tangibles.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de coordinación y gestión"
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
+          "highlight": "Marketing",
+          "keywords": ["Marketing", "Growth", "Branding"],
+          "linkedin": "",
+          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
+          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
+          "areasEnfoque": [
+            "Estrategia de contenidos",
+            "Growth B2B",
+            "Optimización ROI/CAC",
+            "Lead generation",
+            "Branding institucional"
+          ],
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos"
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Gestión empresarial con especialidad en gestoría internacional, manejo de idiomas, investigación aplicada y copywriting estratégico.",
+          "highlight": "Project Management",
+          "keywords": [
+            "Gestión empresarial",
+            "Gestoría internacional",
+            "Manejo de idiomas",
+            "Investigación",
+            "Copywriting"
+          ],
+          "linkedin": "",
+          "resumen": "Project Manager orientado a gestión empresarial y expansión internacional, con enfoque analítico en investigación y comunicación estratégica para mercados globales.",
+          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
+          "areasEnfoque": [
+            "Gestión empresarial",
+            "Gestoría internacional",
+            "Manejo de idiomas en entornos multiculturales",
+            "Investigación estratégica",
+            "Copywriting para negocios internacionales"
+          ],
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "Gestión Empresarial Internacional",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas"
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI Engineer & Solutions Architect",
+          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
+          "highlight": "Arquitectura",
+          "keywords": ["Arquitectura", "IA", "ML", "Fullstack", "Producto"],
+          "linkedin": "",
+          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
+          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
+          "areasEnfoque": [
+            "Arquitectura de soluciones",
+            "Inteligencia artificial aplicada",
+            "Desarrollo full-stack",
+            "Sistemas escalables",
+            "Automatización inteligente"
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Arquitectura",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA"
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
+          "highlight": "Producto",
+          "keywords": ["Fullstack", "IA", "Producto"],
+          "linkedin": "",
+          "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
+          "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
+          "areasEnfoque": [
+            "Desarrollo full-stack",
+            "Integración IA",
+            "Delivery de producto",
+            "Stack NestJS/React",
+            "Sistemas distribuidos"
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de desarrollo fullstack"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Contador & Comercio Exterior",
+          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
+          "highlight": "Operación",
+          "keywords": ["Finanzas", "Export", "Aduanas"],
+          "linkedin": "",
+          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
+          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
+          "areasEnfoque": [
+            "Gestión aduanera",
+            "Comercio internacional",
+            "Optimización fiscal B2B",
+            "Import/Export",
+            "Estructura financiera"
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finanzas & Comercio",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal"
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "Lic. RRPP & RRHH",
+          "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "keywords": ["RRHH", "RRPP", "Talent"],
+          "linkedin": "",
+          "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
+          "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
+          "areasEnfoque": [
+            "Talent acquisition tech",
+            "Estrategia institucional",
+            "Employer branding",
+            "Comunicación interna",
+            "Gestión de personas"
+          ],
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "categoria": "operations",
+          "subcategoria": "RRHH & Cultura",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding"
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "slug": "ezequiel-lopez",
+          "email": "ezequiel128@gmail.com",
+          "title": "Ing. Electromecánico",
+          "bio": "Electromecánica industrial. Automatización. Infra IoT.",
+          "highlight": "Infra",
+          "keywords": ["Electromecánica", "IoT", "Automatización"],
+          "linkedin": "",
+          "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
+          "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
+          "areasEnfoque": [
+            "Automatización industrial",
+            "Sistemas IoT",
+            "Electromecánica",
+            "Infraestructura operativa",
+            "Integración física-digital"
+          ],
+          "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "categoria": "tech",
+          "subcategoria": "Electromecánica & IoT",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "El futuro de la industria está en la convergencia entre lo físico y lo digital.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de automatización industrial e IoT"
+        }
+      ]
+    },
+    "lab": {
+      "badge": "Innovation Lab",
+      "title": "Lab de Ideas.",
+      "description": "Donde exploramos el límite de lo posible. Proyectos experimentales y prototipos. I+D",
+      "ctaButton": "Explorar el Journal",
+      "newsletter": {
+        "label": "Newsletter",
+        "placeholder": "Tu email"
+      }
+    },
+    "servicesPage": {
+      "title": "Servicios",
+      "subtitle": "Diseñamos e implementamos soluciones tecnológicas a medida para equipos que necesitan operar mejor, automatizar procesos y escalar con criterio.",
+      "subtitle2": "Combinamos arquitectura, desarrollo, automatización e inteligencia artificial para convertir necesidades reales en sistemas utilizables, mantenibles y listos para producción.",
+      "devSteps": [
+        {
+          "num": "01",
+          "icon": "Search",
+          "title": "Diagnóstico",
+          "description": "Entendemos el problema, el contexto operativo y las restricciones del proyecto para definir una solución viable."
+        },
+        {
+          "num": "02",
+          "icon": "Code2",
+          "title": "Diseño e implementación",
+          "description": "Traducimos la estrategia en arquitectura, desarrollo e integración con foco en claridad, escalabilidad y ejecución."
+        },
+        {
+          "num": "03",
+          "icon": "Rocket",
+          "title": "Puesta en marcha",
+          "description": "Acompañamos el despliegue, la validación y la mejora continua para que la solución funcione en entornos reales."
+        }
+      ],
+      "consultingAreas": [
+        {
+          "icon": "Layers",
+          "title": "Arquitectura de soluciones",
+          "description": "Definición técnica, estructura de sistemas y diseño de soluciones pensadas para crecer con orden."
+        },
+        {
+          "icon": "Code2",
+          "title": "Desarrollo de software",
+          "description": "Construcción de aplicaciones y plataformas adaptadas a necesidades reales de operación."
+        },
+        {
+          "icon": "Cpu",
+          "title": "Inteligencia artificial aplicada",
+          "description": "Integración de capacidades de IA en procesos, productos y sistemas existentes."
+        },
+        {
+          "icon": "Zap",
+          "title": "Automatización de procesos",
+          "description": "Reducción de tareas repetitivas, mejora de flujos y aumento de eficiencia operativa."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Marketing y growth",
+          "description": "Automatización comercial, generación de demanda y optimización de procesos de adquisición."
+        },
+        {
+          "icon": "Settings",
+          "title": "Operaciones y expansión",
+          "description": "Acompañamiento en procesos de crecimiento, organización operativa y articulación comercial."
+        },
+        {
+          "icon": "Shield",
+          "title": "Sistemas técnicos especializados",
+          "description": "Aplicación de conocimiento técnico en contextos específicos que requieren mayor precisión y criterio."
+        }
+      ],
+      "formIntro": {
+        "title": "¿Tenés un proyecto en mente?",
+        "description": "Contanos qué estás construyendo, qué querés optimizar o qué proceso necesitás resolver. Te ayudamos a definir el camino técnico más conveniente para llevarlo a producción."
+      },
+      "form": {
+        "title": "Envianos tu consulta",
+        "fields": {
+          "nameLabel": "Nombre*",
+          "namePlaceholder": "Tu nombre",
+          "companyLabel": "Empresa",
+          "companyPlaceholder": "Tu empresa",
+          "emailLabel": "Email*",
+          "emailPlaceholder": "tu@email.com",
+          "typeLabel": "Tipo de proyecto",
+          "typeOptions": [
+            "Desarrollo a medida",
+            "Consultoría IA",
+            "Integración de sistemas",
+            "Automatización",
+            "Otro"
+          ],
+          "descriptionLabel": "Descripción del proyecto",
+          "descriptionPlaceholder": "Contanos sobre tu proyecto..."
+        },
+        "submitButton": "Enviar consulta"
+      }
+    },
+    "footer": {
+      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "navigation": {
+        "title": "Navegación",
+        "links": ["Inicio"]
+      },
+      "location": {
+        "title": "Ubicación",
+        "text": "Sede en Argentina.\nFormosa."
+      },
+      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
+      "status": {
+        "text": "Ronda de inversión abierta",
+        "active": false
+      }
+    }
+  },
+  "en": {
+    "branding": {
+      "name": "FUSA LABS",
+      "suffix": "SYSTEMS",
+      "tagline": "® 2026 FUSA LABS SYSTEMS",
+      "footer": "FUSA LABS / 2026"
+    },
+    "navigation": {
+      "languageLabel": "ESPAÑOL",
+      "menuItems": ["Contact"],
+      "ctaButton": "CONTACT US"
+    },
+    "hero": {
+      "tags": [],
+      "title": "¿Repetitive processes, inadequate software, or an imperceptible brand?",
+      "subtitle": "",
+      "description": "Focus on what matters and take control of your business again. We'll handle the rest.",
+      "highlightedText": "AI agent networks",
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+    },
+    "services": {
+      "sectionNumber": "(02)",
+      "sectionLabel": "SERVICES",
+      "title": "Our Services.",
+      "subtitle": "Strategic solutions to power your business growth.",
+      "pillars": [
+        {
+          "title": "AI & Automation",
+          "description": "Recovering time for what matters: We automate processes to make your company more agile and, above all, more human.",
+          "modalTitle": "Recovering time for what matters",
+          "modalMessage": "We feel that technology should work for people, and not the other way around. That's why we design intelligent systems that take over the daily operational burden, allowing your team to recover time and space to create and decide. We automate processes to make your company more agile, but above all, to make it more human.",
+          "author": "Adrián Gamarra",
+          "icon": "Cpu",
+          "media": [
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/software-services/software-services1.jpg",
+            "/assets/services/marketing-services/digital-marketing-1.jpg"
+          ]
+        },
+        {
+          "title": "Software Development",
+          "description": "Long-term technical stability: Robust and scalable systems, designed to accompany your growth.",
+          "modalTitle": "Long-term technical stability",
+          "modalMessage": "We understand that a business is solid, not only thanks to the human contribution of its members, but also due to the tools that sustain it. At Fusa Labs we work on the development of robust and scalable systems, designed to accompany your growth. Our focus is on creating a reliable technical base that gives you the necessary security to project and grow sustainably, ensuring the future of your company with clarity.",
+          "author": "Facundo Majda",
+          "icon": "Code2",
+          "media": [
+            "/assets/services/software-services/software-services1.jpg",
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/marketing-services/digital-marketing-1.jpg"
+          ]
+        },
+        {
+          "title": "Branding & Marketing",
+          "description": "Coherence and positioning: We build visual identities that reflect the real value of your project.",
+          "modalTitle": "Coherence and positioning",
+          "modalMessage": "We know that a strong brand is one that manages to transmit trust at first sight. That's why we build visual identities and communication strategies that reflect the real value of your project, ensuring that the message reaches your customers in a professional and effective way. We focus on making artificial intelligence a bridge between your brand and the market.",
+          "author": "Jesús Fleitas",
+          "icon": "TrendingUp",
+          "media": [
+            "/assets/services/marketing-services/digital-marketing-1.jpg",
+            "/assets/services/ia-services/ia-automation.webp",
+            "/assets/services/software-services/software-services1.jpg"
+          ]
+        }
+      ]
+    },
+    "methodology": {
+      "sectionLabel": "lorem ipsum",
+      "title": "How we build impact.",
+      "description": "Complete operations audit to identify processes that can be simplified without changing your current structure.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Strategic Analysis",
+          "description": "Complete operations audit to identify processes that can be simplified without changing your current structure."
+        },
+        {
+          "num": "02",
+          "title": "Integrated Architecture",
+          "description": "System design that connects directly with your existing databases and applications, without forced migrations."
+        },
+        {
+          "num": "03",
+          "title": "Non-Disruptive Deployment",
+          "description": "Gradual installation that keeps everything running during the transition, on your server or our controlled environment."
+        },
+        {
+          "num": "04",
+          "title": "Practical Iteration",
+          "description": "Constant review based on real usage, adjusting only what really impacts your day-to-day."
+        }
+      ]
+    },
+    "pricing": {
+      "badge": "lorem ipsum",
+      "title": "Pricing.",
+      "modes": {
+        "suscripcion": {
+          "label": "Subscription",
+          "card1": {
+            "title": "SaaS Solutions",
+            "description1": "Flexible monthly subscription.",
+            "description2": "No long-term commitments."
+          },
+          "card2": {
+            "title": "Subscription-based model",
+            "subtitle": "Contact us for personalized options",
+            "priceFrom": "From $99",
+            "priceTo": "custom",
+            "period": "/month",
+            "features": ["Solutions starting at $99/month"],
+            "deliveryLabel": "Delivery time",
+            "deliveryTime": "Recurring",
+            "ctaButton": "Contact Us"
+          }
+        },
+        "instalacion": {
+          "label": "Installation",
+          "card1": {
+            "title": "Custom development?",
+            "description": "Contact us to receive a personalized proposal."
+          },
+          "card2": {
+            "price": "From $1,000",
+            "period": "/installation",
+            "features": [
+              "Implementation and customization",
+              "Integration with your stack"
+            ],
+            "deliveryLabel": "Delivery time",
+            "deliveryTime": "3-4 weeks",
+            "ctaButton": "Contact Us"
+          }
+        }
+      }
+    },
+    "contact": {
+      "title": "Have a project in mind?",
+      "greeting": "Hello.",
+      "description": "Tell us about your project. Whether it's custom development, strategic consulting, or an AI Product.",
+      "form": {
+        "nameLabel": "Your name*",
+        "namePlaceholder": "Juan Ramirez",
+        "emailLabel": "Email*",
+        "emailPlaceholder": "juan@site.com",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Your message",
+        "submitButton": "Send message"
+      },
+      "cards": [
+        {
+          "icon": "Zap",
+          "title": "Quick response.",
+          "description": "We'll respond shortly to collaborate."
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Next steps.",
+          "description": "We'll provide you with a detailed plan and budget."
+        }
+      ]
+    },
+    "trustPoints": [
+      {
+        "icon": "Shield",
+        "title": "Sovereign architecture",
+        "description": "Your code, your infrastructure, no vendor lock-in. Full control over your stack."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "ROI-focused AI",
+        "description": "Not isolated models. AI integrated directly into your stack for measurable results."
+      },
+      {
+        "icon": "Code2",
+        "title": "Cutting-edge stack",
+        "description": "Always with the best tools on the market."
+      },
+      {
+        "icon": "Users",
+        "title": "Real engineering team",
+        "description": "Electromechanical, aerospace, and software engineers. Not rotating freelancers."
+      }
+    ],
+    "cta": {
+      "title": "Ready to integrate AI?",
+      "subtitle": "Let's talk about how we can boost your business with tailor-made AI solutions.",
+      "buttonText": "Let's get started",
+      "buttonLink": "#contacto"
+    },
+    "productsSection": {
+      "title": "Our products",
+      "subtitle": "Proprietary products designed to automate processes, organize information, and expand operational capacity."
+    },
+    "team": {
+      "title": "The people behind Fusa",
+      "subtitle": "Multidisciplinary team: tech, marketing, finance, HR for end-to-end solutions. We cover every layer of the business lifecycle, product lifecycle, and software lifecycle.",
+      "members": [
+        {
+          "name": "Jesús Fleitas",
+          "slug": "jesus-fleitas",
+          "email": "jesusfleitas909@gmail.com",
+          "title": "Aerospace Eng. & Marketing",
+          "bio": "Aerospace UNC. Tech projects marketing. Operational coordination.",
+          "highlight": "Projects",
+          "keywords": ["Aerospace", "Marketing", "Projects"],
+          "linkedin": "",
+          "resumen": "Aerospace engineer with experience in tech marketing and project coordination. Hybrid profile between technology and communications.",
+          "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
+          "areasEnfoque": [
+            "Project coordination",
+            "Tech marketing",
+            "Operational management",
+            "Aerospace",
+            "Technical analysis"
+          ],
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "categoria": "operations",
+          "subcategoria": "Project Management",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cita": "Technology without execution is just an idea. What matters is transforming concepts into tangible results.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for coordination and management projects"
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
+          "highlight": "Marketing",
+          "keywords": ["Marketing", "Growth", "Branding"],
+          "linkedin": "",
+          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
+          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
+          "areasEnfoque": [
+            "Content strategy",
+            "B2B Growth",
+            "ROI/CAC optimization",
+            "Lead generation",
+            "Institutional branding"
+          ],
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for growth consulting and content strategy"
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Business management with specialization in international management, multilingual communication, research-driven analysis, and strategic copywriting.",
+          "highlight": "Project Management",
+          "keywords": [
+            "Business management",
+            "International management",
+            "Multilingual communication",
+            "Research",
+            "Copywriting"
+          ],
+          "linkedin": "",
+          "resumen": "Project Manager focused on business management and international expansion, combining research-based decision making with strategic communication.",
+          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
+          "areasEnfoque": [
+            "Business management",
+            "International management",
+            "Multilingual communication in global contexts",
+            "Strategic research",
+            "Copywriting for international business"
+          ],
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "International Business Management",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "International business is built with trust, not contracts.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for international expansion and strategic alliances"
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI Engineer & Solutions Architect",
+          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
+          "highlight": "Architecture",
+          "keywords": ["Architecture", "AI", "ML", "Fullstack", "Product"],
+          "linkedin": "",
+          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
+          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
+          "areasEnfoque": [
+            "Solution architecture",
+            "Applied artificial intelligence",
+            "Full-stack development",
+            "Scalable systems",
+            "Intelligent automation"
+          ],
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Architecture",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for architecture and AI implementation projects"
+        },
+        {
+          "name": "Fabio Arias",
+          "slug": "fabio-arias",
+          "email": "fabio-adrian-arias@hotmail.com",
+          "title": "Full-Stack Developer",
+          "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
+          "highlight": "Product",
+          "keywords": ["Fullstack", "AI", "Product"],
+          "linkedin": "",
+          "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
+          "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
+          "areasEnfoque": [
+            "Full-stack development",
+            "AI integration",
+            "Product delivery",
+            "NestJS/React stack",
+            "Distributed systems"
+          ],
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "categoria": "tech",
+          "subcategoria": "Full-Stack Development",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Code is the means, not the end. What matters is solving real problems.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for fullstack development projects"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Accountant & Foreign Trade",
+          "bio": "Customs import-export management. B2B tax optimization. International trade.",
+          "highlight": "Operations",
+          "keywords": ["Finance", "Export", "Customs"],
+          "linkedin": "",
+          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
+          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
+          "areasEnfoque": [
+            "Customs management",
+            "International trade",
+            "B2B tax optimization",
+            "Import/Export",
+            "Financial structure"
+          ],
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "categoria": "business",
+          "subcategoria": "Finance & Trade",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for foreign trade and tax optimization consulting"
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "PR & HR Degree",
+          "bio": "Institutional strategy. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "keywords": ["HR", "PR", "Talent"],
+          "linkedin": "",
+          "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
+          "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
+          "areasEnfoque": [
+            "Tech talent acquisition",
+            "Institutional strategy",
+            "Employer branding",
+            "Internal communication",
+            "People management"
+          ],
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "categoria": "operations",
+          "subcategoria": "HR & Culture",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "People don't stay for salary. They stay for culture and purpose.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for recruitment processes and employer branding strategy"
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "slug": "ezequiel-lopez",
+          "email": "ezequiel128@gmail.com",
+          "title": "Electromechanical Eng.",
+          "bio": "Industrial electromechanics. Automation. IoT infra.",
+          "highlight": "Infra",
+          "keywords": ["Electromechanics", "IoT", "Automation"],
+          "linkedin": "",
+          "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
+          "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
+          "areasEnfoque": [
+            "Industrial automation",
+            "IoT systems",
+            "Electromechanics",
+            "Operational infrastructure",
+            "Physical-digital integration"
+          ],
+          "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "categoria": "tech",
+          "subcategoria": "Electromechanics & IoT",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The future of industry is in the convergence between physical and digital.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for industrial automation and IoT projects"
+        }
+      ]
+    },
+    "lab": {
+      "badge": "Innovation Lab",
+      "title": "Ideas Lab.",
+      "description": "Where we explore the edge of the possible. Experimental projects and prototypes. R&D",
+      "ctaButton": "Explore Journal",
+      "newsletter": {
+        "label": "Newsletter",
+        "placeholder": "Your email"
+      }
+    },
+    "servicesPage": {
+      "title": "Services",
+      "subtitle": "We design and implement tailor-made technology solutions for teams that need to operate better, automate processes, and scale with criteria.",
+      "subtitle2": "We combine architecture, development, automation, and artificial intelligence to transform real needs into usable, maintainable systems ready for production.",
+      "devSteps": [
+        {
+          "num": "01",
+          "icon": "Search",
+          "title": "Diagnosis",
+          "description": "We understand the problem, the operational context, and project constraints to define a viable solution."
+        },
+        {
+          "num": "02",
+          "icon": "Code2",
+          "title": "Design & Implementation",
+          "description": "We translate strategy into architecture, development, and integration with a focus on clarity, scalability, and execution."
+        },
+        {
+          "num": "03",
+          "icon": "Rocket",
+          "title": "Launch",
+          "description": "We support deployment, validation, and continuous improvement so the solution works in real environments."
+        }
+      ],
+      "consultingAreas": [
+        {
+          "icon": "Layers",
+          "title": "Solution architecture",
+          "description": "Technical definition, system structure, and solution design built to grow in an orderly manner."
+        },
+        {
+          "icon": "Code2",
+          "title": "Software development",
+          "description": "Building applications and platforms tailored to real operational needs."
+        },
+        {
+          "icon": "Cpu",
+          "title": "Applied artificial intelligence",
+          "description": "Integrating AI capabilities into existing processes, products, and systems."
+        },
+        {
+          "icon": "Zap",
+          "title": "Process automation",
+          "description": "Reducing repetitive tasks, improving workflows, and increasing operational efficiency."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Marketing & growth",
+          "description": "Commercial automation, demand generation, and optimization of acquisition processes."
+        },
+        {
+          "icon": "Settings",
+          "title": "Operations & expansion",
+          "description": "Support in growth processes, operational organization, and commercial articulation."
+        },
+        {
+          "icon": "Shield",
+          "title": "Specialized technical systems",
+          "description": "Application of technical knowledge in specific contexts that require greater precision and criteria."
+        }
+      ],
+      "formIntro": {
+        "title": "Have a project in mind?",
+        "description": "Tell us what you're building, what you want to optimize, or what process you need to solve. We'll help you define the most convenient technical path to take it to production."
+      },
+      "form": {
+        "title": "Send us your inquiry",
+        "fields": {
+          "nameLabel": "Name*",
+          "namePlaceholder": "Your name",
+          "companyLabel": "Company",
+          "companyPlaceholder": "Your company",
+          "emailLabel": "Email*",
+          "emailPlaceholder": "your@email.com",
+          "typeLabel": "Project type",
+          "typeOptions": [
+            "Custom development",
+            "AI Consulting",
+            "Systems integration",
+            "Automation",
+            "Other"
+          ],
+          "descriptionLabel": "Project description",
+          "descriptionPlaceholder": "Tell us about your project..."
+        },
+        "submitButton": "Send inquiry"
+      }
+    },
+    "footer": {
+      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "navigation": {
+        "title": "Navigation",
+        "links": ["Home"]
+      },
+      "location": {
+        "title": "Location",
+        "text": "HQ in Argentina.\nFormosa."
+      },
+      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
+      "status": {
+        "text": "Investment round open",
+        "active": false
+      }
+    }
+  }
+}
