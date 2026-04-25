@@ -8,7 +8,10 @@
     },
     "navigation": {
       "languageLabel": "ENGLISH",
-      "menuItems": ["Contacto"],
+      "menuItems": [
+        "Equipo",
+        "Contacto"
+      ],
       "ctaButton": "CONTACTO"
     },
     "hero": {
@@ -18,9 +21,9 @@
         "SaaS con IA",
         "Escalabilidad"
       ],
-      "title": "¿Procesos repetitivos, software inadecuado o marca imperceptible?",
+      "title": "¿Procesos repetitivos,<br class='hidden md:block' /> software inadecuado<br class='hidden md:block' /> o marca imperceptible?",
       "subtitle": "",
-      "description": "Concentrate en lo que importa y volvé a tomar el control de tu negocio. Del resto nos encargamos nosotros",
+      "description": "Concentrate en lo que importa y volvé a tomar el control de tu negocio.<br class='hidden md:block' /> Del resto nos encargamos nosotros.",
       "highlightedText": "redes de agentes de IA",
       "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
     },
@@ -61,7 +64,7 @@
           "description": "Coherencia y posicionamiento: Construimos identidades visuales que reflejen el valor real de tu proyecto.",
           "modalTitle": "Coherencia y posicionamiento",
           "modalMessage": "Sabemos que una marca fuerte es la que logra transmitir confianza a primera vista. Es por eso que construimos identidades visuales y estrategias de comunicación que reflejen el valor real de tu proyecto, asegurando que el mensaje llegue de forma profesional y efectiva a tus clientes. Nos enfocamos en hacer de la inteligencia artificial un puente entre tu marca y el mercado.",
-          "author": "Jesús Fleitas",
+          "author": "Jesus Fleitas",
           "icon": "TrendingUp",
           "media": [
             "/assets/services/marketing-services/digital-marketing-1.jpg",
@@ -71,11 +74,10 @@
         }
       ]
     },
-
     "contact": {
-      "title": "¿Tenés un proyecto en mente?",
-      "greeting": "Hola.",
-      "description": "Contanos sobre tu proyecto. Ya sea desarrollo personalizado, consultoría estratégica o un Producto IA.",
+      "title": "¿Tenés un proyecto<br class='hidden md:block' /> en mente?",
+      "greeting": "Contanos sobre tu proyecto<br class='hidden md:block' /> y nos contactamos con vos al instante.",
+      "description": "Te ofreceremos consultorias personalizadas,<br class='hidden md:block' /> propuestas de desarrollo y Productos IA<br class='hidden md:block' /> que mejor se adapten a tu situación.",
       "form": {
         "nameLabel": "Tu nombre*",
         "namePlaceholder": "Juan Ramirez",
@@ -131,27 +133,19 @@
       "subtitle": "Productos propios diseñados para automatizar procesos, organizar información y ampliar capacidad operativa."
     },
     "team": {
-      "title": "Las personas detrás de Fusa",
-      "subtitle": "Equipo multidisciplinario: tech, marketing, finanzas, RRHH para soluciones end-to-end. Cumplimos con cada estrato del ciclo de vida de los negocios, de un producto y del software.",
+      "title": "",
+      "subtitle": "Fusa Labs es una Agencia de Software con IA que ayuda a las empresas B2B<br class='hidden md:block' /> a automatizar sus procesos, consolidar su infraestructura digital y proyectar<br class='hidden md:block' /> una identidad de marca que transmita autoridad y confianza en su sector.",
       "members": [
         {
-          "name": "Jesús Fleitas",
+          "name": "Jesus Fleitas",
           "slug": "jesus-fleitas",
           "email": "jesusfleitas909@gmail.com",
-          "title": "Ing. Aeroespacial & Marketing",
-          "bio": "Aeroespacial UNC. Marketing proyectos tech. Coordinación operativa.",
+          "title": "Founder & Design Marketing Strategist",
+          "bio": "Experto en Tech Marketing y Gestión de Proyectos. Estudiante de Ingeniería Aeroespacial de la UNC. ",
           "highlight": "Proyectos",
-          "keywords": ["Aeroespacial", "Marketing", "Proyectos"],
-          "linkedin": "",
-          "resumen": "Ingeniero aeroespacial con experiencia en marketing tech y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
-          "aporte": "Coordina proyectos entre equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
-          "areasEnfoque": [
-            "Coordinación de proyectos",
-            "Marketing tech",
-            "Gestión operativa",
-            "Aeroespacial",
-            "Análisis técnico"
-          ],
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Estudiante de Ingeniería Aeroespacial con experiencia en Tech Marketing y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
+          "aporte": "Coordina los equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
           "foto": "/img/equipo/jesus-fleitas.jpg",
           "categoria": "operations",
           "subcategoria": "Gestión de Proyectos",
@@ -165,124 +159,10 @@
               "label": "lorem ipsum"
             }
           ],
-          "cita": "La tecnología sin ejecución es solo idea. Lo que importa es transformar conceptos en resultados tangibles.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Disponible para proyectos de coordinación y gestión"
-        },
-        {
-          "name": "Adrián Gamarra",
-          "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
-          "highlight": "Marketing",
-          "keywords": ["Marketing", "Growth", "Branding"],
-          "linkedin": "",
-          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
-          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
-          "areasEnfoque": [
-            "Estrategia de contenidos",
-            "Growth B2B",
-            "Optimización ROI/CAC",
-            "Lead generation",
-            "Branding institucional"
-          ],
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos"
-        },
-        {
-          "name": "Pedro Enríquez",
-          "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
-          "title": "Project Manager",
-          "bio": "Gestión empresarial con especialidad en gestoría internacional, manejo de idiomas, investigación aplicada y copywriting estratégico.",
-          "highlight": "Project Management",
-          "keywords": [
-            "Gestión empresarial",
-            "Gestoría internacional",
-            "Manejo de idiomas",
-            "Investigación",
-            "Copywriting"
-          ],
-          "linkedin": "",
-          "resumen": "Project Manager orientado a gestión empresarial y expansión internacional, con enfoque analítico en investigación y comunicación estratégica para mercados globales.",
-          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
-          "areasEnfoque": [
-            "Gestión empresarial",
-            "Gestoría internacional",
-            "Manejo de idiomas en entornos multiculturales",
-            "Investigación estratégica",
-            "Copywriting para negocios internacionales"
-          ],
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "Gestión Empresarial Internacional",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas"
-        },
-        {
-          "name": "Facundo Majda",
-          "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
-          "title": "AI Engineer & Solutions Architect",
-          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
-          "highlight": "Arquitectura",
-          "keywords": ["Arquitectura", "IA", "ML", "Fullstack", "Producto"],
-          "linkedin": "",
-          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
-          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
-          "areasEnfoque": [
-            "Arquitectura de soluciones",
-            "Inteligencia artificial aplicada",
-            "Desarrollo full-stack",
-            "Sistemas escalables",
-            "Automatización inteligente"
-          ],
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Arquitectura",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA"
+          "disponibilidad": "Disponible para proyectos de coordinación y gestión",
+          "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
           "name": "Fabio Arias",
@@ -291,17 +171,9 @@
           "title": "Full-Stack Developer",
           "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
           "highlight": "Producto",
-          "keywords": ["Fullstack", "IA", "Producto"],
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
           "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
           "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
-          "areasEnfoque": [
-            "Desarrollo full-stack",
-            "Integración IA",
-            "Delivery de producto",
-            "Stack NestJS/React",
-            "Sistemas distribuidos"
-          ],
           "foto": "/img/equipo/fabio-arias.jpg",
           "categoria": "tech",
           "subcategoria": "Full-Stack Development",
@@ -318,99 +190,23 @@
           "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Disponible para proyectos de desarrollo fullstack"
-        },
-        {
-          "name": "Patricio Polo",
-          "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
-          "title": "Contador & Comercio Exterior",
-          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
-          "highlight": "Operación",
-          "keywords": ["Finanzas", "Export", "Aduanas"],
-          "linkedin": "",
-          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
-          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
-          "areasEnfoque": [
-            "Gestión aduanera",
-            "Comercio internacional",
-            "Optimización fiscal B2B",
-            "Import/Export",
-            "Estructura financiera"
-          ],
-          "foto": "/img/equipo/patricio-polo.jpg",
-          "categoria": "business",
-          "subcategoria": "Finanzas & Comercio",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal"
-        },
-        {
-          "name": "Lisandro Ratto",
-          "slug": "lisandro-ratto",
-          "email": "lisandroratto@gmail.com",
-          "title": "Lic. RRPP & RRHH",
-          "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
-          "highlight": "Talent",
-          "keywords": ["RRHH", "RRPP", "Talent"],
-          "linkedin": "",
-          "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
-          "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
-          "areasEnfoque": [
-            "Talent acquisition tech",
-            "Estrategia institucional",
-            "Employer branding",
-            "Comunicación interna",
-            "Gestión de personas"
-          ],
-          "foto": "/img/equipo/lisandro-ratto.jpg",
-          "categoria": "operations",
-          "subcategoria": "RRHH & Cultura",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding"
+          "disponibilidad": "Disponible para proyectos de desarrollo fullstack",
+          "position": "center 10%",
+          "zoom": 1.0,
+          "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
           "name": "Ezequiel Lopez",
           "slug": "ezequiel-lopez",
           "email": "ezequiel128@gmail.com",
           "title": "Ing. Electromecánico",
-          "bio": "Electromecánica industrial. Automatización. Infra IoT.",
+          "bio": "Automatización industrial y Sistemas de Control.",
           "highlight": "Infra",
-          "keywords": ["Electromecánica", "IoT", "Automatización"],
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
           "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
           "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
-          "areasEnfoque": [
-            "Automatización industrial",
-            "Sistemas IoT",
-            "Electromecánica",
-            "Infraestructura operativa",
-            "Integración física-digital"
-          ],
           "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "position": "center 5%",
           "categoria": "tech",
           "subcategoria": "Electromecánica & IoT",
           "logros": [
@@ -426,7 +222,156 @@
           "cta": "El futuro de la industria está en la convergencia entre lo físico y lo digital.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Disponible para proyectos de automatización industrial e IoT"
+          "disponibilidad": "Disponible para proyectos de automatización industrial e IoT",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI Engineer & Solutions Architect",
+          "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
+          "highlight": "Arquitectura",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
+          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Arquitectura",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
+          "highlight": "Marketing",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
+          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Contador & Comercio Exterior",
+          "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
+          "highlight": "Operación",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
+          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "position": "80% 30%",
+          "categoria": "business",
+          "subcategoria": "Finanzas & Comercio",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Gestión empresarial con especialidad en gestoría internacional, manejo de idiomas, investigación aplicada y copywriting estratégico.",
+          "highlight": "Project Management",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Project Manager orientado a gestión empresarial y expansión internacional, con enfoque analítico en investigación y comunicación estratégica para mercados globales.",
+          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "Gestión Empresarial Internacional",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "Lic. RRPP & RRHH",
+          "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
+          "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "position": "center 20%",
+          "zoom": 1.0,
+          "categoria": "operations",
+          "subcategoria": "RRHH & Cultura",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding",
+          "instagram": "https://www.instagram.com/fusa.labs"
         }
       ]
     },
@@ -529,10 +474,17 @@
       }
     },
     "footer": {
-      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "social": [
+        "Instagram",
+        "Github",
+        "Mail",
+        "WhatsApp"
+      ],
       "navigation": {
         "title": "Navegación",
-        "links": ["Inicio"]
+        "links": [
+          "Inicio"
+        ]
       },
       "location": {
         "title": "Ubicación",
@@ -554,14 +506,17 @@
     },
     "navigation": {
       "languageLabel": "ESPAÑOL",
-      "menuItems": ["Contact"],
+      "menuItems": [
+        "Team",
+        "Contact"
+      ],
       "ctaButton": "CONTACT US"
     },
     "hero": {
       "tags": [],
-      "title": "¿Repetitive processes, inadequate software, or an imperceptible brand?",
+      "title": "Repetitive processes,<br class='hidden md:block' /> inadequate software<br class='hidden md:block' /> or an imperceptible brand?",
       "subtitle": "",
-      "description": "Focus on what matters and take control of your business again. We'll handle the rest.",
+      "description": "Focus on what matters and take <br class='hidden md:block' /> control of your business again. We'll handle the rest.",
       "highlightedText": "AI agent networks",
       "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
     },
@@ -656,7 +611,9 @@
             "priceFrom": "From $99",
             "priceTo": "custom",
             "period": "/month",
-            "features": ["Solutions starting at $99/month"],
+            "features": [
+              "Solutions starting at $99/month"
+            ],
             "deliveryLabel": "Delivery time",
             "deliveryTime": "Recurring",
             "ctaButton": "Contact Us"
@@ -683,9 +640,9 @@
       }
     },
     "contact": {
-      "title": "Have a project in mind?",
-      "greeting": "Hello.",
-      "description": "Tell us about your project. Whether it's custom development, strategic consulting, or an AI Product.",
+      "title": "Have a project<br class='hidden md:block' /> in mind?",
+      "greeting": "Tell us about your project<br class='hidden md:block' /> and we'll get back to you instantly.",
+      "description": "We'll offer you personalized consultations,<br class='hidden md:block' /> development proposals and AI Products<br class='hidden md:block' /> that best suit your situation.",
       "form": {
         "nameLabel": "Your name*",
         "namePlaceholder": "Juan Ramirez",
@@ -741,27 +698,19 @@
       "subtitle": "Proprietary products designed to automate processes, organize information, and expand operational capacity."
     },
     "team": {
-      "title": "The people behind Fusa",
-      "subtitle": "Multidisciplinary team: tech, marketing, finance, HR for end-to-end solutions. We cover every layer of the business lifecycle, product lifecycle, and software lifecycle.",
+      "title": "",
+      "subtitle": "Fusa Labs is an AI Software agency that helps B2B companies automate their processes, consolidate their digital infrastructure, and project a brand identity that conveys authority and trust in their sector",
       "members": [
         {
-          "name": "Jesús Fleitas",
+          "name": "Jesus Fleitas",
           "slug": "jesus-fleitas",
           "email": "jesusfleitas909@gmail.com",
-          "title": "Aerospace Eng. & Marketing",
+          "title": "Founder & Design Marketing Strategist",
           "bio": "Aerospace UNC. Tech projects marketing. Operational coordination.",
           "highlight": "Projects",
-          "keywords": ["Aerospace", "Marketing", "Projects"],
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
           "resumen": "Aerospace engineer with experience in tech marketing and project coordination. Hybrid profile between technology and communications.",
           "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
-          "areasEnfoque": [
-            "Project coordination",
-            "Tech marketing",
-            "Operational management",
-            "Aerospace",
-            "Technical analysis"
-          ],
           "foto": "/img/equipo/jesus-fleitas.jpg",
           "categoria": "operations",
           "subcategoria": "Project Management",
@@ -775,124 +724,10 @@
               "label": "lorem ipsum"
             }
           ],
-          "cita": "Technology without execution is just an idea. What matters is transforming concepts into tangible results.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Available for coordination and management projects"
-        },
-        {
-          "name": "Adrián Gamarra",
-          "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
-          "highlight": "Marketing",
-          "keywords": ["Marketing", "Growth", "Branding"],
-          "linkedin": "",
-          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
-          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
-          "areasEnfoque": [
-            "Content strategy",
-            "B2B Growth",
-            "ROI/CAC optimization",
-            "Lead generation",
-            "Institutional branding"
-          ],
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for growth consulting and content strategy"
-        },
-        {
-          "name": "Pedro Enríquez",
-          "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
-          "title": "Project Manager",
-          "bio": "Business management with specialization in international management, multilingual communication, research-driven analysis, and strategic copywriting.",
-          "highlight": "Project Management",
-          "keywords": [
-            "Business management",
-            "International management",
-            "Multilingual communication",
-            "Research",
-            "Copywriting"
-          ],
-          "linkedin": "",
-          "resumen": "Project Manager focused on business management and international expansion, combining research-based decision making with strategic communication.",
-          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
-          "areasEnfoque": [
-            "Business management",
-            "International management",
-            "Multilingual communication in global contexts",
-            "Strategic research",
-            "Copywriting for international business"
-          ],
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "International Business Management",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "International business is built with trust, not contracts.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for international expansion and strategic alliances"
-        },
-        {
-          "name": "Facundo Majda",
-          "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
-          "title": "AI Engineer & Solutions Architect",
-          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
-          "highlight": "Architecture",
-          "keywords": ["Architecture", "AI", "ML", "Fullstack", "Product"],
-          "linkedin": "",
-          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
-          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
-          "areasEnfoque": [
-            "Solution architecture",
-            "Applied artificial intelligence",
-            "Full-stack development",
-            "Scalable systems",
-            "Intelligent automation"
-          ],
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Architecture",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for architecture and AI implementation projects"
+          "disponibilidad": "Available for coordination and management projects",
+          "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
           "name": "Fabio Arias",
@@ -901,17 +736,9 @@
           "title": "Full-Stack Developer",
           "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
           "highlight": "Product",
-          "keywords": ["Fullstack", "AI", "Product"],
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
           "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
           "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
-          "areasEnfoque": [
-            "Full-stack development",
-            "AI integration",
-            "Product delivery",
-            "NestJS/React stack",
-            "Distributed systems"
-          ],
           "foto": "/img/equipo/fabio-arias.jpg",
           "categoria": "tech",
           "subcategoria": "Full-Stack Development",
@@ -928,79 +755,10 @@
           "cta": "Code is the means, not the end. What matters is solving real problems.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Available for fullstack development projects"
-        },
-        {
-          "name": "Patricio Polo",
-          "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
-          "title": "Accountant & Foreign Trade",
-          "bio": "Customs import-export management. B2B tax optimization. International trade.",
-          "highlight": "Operations",
-          "keywords": ["Finance", "Export", "Customs"],
-          "linkedin": "",
-          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
-          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
-          "areasEnfoque": [
-            "Customs management",
-            "International trade",
-            "B2B tax optimization",
-            "Import/Export",
-            "Financial structure"
-          ],
-          "foto": "/img/equipo/patricio-polo.jpg",
-          "categoria": "business",
-          "subcategoria": "Finance & Trade",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for foreign trade and tax optimization consulting"
-        },
-        {
-          "name": "Lisandro Ratto",
-          "slug": "lisandro-ratto",
-          "email": "lisandroratto@gmail.com",
-          "title": "PR & HR Degree",
-          "bio": "Institutional strategy. Talent acquisition. Employer branding.",
-          "highlight": "Talent",
-          "keywords": ["HR", "PR", "Talent"],
-          "linkedin": "",
-          "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
-          "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
-          "areasEnfoque": [
-            "Tech talent acquisition",
-            "Institutional strategy",
-            "Employer branding",
-            "Internal communication",
-            "People management"
-          ],
-          "foto": "/img/equipo/lisandro-ratto.jpg",
-          "categoria": "operations",
-          "subcategoria": "HR & Culture",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "People don't stay for salary. They stay for culture and purpose.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for recruitment processes and employer branding strategy"
+          "disponibilidad": "Available for fullstack development projects",
+          "position": "center 10%",
+          "zoom": 1.0,
+          "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
           "name": "Ezequiel Lopez",
@@ -1009,18 +767,11 @@
           "title": "Electromechanical Eng.",
           "bio": "Industrial electromechanics. Automation. IoT infra.",
           "highlight": "Infra",
-          "keywords": ["Electromechanics", "IoT", "Automation"],
-          "linkedin": "",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
           "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
           "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
-          "areasEnfoque": [
-            "Industrial automation",
-            "IoT systems",
-            "Electromechanics",
-            "Operational infrastructure",
-            "Physical-digital integration"
-          ],
           "foto": "/img/equipo/ezequiel-lopez.jpg",
+          "position": "center 5%",
           "categoria": "tech",
           "subcategoria": "Electromechanics & IoT",
           "logros": [
@@ -1036,7 +787,156 @@
           "cta": "The future of industry is in the convergence between physical and digital.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Available for industrial automation and IoT projects"
+          "disponibilidad": "Available for industrial automation and IoT projects",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Facundo Majda",
+          "slug": "facundo-majda",
+          "email": "facundomajda19@gmail.com",
+          "title": "AI Engineer & Solutions Architect",
+          "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
+          "highlight": "Architecture",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
+          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
+          "foto": "/img/equipo/facundo-majda.jpg",
+          "categoria": "tech",
+          "subcategoria": "AI/ML & Architecture",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for architecture and AI implementation projects",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
+          "highlight": "Marketing",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
+          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for growth consulting and content strategy",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Patricio Polo",
+          "slug": "patricio-polo",
+          "email": "gypp54@gmail.com",
+          "title": "Accountant & Foreign Trade",
+          "bio": "Customs import-export management. B2B tax optimization. International trade.",
+          "highlight": "Operations",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
+          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
+          "foto": "/img/equipo/patricio-polo.jpg",
+          "position": "80% 30%",
+          "categoria": "business",
+          "subcategoria": "Finance & Trade",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for foreign trade and tax optimization consulting",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Business management with specialization in international management, multilingual communication, research-driven analysis, and strategic copywriting.",
+          "highlight": "Project Management",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Project Manager focused on business management and international expansion, combining research-based decision making with strategic communication.",
+          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "International Business Management",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "International business is built with trust, not contracts.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for international expansion and strategic alliances",
+          "instagram": "https://www.instagram.com/fusa.labs"
+        },
+        {
+          "name": "Lisandro Ratto",
+          "slug": "lisandro-ratto",
+          "email": "lisandroratto@gmail.com",
+          "title": "PR & HR Degree",
+          "bio": "Institutional strategy. Talent acquisition. Employer branding.",
+          "highlight": "Talent",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
+          "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
+          "foto": "/img/equipo/lisandro-ratto.jpg",
+          "position": "center 20%",
+          "zoom": 1.0,
+          "categoria": "operations",
+          "subcategoria": "HR & Culture",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "People don't stay for salary. They stay for culture and purpose.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for recruitment processes and employer branding strategy",
+          "instagram": "https://www.instagram.com/fusa.labs"
         }
       ]
     },
@@ -1139,10 +1039,17 @@
       }
     },
     "footer": {
-      "social": ["Instagram", "Github", "Mail", "WhatsApp"],
+      "social": [
+        "Instagram",
+        "Github",
+        "Mail",
+        "WhatsApp"
+      ],
       "navigation": {
         "title": "Navigation",
-        "links": ["Home"]
+        "links": [
+          "Home"
+        ]
       },
       "location": {
         "title": "Location",

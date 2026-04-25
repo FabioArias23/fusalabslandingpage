@@ -6,19 +6,19 @@ export interface TeamMember {
   title: string;
   bio: string;
   highlight: string;
-  keywords: string[];
   linkedin: string;
+  instagram?: string;
   resumen: string;
   aporte: string;
-  areasEnfoque: string[];
   foto: string;
   categoria: string;
   subcategoria: string;
   logros: { metric: string; label: string }[];
-  cita: string;
   disponible: boolean;
   links: string[];
   disponibilidad: string;
+  position?: string;
+  zoom?: number;
 }
 
 export interface TeamSection {

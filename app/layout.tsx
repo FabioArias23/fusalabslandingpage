@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import { cookies } from "next/headers";
 import "./globals.css";
@@ -11,16 +11,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { LocaleProvider } from "@/contexts/locale-context";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const conthrax = localFont({
   src: [
@@ -35,10 +25,21 @@ const conthrax = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "fusalabs",
-  description: "fusalabs",
-  applicationName: "fusalabs",
+  title: "Fusa Labs | Soluciones AI & Software",
+  description:
+    "Modernizando negocios con inteligencia artificial y software a medida.",
 };
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
+import { MouseGradient } from "@/components/MouseGradient";
+import { BackToTop } from "@/components/BackToTop";
+import { WhatsAppFAB } from "@/components/WhatsAppFAB";
+import AdaptiveAurora from "@/components/animations/AdaptiveAurora";
 
 export default async function RootLayout({
   children,
@@ -56,19 +57,21 @@ export default async function RootLayout({
       className={cn(
         "h-full",
         "antialiased",
-        geistSans.variable,
-        geistMono.variable,
-        "font-sans",
         inter.variable,
         conthrax.variable,
+        "font-sans",
       )}
     >
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
           <LocaleProvider initialLang={initialLang}>
+            <AdaptiveAurora />
+            {/* <MouseGradient /> */}
             <Nav />
             {children}
             <Footer />
+            <BackToTop />
+            <WhatsAppFAB />
             <Toaster />
           </LocaleProvider>
         </ThemeProvider>

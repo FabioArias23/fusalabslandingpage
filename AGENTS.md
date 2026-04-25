@@ -16,6 +16,18 @@ ESTÁ COMPLETAMENTE PROHIBIDO GENERAR CODIGO CSS, JAMAS BAJO NINGUNA CIRCUNSTANC
 - Tailwind CSS 4
 - shadcn/ui
 
+Siempre revisar que esté esto en el archivo globals.css
+
+```css
+@font-face {
+  font-family: "Conthrax";
+  src: url("/fonts/Conthrax-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+```
+
 Este proyecto usa Tailwind 4. No usamos el esquema de Tailwind 3 para tokens.
 
 ## Regla de estilos (obligatoria)

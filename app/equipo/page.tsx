@@ -1,70 +1,102 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLocale } from "@/contexts/locale-context";
-import { TeamMember } from "@/types";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { ArrowUpRight } from "lucide-react";
+import { motion } from "framer-motion";
+import landingData from "@/data/landingData.json";
+
+import TiltedCard from "@/components/animations/TiltedCard";
 
 export default function EquipoPage() {
-  const { data, lang, isEnglish } = useLocale();
+  const { data } = useLocale();
   const { team } = data;
-  const members = team.members as TeamMember[];
-
-  const disponibleLabel = isEnglish ? "Available" : "Disponible";
-  const verPerfilLabel = isEnglish ? "View profile" : "Ver perfil";
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-12 md:py-16">
-      <section className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight">{team.title}</h1>
-        <p className="text-lg text-muted-foreground max-w-3xl">{team.subtitle}</p>
-      </section>
+    <main className="min-h-screen pb-16 sm:pb-24 pt-32 sm:pt-44">
+      <div className="max-w-[1800px] px-6 lg:pl-32 lg:pr-24">
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.98, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 1.6, ease: "easeOut" }}
+          className="mb-24 sm:mb-32 w-full border-l-4 border-[#1C058E] pl-8 sm:pl-12"
+        >
+          <p 
+            className="font-sans text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
+            dangerouslySetInnerHTML={{ 
+              __html: team.subtitle
+                .replace("Fusa Labs", "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong>")
+                .replace("Agencia de Software con IA", "<strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong>")
+                .replace("automatizar", "<strong class='dark:text-white dark:font-medium!'>automatizar</strong>")
+                .replace("consolidar", "<strong class='dark:text-white dark:font-medium!'>consolidar</strong>")
+                .replace("proyectar", "<strong class='dark:text-white dark:font-medium!'>proyectar</strong>")
+                .replace("confianza", "<strong class='dark:text-white dark:font-medium!'>confianza</strong>")
+            }}
+          />
+        </motion.div>
 
-      <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {members.map((member) => (
-          <Card key={member.slug} className="flex flex-col">
-            <CardHeader className="space-y-4">
-              <div className="flex items-start gap-4">
-                <Avatar className="size-16">
-                  <AvatarImage src={member.foto} alt={member.name} />
-                  <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
-                </Avatar>
-                <div className="space-y-1">
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
-                  <CardDescription>{member.title}</CardDescription>
+        <motion.div 
+          initial="hidden"
+          animate="show"
+          variants={{
+            hidden: { opacity: 0 },
+            show: {
+              opacity: 1,
+              transition: {
+                staggerChildren: 0.3,
+                delayChildren: 0.8
+              }
+            }
+          }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-24"
+        >
+          {team.members.map((member: any) => (
+            <motion.div
+              key={member.slug}
+              variants={{
+                hidden: { opacity: 0, y: 30 },
+                show: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } }
+              }}
+            >
+              <Link
+                href={`/equipo/${member.slug}`}
+                className="group block text-center"
+              >
+                <div className="flex flex-col items-center">
+                  <div className="mb-8 overflow-visible">
+                    <TiltedCard
+                      imageSrc={member.foto}
+                      altText={member.name}
+                      captionText={member.title}
+                      containerHeight="320px"
+                      containerWidth="320px"
+                      imageHeight="300px"
+                      imageWidth="300px"
+                      imageZoom={member.zoom || 1}
+                      imagePosition={member.position || "center"}
+                      rotateAmplitude={20}
+                      scaleOnHover={1.05}
+                      showMobileWarning={false}
+                      showTooltip={true}
+                      displayOverlayContent={false}
+                    />
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="font-heading text-2xl sm:text-3xl group-hover:text-primary transition-colors scale-y-110">
+                      {member.name}
+                    </h3>
+                    <p className="text-base sm:text-lg font-medium text-muted-foreground/80 lowercase tracking-wide">
+                      {member.title}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </CardHeader>
-            <CardContent className="flex-1 space-y-4">
-              <p className="text-sm text-muted-foreground">{member.bio}</p>
-              <div className="flex flex-wrap gap-2">
-                {member.keywords.slice(0, 3).map((keyword) => (
-                  <Badge key={keyword} variant="secondary">
-                    {keyword}
-                  </Badge>
-                ))}
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {member.disponible && (
-                  <Badge variant="default" className="bg-green-600">
-                    {disponibleLabel}
-                  </Badge>
-                )}
-              </div>
-              <Button asChild className="w-full">
-                <Link href={`/equipo/${encodeURIComponent(member.slug)}`}>
-                  {verPerfilLabel}
-                  <ArrowRight className="size-4 ml-2" />
-                </Link>
-              </Button>
-            </CardContent>
-          </Card>
-        ))}
-      </section>
+              </Link>
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
     </main>
   );
 }

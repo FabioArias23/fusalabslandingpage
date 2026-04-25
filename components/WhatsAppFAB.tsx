@@ -10,7 +10,7 @@ export const WhatsAppFAB = () => {
       aria-label="Contactar por WhatsApp"
       title="¡Hablemos por WhatsApp!"
     >
-      <MessageCircle size={28} strokeWidth={1.5} className="group-hover:animate-pulse" />
+      <MessageCircle size={28} strokeWidth={1.5} className="group-hover:animate-pulse dark:text-[#1C058E]" />
     </a>
   );
 };

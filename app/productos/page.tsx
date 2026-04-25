@@ -27,27 +27,27 @@ export default function ProductosPage() {
   const verDetalles = isEnglish ? "View details" : "Ver detalles";
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-12 md:py-16">
-      <section className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight">{title}</h1>
-        <p className="text-lg text-muted-foreground max-w-3xl">{subtitle}</p>
+    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-6 sm:gap-8 px-4 sm:px-6 py-8 sm:py-12 md:py-16">
+      <section className="space-y-3 sm:space-y-4">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">{title}</h1>
+        <p className="text-base sm:text-lg text-muted-foreground max-w-3xl">{subtitle}</p>
       </section>
 
-      <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <section className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {productList.map((product) => {
           const IconComponent = iconMap[product.icon] || Cpu;
           const tagline = product.tagline[isEnglish ? "en" : "es"];
           const description = product.description[isEnglish ? "en" : "es"];
           return (
             <Card key={product.slug} className="flex flex-col">
-              <CardHeader className="space-y-4">
+              <CardHeader className="space-y-3 sm:space-y-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex size-12 items-center justify-center rounded-lg bg-primary/10">
-                    <IconComponent className="size-6 text-primary" />
+                  <div className="flex size-10 sm:size-12 items-center justify-center rounded-lg bg-primary/10">
+                    <IconComponent className="size-5 sm:size-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-xl">{product.name}</CardTitle>
-                    <Badge variant="secondary" className="mt-1">
+                    <CardTitle className="text-lg sm:text-xl">{product.name}</CardTitle>
+                    <Badge variant="secondary" className="mt-1 text-xs">
                       {product.tags[0]}
                     </Badge>
                   </div>
@@ -56,13 +56,13 @@ export default function ProductosPage() {
                   {tagline}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="flex-1 space-y-4">
+              <CardContent className="flex-1 space-y-3 sm:space-y-4">
                 <p className="text-sm text-muted-foreground line-clamp-3">
                   {description}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {product.tags.slice(0, 2).map((tag) => (
-                    <Badge key={tag} variant="outline">
+                    <Badge key={tag} variant="outline" className="text-xs">
                       {tag}
                     </Badge>
                   ))}
