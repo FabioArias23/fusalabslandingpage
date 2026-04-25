@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { cookies } from "next/headers";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner";
@@ -41,14 +40,15 @@ import { BackToTop } from "@/components/BackToTop";
 import { WhatsAppFAB } from "@/components/WhatsAppFAB";
 import AdaptiveAurora from "@/components/animations/AdaptiveAurora";
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookieStore = await cookies();
-  const cookieLang = cookieStore.get("lang")?.value;
-  const initialLang = cookieLang === "en" ? "en" : "es";
+  // Static export: no podemos leer cookies en el server.
+  // El idioma real se hidrata desde localStorage/document.cookie en el cliente
+  // (ver LocaleProvider en contexts/locale-context.tsx).
+  const initialLang = "es" as const;
 
   return (
     <html

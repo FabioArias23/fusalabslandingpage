@@ -27,12 +27,40 @@ export function LocaleProvider({
   initialLang: "es" | "en";
 }) {
   const [lang, setLang] = useState<"es" | "en">(initialLang);
+  const [hydrated, setHydrated] = useState(false);
 
+  // Hidrata el idioma desde localStorage (o cookie como fallback) al montar.
+  // Necesario con `output: 'export'`, donde el server no puede leer cookies.
   useEffect(() => {
-    window.localStorage.setItem("lang", lang);
+    let stored: string | null = null;
+    try {
+      stored = window.localStorage.getItem("lang");
+    } catch {
+      stored = null;
+    }
+
+    if (!stored && typeof document !== "undefined") {
+      const match = document.cookie.match(/(?:^|;\s*)lang=(es|en)/);
+      stored = match?.[1] ?? null;
+    }
+
+    if (stored === "en" || stored === "es") {
+      setLang(stored);
+    }
+    setHydrated(true);
+  }, []);
+
+  // Persiste el idioma cada vez que cambia (después de la hidratación inicial).
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      window.localStorage.setItem("lang", lang);
+    } catch {
+      /* localStorage no disponible — ignorar */
+    }
     document.cookie = `lang=${lang}; path=/; max-age=31536000; samesite=lax`;
     document.documentElement.lang = lang;
-  }, [lang]);
+  }, [lang, hydrated]);
 
   const isEnglish = lang === "en";
   const data = useMemo(() => landingData[lang], [lang]);
