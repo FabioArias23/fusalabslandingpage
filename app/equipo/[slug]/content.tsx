@@ -51,6 +51,8 @@ const Linkedin = ({ className }: { className?: string }) => (
 );
 
 
+import { TeamMemberContentNeural } from "./member-content-neural";
+
 interface TeamMemberContentProps {
   slug: string;
 }
@@ -62,6 +64,11 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
 
   if (!member) {
     notFound();
+  }
+
+  // Use the new Neural design for Jesus Fleitas as a PoC
+  if (slug === "jesus-fleitas") {
+    return <TeamMemberContentNeural member={member} />;
   }
 
   const linkedinUrl = member.linkedin || "https://www.linkedin.com/company/fusa-labs";

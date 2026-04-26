@@ -141,27 +141,36 @@
           "slug": "jesus-fleitas",
           "email": "jesusfleitas909@gmail.com",
           "title": "Founder & Design Marketing Strategist",
-          "bio": "Experto en Tech Marketing y Gestión de Proyectos. Estudiante de Ingeniería Aeroespacial de la UNC. ",
-          "highlight": "Proyectos",
+          "bio": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica y la lógica de sistemas con el poder creativo del diseño. Creo que conectar estos dos mundos es lo que nos permite construir marcas que no solo comunican, sino que funcionan con precisión. En mi mundo, el diseño es ingeniería aplicada a la identidad estratégica.",
+          "highlight": "Design Engineering",
           "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Estudiante de Ingeniería Aeroespacial con experiencia en Tech Marketing y coordinación de proyectos. Perfil híbrido entre tecnología y comunicación.",
+          "resumen": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica y la lógica de sistemas con el poder creativo del diseño. Creo que conectar estos dos mundos es lo que nos permite construir marcas que no solo comunican, sino que funcionan con precisión. En mi mundo, el diseño es ingeniería aplicada a la identidad estratégica.",
           "aporte": "Coordina los equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
           "foto": "/img/equipo/jesus-fleitas.jpg",
           "categoria": "operations",
-          "subcategoria": "Gestión de Proyectos",
+          "subcategoria": "Technical Strategy",
           "logros": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Precision",
+              "label": "Management & Strategic Briefing"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Creative",
+              "label": "Marketing & Branding Design"
+            },
+            {
+              "metric": "AI Native",
+              "label": "AI Strategy & Implementation"
+            },
+            {
+               "metric": "Aerospace",
+               "label": "Creative Engineering Systems"
             }
           ],
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para proyectos de coordinación y gestión",
+          "position": "center 65%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -206,7 +215,8 @@
           "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
           "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
-          "position": "center 5%",
+          "position": "center 0%",
+          "zoom": 1.20,
           "categoria": "tech",
           "subcategoria": "Electromecánica & IoT",
           "logros": [
@@ -281,6 +291,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
+          "position": "center 28%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -294,7 +305,8 @@
           "resumen": "Profesional contable especializado en comercio internacional, gestión aduanera y optimización fiscal para operaciones B2B.",
           "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
           "foto": "/img/equipo/patricio-polo.jpg",
-          "position": "80% 30%",
+          "position": "80% 62%",
+          "zoom": 1.20,
           "categoria": "business",
           "subcategoria": "Finanzas & Comercio",
           "logros": [
@@ -340,6 +352,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
+          "position": "center 26%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -353,7 +366,7 @@
           "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
           "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
-          "position": "center 20%",
+          "position": "center 18%",
           "zoom": 1.0,
           "categoria": "operations",
           "subcategoria": "RRHH & Cultura",
@@ -727,6 +740,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for coordination and management projects",
+          "position": "center 65%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -771,7 +785,8 @@
           "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
           "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
-          "position": "center 5%",
+          "position": "center 0%",
+          "zoom": 1.20,
           "categoria": "tech",
           "subcategoria": "Electromechanics & IoT",
           "logros": [
@@ -846,6 +861,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for growth consulting and content strategy",
+          "position": "center 28%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -859,7 +875,8 @@
           "resumen": "Accounting professional specialized in international trade, customs management, and tax optimization for B2B operations.",
           "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
           "foto": "/img/equipo/patricio-polo.jpg",
-          "position": "80% 30%",
+          "position": "80% 62%",
+          "zoom": 1.20,
           "categoria": "business",
           "subcategoria": "Finance & Trade",
           "logros": [
@@ -905,6 +922,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for international expansion and strategic alliances",
+          "position": "center 26%",
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
@@ -918,7 +936,7 @@
           "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
           "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
-          "position": "center 20%",
+          "position": "center 18%",
           "zoom": 1.0,
           "categoria": "operations",
           "subcategoria": "HR & Culture",
