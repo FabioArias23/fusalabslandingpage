@@ -29,10 +29,15 @@ export default function EquipoPage() {
               __html: team.subtitle
                 .replace("Fusa Labs", "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong>")
                 .replace("Agencia de Software con IA", "<strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong>")
+                .replace("AI-powered software agency", "<strong class='dark:text-white dark:font-medium!'>AI-powered software agency</strong>")
                 .replace("automatizar", "<strong class='dark:text-white dark:font-medium!'>automatizar</strong>")
+                .replace("streamline their operations", "<strong class='dark:text-white dark:font-medium!'>streamline their operations</strong>")
                 .replace("consolidar", "<strong class='dark:text-white dark:font-medium!'>consolidar</strong>")
+                .replace("solidify their digital infrastructure", "<strong class='dark:text-white dark:font-medium!'>solidify their digital infrastructure</strong>")
                 .replace("proyectar", "<strong class='dark:text-white dark:font-medium!'>proyectar</strong>")
+                .replace("project", "<strong class='dark:text-white dark:font-medium!'>project</strong>")
                 .replace("confianza", "<strong class='dark:text-white dark:font-medium!'>confianza</strong>")
+                .replace("trust", "<strong class='dark:text-white dark:font-medium!'>trust</strong>")
             }}
           />
         </motion.div>
@@ -87,7 +92,7 @@ export default function EquipoPage() {
                     <h3 className="font-heading text-2xl sm:text-3xl group-hover:text-primary transition-colors scale-y-110">
                       {member.name}
                     </h3>
-                    <p className="text-base sm:text-lg font-medium text-muted-foreground/80 lowercase tracking-wide">
+                    <p className="text-base sm:text-lg font-medium text-muted-foreground/80 tracking-wide">
                       {member.title}
                     </p>
                   </div>

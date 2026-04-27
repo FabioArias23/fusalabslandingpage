@@ -10,7 +10,7 @@ interface HeroSectionProps {
 }
 
 const revealAnimation = {
-  initial: { opacity: 0, scale: 0.98, y: 20 },
+  initial: { opacity: 0, scale: 0.8, y: 60 },
   whileInView: { opacity: 1, scale: 1, y: 0 },
   viewport: { once: true },
   transition: { duration: 1.6, ease: "easeOut" }
@@ -46,7 +46,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
         <div className="flex flex-col items-center text-center gap-6 sm:gap-8">
           {/* Main Hook: Title & Description together */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.98, y: 20 }}
+            initial={{ opacity: 0, scale: 0.8, y: 60 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.6, ease: "easeOut" }}
@@ -164,7 +164,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
 
           {/* CTA: Delayed revealing */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.98, y: 15 }}
+            initial={{ opacity: 0, scale: 0.8, y: 40 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2, ease: "easeOut", delay: 0.7 }}

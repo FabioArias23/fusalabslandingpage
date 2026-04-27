@@ -16,6 +16,7 @@ export function ThemeToggle() {
       type="button"
       variant="ghost"
       size="icon"
+      className="text-[#1C058E] dark:text-white hover:bg-[#1C058E]/10 dark:hover:bg-white/10 transition-colors"
       onClick={toggleTheme}
       aria-label="Toggle theme"
     >
