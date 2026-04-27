@@ -6,20 +6,28 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
+import { motion } from "framer-motion";
+
 export function TeamSection({ data }: { data: typeof landingData.es }) {
   const { team } = data;
 
   return (
     <section id="equipo" className="py-24">
       <div className="max-w-[1800px] px-6 lg:pl-32 lg:pr-24">
-          <div className="mb-16 max-w-2xl">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8, y: 60 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="mb-16 max-w-2xl"
+          >
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-tight mb-4 scale-y-110 origin-left">
               {team.title}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               {team.subtitle}
             </p>
-          </div>
+          </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {team.members.map((member: any) => (

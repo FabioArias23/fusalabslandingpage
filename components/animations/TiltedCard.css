@@ -34,6 +34,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 9999px; /* Make the frame circular */
+  overflow: hidden; /* Clip the zoomed image */
 }
 
 .tilted-card-img {

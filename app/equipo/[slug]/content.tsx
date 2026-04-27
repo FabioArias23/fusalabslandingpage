@@ -66,8 +66,8 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
     notFound();
   }
 
-  // Use the new Neural design for Jesus Fleitas as a PoC
-  if (slug === "jesus-fleitas") {
+  // Apply the Neural design to everyone except Facundo Majda
+  if (slug !== "facundo-majda") {
     return <TeamMemberContentNeural member={member} />;
   }
 
@@ -131,12 +131,12 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
 
           <section className="space-y-2">
             <h3 className="text-lg font-semibold">{resumenLabel}</h3>
-            <p className="text-muted-foreground">{member.resumen}</p>
+            <p className="text-muted-foreground dark:text-white!">{member.resumen}</p>
           </section>
 
           <section className="space-y-2">
             <h3 className="text-lg font-semibold">{aporteLabel}</h3>
-            <p className="text-muted-foreground">{member.aporte}</p>
+            <p className="text-muted-foreground dark:text-white!">{member.aporte}</p>
           </section>
 
           <section className="space-y-2">

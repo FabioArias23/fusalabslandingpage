@@ -19,6 +19,14 @@ export interface TeamMember {
   disponibilidad: string;
   position?: string;
   zoom?: number;
+  phone?: string;
+  proyectos?: {
+    title: string;
+    description: string;
+    image: string;
+    url?: string;
+  }[];
+  github?: string;
 }
 
 export interface TeamSection {

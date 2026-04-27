@@ -41,9 +41,9 @@
           "author": "Adrián Gamarra",
           "icon": "Cpu",
           "media": [
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/software-services/software-services1.jpg",
-            "/assets/services/marketing-services/digital-marketing-1.jpg"
+            "/assets/services/ia-services/1.jpg",
+            "/assets/services/ia-services/2.jpg",
+            "/assets/services/ia-services/3.jpg"
           ]
         },
         {
@@ -54,9 +54,9 @@
           "author": "Facundo Majda",
           "icon": "Code2",
           "media": [
-            "/assets/services/software-services/software-services1.jpg",
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/marketing-services/digital-marketing-1.jpg"
+            "/assets/services/software-services/1.jpg",
+            "/assets/services/software-services/2.jpg",
+            "/assets/services/software-services/3.jpg"
           ]
         },
         {
@@ -67,9 +67,9 @@
           "author": "Jesus Fleitas",
           "icon": "TrendingUp",
           "media": [
-            "/assets/services/marketing-services/digital-marketing-1.jpg",
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/software-services/software-services1.jpg"
+            "/assets/services/marketing-services/1.jpg",
+            "/assets/services/marketing-services/2.jpg",
+            "/assets/services/marketing-services/3.jpg"
           ]
         }
       ]
@@ -141,14 +141,15 @@
           "slug": "jesus-fleitas",
           "email": "jesusfleitas909@gmail.com",
           "title": "Founder & Design Marketing Strategist",
-          "bio": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica y la lógica de sistemas con el poder creativo del diseño. Creo que conectar estos dos mundos es lo que nos permite construir marcas que no solo comunican, sino que funcionan con precisión. En mi mundo, el diseño es ingeniería aplicada a la identidad estratégica.",
-          "highlight": "Design Engineering",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica y la lógica de sistemas con el poder creativo del diseño. Creo que conectar estos dos mundos es lo que nos permite construir marcas que no solo comunican, sino que funcionan con precisión. En mi mundo, el diseño es ingeniería aplicada a la identidad estratégica.",
-          "aporte": "Coordina los equipos técnicos y comerciales. Conecta capacidades de producto con necesidades de mercado.",
+          "bio": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de arquitecturas de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica de sistemas con el diseño. Creo que conectar estos dos mundos nos permite construir ecosistemas que no solo comunican, sino que funcionan con precisión.",
+          "highlight": "Management",
+          "linkedin": "https://www.linkedin.com/in/jesusfleitas/",
+          "github": "https://github.com/jerchufleitas",
+          "resumen": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de arquitecturas de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica de sistemas con el diseño. Creo que conectar estos dos mundos nos permite construir ecosistemas que no solo comunican, sino que funcionan con precisión.",
+          "aporte": "Fusiona la infraestructura técnica con la narrativa de marca, optimizando la conexión entre lo que el sistema hace y lo que comunica.",
           "foto": "/img/equipo/jesus-fleitas.jpg",
           "categoria": "operations",
-          "subcategoria": "Technical Strategy",
+          "subcategoria": "Founder & Technical Strategist",
           "logros": [
             {
               "metric": "Precision",
@@ -163,15 +164,33 @@
               "label": "AI Strategy & Implementation"
             },
             {
-               "metric": "Aerospace",
-               "label": "Creative Engineering Systems"
+              "metric": "Optimization",
+              "label": "Process Optimization"
             }
           ],
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para proyectos de coordinación y gestión",
           "position": "center 65%",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/jesusfleitas.ia",
+          "phone": "+5493704563060",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/3.jpg"
+            }
+          ]
         },
         {
           "name": "Fabio Arias",
@@ -201,14 +220,125 @@
           "links": [],
           "disponibilidad": "Disponible para proyectos de desarrollo fullstack",
           "position": "center 10%",
-          "zoom": 1.0,
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "zoom": 1,
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
+          "highlight": "Marketing",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
+          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
+          "position": "center 28%",
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Gestión empresarial con especialidad en gestoría internacional, manejo de idiomas, investigación aplicada y copywriting estratégico.",
+          "highlight": "Project Management",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Project Manager orientado a gestión empresarial y expansión internacional, con enfoque analítico en investigación y comunicación estratégica para mercados globales.",
+          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "Gestión Empresarial Internacional",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
+          "position": "center 26%",
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/3.jpg"
+            }
+          ]
         },
         {
           "name": "Ezequiel Lopez",
           "slug": "ezequiel-lopez",
           "email": "ezequiel128@gmail.com",
-          "title": "Ing. Electromecánico",
+          "title": "Electromechanical Eng.",
           "bio": "Automatización industrial y Sistemas de Control.",
           "highlight": "Infra",
           "linkedin": "https://www.linkedin.com/company/fusa-labs",
@@ -216,7 +346,7 @@
           "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
           "position": "center 0%",
-          "zoom": 1.20,
+          "zoom": 1.2,
           "categoria": "tech",
           "subcategoria": "Electromecánica & IoT",
           "logros": [
@@ -233,7 +363,24 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para proyectos de automatización industrial e IoT",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/3.jpg"
+            }
+          ]
         },
         {
           "name": "Facundo Majda",
@@ -265,40 +412,10 @@
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
-          "name": "Adrián Gamarra",
-          "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
-          "highlight": "Marketing",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
-          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
-          "position": "center 28%",
-          "instagram": "https://www.instagram.com/fusa.labs"
-        },
-        {
           "name": "Patricio Polo",
           "slug": "patricio-polo",
           "email": "gypp54@gmail.com",
-          "title": "Contador & Comercio Exterior",
+          "title": "Accountant & Foreign Trade",
           "bio": "Gestión aduanera import-export. Optimización fiscal B2B. Comercio internacional.",
           "highlight": "Operación",
           "linkedin": "https://www.linkedin.com/company/fusa-labs",
@@ -306,7 +423,7 @@
           "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
           "foto": "/img/equipo/patricio-polo.jpg",
           "position": "80% 62%",
-          "zoom": 1.20,
+          "zoom": 1.2,
           "categoria": "business",
           "subcategoria": "Finanzas & Comercio",
           "logros": [
@@ -323,43 +440,30 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal",
-          "instagram": "https://www.instagram.com/fusa.labs"
-        },
-        {
-          "name": "Pedro Enríquez",
-          "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
-          "title": "Project Manager",
-          "bio": "Gestión empresarial con especialidad en gestoría internacional, manejo de idiomas, investigación aplicada y copywriting estratégico.",
-          "highlight": "Project Management",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Project Manager orientado a gestión empresarial y expansión internacional, con enfoque analítico en investigación y comunicación estratégica para mercados globales.",
-          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "Gestión Empresarial Internacional",
-          "logros": [
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/1.jpg"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/3.jpg"
             }
-          ],
-          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
-          "position": "center 26%",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          ]
         },
         {
           "name": "Lisandro Ratto",
           "slug": "lisandro-ratto",
           "email": "lisandroratto@gmail.com",
-          "title": "Lic. RRPP & RRHH",
+          "title": "PR & HR Degree",
           "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
           "highlight": "Talent",
           "linkedin": "https://www.linkedin.com/company/fusa-labs",
@@ -367,7 +471,7 @@
           "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
           "position": "center 18%",
-          "zoom": 1.0,
+          "zoom": 1,
           "categoria": "operations",
           "subcategoria": "RRHH & Cultura",
           "logros": [
@@ -384,7 +488,24 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/1.jpg"
+            },
+            {
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/3.jpg"
+            }
+          ]
         }
       ]
     },
@@ -547,9 +668,9 @@
           "author": "Adrián Gamarra",
           "icon": "Cpu",
           "media": [
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/software-services/software-services1.jpg",
-            "/assets/services/marketing-services/digital-marketing-1.jpg"
+            "/assets/services/ia-services/1.jpg",
+            "/assets/services/ia-services/2.jpg",
+            "/assets/services/ia-services/3.jpg"
           ]
         },
         {
@@ -560,9 +681,9 @@
           "author": "Facundo Majda",
           "icon": "Code2",
           "media": [
-            "/assets/services/software-services/software-services1.jpg",
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/marketing-services/digital-marketing-1.jpg"
+            "/assets/services/software-services/1.jpg",
+            "/assets/services/software-services/2.jpg",
+            "/assets/services/software-services/3.jpg"
           ]
         },
         {
@@ -573,9 +694,9 @@
           "author": "Jesús Fleitas",
           "icon": "TrendingUp",
           "media": [
-            "/assets/services/marketing-services/digital-marketing-1.jpg",
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/software-services/software-services1.jpg"
+            "/assets/services/marketing-services/1.jpg",
+            "/assets/services/marketing-services/2.jpg",
+            "/assets/services/marketing-services/3.jpg"
           ]
         }
       ]
@@ -712,36 +833,63 @@
     },
     "team": {
       "title": "",
-      "subtitle": "Fusa Labs is an AI Software agency that helps B2B companies automate their processes, consolidate their digital infrastructure, and project a brand identity that conveys authority and trust in their sector",
+      "subtitle": "Fusa Labs is an AI-powered software agency that empowers B2B companies to streamline their operations, solidify their digital infrastructure, and project a brand identity that commands authority and trust within their industry.",
       "members": [
         {
           "name": "Jesus Fleitas",
           "slug": "jesus-fleitas",
           "email": "jesusfleitas909@gmail.com",
           "title": "Founder & Design Marketing Strategist",
-          "bio": "Aerospace UNC. Tech projects marketing. Operational coordination.",
+          "bio": "I’m Jesús Fleitas, a 29-year-old aviation enthusiast and brand architect. Currently pursuing a degree in Aerospace Engineering, I’ve focused my purpose at Fusa Labs on merging systems-level rigor with creative design. For me, connecting these disciplines is the key to creating ecosystems that go beyond storytelling to function with high-performance accuracy.",
           "highlight": "Projects",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Aerospace engineer with experience in tech marketing and project coordination. Hybrid profile between technology and communications.",
+          "linkedin": "https://www.linkedin.com/in/jesusfleitas/",
+          "github": "https://github.com/jerchufleitas",
+          "resumen": "I’m Jesús Fleitas, a 29-year-old aviation enthusiast and brand architect. Currently pursuing a degree in Aerospace Engineering, I’ve focused my purpose at Fusa Labs on merging systems-level rigor with creative design. For me, connecting these disciplines is the key to creating ecosystems that go beyond storytelling to function with high-performance accuracy.",
           "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
           "foto": "/img/equipo/jesus-fleitas.jpg",
           "categoria": "operations",
           "subcategoria": "Project Management",
           "logros": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Precision",
+              "label": "Management & Strategic Briefing"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Creative",
+              "label": "Marketing & Branding Design"
+            },
+            {
+              "metric": "AI Native",
+              "label": "AI Strategy & Implementation"
+            },
+            {
+              "metric": "Optimization",
+              "label": "Process Optimization"
             }
           ],
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for coordination and management projects",
           "position": "center 65%",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/jesusfleitas.ia",
+          "phone": "+5493704563060",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/jesus-fleitas/3.jpg"
+            }
+          ]
         },
         {
           "name": "Fabio Arias",
@@ -771,8 +919,119 @@
           "links": [],
           "disponibilidad": "Available for fullstack development projects",
           "position": "center 10%",
-          "zoom": 1.0,
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "zoom": 1,
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Adrián Gamarra",
+          "slug": "adrian-gamarra",
+          "email": "gamarraadrian200@gmail.com",
+          "title": "Content & Marketing Strategist",
+          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
+          "highlight": "Marketing",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
+          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "categoria": "business",
+          "subcategoria": "Marketing & Growth",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for growth consulting and content strategy",
+          "position": "center 28%",
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Pedro Enríquez",
+          "slug": "pedro-enriquez",
+          "email": "agustinenriquez321@gmail.com",
+          "title": "Project Manager",
+          "bio": "Business management with specialization in international management, multilingual communication, research-driven analysis, and strategic copywriting.",
+          "highlight": "Project Management",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "resumen": "Project Manager focused on business management and international expansion, combining research-based decision making with strategic communication.",
+          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "categoria": "business",
+          "subcategoria": "International Business Management",
+          "logros": [
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            },
+            {
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
+            }
+          ],
+          "cta": "International business is built with trust, not contracts.",
+          "disponible": true,
+          "links": [],
+          "disponibilidad": "Available for international expansion and strategic alliances",
+          "position": "center 26%",
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/pedro-enriquez/3.jpg"
+            }
+          ]
         },
         {
           "name": "Ezequiel Lopez",
@@ -786,7 +1045,7 @@
           "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
           "position": "center 0%",
-          "zoom": 1.20,
+          "zoom": 1.2,
           "categoria": "tech",
           "subcategoria": "Electromechanics & IoT",
           "logros": [
@@ -803,7 +1062,24 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for industrial automation and IoT projects",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/ezequiel-lopez/3.jpg"
+            }
+          ]
         },
         {
           "name": "Facundo Majda",
@@ -835,36 +1111,6 @@
           "instagram": "https://www.instagram.com/fusa.labs"
         },
         {
-          "name": "Adrián Gamarra",
-          "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
-          "highlight": "Marketing",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
-          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for growth consulting and content strategy",
-          "position": "center 28%",
-          "instagram": "https://www.instagram.com/fusa.labs"
-        },
-        {
           "name": "Patricio Polo",
           "slug": "patricio-polo",
           "email": "gypp54@gmail.com",
@@ -876,7 +1122,7 @@
           "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
           "foto": "/img/equipo/patricio-polo.jpg",
           "position": "80% 62%",
-          "zoom": 1.20,
+          "zoom": 1.2,
           "categoria": "business",
           "subcategoria": "Finance & Trade",
           "logros": [
@@ -893,37 +1139,24 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for foreign trade and tax optimization consulting",
-          "instagram": "https://www.instagram.com/fusa.labs"
-        },
-        {
-          "name": "Pedro Enríquez",
-          "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
-          "title": "Project Manager",
-          "bio": "Business management with specialization in international management, multilingual communication, research-driven analysis, and strategic copywriting.",
-          "highlight": "Project Management",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Project Manager focused on business management and international expansion, combining research-based decision making with strategic communication.",
-          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "International Business Management",
-          "logros": [
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/1.jpg"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/patricio-polo/3.jpg"
             }
-          ],
-          "cta": "International business is built with trust, not contracts.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for international expansion and strategic alliances",
-          "position": "center 26%",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          ]
         },
         {
           "name": "Lisandro Ratto",
@@ -937,7 +1170,7 @@
           "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
           "position": "center 18%",
-          "zoom": 1.0,
+          "zoom": 1,
           "categoria": "operations",
           "subcategoria": "HR & Culture",
           "logros": [
@@ -954,7 +1187,24 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for recruitment processes and employer branding strategy",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/fusa.labs",
+          "proyectos": [
+            {
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/1.jpg"
+            },
+            {
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/2.jpg"
+            },
+            {
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "image": "/img/equipo/proyectos personales/lisandro-ratto/3.jpg"
+            }
+          ]
         }
       ]
     },

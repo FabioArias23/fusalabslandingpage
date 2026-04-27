@@ -37,7 +37,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
-import ScrambledText from "@/components/animations/ScrambledText";
+
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Cpu,
@@ -81,26 +81,22 @@ function PillarCarousel({ pillar, Icon }: { pillar: any; Icon: any }) {
 
   return (
     <motion.div
-      initial={false}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, scale: 0.8, y: 60 }}
+      whileInView={{ opacity: 1, scale: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 1.2, ease: "easeOut" }}
       className="w-full space-y-8"
     >
       {/* Pillar Header */}
-      <div className="max-w-[1800px] px-6 lg:pl-32 lg:pr-24">
-        <div className="border-l-4 sm:border-l-8 border-[#1C058E] pl-4 sm:pl-8">
+      <div className="max-w-[1800px] mx-auto px-6 text-center">
+        <div className="flex flex-col items-center">
           <div className="mb-4 sm:mb-6">
-            <h3 className="font-heading text-2xl xs:text-3xl sm:text-4xl md:text-6xl scale-y-110 origin-left">
-              <ScrambledText radius={50} speed={0.8} scrambleChars=".:">
-                {pillar.title}
-              </ScrambledText>
+            <h3 className="font-heading text-2xl xs:text-3xl sm:text-4xl md:text-6xl scale-y-110 origin-center">
+              {pillar.title}
             </h3>
           </div>
-          <div className="max-w-4xl text-base xs:text-lg sm:text-xl md:text-3xl text-muted-foreground/90 leading-relaxed font-light">
-            <ScrambledText radius={30} speed={0.8}>
-              {pillar.description}
-            </ScrambledText>
+          <div className="max-w-5xl mx-auto text-base xs:text-lg sm:text-xl md:text-3xl text-muted-foreground/90 leading-relaxed font-light">
+            {pillar.description}
           </div>
         </div>
       </div>
@@ -163,11 +159,11 @@ function PillarCarousel({ pillar, Icon }: { pillar: any; Icon: any }) {
 
       {/* Actions - Aligned Left */}
       <motion.div 
-        initial={{ opacity: 0, scale: 0.98, y: 10 }}
+        initial={{ opacity: 0, scale: 0.8, y: 40 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
-        className="w-full flex justify-start pb-10 sm:pb-16 px-6 lg:pl-32 lg:pr-24"
+        className="w-full flex justify-center pb-10 sm:pb-16 px-6"
       >
         <Dialog>
           <DialogTrigger asChild>
@@ -215,13 +211,13 @@ export function ServicesPreviewSection({
     <section id="servicios" className="pt-12 sm:pt-16 md:pt-24">
       {/* Section Title */}
       <motion.div 
-        initial={{ opacity: 0, scale: 0.98, y: 20 }}
+        initial={{ opacity: 0, scale: 0.8, y: 60 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="max-w-[1800px] px-6 lg:pl-32 lg:pr-24 mb-8 sm:mb-12 md:mb-16"
+        className="max-w-[1800px] mx-auto px-6 text-center mb-8 sm:mb-12 md:mb-16"
       >
-        <h2 className="font-heading text-2xl sm:text-4xl md:text-[5.4rem] tracking-tight text-foreground/90 border-l-4 sm:border-l-8 border-[#1C058E] pl-4 sm:pl-8 scale-y-110 origin-left">
+        <h2 className="font-heading text-2xl sm:text-4xl md:text-[5.4rem] tracking-tight text-foreground/90 scale-y-110 origin-center">
           {data.services.title}
         </h2>
       </motion.div>
@@ -230,7 +226,7 @@ export function ServicesPreviewSection({
         {pillars.map((pillar: any, index: number) => (
           <motion.div
             key={pillar.icon || index}
-            initial={{ opacity: 0, scale: 0.98, y: 20 }}
+            initial={{ opacity: 0, scale: 0.8, y: 60 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 + (index * 0.05) }}
