@@ -2,6 +2,7 @@
 
 import { Renderer, Program, Mesh, Color, Triangle } from 'ogl';
 import { useEffect, useRef } from 'react';
+import { isMobileDevice, isWebGLAvailable } from './aurora-utils';
 import './Aurora.css';
 
 const VERT = `#version 300 es
@@ -48,7 +49,7 @@ float snoise(vec2 v){
           dot(x0, x0),
           dot(x12.xy, x12.xy),
           dot(x12.zw, x12.zw)
-      ), 
+      ),
       0.0
   );
   m = m * m;
@@ -71,41 +72,41 @@ struct ColorStop {
   float position;
 };
 
-#define COLOR_RAMP(colors, factor, finalColor) {              \
-  int index = 0;                                            \
-  for (int i = 0; i < 2; i++) {                               \
-     ColorStop currentColor = colors[i];                    \
-     bool isInBetween = currentColor.position <= factor;    \
-     index = int(mix(float(index), float(i), float(isInBetween))); \
-  }                                                         \
-  ColorStop currentColor = colors[index];                   \
-  ColorStop nextColor = colors[index + 1];                  \
-  float range = nextColor.position - currentColor.position; \
-  float lerpFactor = (factor - currentColor.position) / range; \
-  finalColor = mix(currentColor.color, nextColor.color, lerpFactor); \
+#define COLOR_RAMP(colors, factor, finalColor) {              \\
+  int index = 0;                                            \\
+  for (int i = 0; i < 2; i++) {                               \\
+     ColorStop currentColor = colors[i];                    \\
+     bool isInBetween = currentColor.position <= factor;    \\
+     index = int(mix(float(index), float(i), float(isInBetween))); \\
+  }                                                         \\
+  ColorStop currentColor = colors[index];                   \\
+  ColorStop nextColor = colors[index + 1];                  \\
+  float range = nextColor.position - currentColor.position; \\
+  float lerpFactor = (factor - currentColor.position) / range; \\
+  finalColor = mix(currentColor.color, nextColor.color, lerpFactor); \\
 }
 
 void main() {
   vec2 uv = gl_FragCoord.xy / uResolution;
-  
+
   ColorStop colors[3];
   colors[0] = ColorStop(uColorStops[0], 0.0);
   colors[1] = ColorStop(uColorStops[1], 0.5);
   colors[2] = ColorStop(uColorStops[2], 1.0);
-  
+
   vec3 rampColor;
   COLOR_RAMP(colors, uv.x, rampColor);
-  
+
   float height = snoise(vec2(uv.x * 2.0 + uTime * 0.1, uTime * 0.25)) * 0.5 * uAmplitude;
   height = exp(height);
   height = (uv.y * 2.0 - height + 0.2);
   float intensity = 0.6 * height;
-  
+
   float midPoint = 0.20;
   float auroraAlpha = smoothstep(midPoint - uBlend * 0.5, midPoint + uBlend * 0.5, intensity);
-  
+
   vec3 auroraColor = intensity * rampColor;
-  
+
   fragColor = vec4(auroraColor * auroraAlpha, auroraAlpha);
 }
 `;
@@ -116,13 +117,15 @@ interface AuroraProps {
   blend?: number;
   speed?: number;
   time?: number;
+  onError?: () => void;
 }
 
 export default function Aurora(props: AuroraProps) {
-  const { 
-    colorStops = ['#5227FF', '#7cff67', '#5227FF'], 
-    amplitude = 1.0, 
-    blend = 0.5 
+  const {
+    colorStops = ['#5227FF', '#7cff67', '#5227FF'],
+    amplitude = 1.0,
+    blend = 0.5,
+    onError
   } = props;
   const propsRef = useRef(props);
   propsRef.current = props;
@@ -133,12 +136,36 @@ export default function Aurora(props: AuroraProps) {
     const ctn = ctnDom.current;
     if (!ctn) return;
 
-    const renderer = new Renderer({
-      alpha: true,
-      premultipliedAlpha: true,
-      antialias: true
-    });
+    const mobile = isMobileDevice();
+
+    // Pre-check WebGL availability
+    if (!isWebGLAvailable()) {
+      onError?.();
+      return;
+    }
+
+    let renderer: Renderer;
+    try {
+      renderer = new Renderer({
+        alpha: true,
+        premultipliedAlpha: true,
+        antialias: !mobile,
+        dpr: mobile ? 1 : Math.min(window.devicePixelRatio, 2),
+      });
+    } catch {
+      onError?.();
+      return;
+    }
+
     const gl = renderer.gl;
+
+    // Listen for WebGL context loss (iOS Safari kills contexts under memory pressure)
+    const handleContextLost = (e: Event) => {
+      e.preventDefault();
+      onError?.();
+    };
+    gl.canvas.addEventListener('webglcontextlost', handleContextLost);
+
     gl.clearColor(0, 0, 0, 0);
     gl.enable(gl.BLEND);
     gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
@@ -148,8 +175,13 @@ export default function Aurora(props: AuroraProps) {
 
     function resize() {
       if (!ctn) return;
-      const width = ctn.offsetWidth;
-      const height = ctn.offsetHeight;
+      let width = ctn.offsetWidth;
+      let height = ctn.offsetHeight;
+      // Render at half resolution on mobile for performance
+      if (mobile) {
+        width = Math.round(width * 0.5);
+        height = Math.round(height * 0.5);
+      }
       renderer.setSize(width, height);
       if (program) {
         program.uniforms.uResolution.value = [width, height];
@@ -164,7 +196,6 @@ export default function Aurora(props: AuroraProps) {
 
     const sanitizeHex = (hex: string) => {
       if (!hex) return "#000000";
-      // Remove alpha if present (8-digit hex)
       if (hex.length === 9) return hex.slice(0, 7);
       return hex;
     };
@@ -174,24 +205,40 @@ export default function Aurora(props: AuroraProps) {
       return [c.r || 0, c.g || 0, c.b || 0];
     });
 
-    program = new Program(gl, {
-      vertex: VERT,
-      fragment: FRAG,
-      uniforms: {
-        uTime: { value: 0 },
-        uAmplitude: { value: amplitude },
-        uColorStops: { value: colorStopsArray },
-        uResolution: { value: [ctn.offsetWidth, ctn.offsetHeight] },
-        uBlend: { value: blend }
-      }
-    });
+    try {
+      program = new Program(gl, {
+        vertex: VERT,
+        fragment: FRAG,
+        uniforms: {
+          uTime: { value: 0 },
+          uAmplitude: { value: amplitude },
+          uColorStops: { value: colorStopsArray },
+          uResolution: { value: [ctn.offsetWidth, ctn.offsetHeight] },
+          uBlend: { value: blend }
+        }
+      });
+    } catch {
+      onError?.();
+      return;
+    }
 
     const mesh = new Mesh(gl, { geometry, program });
     ctn.appendChild(gl.canvas);
 
+    // FPS limiter: 60fps desktop, 30fps mobile
+    const frameInterval = mobile ? 1000 / 30 : 0;
+    let lastFrameTime = 0;
     let animateId = 0;
+
     const update = (t: number) => {
       animateId = requestAnimationFrame(update);
+
+      if (mobile) {
+        const delta = t - lastFrameTime;
+        if (delta < frameInterval) return;
+        lastFrameTime = t - (delta % frameInterval);
+      }
+
       const { time = t * 0.01, speed = 1.0 } = propsRef.current;
       program.uniforms.uTime.value = time * speed * 0.1;
       program.uniforms.uAmplitude.value = propsRef.current.amplitude ?? 1.0;
@@ -210,6 +257,7 @@ export default function Aurora(props: AuroraProps) {
     return () => {
       cancelAnimationFrame(animateId);
       window.removeEventListener('resize', resize);
+      gl.canvas.removeEventListener('webglcontextlost', handleContextLost);
       if (ctn && gl.canvas.parentNode === ctn) {
         ctn.removeChild(gl.canvas);
       }
