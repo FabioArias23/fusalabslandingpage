@@ -53,7 +53,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
             className="space-y-6 sm:space-y-8 flex flex-col items-center"
           >
             <div>
-              <h1 className="font-heading text-3xl xs:text-4xl sm:text-5xl md:text-[5.5rem] leading-[1.15] tracking-tight text-white! dark:text-foreground!">
+              <h1 className="font-heading text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.15] tracking-tight text-white! dark:text-foreground!">
                 <div className="flex flex-wrap justify-center items-center gap-x-2 sm:gap-x-4">
                   {/* Line 1 */}
                   <div className="flex items-center justify-center gap-2 sm:gap-4 w-full">
@@ -146,13 +146,13 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                   delay={150}
                   animateBy="words"
                   direction="top"
-                  className="text-muted-foreground block mt-2 sm:mt-4 text-xl xs:text-2xl sm:text-3xl md:text-[2.8rem] justify-center text-center"
+                  className="text-muted-foreground block mt-2 sm:mt-4 text-xl xs:text-2xl sm:text-3xl md:text-4xl justify-center text-center"
                 />
               )}
             </div>
  
             <p 
-              className="max-w-6xl mx-auto text-base xs:text-lg sm:text-2xl md:text-[33px] text-muted-foreground leading-relaxed font-light"
+              className="max-w-5xl mx-auto text-base xs:text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed font-light"
               dangerouslySetInnerHTML={{ 
                 __html: data.hero.description
                   .replace("tomar el control", '<span class="text-foreground font-bold">tomar el control</span>') 

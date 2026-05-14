@@ -24,7 +24,7 @@ export default function EquipoPage() {
           className="mb-24 sm:mb-32 w-full border-l-4 border-[#1C058E] pl-8 sm:pl-12"
         >
           <p 
-            className="font-sans text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
+            className="font-sans text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
             dangerouslySetInnerHTML={{ 
               __html: team.subtitle
                 .replace("Fusa Labs", "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong>")
