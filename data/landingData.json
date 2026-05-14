@@ -244,45 +244,61 @@
           "name": "Adrián Gamarra",
           "slug": "adrian-gamarra",
           "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "Growth digital B2B. ROI/CAC optimizado. Lead generation y branding.",
-          "highlight": "Marketing",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Estrategia de contenidos y marketing digital enfocada en crecimiento B2B. Optimización de métricas de adquisición, retención y conversión.",
-          "aporte": "Define la estrategia de posicionamiento y adquisición de clientes. Lidera iniciativas de branding, lead generation y growth para Fusa.",
+          "title": "Founder & CEO — Product, AI & Growth",
+          "bio": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
+          "highlight": "Founder",
+          "linkedin": "https://www.linkedin.com/in/hector-adrian-arganaraz-gamarra",
+          "resumen": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
+          "aporte": "Define la visión de producto, la estrategia comercial, la arquitectura de agentes de IA y las métricas de crecimiento en todos los proyectos de Fusa Labs. Conecta negocio, tecnología y marketing en cada decisión.",
           "foto": "/img/equipo/adrian-gamarra.jpg",
           "categoria": "business",
-          "subcategoria": "Marketing & Growth",
+          "subcategoria": "Founder & CEO",
           "logros": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Vision",
+              "label": "Product Vision & Strategy"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "AI",
+              "label": "AI Agent Architecture & Prompt Design"
+            },
+            {
+              "metric": "Growth",
+              "label": "Marketing, Meta Ads, WhatsApp API & Conversion"
+            },
+            {
+              "metric": "Sales",
+              "label": "Sales Prospecting & Lead Generation"
+            },
+            {
+              "metric": "ROI",
+              "label": "Business Model Design & ROI Optimization"
+            },
+            {
+              "metric": "Dev",
+              "label": "Full-Stack Development & Automation"
             }
           ],
-          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
+          "cta": "No construyo productos que funcionan. Construyo productos que venden, convierten y escalan solos.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
+          "disponibilidad": "Disponible para consultoría de producto, estrategia de IA y growth",
           "position": "center 28%",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/adriangmrra",
           "proyectos": [
             {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
+              "title": "ClinicForge",
+              "description": "Plataforma SaaS para clínicas con agente de IA integrado. Gestiona turnos, pacientes, facturación y comunicación por WhatsApp, Instagram y Facebook de forma autónoma. 27 clínicas en producción.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
             },
             {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
+              "title": "Platform AI Solutions",
+              "description": "Plataforma SaaS de engagement omnicanal con IA. Conecta WhatsApp, Instagram y Facebook con agentes inteligentes, bases de conocimiento RAG, estudio creativo y atribución de ROI en tiempo real. Multi-tenant con aislamiento soberano de datos.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
             },
             {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
+              "title": "PeriodistApp",
+              "description": "Aplicación para periodistas con transcripción automática por IA, diarización de speakers, copiloto editorial y generación de clips. Velocidad sin perder profundidad.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
             }
           ]
@@ -959,45 +975,61 @@
           "name": "Adrián Gamarra",
           "slug": "adrian-gamarra",
           "email": "gamarraadrian200@gmail.com",
-          "title": "Content & Marketing Strategist",
-          "bio": "B2B digital growth. Optimized ROI/CAC. Lead generation and branding.",
-          "highlight": "Marketing",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
-          "resumen": "Content and digital marketing strategy focused on B2B growth. Acquisition, retention, and conversion metrics optimization.",
-          "aporte": "Defines positioning and customer acquisition strategy. Leads branding, lead generation, and growth initiatives for Fusa.",
+          "title": "Founder & CEO — Product, AI & Growth",
+          "bio": "I'm Adrián Gamarra, founder of Fusa Labs and CEO of Future IA & Automatización. I come from journalism and digital marketing, which gave me a different way of thinking about products: always from the user, the conversion, and the business outcome. Today I lead product vision, commercial strategy, and AI agent architecture across all team projects. My job is to connect what the client needs with what technology can deliver, design the agents' conversational flows, define the metrics that matter, and make sure every product doesn't just work — it sells, converts, and scales. With 10+ years in marketing, media, and technology, and an operation running 100% on AI with a distributed team, I build systems that work on their own while my businesses and my clients' businesses grow.",
+          "highlight": "Founder",
+          "linkedin": "https://www.linkedin.com/in/hector-adrian-arganaraz-gamarra",
+          "resumen": "I'm Adrián Gamarra, founder of Fusa Labs and CEO of Future IA & Automatización. I come from journalism and digital marketing, which gave me a different way of thinking about products: always from the user, the conversion, and the business outcome. Today I lead product vision, commercial strategy, and AI agent architecture across all team projects. My job is to connect what the client needs with what technology can deliver, design the agents' conversational flows, define the metrics that matter, and make sure every product doesn't just work — it sells, converts, and scales. With 10+ years in marketing, media, and technology, and an operation running 100% on AI with a distributed team, I build systems that work on their own while my businesses and my clients' businesses grow.",
+          "aporte": "Defines product vision, commercial strategy, AI agent architecture, and growth metrics across all Fusa Labs projects. Connects business, technology, and marketing in every decision.",
           "foto": "/img/equipo/adrian-gamarra.jpg",
           "categoria": "business",
-          "subcategoria": "Marketing & Growth",
+          "subcategoria": "Founder & CEO",
           "logros": [
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "Vision",
+              "label": "Product Vision & Strategy"
             },
             {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
+              "metric": "AI",
+              "label": "AI Agent Architecture & Prompt Design"
+            },
+            {
+              "metric": "Growth",
+              "label": "Marketing, Meta Ads, WhatsApp API & Conversion"
+            },
+            {
+              "metric": "Sales",
+              "label": "Sales Prospecting & Lead Generation"
+            },
+            {
+              "metric": "ROI",
+              "label": "Business Model Design & ROI Optimization"
+            },
+            {
+              "metric": "Dev",
+              "label": "Full-Stack Development & Automation"
             }
           ],
-          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
+          "cta": "I don't build products that work. I build products that sell, convert, and scale on their own.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Available for growth consulting and content strategy",
+          "disponibilidad": "Available for product consulting, AI strategy, and growth",
           "position": "center 28%",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/adriangmrra",
           "proyectos": [
             {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
+              "title": "ClinicForge",
+              "description": "Multi-tenant SaaS platform for clinics with integrated AI agent. Manages appointments, patients, billing, and communication via WhatsApp, Instagram, and Facebook autonomously. 27 clinics in production.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
             },
             {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
+              "title": "Platform AI Solutions",
+              "description": "Omnichannel AI engagement SaaS platform. Connects WhatsApp, Instagram, and Facebook with intelligent agents, RAG knowledge bases, creative studio, and real-time ROI attribution. Multi-tenant with sovereign data isolation.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
             },
             {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
+              "title": "PeriodistApp",
+              "description": "Application for journalists with automatic AI transcription, speaker diarization, editorial copilot, and clip generation. Speed without losing depth.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
             }
           ]
