@@ -15,7 +15,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { useTheme } from "next-themes";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   DropdownMenu,
@@ -23,6 +23,12 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
 import { MagicContainer, MagicCard } from "@/components/ui/magic-bento";
 
 export function Nav() {
@@ -140,6 +146,45 @@ export function Nav() {
                   <ArrowRight className="size-4 ml-2" />
                 </Link>
               </Button>
+
+              {/* Mobile hamburger menu */}
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon" className="md:hidden rounded-full hover:bg-[#1C058E]/10 dark:hover:bg-white/10 text-[#1C058E] dark:text-white">
+                    <Menu className="size-5" />
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="right" className="w-72 bg-background/95 backdrop-blur-xl border-l border-border/10 pt-12">
+                  <nav className="flex flex-col gap-2">
+                    {menuItems.map((item) => {
+                      const href = getHref(item);
+                      const isActive = pathname === href || (href !== "/" && pathname.startsWith(href));
+                      return (
+                        <SheetClose key={item} asChild>
+                          <Link
+                            href={href}
+                            className={cn(
+                              "px-4 py-3 rounded-xl text-base font-medium transition-colors text-[#1C058E] dark:text-white hover:bg-[#1C058E]/10 dark:hover:bg-white/10",
+                              isActive && "bg-[#1C058E]/10 dark:bg-white/10 font-bold"
+                            )}
+                          >
+                            {item}
+                          </Link>
+                        </SheetClose>
+                      );
+                    })}
+                    <SheetClose asChild>
+                      <Link
+                        href="/#contacto"
+                        className="mt-4 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#1C058E] text-white font-medium transition-all hover:bg-[#1C058E]/80"
+                      >
+                        {navigation.ctaButton}
+                        <ArrowRight className="size-4" />
+                      </Link>
+                    </SheetClose>
+                  </nav>
+                </SheetContent>
+              </Sheet>
 
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>

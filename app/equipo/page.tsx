@@ -21,10 +21,10 @@ export default function EquipoPage() {
           initial={{ opacity: 0, scale: 0.98, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.6, ease: "easeOut" }}
-          className="mb-24 sm:mb-32 w-full border-l-4 border-[#1C058E] pl-8 sm:pl-12"
+          className="mb-16 sm:mb-24 lg:mb-32 w-full border-l-4 border-[#1C058E] pl-6 sm:pl-8 lg:pl-12"
         >
           <p 
-            className="font-sans text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
+            className="font-sans text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
             dangerouslySetInnerHTML={{ 
               __html: team.subtitle
                 .replace("Fusa Labs", "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong>")
@@ -70,15 +70,15 @@ export default function EquipoPage() {
                 className="group block text-center"
               >
                 <div className="flex flex-col items-center">
-                  <div className="mb-8 overflow-visible">
+                  <div className="mb-6 sm:mb-8 overflow-visible scale-75 sm:scale-90 lg:scale-100 origin-center">
                     <TiltedCard
                       imageSrc={member.foto}
                       altText={member.name}
                       captionText={member.title}
-                      containerHeight="320px"
-                      containerWidth="320px"
-                      imageHeight="300px"
-                      imageWidth="300px"
+                      containerHeight="280px"
+                      containerWidth="280px"
+                      imageHeight="260px"
+                      imageWidth="260px"
                       imageZoom={member.zoom || 1}
                       imagePosition={member.position || "center"}
                       rotateAmplitude={20}
@@ -89,10 +89,10 @@ export default function EquipoPage() {
                     />
                   </div>
                   <div className="space-y-3">
-                    <h3 className="font-heading text-2xl sm:text-3xl group-hover:text-primary transition-colors scale-y-110">
+                    <h3 className="font-heading text-xl sm:text-2xl group-hover:text-primary transition-colors scale-y-110">
                       {member.name}
                     </h3>
-                    <p className="text-base sm:text-lg font-medium text-muted-foreground/80 tracking-wide">
+                    <p className="text-sm sm:text-base font-medium text-muted-foreground/80 tracking-wide">
                       {member.title}
                     </p>
                   </div>

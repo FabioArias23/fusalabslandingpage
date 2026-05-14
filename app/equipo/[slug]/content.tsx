@@ -81,7 +81,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
   const contactarLabel = isEnglish ? "Contact" : "Contactar";
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 py-12 md:py-16">
+    <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-6 sm:gap-8 px-4 sm:px-6 py-10 md:py-16">
       <Button variant="ghost" asChild className="w-fit transition-all hover:translate-x-[-4px]">
         <Link href="/equipo">
           <ArrowLeft className="size-4 mr-2" />
@@ -91,19 +91,19 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
 
       <Card className="border-border/40 bg-card/50 backdrop-blur-sm shadow-xl">
         <CardHeader className="space-y-6">
-          <div className="flex items-start gap-6">
-            <Avatar className="size-32 border-2 border-border/40">
-              <AvatarImage 
-                src={member.foto} 
-                alt={member.name} 
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
+            <Avatar className="size-20 sm:size-28 lg:size-32 border-2 border-border/40">
+              <AvatarImage
+                src={member.foto}
+                alt={member.name}
                 className="object-cover"
                 style={{ objectPosition: member.position || "center" }}
               />
-              <AvatarFallback className="text-3xl">{member.name.charAt(0)}</AvatarFallback>
+              <AvatarFallback className="text-2xl">{member.name.charAt(0)}</AvatarFallback>
             </Avatar>
-            <div className="space-y-3">
-              <CardTitle className="text-4xl font-heading scale-y-110 origin-left">{member.name}</CardTitle>
-              <CardDescription className="text-xl text-muted-foreground/80">{member.title}</CardDescription>
+            <div className="space-y-2 sm:space-y-3 text-center sm:text-left">
+              <CardTitle className="text-2xl sm:text-3xl lg:text-4xl font-heading scale-y-110 origin-left">{member.name}</CardTitle>
+              <CardDescription className="text-base sm:text-lg lg:text-xl text-muted-foreground/80">{member.title}</CardDescription>
               <div className="flex items-center gap-3 pt-2">
                 {member.disponible && (
                   <Badge variant="default" className="bg-emerald-600/90 hover:bg-emerald-600 text-[10px] uppercase tracking-wider px-3">

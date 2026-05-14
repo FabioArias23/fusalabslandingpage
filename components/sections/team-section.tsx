@@ -21,7 +21,7 @@ export function TeamSection({ data }: { data: typeof landingData.es }) {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="mb-16 max-w-2xl"
           >
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-tight mb-4 scale-y-110 origin-left">
+            <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl tracking-tight mb-4 scale-y-110 origin-left">
               {team.title}
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
@@ -52,7 +52,7 @@ export function TeamSection({ data }: { data: typeof landingData.es }) {
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-heading text-3xl group-hover:text-primary transition-colors scale-y-125">
+                  <h3 className="font-heading text-xl sm:text-2xl group-hover:text-primary transition-colors scale-y-125">
                     {member.name}
                   </h3>
                   <p className="text-base font-medium text-muted-foreground">

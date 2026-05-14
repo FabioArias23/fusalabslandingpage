@@ -82,7 +82,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
           {/* Full Width Headers */}
           <motion.div {...revealAnimation}>
             <h2 
-              className="font-heading text-4xl sm:text-5xl md:text-[4rem] transition-all scale-y-110 origin-left leading-none whitespace-nowrap"
+              className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[3.2rem] transition-all scale-y-110 origin-left leading-none"
               dangerouslySetInnerHTML={{ 
                 __html: data.contact.title.replace(/<br.*?\/>/g, " ")
                   .replace("¿", '<span class="dark:text-[#1C058E]">¿</span>')
@@ -91,7 +91,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
             />
             <div className="mt-8">
               <p 
-                className="text-xl sm:text-2xl md:text-[2.32rem] text-muted-foreground font-light leading-tight whitespace-nowrap"
+                className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground font-light leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contact.greeting.replace(/<br.*?\/>/g, " ") }}
               />
             </div>
@@ -102,7 +102,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
             {/* Left Column: Description & Cards */}
             <motion.div {...revealAnimation} className="space-y-12 lg:pt-12">
               <p 
-                className="text-lg sm:text-xl md:text-[1.8rem] text-muted-foreground leading-relaxed font-normal"
+                className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed font-normal"
                 dangerouslySetInnerHTML={{ 
                   __html: data.contact.description
                     .replace("consultorias", '<strong class="font-bold text-foreground">consultorias</strong>')
@@ -125,8 +125,8 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
                           <Icon className="size-7 text-primary" />
                         </div>
                         <div>
-                          <p className="text-2xl sm:text-3xl font-semibold text-foreground/90">{card.title}</p>
-                          <p className="text-lg sm:text-[1.35rem] text-muted-foreground mt-1.5 leading-relaxed">
+                          <p className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground/90">{card.title}</p>
+                          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mt-1.5 leading-relaxed">
                             {card.description}
                           </p>
                         </div>
@@ -146,7 +146,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
                 <Card className="h-full border-0 bg-transparent flex flex-col">
                   <CardContent className="flex-1 pt-6 sm:pt-8 flex flex-col justify-center">
                     <div className="mb-6">
-                      <h3 className="text-xl sm:text-2xl font-heading font-bold text-[#1C058E] dark:text-white uppercase tracking-wider">
+                      <h3 className="text-lg sm:text-xl font-heading font-bold text-[#1C058E] dark:text-white uppercase tracking-wider">
                         {isEnglish ? "CONTACT US" : "CONTACTANOS"}
                       </h3>
                     </div>
