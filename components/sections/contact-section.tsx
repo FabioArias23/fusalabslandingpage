@@ -82,7 +82,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
           {/* Full Width Headers */}
           <motion.div {...revealAnimation}>
             <h2 
-              className="font-heading text-4xl sm:text-5xl md:text-[4rem] transition-all scale-y-110 origin-left leading-none whitespace-nowrap"
+              className="font-heading text-4xl sm:text-5xl md:text-[4rem] transition-all scale-y-110 origin-left leading-tight"
               dangerouslySetInnerHTML={{ 
                 __html: data.contact.title.replace(/<br.*?\/>/g, " ")
                   .replace("¿", '<span class="dark:text-[#1C058E]">¿</span>')
@@ -91,7 +91,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
             />
             <div className="mt-8">
               <p 
-                className="text-xl sm:text-2xl md:text-[2.32rem] text-muted-foreground font-light leading-tight whitespace-nowrap"
+                className="text-xl sm:text-2xl md:text-[2.32rem] text-muted-foreground font-light leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contact.greeting.replace(/<br.*?\/>/g, " ") }}
               />
             </div>

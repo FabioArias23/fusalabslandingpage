@@ -4,13 +4,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { useLocale } from "@/contexts/locale-context";
 import { TeamMember } from "@/types";
-import { decodeSlug, findMemberBySlug } from "@/lib/slug";
+import { findMemberBySlug } from "@/lib/slug";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, Mail } from "lucide-react";
+import { ArrowLeft, MessageSquare } from "lucide-react";
 
 const Instagram = ({ className }: { className?: string }) => (
   <svg
@@ -50,8 +49,22 @@ const Linkedin = ({ className }: { className?: string }) => (
   </svg>
 );
 
-
-import { TeamMemberContentNeural } from "./member-content-neural";
+const Github = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4" />
+  </svg>
+);
 
 interface TeamMemberContentProps {
   slug: string;
@@ -66,33 +79,32 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
     notFound();
   }
 
-  // Apply the Neural design to everyone except Facundo Majda
-  if (slug !== "facundo-majda") {
-    return <TeamMemberContentNeural member={member} />;
-  }
-
   const linkedinUrl = member.linkedin || "https://www.linkedin.com/company/fusa-labs";
   const instagramUrl = member.instagram || "https://www.instagram.com/fusa.labs";
+  const showGithub = ["facu", "jesus", "adri", "fabio"].some(name => slug.toLowerCase().includes(name));
 
-  const volverLabel = isEnglish ? "Back to team" : "Volver al equipo";
+  const volverLabel = isEnglish ? "Back to team" : "Volver atrás";
   const resumenLabel = isEnglish ? "Summary" : "Resumen";
-  const aporteLabel = isEnglish ? "Contribution" : "Aporte";
-  const disponibilidadLabel = isEnglish ? "Availability" : "Disponibilidad";
-  const contactarLabel = isEnglish ? "Contact" : "Contactar";
+  const contactarLabel = isEnglish ? "Contact us" : "Contactanos";
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 py-12 md:py-16">
-      <Button variant="ghost" asChild className="w-fit transition-all hover:translate-x-[-4px]">
-        <Link href="/equipo">
-          <ArrowLeft className="size-4 mr-2" />
-          {volverLabel}
-        </Link>
-      </Button>
+    <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 pt-32 pb-12 sm:pt-40 md:pt-48 md:pb-16">
+      <div className="flex w-full items-center justify-between">
+      </div>
 
-      <Card className="border-border/40 bg-card/50 backdrop-blur-sm shadow-xl">
+      <div className="relative w-full">
+        <Link 
+          href="/#equipo" 
+          className="absolute -top-5 -left-2 sm:-left-4 sm:-top-6 lg:-left-16 lg:top-6 z-10 flex items-center justify-center size-10 sm:size-12 rounded-full border border-border/40 bg-card/50 backdrop-blur-sm shadow-xl hover:bg-card/80 hover:scale-110 transition-all text-foreground"
+          title={volverLabel}
+        >
+          <ArrowLeft className="size-5" />
+        </Link>
+        
+        <Card className="border-border/40 bg-card/50 backdrop-blur-sm shadow-xl">
         <CardHeader className="space-y-6">
-          <div className="flex items-start gap-6">
-            <Avatar className="size-32 border-2 border-border/40">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-6">
+            <Avatar className="size-32 border-2 border-border/40 mx-auto sm:mx-0">
               <AvatarImage 
                 src={member.foto} 
                 alt={member.name} 
@@ -101,59 +113,59 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
               />
               <AvatarFallback className="text-3xl">{member.name.charAt(0)}</AvatarFallback>
             </Avatar>
-            <div className="space-y-3">
-              <CardTitle className="text-4xl font-heading scale-y-110 origin-left">{member.name}</CardTitle>
-              <CardDescription className="text-xl text-muted-foreground/80">{member.title}</CardDescription>
-              <div className="flex items-center gap-3 pt-2">
-                {member.disponible && (
-                  <Badge variant="default" className="bg-emerald-600/90 hover:bg-emerald-600 text-[10px] uppercase tracking-wider px-3">
-                    {isEnglish ? "Available" : "Disponible"}
-                  </Badge>
-                )}
+            <div className="space-y-3 text-center sm:text-left">
+              <CardTitle className="text-3xl sm:text-4xl font-heading scale-y-110 origin-left sm:origin-left">{member.name}</CardTitle>
+              <CardDescription className="text-lg sm:text-xl text-muted-foreground/80">{member.title}</CardDescription>
+              <div className="flex items-center justify-center sm:justify-start gap-3 pt-2">
                 <div className="flex items-center gap-2">
-                  <Button variant="ghost" size="icon" asChild className="size-9 rounded-full bg-white/5 hover:bg-white/10 text-white transition-all hover:scale-110">
+                  <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
                     <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-                      <Linkedin className="size-4" />
+                      <Linkedin className="size-6" />
                     </a>
                   </Button>
-                  <Button variant="ghost" size="icon" asChild className="size-9 rounded-full bg-white/5 hover:bg-white/10 text-white transition-all hover:scale-110">
+                  <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
                     <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
-                      <Instagram className="size-4" />
+                      <Instagram className="size-6" />
                     </a>
                   </Button>
+                  {showGithub && (
+                    <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
+                      <a href={member.github || "https://github.com/fusalabs"} target="_blank" rel="noopener noreferrer">
+                        <Github className="size-6" />
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </CardHeader>
-        <CardContent className="space-y-6">
+        <CardContent className="space-y-8">
           <Separator />
 
-          <section className="space-y-2">
+          <section className="space-y-4">
             <h3 className="text-lg font-semibold">{resumenLabel}</h3>
-            <p className="text-muted-foreground dark:text-white!">{member.resumen}</p>
+            <div className="text-muted-foreground dark:text-white! leading-relaxed space-y-6">
+              <p>{member.resumen || member.bio}</p>
+              
+              <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 border-t border-border/20">
+                <span className="opacity-80 italic mt-4 sm:mt-0">
+                  {isEnglish ? "Interested in how we can help your business?" : "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"}
+                </span>
+                <Link 
+                  href="/#contacto" 
+                  className="inline-flex items-center text-[#1C058E]! hover:text-[#1C058E]/80! dark:text-[#1C058E]! dark:hover:text-[#1C058E]/80! font-bold transition-colors group mt-1 sm:mt-0"
+                >
+                  <MessageSquare className="size-4 mr-1.5" />
+                  {contactarLabel}
+                  <span className="ml-1 inline-block transition-transform group-hover:translate-x-1">→</span>
+                </Link>
+              </div>
+            </div>
           </section>
-
-          <section className="space-y-2">
-            <h3 className="text-lg font-semibold">{aporteLabel}</h3>
-            <p className="text-muted-foreground dark:text-white!">{member.aporte}</p>
-          </section>
-
-          <section className="space-y-2">
-            <h3 className="text-lg font-semibold">{disponibilidadLabel}</h3>
-            <p className="text-muted-foreground">{member.disponibilidad}</p>
-          </section>
-
-          {member.email && (
-            <Button asChild className="w-full sm:w-fit">
-              <a href={`mailto:${member.email}`}>
-                <Mail className="size-4 mr-2" />
-                {contactarLabel}
-              </a>
-            </Button>
-          )}
         </CardContent>
       </Card>
+      </div>
     </main>
   );
 }
