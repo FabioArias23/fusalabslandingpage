@@ -91,7 +91,7 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
             }
           }
         }}
-        className="flex-1 px-6 lg:pl-32 lg:pr-24 pt-24 pb-10 max-w-[1800px] mx-auto w-full space-y-16 z-10"
+        className="flex-1 px-4 sm:px-6 lg:pl-32 lg:pr-24 pt-20 sm:pt-24 pb-10 max-w-[1800px] mx-auto w-full space-y-10 sm:space-y-16 z-10"
       >
         
         {/* Hero Profile Section */}
@@ -100,10 +100,10 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
           show: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } }
         }}>
           <MagicContainer glowColor="28, 5, 142">
-            <section className="flex flex-col md:flex-row gap-12 items-start md:items-stretch py-8">
+            <section className="flex flex-col md:flex-row gap-6 sm:gap-8 md:gap-12 items-center md:items-stretch py-6 sm:py-8">
             <div className="relative group shrink-0">
-              <MagicCard 
-                className="w-56 h-56 rounded-full bg-background/5 border-2 border-white/40 backdrop-blur-sm p-2 overflow-hidden ring-4 ring-indigo-500/10"
+              <MagicCard
+                className="w-32 h-32 sm:w-44 sm:h-44 lg:w-56 lg:h-56 rounded-full bg-background/5 border-2 border-white/40 backdrop-blur-sm p-2 overflow-hidden ring-4 ring-indigo-500/10"
                 glowColor="28, 5, 142"
               >
                 <div className="w-full h-full rounded-full overflow-hidden border border-white/20">
@@ -117,33 +117,49 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
               </MagicCard>
             </div>
 
-            {/* Social Icons Vertical Line */}
+            {/* Social Icons — horizontal on mobile, vertical on md+ */}
+            <div className="flex md:hidden items-center justify-center gap-6">
+              <Link href={member.instagram || "https://www.instagram.com/fusa.labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
+                <InstagramIcon className="w-5 h-5" />
+              </Link>
+              <Link href={member.linkedin || "https://www.linkedin.com/company/fusa-labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
+                <LinkedinIcon className="w-5 h-5" />
+              </Link>
+              <Link href={member.github || "https://github.com/Fusa-Labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
+                <GithubIcon className="w-5 h-5" />
+              </Link>
+              <Link href={member.phone ? `https://wa.me/${member.phone.replace(/[\+\s]/g, '')}` : "https://wa.me/5493518799794"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
+                <WhatsappIcon className="w-5 h-5" />
+              </Link>
+            </div>
+
+            {/* Social Icons Vertical — desktop only */}
             <div className="hidden md:flex items-center gap-8 h-56">
               <div className="w-[1px] h-full bg-[#1C058E] dark:bg-white/40 relative">
                 <div className="absolute inset-y-0 -left-[1.5px] w-[4px] bg-white/20 blur-[2px] hidden dark:block"></div>
               </div>
               <div className="flex flex-col justify-between h-full py-4">
                 <Link href={member.instagram || "https://www.instagram.com/fusa.labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
-                  <InstagramIcon className="w-7 h-7" />
+                  <InstagramIcon className="w-6 h-6" />
                 </Link>
                 <Link href={member.linkedin || "https://www.linkedin.com/company/fusa-labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
-                  <LinkedinIcon className="w-7 h-7" />
+                  <LinkedinIcon className="w-6 h-6" />
                 </Link>
                 <Link href={member.github || "https://github.com/Fusa-Labs"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
-                  <GithubIcon className="w-7 h-7" />
+                  <GithubIcon className="w-6 h-6" />
                 </Link>
                 <Link href={member.phone ? `https://wa.me/${member.phone.replace(/[\+\s]/g, '')}` : "https://wa.me/5493518799794"} className="text-[#1C058E]/60 hover:text-[#1C058E] dark:text-white/60 dark:hover:text-white transition-all duration-300 hover:scale-110" target="_blank">
-                  <WhatsappIcon className="w-7 h-7" />
+                  <WhatsappIcon className="w-6 h-6" />
                 </Link>
               </div>
             </div>
 
             <div className="flex-1 flex flex-col justify-center">
               <div className="space-y-4">
-                <h1 className="text-[90px] font-bold tracking-tighter font-heading text-foreground dark:!text-[#1C058E] uppercase leading-none">
+                <h1 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter font-heading text-foreground dark:!text-[#1C058E] uppercase leading-none">
                   {member.name}
                 </h1>
-                <p className="text-3xl md:text-4xl font-medium tracking-wide !text-white dark:text-white font-sans">
+                <p className="text-base sm:text-xl md:text-2xl lg:text-3xl font-medium tracking-wide !text-white dark:text-white font-sans">
                   {member.title}
                 </p>
               </div>
@@ -163,14 +179,14 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
             className="rounded-3xl bg-background/10 border border-border/10 backdrop-blur-sm"
             glowColor="28, 5, 142"
           >
-            <div className="p-10 flex flex-col h-full">
-              <h2 className="text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-4 font-heading mb-8">
-                <span className="w-10 h-[1.5px] bg-[#1C058E]"></span> {expertiseLabel}
+            <div className="p-5 sm:p-7 lg:p-10 flex flex-col h-full">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-3 sm:gap-4 font-heading mb-6 sm:mb-8">
+                <span className="w-8 sm:w-10 h-[1.5px] bg-[#1C058E]"></span> {expertiseLabel}
               </h2>
-              <div className="flex flex-col justify-between flex-1 gap-4">
+              <div className="flex flex-col justify-between flex-1 gap-3 sm:gap-4">
                 {(member.logros?.map(l => l.label) || []).filter(Boolean).map((node, i) => (
-                  <div key={i} className="px-4 py-4 bg-background/5 border-l-2 border-[#1C058E] hover:bg-[#1C058E]/10 transition-colors group cursor-default flex-1 flex items-center">
-                    <span className="text-base uppercase tracking-wider font-bold text-foreground/60 group-hover:text-foreground transition-colors">
+                  <div key={i} className="px-3 py-3 sm:px-4 sm:py-4 bg-background/5 border-l-2 border-[#1C058E] hover:bg-[#1C058E]/10 transition-colors group cursor-default flex-1 flex items-center">
+                    <span className="text-xs sm:text-sm lg:text-base uppercase tracking-wider font-bold text-foreground/60 group-hover:text-foreground transition-colors">
                       {node}
                     </span>
                   </div>
@@ -184,11 +200,11 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
             className="lg:col-span-2 bg-background/10 border border-border/10 backdrop-blur-sm relative overflow-hidden rounded-3xl"
             glowColor="28, 5, 142"
           >
-            <div className="p-10 space-y-8">
-              <h2 className="text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-4 font-heading">
-                <span className="w-10 h-[1.5px] bg-[#1C058E]"></span> {aboutLabel}
+            <div className="p-5 sm:p-7 lg:p-10 space-y-5 sm:space-y-8">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-3 sm:gap-4 font-heading">
+                <span className="w-8 sm:w-10 h-[1.5px] bg-[#1C058E]"></span> {aboutLabel}
               </h2>
-              <p className="text-foreground/70 dark:text-white font-sans leading-[1.8] text-2xl md:text-[1.8rem] w-full">
+              <p className="text-foreground/70 dark:text-white font-sans leading-[1.8] text-sm sm:text-base md:text-lg lg:text-xl w-full">
                 {member.resumen || member.bio}
               </p>
             </div>
@@ -206,8 +222,8 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
             className="space-y-10 pt-8 pb-20"
           >
             <div className="flex justify-between items-end border-b border-border/10 pb-6">
-              <h2 className="text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-4 font-heading">
-                <span className="w-10 h-[1.5px] bg-[#1C058E]"></span> {portfolioLabel}
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold tracking-[0.2em] !text-[#1C058E] uppercase flex items-center gap-3 sm:gap-4 font-heading">
+                <span className="w-8 sm:w-10 h-[1.5px] bg-[#1C058E]"></span> {portfolioLabel}
               </h2>
             </div>
 
@@ -235,11 +251,11 @@ export function TeamMemberContentNeural({ member }: TeamMemberContentNeuralProps
                         </div>
                         <div className="p-8 pt-2 space-y-0 relative bg-gradient-to-t from-background to-transparent flex-1 flex flex-col">
                           <div className="flex items-center justify-between min-h-[4rem]">
-                            <h3 className="text-xl font-bold font-heading tracking-tight !text-[#1C058E] uppercase group-hover:opacity-80 transition-opacity tracking-widest leading-tight whitespace-nowrap">
+                            <h3 className="text-sm sm:text-base lg:text-lg font-bold font-heading tracking-tight !text-[#1C058E] uppercase group-hover:opacity-80 transition-opacity tracking-widest leading-tight">
                               {proj.title}
                             </h3>
                           </div>
-                          <p className="text-xl text-foreground/50 dark:text-white! leading-relaxed font-sans line-clamp-3">
+                          <p className="text-sm sm:text-base lg:text-lg text-foreground/50 dark:text-white! leading-relaxed font-sans line-clamp-3">
                             {proj.description}
                           </p>
                           <div className="pt-4 flex justify-end mt-auto">

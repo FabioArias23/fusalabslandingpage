@@ -91,11 +91,11 @@ function PillarCarousel({ pillar, Icon }: { pillar: any; Icon: any }) {
       <div className="max-w-[1800px] mx-auto px-6 text-center">
         <div className="flex flex-col items-center">
           <div className="mb-4 sm:mb-6">
-            <h3 className="font-heading text-2xl xs:text-3xl sm:text-4xl md:text-6xl scale-y-110 origin-center">
+            <h3 className="font-heading text-lg sm:text-2xl md:text-3xl lg:text-5xl scale-y-110 origin-center">
               {pillar.title}
             </h3>
           </div>
-          <div className="max-w-5xl mx-auto text-base xs:text-lg sm:text-xl md:text-3xl text-muted-foreground/90 leading-relaxed font-light">
+          <div className="max-w-5xl mx-auto text-sm sm:text-base md:text-lg lg:text-2xl text-muted-foreground/90 leading-relaxed font-light">
             {pillar.description}
           </div>
         </div>
@@ -169,7 +169,7 @@ function PillarCarousel({ pillar, Icon }: { pillar: any; Icon: any }) {
           <DialogTrigger asChild>
             <Button
               variant="link"
-              className="group h-auto p-0 text-base xs:text-lg sm:text-2xl font-semibold text-[#1C058E] hover:no-underline transition-all duration-300"
+              className="group h-auto p-0 text-sm sm:text-base md:text-xl font-semibold text-[#1C058E] hover:no-underline transition-all duration-300"
             >
               Read more
               <ArrowRight className="ml-2 size-4 xs:size-5 sm:size-7 transition-transform group-hover:translate-x-1" />
@@ -217,7 +217,7 @@ export function ServicesPreviewSection({
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="max-w-[1800px] mx-auto px-6 text-center mb-8 sm:mb-12 md:mb-16"
       >
-        <h2 className="font-heading text-2xl sm:text-4xl md:text-[5.4rem] tracking-tight text-foreground/90 scale-y-110 origin-center">
+        <h2 className="font-heading text-xl sm:text-3xl md:text-4xl lg:text-[4.2rem] tracking-tight text-foreground/90 scale-y-110 origin-center">
           {data.services.title}
         </h2>
       </motion.div>
