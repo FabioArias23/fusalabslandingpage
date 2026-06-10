@@ -41,7 +41,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
   }
 
   return (
-    <section className="relative overflow-hidden py-20 sm:py-24 md:py-32">
+    <section className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-24 md:pt-48 md:pb-32">
       <div className="max-w-[1800px] px-6 mx-auto">
         <div className="flex flex-col items-center text-center gap-6 sm:gap-8">
           {/* Main Hook: Title & Description together */}
@@ -53,10 +53,10 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
             className="space-y-6 sm:space-y-8 flex flex-col items-center"
           >
             <div>
-              <h1 className="font-heading text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] tracking-tight text-white! dark:text-foreground!">
-                <div className="flex flex-wrap justify-center items-center gap-x-2 sm:gap-x-4">
+              <h1 className="font-heading text-[1.15rem] xs:text-[1.5rem] sm:text-[2rem] md:text-[2.75rem] lg:text-[3.5rem] xl:text-[4.5rem] leading-[1.2] tracking-tight text-white! dark:text-foreground! w-full">
+                <div className="flex flex-col justify-center items-center gap-3 sm:gap-4 w-full">
                   {/* Line 1 */}
-                  <div className="flex items-center justify-center gap-2 sm:gap-4 w-full">
+                  <div className="flex items-center justify-center gap-1.5 sm:gap-4 w-full whitespace-nowrap">
                     {isEnglish ? (
                       <>
                         <motion.div
@@ -66,7 +66,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                         >
                           <RotatingText
                             texts={rotatingWords}
-                            mainClassName="fusa-rotating-badge bg-[#1C058E] text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg sm:rounded-xl inline-flex overflow-hidden justify-center items-center w-[140px] sm:w-[300px] md:w-[400px] lg:min-w-[520px] whitespace-nowrap"
+                            mainClassName="fusa-rotating-badge bg-[#1C058E] text-white px-2 sm:px-4 py-1 sm:py-2 rounded-lg sm:rounded-2xl inline-flex overflow-hidden justify-center items-center min-w-[120px] xs:min-w-[160px] sm:min-w-[200px] md:min-w-[280px] lg:min-w-[400px] xl:min-w-[550px] whitespace-nowrap"
                             staggerFrom="last"
                             initial={{ y: "100%", opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -82,7 +82,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                           delay={60}
                           animateBy="words"
                           direction="top"
-                          className="inline"
+                          className="flex justify-center text-center whitespace-nowrap"
                         />
                       </>
                     ) : (
@@ -92,7 +92,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                           delay={60}
                           animateBy="words"
                           direction="top"
-                          className="inline"
+                          className="flex justify-center text-center whitespace-nowrap"
                         />
                         <motion.div
                           initial={{ filter: 'blur(10px)', opacity: 0, y: -50 }}
@@ -101,7 +101,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                         >
                           <RotatingText
                             texts={rotatingWords}
-                            mainClassName="fusa-rotating-badge bg-[#1C058E] text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg sm:rounded-xl inline-flex overflow-hidden justify-center items-center w-[140px] sm:w-[300px] md:w-[400px] lg:min-w-[520px] whitespace-nowrap"
+                            mainClassName="fusa-rotating-badge bg-[#1C058E] text-white px-2 sm:px-4 py-1 sm:py-2 rounded-lg sm:rounded-2xl inline-flex overflow-hidden justify-center items-center min-w-[120px] xs:min-w-[160px] sm:min-w-[200px] md:min-w-[280px] lg:min-w-[400px] xl:min-w-[550px] whitespace-nowrap"
                             staggerFrom="last"
                             initial={{ y: "100%", opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -117,24 +117,24 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                   </div>
 
                   {/* Line 2 */}
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center px-2">
                     <BlurText
                       text={isEnglish ? "inadequate software" : "software inadecuado"}
                       delay={60}
                       animateBy="words"
                       direction="top"
-                      className="inline"
+                      className="flex justify-center text-center whitespace-nowrap"
                     />
                   </div>
 
                   {/* Line 3 */}
-                  <div className="w-full flex justify-center">
+                  <div className="w-full flex justify-center px-2">
                     <BlurText
                       text={isEnglish ? "or an imperceptible brand?" : "o marca imperceptible?"}
                       delay={60}
                       animateBy="words"
                       direction="top"
-                      className="inline"
+                      className="flex justify-center text-center whitespace-nowrap"
                     />
                   </div>
                 </div>
@@ -146,13 +146,13 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                   delay={150}
                   animateBy="words"
                   direction="top"
-                  className="text-muted-foreground block mt-2 sm:mt-4 text-base sm:text-xl md:text-2xl lg:text-3xl justify-center text-center"
+                  className="text-muted-foreground block mt-2 sm:mt-4 text-xl xs:text-2xl sm:text-3xl md:text-[2.8rem] justify-center text-center"
                 />
               )}
             </div>
  
             <p 
-              className="max-w-5xl mx-auto text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed font-light"
+              className="max-w-6xl mx-auto text-base xs:text-lg sm:text-2xl md:text-[33px] text-muted-foreground leading-relaxed font-light"
               dangerouslySetInnerHTML={{ 
                 __html: data.hero.description
                   .replace("tomar el control", '<span class="text-foreground font-bold">tomar el control</span>') 
@@ -170,7 +170,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
             transition={{ duration: 1.2, ease: "easeOut", delay: 0.7 }}
             className="flex flex-col items-center gap-3 mt-4 w-full"
           >
-            <Button asChild className="h-10 sm:h-14 md:h-16 px-6 sm:px-10 text-sm sm:text-lg md:text-xl font-semibold rounded-xl w-full sm:max-w-[380px] transition-all duration-300 hover:scale-105 bg-transparent! text-white! border-2! border-[#1C058E]! hover:bg-[#1C058E]/10!">
+            <Button asChild className="h-12 xs:h-14 sm:h-20 px-8 sm:px-14 text-base xs:text-xl sm:text-3xl font-semibold rounded-xl w-full sm:max-w-[425px] transition-all duration-300 hover:scale-105 bg-transparent! text-white! border-2! border-[#1C058E]! hover:bg-[#1C058E]/10!">
               <a href="#contacto" className="flex items-center justify-center">
                 <ShinyText 
                   speed={5} 
@@ -179,7 +179,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                   className="font-semibold flex items-center justify-center gap-3"
                 >
                   {isEnglish ? "Start Today!" : "Empezá hoy mismo"}
-                  <span className="text-sm sm:text-lg md:text-xl ml-1 leading-none">→</span>
+                  <span className="text-base xs:text-xl sm:text-3xl ml-1 leading-none">→</span>
                 </ShinyText>
               </a>
             </Button>

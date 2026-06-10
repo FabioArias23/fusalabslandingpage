@@ -199,7 +199,7 @@
           "title": "Full-Stack Developer",
           "bio": "Desarrollo productivo fullstack. Integración IA sistemas. Delivery técnico.",
           "highlight": "Producto",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
           "resumen": "Desarrollador full-stack con especialización en integración de sistemas de IA. Focus en delivery técnico y producto.",
           "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
           "foto": "/img/equipo/fabio-arias.jpg",
@@ -221,7 +221,7 @@
           "disponibilidad": "Disponible para proyectos de desarrollo fullstack",
           "position": "center 10%",
           "zoom": 1,
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/fabioadriarias/",
           "proyectos": [
             {
               "title": "Skills para Agentes IA",
@@ -238,7 +238,8 @@
               "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
               "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
             }
-          ]
+          ],
+          "github": "https://github.com/FabioArias23"
         },
         {
           "name": "Adrián Gamarra",
@@ -248,62 +249,45 @@
           "bio": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
           "highlight": "Founder",
           "linkedin": "https://www.linkedin.com/in/adriangmrra/",
-          "github": "https://github.com/adriangmrraa/",
-          "whatsapp": "https://wa.me/5493704868421",
           "resumen": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
           "aporte": "Define la visión de producto, la estrategia comercial, la arquitectura de agentes de IA y las métricas de crecimiento en todos los proyectos de Fusa Labs. Conecta negocio, tecnología y marketing en cada decisión.",
           "foto": "/img/equipo/adrian-gamarra.jpg",
           "categoria": "business",
-          "subcategoria": "Founder & CEO",
+          "subcategoria": "Marketing & Growth",
           "logros": [
             {
-              "metric": "Vision",
-              "label": "Product Vision & Strategy"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "AI",
-              "label": "AI Agent Architecture & Prompt Design"
-            },
-            {
-              "metric": "Growth",
-              "label": "Marketing, Meta Ads, WhatsApp API & Conversion"
-            },
-            {
-              "metric": "Sales",
-              "label": "Sales Prospecting & Lead Generation"
-            },
-            {
-              "metric": "ROI",
-              "label": "Business Model Design & ROI Optimization"
-            },
-            {
-              "metric": "Dev",
-              "label": "Full-Stack Development & Automation"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
-          "cta": "No construyo productos que funcionan. Construyo productos que venden, convierten y escalan solos.",
+          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Disponible para consultoría de producto, estrategia de IA y growth",
+          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
           "position": "center 28%",
-          "instagram": "https://www.instagram.com/adriangmrra",
+          "instagram": "https://www.instagram.com/adriangmrra/",
           "proyectos": [
             {
-              "title": "ClinicForge",
-              "description": "Plataforma SaaS para clínicas con agente de IA integrado. Gestiona turnos, pacientes, facturación y comunicación por WhatsApp, Instagram y Facebook de forma autónoma. 27 clínicas en producción.",
+              "title": "Skills para Agentes IA",
+              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
             },
             {
-              "title": "Platform AI Solutions",
-              "description": "Plataforma SaaS de engagement omnicanal con IA. Conecta WhatsApp, Instagram y Facebook con agentes inteligentes, bases de conocimiento RAG, estudio creativo y atribución de ROI en tiempo real. Multi-tenant con aislamiento soberano de datos.",
+              "title": "Inversion revolucionarIA",
+              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
             },
             {
-              "title": "PeriodistApp",
-              "description": "Aplicación para periodistas con transcripción automática por IA, diarización de speakers, copiloto editorial y generación de clips. Velocidad sin perder profundidad.",
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
             }
-          ]
+          ],
+          "github": "https://github.com/adriangmrraa"
         },
         {
           "name": "Pedro Enríquez",
@@ -312,7 +296,7 @@
           "title": "Project Manager",
           "bio": "Hola, soy Pedro Enríquez, licenciado en Relaciones Internacionales y analista en negocios globales. Mi trayectoria se centra en la gestión estratégica, el análisis de datos y el monitoreo de proyectos para asegurar la eficiencia operativa y la alta calidad. En Fusa Labs, gestiono el alcance de cada proyecto, aplicando mi visión de negocios globales para crear ecosistemas digitales que cumplan con la excelencia técnica. Mi enfoque es conectar la estrategia con la automatización inteligente para desarrollar soluciones que escalen y ofrezcan valor real al mercado.",
           "highlight": "Project Management",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/pedro-agustin-enriquez-825983319/",
           "resumen": "Hola, soy Pedro Enríquez, licenciado en Relaciones Internacionales y analista en negocios globales. Mi trayectoria se centra en la gestión estratégica, el análisis de datos y el monitoreo de proyectos para asegurar la eficiencia operativa y la alta calidad. En Fusa Labs, gestiono el alcance de cada proyecto, aplicando mi visión de negocios globales para crear ecosistemas digitales que cumplan con la excelencia técnica. Mi enfoque es conectar la estrategia con la automatización inteligente para desarrollar soluciones que escalen y ofrezcan valor real al mercado.",
           "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
           "foto": "/img/equipo/pedro-enriquez0.jpg",
@@ -341,7 +325,7 @@
           "links": [],
           "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
           "position": "center 26%",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/pedroenriquez__/",
           "proyectos": [
             {
               "title": "RELACIONES SUBNACIONALES",
@@ -367,7 +351,7 @@
           "title": "Electromechanical Eng.",
           "bio": "Automatización industrial y Sistemas de Control.",
           "highlight": "Infra",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/matias-ezequiel-lopez-chamorro-b5675430b/",
           "resumen": "Ingeniero electromecánico especializado en automatización industrial, sistemas IoT e infraestructura operativa.",
           "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
@@ -389,7 +373,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para proyectos de automatización industrial e IoT",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/ezelopezch/",
           "proyectos": [
             {
               "title": "Skills para Agentes IA",
@@ -415,7 +399,7 @@
           "title": "AI Engineer & Solutions Architect",
           "bio": "Arquitectura de sistemas. Aplicaciones inteligentes con IA/ML, desarrollo end-to-end.",
           "highlight": "Arquitectura",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/facundo-majda/",
           "resumen": "Diseña soluciones inteligentes end-to-end, combinando arquitectura de sistemas, desarrollo full-stack e integración de capacidades avanzadas de IA.",
           "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
           "foto": "/img/equipo/facundo-majda.jpg",
@@ -435,7 +419,8 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/faq.maj/",
+          "github": "https://github.com/FacundoMajda"
         },
         {
           "name": "Patricio Martin Polo",
@@ -444,7 +429,7 @@
           "title": "Accountant & Foreign Trade",
           "bio": "Hola, soy Patricio Martin Polo. Con una triple formación como Contador Público, Licenciado en Comercio Exterior y Despachante de Aduanas, conecto el rigor regulatorio con la eficiencia de la IA en Fusa Labs. Soy responsable de construir estructuras operativas globales que son tan resilientes como nuestra tecnología. Al optimizar la gestión fiscal y la logística comercial, permito que la innovación se expanda sin fronteras. Me especializo en transformar obstáculos administrativos en flujos de trabajo automatizados que generan un impacto real en el negocio.",
           "highlight": "Operación",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/patricio-mart%C3%ADn-peso-polo-despachante-de-aduanas-746478264/",
           "resumen": "Hola, soy Patricio Martin Polo. Con una triple formación como Contador Público, Licenciado en Comercio Exterior y Despachante de Aduanas, conecto el rigor regulatorio con la eficiencia de la IA en Fusa Labs. Soy responsable de construir estructuras operativas globales que son tan resilientes como nuestra tecnología. Al optimizar la gestión fiscal y la logística comercial, permito que la innovación se expanda sin fronteras. Me especializo en transformar obstáculos administrativos en flujos de trabajo automatizados que generan un impacto real en el negocio.",
           "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
           "foto": "/img/equipo/patricio-polo.jpg",
@@ -474,7 +459,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/pmpp96/",
           "proyectos": [
             {
               "title": "EFICIENCIA ADUANERA",
@@ -500,7 +485,7 @@
           "title": "PR & HR Degree",
           "bio": "Estrategia institucional. Talent acquisition. Employer branding.",
           "highlight": "Talent",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/lisandro-ratto-847942180/",
           "resumen": "Profesional en relaciones públicas y gestión de personas con foco en adquisición de talento tech y estrategia de marca empleadora.",
           "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
@@ -522,7 +507,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/lisanpic/",
           "proyectos": [
             {
               "title": "Skills para Agentes IA",
@@ -932,7 +917,7 @@
           "title": "Full-Stack Developer",
           "bio": "Productive fullstack development. AI systems integration. Technical delivery.",
           "highlight": "Product",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
           "resumen": "Full-stack developer specialized in AI systems integration. Focus on technical delivery and product development.",
           "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
           "foto": "/img/equipo/fabio-arias.jpg",
@@ -954,7 +939,7 @@
           "disponibilidad": "Available for fullstack development projects",
           "position": "center 10%",
           "zoom": 1,
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/fabioadriarias/",
           "proyectos": [
             {
               "title": "AI Agent Skills",
@@ -971,72 +956,56 @@
               "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
               "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
             }
-          ]
+          ],
+          "github": "https://github.com/FabioArias23"
         },
         {
           "name": "Adrián Gamarra",
           "slug": "adrian-gamarra",
           "email": "gamarraadrian200@gmail.com",
           "title": "Founder & CEO — Product, AI & Growth",
-          "bio": "I'm Adrián Gamarra, founder of Fusa Labs and CEO of Future IA & Automatización. I come from journalism and digital marketing, which gave me a different way of thinking about products: always from the user, the conversion, and the business outcome. Today I lead product vision, commercial strategy, and AI agent architecture across all team projects. My job is to connect what the client needs with what technology can deliver, design the agents' conversational flows, define the metrics that matter, and make sure every product doesn't just work — it sells, converts, and scales. With 10+ years in marketing, media, and technology, and an operation running 100% on AI with a distributed team, I build systems that work on their own while my businesses and my clients' businesses grow.",
+          "bio": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
           "highlight": "Founder",
           "linkedin": "https://www.linkedin.com/in/adriangmrra/",
-          "github": "https://github.com/adriangmrraa/",
-          "whatsapp": "https://wa.me/5493704868421",
-          "resumen": "I'm Adrián Gamarra, founder of Fusa Labs and CEO of Future IA & Automatización. I come from journalism and digital marketing, which gave me a different way of thinking about products: always from the user, the conversion, and the business outcome. Today I lead product vision, commercial strategy, and AI agent architecture across all team projects. My job is to connect what the client needs with what technology can deliver, design the agents' conversational flows, define the metrics that matter, and make sure every product doesn't just work — it sells, converts, and scales. With 10+ years in marketing, media, and technology, and an operation running 100% on AI with a distributed team, I build systems that work on their own while my businesses and my clients' businesses grow.",
-          "aporte": "Defines product vision, commercial strategy, AI agent architecture, and growth metrics across all Fusa Labs projects. Connects business, technology, and marketing in every decision.",
+          "resumen": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Vengo del periodismo y el marketing digital, y eso me dio una forma distinta de pensar los productos: siempre desde el usuario, la conversión y el resultado de negocio. Hoy lidero la visión de producto, la estrategia comercial y la arquitectura de agentes de IA en todos los proyectos del equipo. Mi trabajo es conectar lo que el cliente necesita con lo que la tecnología puede hacer, diseñar los flujos conversacionales de los agentes, definir las métricas que importan, y asegurarme de que cada producto no solo funcione bien sino que venda, convierta y escale. Con más de 10 años en marketing, medios, tecnología, y una operación que corre 100% con IA y un equipo distribuido, construyo sistemas que trabajan solos mientras mis negocios y el de mis clientes crecen.",
+          "aporte": "Define la visión de producto, la estrategia comercial, la arquitectura de agentes de IA y las métricas de crecimiento en todos los proyectos de Fusa Labs. Conecta negocio, tecnología y marketing en cada decisión.",
           "foto": "/img/equipo/adrian-gamarra.jpg",
           "categoria": "business",
-          "subcategoria": "Founder & CEO",
+          "subcategoria": "Marketing & Growth",
           "logros": [
             {
-              "metric": "Vision",
-              "label": "Product Vision & Strategy"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             },
             {
-              "metric": "AI",
-              "label": "AI Agent Architecture & Prompt Design"
-            },
-            {
-              "metric": "Growth",
-              "label": "Marketing, Meta Ads, WhatsApp API & Conversion"
-            },
-            {
-              "metric": "Sales",
-              "label": "Sales Prospecting & Lead Generation"
-            },
-            {
-              "metric": "ROI",
-              "label": "Business Model Design & ROI Optimization"
-            },
-            {
-              "metric": "Dev",
-              "label": "Full-Stack Development & Automation"
+              "metric": "lorem ipsum",
+              "label": "lorem ipsum"
             }
           ],
-          "cta": "I don't build products that work. I build products that sell, convert, and scale on their own.",
+          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
           "disponible": true,
           "links": [],
-          "disponibilidad": "Available for product consulting, AI strategy, and growth",
+          "disponibilidad": "Available for growth consulting and content strategy",
           "position": "center 28%",
-          "instagram": "https://www.instagram.com/adriangmrra",
+          "instagram": "https://www.instagram.com/adriangmrra/",
           "proyectos": [
             {
-              "title": "ClinicForge",
-              "description": "Multi-tenant SaaS platform for clinics with integrated AI agent. Manages appointments, patients, billing, and communication via WhatsApp, Instagram, and Facebook autonomously. 27 clinics in production.",
+              "title": "AI Agent Skills",
+              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
             },
             {
-              "title": "Platform AI Solutions",
-              "description": "Omnichannel AI engagement SaaS platform. Connects WhatsApp, Instagram, and Facebook with intelligent agents, RAG knowledge bases, creative studio, and real-time ROI attribution. Multi-tenant with sovereign data isolation.",
+              "title": "Revolutionary Investment",
+              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
             },
             {
-              "title": "PeriodistApp",
-              "description": "Application for journalists with automatic AI transcription, speaker diarization, editorial copilot, and clip generation. Speed without losing depth.",
+              "title": "Nano Banana 2 Like a PRO",
+              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
               "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
             }
-          ]
+          ],
+          "github": "https://github.com/adriangmrraa"
         },
         {
           "name": "Pedro Enríquez",
@@ -1045,7 +1014,7 @@
           "title": "Project Manager",
           "bio": "Hi, I’m Pedro Enríquez, an International Relations professional and Global Business Analyst. My career is built on a foundation of strategic management, data analysis, and rigorous project monitoring, all aimed at driving operational efficiency and top-tier quality. In my role at Fusa Labs, I oversee project lifecycles, applying a global business lens to create robust digital environments. I am dedicated to aligning high-level strategy with smart automation to build scalable solutions that create a meaningful impact in today’s market.",
           "highlight": "Project Management",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/pedro-agustin-enriquez-825983319/",
           "resumen": "Hi, I’m Pedro Enríquez, an International Relations professional and Global Business Analyst. My career is built on a foundation of strategic management, data analysis, and rigorous project monitoring, all aimed at driving operational efficiency and top-tier quality. In my role at Fusa Labs, I oversee project lifecycles, applying a global business lens to create robust digital environments. I am dedicated to aligning high-level strategy with smart automation to build scalable solutions that create a meaningful impact in today’s market.",
           "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
           "foto": "/img/equipo/pedro-enriquez0.jpg",
@@ -1074,7 +1043,7 @@
           "links": [],
           "disponibilidad": "Available for international expansion and strategic alliances",
           "position": "center 26%",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/pedroenriquez__/",
           "proyectos": [
             {
               "title": "SUBNATIONAL RELATIONS",
@@ -1100,7 +1069,7 @@
           "title": "Electromechanical Eng.",
           "bio": "Industrial electromechanics. Automation. IoT infra.",
           "highlight": "Infra",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/matias-ezequiel-lopez-chamorro-b5675430b/",
           "resumen": "Electromechanical engineer specialized in industrial automation, IoT systems, and operational infrastructure.",
           "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
@@ -1122,7 +1091,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for industrial automation and IoT projects",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/ezelopezch/",
           "proyectos": [
             {
               "title": "AI Agent Skills",
@@ -1148,7 +1117,7 @@
           "title": "AI Engineer & Solutions Architect",
           "bio": "Systems architecture. Intelligent applications with AI/ML, end-to-end development.",
           "highlight": "Architecture",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/facundo-majda/",
           "resumen": "Designs end-to-end intelligent solutions, combining systems architecture, full-stack development, and advanced AI capabilities integration.",
           "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
           "foto": "/img/equipo/facundo-majda.jpg",
@@ -1168,7 +1137,8 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for architecture and AI implementation projects",
-          "instagram": "https://www.instagram.com/fusa.labs"
+          "instagram": "https://www.instagram.com/faq.maj/",
+          "github": "https://github.com/FacundoMajda"
         },
         {
           "name": "Patricio Martin Polo",
@@ -1177,7 +1147,7 @@
           "title": "Accountant & Foreign Trade",
           "bio": "Hi, I’m Patricio Martin Polo. With a triple background as a Certified Public Accountant, International Trade expert, and Customs Broker, I bridge the gap between regulatory rigor and AI-driven efficiency at Fusa Labs. I am responsible for building operational backbones for our global projects that are every bit as resilient as our technology. By streamlining fiscal management and trade logistics, I empower innovation to expand globally. I specialize in transforming administrative hurdles into seamless automated workflows that deliver real-world impact.",
           "highlight": "Operations",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/patricio-mart%C3%ADn-peso-polo-despachante-de-aduanas-746478264/",
           "resumen": "Hi, I’m Patricio Martin Polo. With a triple background as a Certified Public Accountant, International Trade expert, and Customs Broker, I bridge the gap between regulatory rigor and AI-driven efficiency at Fusa Labs. I am responsible for building operational backbones for our global projects that are every bit as resilient as our technology. By streamlining fiscal management and trade logistics, I empower innovation to expand globally. I specialize in transforming administrative hurdles into seamless automated workflows that deliver real-world impact.",
           "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
           "foto": "/img/equipo/patricio-polo.jpg",
@@ -1207,7 +1177,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for foreign trade and tax optimization consulting",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/pmpp96/",
           "proyectos": [
             {
               "title": "CUSTOMS EFFICIENCY",
@@ -1233,7 +1203,7 @@
           "title": "PR & HR Degree",
           "bio": "Institutional strategy. Talent acquisition. Employer branding.",
           "highlight": "Talent",
-          "linkedin": "https://www.linkedin.com/company/fusa-labs",
+          "linkedin": "https://www.linkedin.com/in/lisandro-ratto-847942180/",
           "resumen": "Public relations and people management professional focused on tech talent acquisition and employer brand strategy.",
           "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
           "foto": "/img/equipo/lisandro-ratto.jpg",
@@ -1255,7 +1225,7 @@
           "disponible": true,
           "links": [],
           "disponibilidad": "Available for recruitment processes and employer branding strategy",
-          "instagram": "https://www.instagram.com/fusa.labs",
+          "instagram": "https://www.instagram.com/lisanpic/",
           "proyectos": [
             {
               "title": "AI Agent Skills",

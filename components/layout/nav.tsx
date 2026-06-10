@@ -15,7 +15,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { useTheme } from "next-themes";
-import { ArrowRight, ChevronDown, Menu } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   DropdownMenu,
@@ -23,12 +23,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-  SheetClose,
-} from "@/components/ui/sheet";
 import { MagicContainer, MagicCard } from "@/components/ui/magic-bento";
 
 export function Nav() {
@@ -36,22 +30,12 @@ export function Nav() {
   const { data, isEnglish, toggleLang } = useLocale();
   const { navigation } = data;
 
-  const menuItems = navigation.menuItems.filter(
-    (item: string) =>
-      item.toLowerCase() !== "lab" &&
-      item.toLowerCase() !== "productos" &&
-      item.toLowerCase() !== "products" &&
-      item.toLowerCase() !== "contacto" &&
-      item.toLowerCase() !== "contact",
-  );
+  const menuItems = isEnglish ? ["Services", "Staff"] : ["Servicios", "Staff"];
 
   const getHref = (item: string): string => {
     const itemLower = item.toLowerCase();
-    if (itemLower === "equipo" || itemLower === "team") return "/equipo";
-    if (itemLower === "servicios" || itemLower === "services")
-      return "/servicios";
-    if (itemLower === "productos" || itemLower === "products")
-      return "/productos";
+    if (itemLower === "staff") return "/#equipo";
+    if (itemLower === "servicios" || itemLower === "services") return "/#servicios";
     return "#";
   };
 
@@ -59,15 +43,16 @@ export function Nav() {
 
   return (
     <MagicContainer>
-      <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-[1200px] rounded-full overflow-visible">
-        <MagicCard
+      <header className="fixed top-4 sm:top-6 left-0 right-0 z-50 flex justify-center px-4 sm:px-6 pointer-events-none">
+        <div className="w-full max-w-[1200px] pointer-events-auto">
+          <MagicCard
           enableTilt={false}
           enableMagnetism={false}
           glowColor="28, 5, 142"
           className="rounded-full border border-white/10 bg-background/15 dark:bg-[#1C058E]/15 backdrop-blur-md shadow-[0_8px_32px_0_rgba(0,0,0,0.36)] transition-all duration-300"
         >
-          <div className="flex h-14 sm:h-16 items-center justify-between px-4 sm:px-8">
-            <div className="flex items-center gap-4 sm:gap-6">
+          <div className="flex h-11 sm:h-12 lg:h-16 items-center justify-between px-2 sm:px-8">
+            <div className="flex items-center gap-1 sm:gap-6">
               <Link
                 href="/"
                 className="flex items-center gap-2 sm:gap-4 hover:opacity-80 transition-opacity"
@@ -79,7 +64,7 @@ export function Nav() {
                     alt="Fusa Labs Logotipo"
                     width={36}
                     height={36}
-                    className="h-8 w-auto sm:h-[40px] hidden dark:block"
+                    className="h-6 w-auto sm:h-8 lg:h-[40px] hidden dark:block"
                     priority
                   />
                   {/* Logo Light Mode */}
@@ -88,7 +73,7 @@ export function Nav() {
                     alt="Fusa Labs Logotipo"
                     width={36}
                     height={36}
-                    className="h-8 w-auto sm:h-[40px] block dark:hidden"
+                    className="h-6 w-auto sm:h-8 lg:h-[40px] block dark:hidden"
                     priority
                   />
 
@@ -113,8 +98,8 @@ export function Nav() {
                 </div>
               </Link>
 
-              <NavigationMenu className="hidden md:block">
-                <NavigationMenuList className="gap-1">
+              <NavigationMenu className="flex items-center ml-1 sm:ml-0">
+                <NavigationMenuList className="gap-0 sm:gap-1">
                   {menuItems.map((item) => {
                     const href = getHref(item);
                     const isActive =
@@ -126,7 +111,7 @@ export function Nav() {
                         <NavigationMenuLink
                           href={href}
                           className={cn(
-                            "group h-9 w-max inline-flex items-center justify-center rounded-full bg-transparent px-4 py-2 text-sm font-medium transition-colors text-[#1C058E] dark:text-white hover:bg-[#1C058E]/10 dark:hover:bg-white/10 focus:outline-none disabled:pointer-events-none disabled:opacity-50",
+                            "group h-8 sm:h-9 w-max inline-flex items-center justify-center rounded-full bg-transparent px-2 py-1 sm:px-4 sm:py-2 text-[11px] sm:text-sm font-medium transition-colors text-[#1C058E] dark:text-white hover:bg-[#1C058E]/10 dark:hover:bg-white/10 focus:outline-none disabled:pointer-events-none disabled:opacity-50",
                             isActive && "bg-[#1C058E]/10 dark:bg-white/10 font-bold",
                           )}
                         >
@@ -142,56 +127,17 @@ export function Nav() {
             <div className="flex items-center gap-2 sm:gap-4">
               <Button asChild className="hidden sm:inline-flex rounded-full bg-[#1C058E] text-white! hover:bg-[#1C058E]/80 transition-all duration-300">
                 <Link href="/#contacto">
-                  {navigation.ctaButton}
+                  {isEnglish ? "CONTACT US" : "CONTACTANOS"}
                   <ArrowRight className="size-4 ml-2" />
                 </Link>
               </Button>
-
-              {/* Mobile hamburger menu */}
-              <Sheet>
-                <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className="md:hidden rounded-full hover:bg-[#1C058E]/10 dark:hover:bg-white/10 text-[#1C058E] dark:text-white">
-                    <Menu className="size-5" />
-                  </Button>
-                </SheetTrigger>
-                <SheetContent side="right" className="w-72 bg-background/95 backdrop-blur-xl border-l border-border/10 pt-12">
-                  <nav className="flex flex-col gap-2">
-                    {menuItems.map((item) => {
-                      const href = getHref(item);
-                      const isActive = pathname === href || (href !== "/" && pathname.startsWith(href));
-                      return (
-                        <SheetClose key={item} asChild>
-                          <Link
-                            href={href}
-                            className={cn(
-                              "px-4 py-3 rounded-xl text-base font-medium transition-colors text-[#1C058E] dark:text-white hover:bg-[#1C058E]/10 dark:hover:bg-white/10",
-                              isActive && "bg-[#1C058E]/10 dark:bg-white/10 font-bold"
-                            )}
-                          >
-                            {item}
-                          </Link>
-                        </SheetClose>
-                      );
-                    })}
-                    <SheetClose asChild>
-                      <Link
-                        href="/#contacto"
-                        className="mt-4 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#1C058E] text-white font-medium transition-all hover:bg-[#1C058E]/80"
-                      >
-                        {navigation.ctaButton}
-                        <ArrowRight className="size-4" />
-                      </Link>
-                    </SheetClose>
-                  </nav>
-                </SheetContent>
-              </Sheet>
 
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button 
                     type="button" 
                     variant="ghost" 
-                    className="text-[10px] sm:text-xs font-bold tracking-wider rounded-full hover:bg-[#1C058E]/10 text-[#1C058E] dark:text-white dark:hover:bg-white/10 transition-colors px-3 flex items-center gap-1"
+                    className="h-8 sm:h-10 text-[10px] sm:text-xs font-bold tracking-wider rounded-full hover:bg-[#1C058E]/10 text-[#1C058E] dark:text-white dark:hover:bg-white/10 transition-colors px-2 flex items-center gap-1"
                   >
                     {isEnglish ? "EN" : "ES"}
                     <ChevronDown className="w-3 h-3 opacity-70" />
@@ -234,6 +180,7 @@ export function Nav() {
             </div>
           </div>
         </MagicCard>
+        </div>
       </header>
     </MagicContainer>
   );

@@ -82,16 +82,17 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
           {/* Full Width Headers */}
           <motion.div {...revealAnimation}>
             <h2 
-              className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[3.2rem] transition-all scale-y-110 origin-left leading-none"
+              className="font-heading text-4xl sm:text-5xl md:text-[4rem] transition-all scale-y-110 origin-left leading-tight"
               dangerouslySetInnerHTML={{ 
                 __html: data.contact.title.replace(/<br.*?\/>/g, " ")
                   .replace("¿", '<span class="dark:text-[#1C058E]">¿</span>')
-                  .replace("?", '<span class="dark:text-[#1C058E]">?</span>') 
+                  .replace("?", '<span class="dark:text-[#1C058E]">?</span>')
+                  .replace("Tenés un", "Tenés&nbsp;un")
               }}
             />
             <div className="mt-8">
               <p 
-                className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground font-light leading-tight"
+                className="text-xl sm:text-2xl md:text-[2.32rem] text-muted-foreground font-light leading-tight"
                 dangerouslySetInnerHTML={{ __html: data.contact.greeting.replace(/<br.*?\/>/g, " ") }}
               />
             </div>
@@ -102,7 +103,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
             {/* Left Column: Description & Cards */}
             <motion.div {...revealAnimation} className="space-y-12 lg:pt-12">
               <p 
-                className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed font-normal"
+                className="text-lg sm:text-xl md:text-[1.8rem] text-muted-foreground leading-relaxed font-normal"
                 dangerouslySetInnerHTML={{ 
                   __html: data.contact.description
                     .replace("consultorias", '<strong class="font-bold text-foreground">consultorias</strong>')
@@ -120,13 +121,13 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
                       className="p-6 rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50"
                       spotlightRadius={200}
                     >
-                      <div className="flex items-start gap-5">
-                        <div className="size-14 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                          <Icon className="size-7 text-primary" />
+                      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-5 text-center sm:text-left">
+                        <div className="size-12 sm:size-14 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <Icon className="size-6 sm:size-7 text-primary" />
                         </div>
                         <div>
-                          <p className="text-lg sm:text-xl md:text-2xl font-semibold text-foreground/90">{card.title}</p>
-                          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mt-1.5 leading-relaxed">
+                          <p className="text-xl sm:text-3xl font-semibold text-foreground/90">{card.title}</p>
+                          <p className="text-base sm:text-[1.35rem] text-muted-foreground mt-1.5 leading-relaxed">
                             {card.description}
                           </p>
                         </div>
@@ -146,7 +147,7 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
                 <Card className="h-full border-0 bg-transparent flex flex-col">
                   <CardContent className="flex-1 pt-6 sm:pt-8 flex flex-col justify-center">
                     <div className="mb-6">
-                      <h3 className="text-lg sm:text-xl font-heading font-bold text-[#1C058E] dark:text-white uppercase tracking-wider">
+                      <h3 className="text-xl sm:text-2xl font-heading font-bold text-[#1C058E] dark:text-white uppercase tracking-wider">
                         {isEnglish ? "CONTACT US" : "CONTACTANOS"}
                       </h3>
                     </div>

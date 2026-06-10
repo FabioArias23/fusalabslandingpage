@@ -5,8 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { HeroSection } from "@/components/sections/hero-section";
 import { ServicesPreviewSection } from "@/components/sections/services-preview";
 import { ContactSection } from "@/components/sections/contact-section";
-import { WhatsAppFAB } from "@/components/WhatsAppFAB";
-import { motion } from "framer-motion";
+import { TeamSection } from "@/components/sections/team-section";
 
 const revealAnimation = {
   initial: { opacity: 0, scale: 0.98, y: 20 },
@@ -23,6 +22,7 @@ export default function HomePage() {
       <main className="flex flex-col">
         <HeroSection data={data} isEnglish={isEnglish} />
         <ServicesPreviewSection data={data} />
+        <TeamSection data={data} />
         <ContactSection data={data} isEnglish={isEnglish} />
       </main>
     </TooltipProvider>
