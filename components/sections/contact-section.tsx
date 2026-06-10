@@ -120,13 +120,13 @@ export function ContactSection({ data, isEnglish }: ContactSectionProps) {
                       className="p-6 rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50"
                       spotlightRadius={200}
                     >
-                      <div className="flex items-start gap-5">
-                        <div className="size-14 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                          <Icon className="size-7 text-primary" />
+                      <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5">
+                        <div className="size-12 sm:size-14 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <Icon className="size-6 sm:size-7 text-primary" />
                         </div>
                         <div>
-                          <p className="text-2xl sm:text-3xl font-semibold text-foreground/90">{card.title}</p>
-                          <p className="text-lg sm:text-[1.35rem] text-muted-foreground mt-1.5 leading-relaxed">
+                          <p className="text-xl sm:text-3xl font-semibold text-foreground/90">{card.title}</p>
+                          <p className="text-base sm:text-[1.35rem] text-muted-foreground mt-1.5 leading-relaxed">
                             {card.description}
                           </p>
                         </div>
