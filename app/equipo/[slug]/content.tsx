@@ -95,7 +95,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
       <div className="relative w-full">
         <Link 
           href="/#equipo" 
-          className="absolute -top-5 -left-2 sm:-left-4 sm:-top-6 lg:-left-16 lg:top-6 z-10 flex items-center justify-center size-10 sm:size-12 rounded-full border border-border/40 bg-card/50 backdrop-blur-sm shadow-xl hover:bg-card/80 hover:scale-110 transition-all text-foreground"
+          className="absolute -top-5 left-0 sm:-top-6 sm:left-0 lg:-left-12 lg:top-6 z-10 flex items-center justify-center size-10 sm:size-12 rounded-full border border-border/40 bg-card/50 backdrop-blur-sm shadow-xl hover:bg-card/80 hover:scale-110 transition-all text-foreground"
           title={volverLabel}
         >
           <ArrowLeft className="size-5" />

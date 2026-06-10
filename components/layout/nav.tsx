@@ -43,8 +43,9 @@ export function Nav() {
 
   return (
     <MagicContainer>
-      <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-[1200px] rounded-full overflow-visible">
-        <MagicCard
+      <header className="fixed top-4 sm:top-6 left-0 right-0 z-50 flex justify-center px-4 sm:px-6 pointer-events-none">
+        <div className="w-full max-w-[1200px] pointer-events-auto">
+          <MagicCard
           enableTilt={false}
           enableMagnetism={false}
           glowColor="28, 5, 142"
@@ -179,6 +180,7 @@ export function Nav() {
             </div>
           </div>
         </MagicCard>
+        </div>
       </header>
     </MagicContainer>
   );
