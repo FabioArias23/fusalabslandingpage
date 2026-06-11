@@ -150,7 +150,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
               
               <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 border-t border-border/20">
                 <span className="opacity-80 italic mt-4 sm:mt-0">
-                  {isEnglish ? "Interested in how we can help your business?" : "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"}
+                  {isEnglish ? "Let's explore how we can make this work for your business." : "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"}
                 </span>
                 <Link 
                   href="/#contacto" 
