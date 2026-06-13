@@ -23,7 +23,7 @@ export default function ServiciosPage() {
 
       {/* Agregamos una llamada a la acción opcional */}
       <div className="mt-8 sm:mt-12">
-        <ContactSection data={data} isEnglish={isEnglish} />
+        <ContactSection data={data} />
       </div>
     </main>
   );

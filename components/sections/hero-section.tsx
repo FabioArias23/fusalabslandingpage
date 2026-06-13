@@ -17,22 +17,8 @@ interface HeroSectionProps {
 function HeroAnimatedTitle({ data, isEnglish }: { data: typeof landingData.es, isEnglish: boolean }) {
   const stripHtml = (html: string) => html.replace(/<[^>]*>?/gm, ' ');
 
-  const rotatingWords = isEnglish 
-    ? ["Repetitive", "Tedious", "Monotonous", "Redundant", "Unproductive", "Recurring"]
-    : ["repetitivos", "tediosos", "monótonos", "redundantes", "improductivos", "recurrentes"];
-
-  // Separación inteligente asumiendo que las palabras rotativas se inyectan en una ubicación predeterminada
-  // Eliminamos dependencias case-sensitive o hardcodes directos cuando sea posible, aunque 
-  // para mantener paridad estricta con la versión anterior usamos la misma lógica base limpia.
-  const splitWord = isEnglish ? "Repetitive" : "repetitivos";
-  const titleParts = data.hero.title.split(splitWord);
-
-  const beforeText = titleParts[0] || "";
-  let afterText = titleParts[1] || "";
-  
-  if (afterText.trim().startsWith(",")) {
-    afterText = afterText.trim().substring(1);
-  }
+  const rotatingWords = data.hero.rotatingWords;
+  const { titleLines } = data.hero;
 
   const rotatingBadge = (
     <motion.div
@@ -64,23 +50,27 @@ function HeroAnimatedTitle({ data, isEnglish }: { data: typeof landingData.es, i
             {isEnglish ? (
               <>
                 {rotatingBadge}
-                <BlurText
-                  text="processes,"
-                  delay={60}
-                  animateBy="words"
-                  direction="top"
-                  className="flex justify-center text-center whitespace-nowrap"
-                />
+                {titleLines.line1After && (
+                  <BlurText
+                    text={titleLines.line1After}
+                    delay={60}
+                    animateBy="words"
+                    direction="top"
+                    className="flex justify-center text-center whitespace-nowrap"
+                  />
+                )}
               </>
             ) : (
               <>
-                <BlurText
-                  text={stripHtml(beforeText)}
-                  delay={60}
-                  animateBy="words"
-                  direction="top"
-                  className="flex justify-center text-center whitespace-nowrap"
-                />
+                {titleLines.line1Before && (
+                  <BlurText
+                    text={titleLines.line1Before}
+                    delay={60}
+                    animateBy="words"
+                    direction="top"
+                    className="flex justify-center text-center whitespace-nowrap"
+                  />
+                )}
                 {rotatingBadge}
               </>
             )}
@@ -89,7 +79,7 @@ function HeroAnimatedTitle({ data, isEnglish }: { data: typeof landingData.es, i
           {/* Line 2 */}
           <div className="w-full flex justify-center px-2">
             <BlurText
-              text={isEnglish ? "inadequate software" : "software inadecuado"}
+              text={titleLines.line2}
               delay={60}
               animateBy="words"
               direction="top"
@@ -100,7 +90,7 @@ function HeroAnimatedTitle({ data, isEnglish }: { data: typeof landingData.es, i
           {/* Line 3 */}
           <div className="w-full flex justify-center px-2">
             <BlurText
-              text={isEnglish ? "or an imperceptible brand?" : "o marca imperceptible?"}
+              text={titleLines.line3}
               delay={60}
               animateBy="words"
               direction="top"
@@ -143,8 +133,6 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
               dangerouslySetInnerHTML={{ __html: data.hero.description }}
             />
           </motion.div>
-
-          {/* CTA */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.8, y: 40 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
@@ -160,7 +148,7 @@ export function HeroSection({ data, isEnglish }: HeroSectionProps) {
                   shineColor="#1C058E"
                   className="font-semibold flex items-center justify-center gap-3"
                 >
-                  {isEnglish ? "Start Today!" : "Empezá hoy mismo"}
+                  {data.hero.ctaButton}
                   <span className="text-base xs:text-xl sm:text-3xl ml-1 leading-none">→</span>
                 </ShinyText>
               </a>

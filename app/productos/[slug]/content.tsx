@@ -23,9 +23,10 @@ interface ProductContentProps {
 }
 
 export function ProductContent({ slug }: ProductContentProps) {
-  const { isEnglish } = useLocale();
+  const { data, isEnglish } = useLocale();
   const products = productsData.products as Record<string, Product>;
   const product = findBySlug(products, slug);
+  const { productos } = data.pages;
 
   if (!product) {
     notFound();
@@ -34,20 +35,12 @@ export function ProductContent({ slug }: ProductContentProps) {
   const IconComponent = iconMap[product.icon] || Cpu;
   const lang = isEnglish ? "en" : "es";
 
-  const volverLabel = isEnglish ? "Back to products" : "Volver a productos";
-  const queResuelveLabel = isEnglish ? "What it solves" : "Qué resuelve";
-  const dondeAgregaLabel = isEnglish ? "Where it adds value" : "Dónde agrega valor";
-  const idealParaLabel = isEnglish ? "Ideal for" : "Ideal para";
-  const caracteristicasLabel = isEnglish ? "Features" : "Características";
-  const planesLabel = isEnglish ? "Plans" : "Planes";
-  const popularLabel = isEnglish ? "Popular" : "Popular";
-
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 py-12 md:py-16">
       <Button variant="ghost" asChild className="w-fit">
         <Link href="/productos">
           <ArrowLeft className="size-4 mr-2" />
-          {volverLabel}
+          {productos.volverLabel}
         </Link>
       </Button>
 
@@ -70,7 +63,7 @@ export function ProductContent({ slug }: ProductContentProps) {
 
           {/* What it solves */}
           <section className="space-y-3">
-            <h3 className="text-xl font-semibold">{queResuelveLabel}</h3>
+            <h3 className="text-xl font-semibold">{productos.queResuelveLabel}</h3>
             <ul className="space-y-2">
               {product.whatSolves[lang].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
@@ -85,7 +78,7 @@ export function ProductContent({ slug }: ProductContentProps) {
 
           {/* Where it adds value */}
           <section className="space-y-3">
-            <h3 className="text-xl font-semibold">{dondeAgregaLabel}</h3>
+            <h3 className="text-xl font-semibold">{productos.dondeAgregaLabel}</h3>
             <ul className="space-y-2">
               {product.whereItAddsValue[lang].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
@@ -100,7 +93,7 @@ export function ProductContent({ slug }: ProductContentProps) {
 
           {/* Ideal for */}
           <section className="space-y-2">
-            <h3 className="text-xl font-semibold">{idealParaLabel}</h3>
+            <h3 className="text-xl font-semibold">{productos.idealParaLabel}</h3>
             <p className="text-muted-foreground">{product.idealFor[lang]}</p>
           </section>
 
@@ -108,7 +101,7 @@ export function ProductContent({ slug }: ProductContentProps) {
 
           {/* Features */}
           <section className="space-y-3">
-            <h3 className="text-xl font-semibold">{caracteristicasLabel}</h3>
+            <h3 className="text-xl font-semibold">{productos.caracteristicasLabel}</h3>
             <div className="grid gap-2 md:grid-cols-2">
               {product.features[lang].map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
@@ -124,7 +117,7 @@ export function ProductContent({ slug }: ProductContentProps) {
             <>
               <Separator />
               <section className="space-y-4">
-                <h3 className="text-xl font-semibold">{planesLabel}</h3>
+                <h3 className="text-xl font-semibold">{productos.planesLabel}</h3>
                 <div className="grid gap-4 md:grid-cols-3">
                   {product.pricing.plans.map((plan, index) => (
                     <Card key={index} className={plan.highlight ? "border-primary" : ""}>
@@ -132,7 +125,7 @@ export function ProductContent({ slug }: ProductContentProps) {
                         <CardTitle className="text-lg">
                           {plan.highlight && (
                             <Badge variant="default" className="mb-2">
-                              {popularLabel}
+                              {productos.popularLabel}
                             </Badge>
                           )}
                           {plan.name}

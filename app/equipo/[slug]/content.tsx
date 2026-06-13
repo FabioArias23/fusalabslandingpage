@@ -71,20 +71,17 @@ interface TeamMemberContentProps {
 }
 
 export function TeamMemberContent({ slug }: TeamMemberContentProps) {
-  const { data, isEnglish } = useLocale();
+  const { data } = useLocale();
   const members = data.team.members as TeamMember[];
   const member = findMemberBySlug(members, slug);
+  const { equipo } = data.pages;
 
   if (!member) {
     notFound();
   }
 
   const linkedinUrl = member.linkedin || "https://www.linkedin.com/company/fusa-labs";
-  const showGithub = ["facu", "jesus", "adri", "fabio"].some(name => slug.toLowerCase().includes(name));
-
-  const volverLabel = isEnglish ? "Back to team" : "Volver atrás";
-  const resumenLabel = isEnglish ? "Summary" : "Resumen";
-  const contactarLabel = isEnglish ? "Contact us" : "Contactanos";
+  const showGithub = !!member.github;
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 pt-32 pb-12 sm:pt-40 md:pt-48 md:pb-16">
@@ -95,7 +92,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
         <Link 
           href="/#equipo" 
           className="absolute -top-14 left-0 sm:-top-16 sm:left-0 lg:-left-16 lg:top-6 z-10 flex items-center justify-center size-10 sm:size-12 rounded-full border border-border/40 bg-card/50 backdrop-blur-sm shadow-xl hover:bg-card/80 hover:scale-110 transition-all text-foreground"
-          title={volverLabel}
+          title={equipo.volverLabel}
         >
           <ArrowLeft className="size-5" />
         </Link>
@@ -131,7 +128,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
                   )}
                   {showGithub && (
                     <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
-                      <a href={member.github || "https://github.com/fusalabs"} target="_blank" rel="noopener noreferrer">
+                      <a href={member.github} target="_blank" rel="noopener noreferrer">
                         <Github className="size-6" />
                       </a>
                     </Button>
@@ -145,20 +142,20 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
           <Separator />
 
           <section className="space-y-4">
-            <h3 className="text-lg font-semibold">{resumenLabel}</h3>
+            <h3 className="text-lg font-semibold">{equipo.resumenLabel}</h3>
             <div className="text-muted-foreground dark:text-white! leading-relaxed space-y-6">
               <p>{member.resumen || member.bio}</p>
               
               <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 border-t border-border/20">
                 <span className="opacity-80 italic mt-4 sm:mt-0">
-                  {isEnglish ? "Let's explore how we can make this work for your business." : "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"}
+                  {equipo.charlaText}
                 </span>
                 <Link 
                   href="/#contacto" 
                   className="inline-flex items-center text-[#1C058E]! hover:text-[#1C058E]/80! dark:text-[#1C058E]! dark:hover:text-[#1C058E]/80! font-bold transition-colors group mt-1 sm:mt-0"
                 >
                   <MessageSquare className="size-4 mr-1.5" />
-                  {contactarLabel}
+                  {equipo.contactarLabel}
                   <span className="ml-1 inline-block transition-transform group-hover:translate-x-1">→</span>
                 </Link>
               </div>
