@@ -12,7 +12,6 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 interface ContactSectionProps {
   data: typeof landingData.es;
-  isEnglish: boolean;
 }
 
 const revealAnimation = {
@@ -22,7 +21,7 @@ const revealAnimation = {
   transition: { duration: 0.6, ease: "easeOut" }
 } as const;
 
-export function ContactSection({ data, isEnglish }: ContactSectionProps) {
+export function ContactSection({ data }: ContactSectionProps) {
   return (
     <section id="contacto" className="py-16 sm:py-20 md:py-24 bg-transparent">
       <div className="max-w-[1800px] px-6 lg:pl-32 lg:pr-24">

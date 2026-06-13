@@ -7,13 +7,6 @@ import { ServicesPreviewSection } from "@/components/sections/services-preview";
 import { ContactSection } from "@/components/sections/contact-section";
 import { TeamSection } from "@/components/sections/team-section";
 
-const revealAnimation = {
-  initial: { opacity: 0, scale: 0.98, y: 20 },
-  whileInView: { opacity: 1, scale: 1, y: 0 },
-  viewport: { once: true },
-  transition: { duration: 1.6, ease: "easeOut" }
-} as const;
-
 export default function HomePage() {
   const { data, isEnglish } = useLocale();
 
@@ -23,7 +16,7 @@ export default function HomePage() {
         <HeroSection data={data} isEnglish={isEnglish} />
         <ServicesPreviewSection data={data} />
         <TeamSection data={data} />
-        <ContactSection data={data} isEnglish={isEnglish} />
+        <ContactSection data={data} />
       </main>
     </TooltipProvider>
   );
