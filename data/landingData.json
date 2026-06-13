@@ -75,9 +75,9 @@
       ]
     },
     "contact": {
-      "title": "¿Tenés un proyecto<br class='hidden md:block' /> en mente?",
+      "title": "<span class='dark:text-[#1C058E]'>¿</span>Tenés&nbsp;un proyecto<br class='hidden md:block' /> en mente<span class='dark:text-[#1C058E]'>?</span>",
       "greeting": "Contanos sobre tu proyecto<br class='hidden md:block' /> y nos contactamos con vos al instante.",
-      "description": "Te ofreceremos consultorias personalizadas,<br class='hidden md:block' /> propuestas de desarrollo y Productos IA<br class='hidden md:block' /> que mejor se adapten a tu situación.",
+      "description": "Te ofreceremos <strong class='font-bold text-foreground'>consultorias personalizadas</strong>,<br class='hidden md:block' /> propuestas de desarrollo y <strong class='font-bold text-foreground'>Productos IA</strong><br class='hidden md:block' /> que mejor se adapten a tu situación.",
       "form": {
         "nameLabel": "Tu nombre*",
         "namePlaceholder": "Juan Ramirez",
@@ -85,7 +85,16 @@
         "emailPlaceholder": "juan@site.com",
         "messageLabel": "Mensaje",
         "messagePlaceholder": "Tu mensaje",
-        "submitButton": "Enviar mensaje"
+        "submitButton": "Enviar mensaje",
+        "feedback": {
+          "title": "CONTACTANOS",
+          "loading": "Enviando...",
+          "successTitle": "¡Mensaje Enviado!",
+          "successMessage": "Gracias por contactarnos. Nuestro equipo te responderá a la brevedad.",
+          "sendAnother": "Enviar otro mensaje",
+          "toastSuccess": "¡Mensaje recibido! Te contactaremos pronto.",
+          "toastError": "Algo salió mal. Por favor, reintentalo."
+        }
       },
       "cards": [
         {
@@ -134,7 +143,7 @@
     },
     "team": {
       "title": "",
-      "subtitle": "Fusa Labs es una Agencia de Software con IA que ayuda a las empresas B2B<br class='hidden md:block' /> a automatizar sus procesos, consolidar su infraestructura digital y proyectar<br class='hidden md:block' /> una identidad de marca que transmita autoridad y confianza en su sector.",
+      "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> es una <strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong> que ayuda a las empresas B2B<br class='hidden md:block' /> a <strong class='dark:text-white dark:font-medium!'>automatizar</strong> sus procesos, <strong class='dark:text-white dark:font-medium!'>consolidar</strong> su infraestructura digital y <strong class='dark:text-white dark:font-medium!'>proyectar</strong><br class='hidden md:block' /> una identidad de marca que transmita autoridad y <strong class='dark:text-white dark:font-medium!'>confianza</strong> en su sector.",
       "members": [
         {
           "name": "Jesus Fleitas",
@@ -793,9 +802,9 @@
       }
     },
     "contact": {
-      "title": "Have a project<br class='hidden md:block' /> in mind?",
+      "title": "Have a project<br class='hidden md:block' /> in mind<span class='dark:text-[#1C058E]'>?</span>",
       "greeting": "Tell us about your project<br class='hidden md:block' /> and we'll get back to you instantly.",
-      "description": "We'll offer you personalized consultations,<br class='hidden md:block' /> development proposals and AI Products<br class='hidden md:block' /> that best suit your situation.",
+      "description": "We'll offer you <strong class='font-bold text-foreground'>personalized consultations</strong>,<br class='hidden md:block' /> development proposals and <strong class='font-bold text-foreground'>AI Products</strong><br class='hidden md:block' /> that best suit your situation.",
       "form": {
         "nameLabel": "Your name*",
         "namePlaceholder": "Juan Ramirez",
@@ -803,7 +812,16 @@
         "emailPlaceholder": "juan@site.com",
         "messageLabel": "Message",
         "messagePlaceholder": "Your message",
-        "submitButton": "Send message"
+        "submitButton": "Send message",
+        "feedback": {
+          "title": "CONTACT US",
+          "loading": "Sending...",
+          "successTitle": "Message Sent!",
+          "successMessage": "Thank you for reaching out. Our team will get back to you shortly.",
+          "sendAnother": "Send another message",
+          "toastSuccess": "Message received! We'll contact you soon.",
+          "toastError": "Something went wrong. Please try again."
+        }
       },
       "cards": [
         {
@@ -852,7 +870,7 @@
     },
     "team": {
       "title": "",
-      "subtitle": "Fusa Labs is an AI-powered software agency that empowers B2B companies to streamline their operations, solidify their digital infrastructure, and project a brand identity that commands authority and trust within their industry.",
+      "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> is an <strong class='dark:text-white dark:font-medium!'>AI-powered software agency</strong> that empowers B2B companies to <strong class='dark:text-white dark:font-medium!'>streamline their operations</strong>, <strong class='dark:text-white dark:font-medium!'>solidify their digital infrastructure</strong>, and <strong class='dark:text-white dark:font-medium!'>project</strong> a brand identity that commands authority and <strong class='dark:text-white dark:font-medium!'>trust</strong> within their industry.",
       "members": [
         {
           "name": "Jesus Fleitas",

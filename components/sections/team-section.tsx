@@ -51,17 +51,6 @@ export function TeamSection({ data }: TeamSectionProps) {
             className="font-sans text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-relaxed tracking-tight font-light dark:font-extralight text-foreground/90 dark:text-white/60"
             dangerouslySetInnerHTML={{ 
               __html: team.subtitle
-                .replace("Fusa Labs", "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong>")
-                .replace("Agencia de Software con IA", "<strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong>")
-                .replace("AI-powered software agency", "<strong class='dark:text-white dark:font-medium!'>AI-powered software agency</strong>")
-                .replace("automatizar", "<strong class='dark:text-white dark:font-medium!'>automatizar</strong>")
-                .replace("streamline their operations", "<strong class='dark:text-white dark:font-medium!'>streamline their operations</strong>")
-                .replace("consolidar", "<strong class='dark:text-white dark:font-medium!'>consolidar</strong>")
-                .replace("solidify their digital infrastructure", "<strong class='dark:text-white dark:font-medium!'>solidify their digital infrastructure</strong>")
-                .replace("proyectar", "<strong class='dark:text-white dark:font-medium!'>proyectar</strong>")
-                .replace("project", "<strong class='dark:text-white dark:font-medium!'>project</strong>")
-                .replace("confianza", "<strong class='dark:text-white dark:font-medium!'>confianza</strong>")
-                .replace("trust", "<strong class='dark:text-white dark:font-medium!'>trust</strong>")
             }}
           />
         </motion.div>
