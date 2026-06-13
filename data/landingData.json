@@ -23,7 +23,7 @@
       ],
       "title": "¿Procesos repetitivos,<br class='hidden md:block' /> software inadecuado<br class='hidden md:block' /> o marca imperceptible?",
       "subtitle": "",
-      "description": "Concentrate en lo que importa y volvé a tomar el control de tu negocio.<br class='hidden md:block' /> Del resto nos encargamos nosotros.",
+      "description": "Concentrate en lo que importa y <span class=\"text-foreground font-bold\">volvé a</span> <span class=\"text-foreground font-bold\">tomar el control</span> <span class=\"text-foreground font-bold\">de tu negocio</span>.<br class='hidden md:block' /> Del resto nos encargamos nosotros.",
       "highlightedText": "redes de agentes de IA",
       "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
     },
@@ -669,7 +669,7 @@
       "tags": [],
       "title": "Repetitive processes,<br class='hidden md:block' /> inadequate software<br class='hidden md:block' /> or an imperceptible brand?",
       "subtitle": "",
-      "description": "Focus on what matters and take <br class='hidden md:block' /> control of your business again. We'll handle the rest.",
+      "description": "Focus on what matters and <span class=\"text-foreground font-bold\">take</span> <br class='hidden md:block' /> <span class=\"text-foreground font-bold\">control of your business</span> again. We'll handle the rest.",
       "highlightedText": "AI agent networks",
       "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
     },
