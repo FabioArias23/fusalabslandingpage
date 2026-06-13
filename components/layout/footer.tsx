@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { MessageCircle } from "lucide-react";
+import { useLocale } from "@/contexts/locale-context";
 
 const Instagram = ({ className }: { className?: string }) => (
   <svg
@@ -40,12 +43,15 @@ const Linkedin = ({ className }: { className?: string }) => (
 );
 
 export function Footer() {
+  const { data } = useLocale();
+  const { footer } = data.global;
+
   return (
     <footer className="mt-auto py-12 border-t border-border/40">
       <div className="max-w-[1800px] mx-auto px-6 flex flex-col items-center gap-6">
         <div className="flex items-center gap-4">
           <Link
-            href="https://wa.me/5493518799794"
+            href={footer.socials.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center size-10 rounded-full border border-border/40 bg-card/50 hover:bg-card/80 hover:scale-110 transition-all text-foreground hover:text-primary"
@@ -54,7 +60,7 @@ export function Footer() {
             <MessageCircle className="size-5" />
           </Link>
           <Link
-            href="https://www.instagram.com/fusa.labs/"
+            href={footer.socials.instagram}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center size-10 rounded-full border border-border/40 bg-card/50 hover:bg-card/80 hover:scale-110 transition-all text-foreground hover:text-primary"
@@ -63,7 +69,7 @@ export function Footer() {
             <Instagram className="size-5" />
           </Link>
           <Link
-            href="https://www.linkedin.com/company/fusa-labs/"
+            href={footer.socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center size-10 rounded-full border border-border/40 bg-card/50 hover:bg-card/80 hover:scale-110 transition-all text-foreground hover:text-primary"
@@ -72,9 +78,10 @@ export function Footer() {
             <Linkedin className="size-5" />
           </Link>
         </div>
-        <p className="text-xs tracking-[0.3em] text-muted-foreground/50 uppercase text-center">
-          © 2026 <strong className="font-bold text-foreground/80">FUSA</strong> LABS® — ALL RIGHTS RESERVED
-        </p>
+        <p 
+          className="text-xs tracking-[0.3em] text-muted-foreground/50 uppercase text-center"
+          dangerouslySetInnerHTML={{ __html: footer.copyright }}
+        />
       </div>
     </footer>
   );

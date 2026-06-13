@@ -28,9 +28,10 @@ import { MagicContainer, MagicCard } from "@/components/ui/magic-bento";
 export function Nav() {
   const pathname = usePathname();
   const { data, isEnglish, toggleLang } = useLocale();
-  const { navigation } = data;
+  const { global } = data;
+  const navData = global.nav;
 
-  const menuItems = isEnglish ? ["Services", "Staff"] : ["Servicios", "Staff"];
+  const menuItems = navData.menuItems;
 
   const getHref = (item: string): string => {
     const itemLower = item.toLowerCase();
@@ -38,8 +39,6 @@ export function Nav() {
     if (itemLower === "servicios" || itemLower === "services") return "/#servicios";
     return "#";
   };
-
-  const languageLabel = isEnglish ? "ESPAÑOL" : "ENGLISH";
 
   return (
     <MagicContainer>
@@ -127,7 +126,7 @@ export function Nav() {
             <div className="flex items-center gap-2 sm:gap-4">
               <Button asChild className="hidden sm:inline-flex rounded-full bg-[#1C058E] text-white! hover:bg-[#1C058E]/80 transition-all duration-300">
                 <Link href="/#contacto">
-                  {isEnglish ? "CONTACT US" : "CONTACTANOS"}
+                  {navData.ctaButton}
                   <ArrowRight className="size-4 ml-2" />
                 </Link>
               </Button>
@@ -139,7 +138,7 @@ export function Nav() {
                     variant="ghost" 
                     className="h-8 sm:h-10 text-[10px] sm:text-xs font-bold tracking-wider rounded-full hover:bg-[#1C058E]/10 text-[#1C058E] dark:text-white dark:hover:bg-white/10 transition-colors px-2 flex items-center gap-1"
                   >
-                    {isEnglish ? "EN" : "ES"}
+                    {isEnglish ? navData.langLabels.en : navData.langLabels.es}
                     <ChevronDown className="w-3 h-3 opacity-70" />
                   </Button>
                 </DropdownMenuTrigger>
@@ -149,13 +148,13 @@ export function Nav() {
                       <DropdownMenuItem 
                         className="rounded-xl px-4 py-2 cursor-default font-medium dark:text-white text-[#1C058E] bg-[#1C058E]/5 dark:bg-white/5"
                       >
-                        English
+                        {navData.langLabels.english}
                       </DropdownMenuItem>
                       <DropdownMenuItem 
                         onClick={() => toggleLang()} 
                         className="rounded-xl px-4 py-2 cursor-pointer font-medium opacity-60 hover:opacity-100 hover:bg-[#1C058E]/10 dark:hover:bg-white/10 transition-all focus:bg-[#1C058E]/10 dark:focus:bg-white/10"
                       >
-                        Spanish
+                        {navData.langLabels.spanish}
                       </DropdownMenuItem>
                     </>
                   ) : (
@@ -163,13 +162,13 @@ export function Nav() {
                       <DropdownMenuItem 
                         className="rounded-xl px-4 py-2 cursor-default font-medium dark:text-white text-[#1C058E] bg-[#1C058E]/5 dark:bg-white/5"
                       >
-                        Spanish
+                        {navData.langLabels.spanish}
                       </DropdownMenuItem>
                       <DropdownMenuItem 
                         onClick={() => toggleLang()} 
                         className="rounded-xl px-4 py-2 cursor-pointer font-medium opacity-60 hover:opacity-100 hover:bg-[#1C058E]/10 dark:hover:bg-white/10 transition-all focus:bg-[#1C058E]/10 dark:focus:bg-white/10"
                       >
-                        English
+                        {navData.langLabels.english}
                       </DropdownMenuItem>
                     </>
                   )}

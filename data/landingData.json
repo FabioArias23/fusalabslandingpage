@@ -25,7 +25,26 @@
       "subtitle": "",
       "description": "Concentrate en lo que importa y <span class=\"text-foreground font-bold\">volvé a</span> <span class=\"text-foreground font-bold\">tomar el control</span> <span class=\"text-foreground font-bold\">de tu negocio</span>.<br class='hidden md:block' /> Del resto nos encargamos nosotros.",
       "highlightedText": "redes de agentes de IA",
-      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4",
+      "animatedWords": [
+        "repetitivos",
+        "tediosos"
+      ],
+      "ctaButton": "Empezá hoy mismo",
+      "titleLines": {
+        "line1Before": "Procesos",
+        "line1After": "",
+        "line2": "software inadecuado,",
+        "line3": "o marca imperceptible?"
+      },
+      "rotatingWords": [
+        "repetitivos",
+        "tediosos",
+        "monótonos",
+        "redundantes",
+        "improductivos",
+        "recurrentes"
+      ]
     },
     "services": {
       "sectionNumber": "(02)",
@@ -657,6 +676,46 @@
         "text": "Ronda de inversión abierta",
         "active": false
       }
+    },
+    "global": {
+      "nav": {
+        "menuItems": [
+          "Servicios",
+          "Staff"
+        ],
+        "ctaButton": "CONTACTANOS",
+        "langLabels": {
+          "en": "EN",
+          "es": "ES",
+          "english": "English",
+          "spanish": "Spanish"
+        }
+      },
+      "footer": {
+        "socials": {
+          "whatsapp": "https://wa.me/5493518799794",
+          "instagram": "https://www.instagram.com/fusa.labs/",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs/"
+        },
+        "copyright": "© 2026 <strong class=\"font-bold text-foreground/80\">FUSA</strong> LABS® — ALL RIGHTS RESERVED"
+      }
+    },
+    "pages": {
+      "equipo": {
+        "volverLabel": "Volver atrás",
+        "resumenLabel": "Resumen",
+        "contactarLabel": "Contactanos",
+        "charlaText": "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"
+      },
+      "productos": {
+        "volverLabel": "Volver a productos",
+        "queResuelveLabel": "Qué resuelve",
+        "dondeAgregaLabel": "Dónde agrega valor",
+        "idealParaLabel": "Ideal para",
+        "caracteristicasLabel": "Características",
+        "planesLabel": "Planes",
+        "popularLabel": "Popular"
+      }
     }
   },
   "en": {
@@ -680,7 +739,26 @@
       "subtitle": "",
       "description": "Focus on what matters and <span class=\"text-foreground font-bold\">take</span> <br class='hidden md:block' /> <span class=\"text-foreground font-bold\">control of your business</span> again. We'll handle the rest.",
       "highlightedText": "AI agent networks",
-      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4"
+      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4",
+      "animatedWords": [
+        "Repetitive",
+        "Tedious"
+      ],
+      "ctaButton": "Start Today!",
+      "titleLines": {
+        "line1Before": "",
+        "line1After": "processes,",
+        "line2": "inadequate software,",
+        "line3": "or an imperceptible brand?"
+      },
+      "rotatingWords": [
+        "Repetitive",
+        "Tedious",
+        "Monotonous",
+        "Redundant",
+        "Unproductive",
+        "Recurring"
+      ]
     },
     "services": {
       "sectionNumber": "(02)",
@@ -1383,6 +1461,46 @@
       "status": {
         "text": "Investment round open",
         "active": false
+      }
+    },
+    "global": {
+      "nav": {
+        "menuItems": [
+          "Services",
+          "Staff"
+        ],
+        "ctaButton": "CONTACT US",
+        "langLabels": {
+          "en": "EN",
+          "es": "ES",
+          "english": "English",
+          "spanish": "Spanish"
+        }
+      },
+      "footer": {
+        "socials": {
+          "whatsapp": "https://wa.me/5493518799794",
+          "instagram": "https://www.instagram.com/fusa.labs/",
+          "linkedin": "https://www.linkedin.com/company/fusa-labs/"
+        },
+        "copyright": "© 2026 <strong class=\"font-bold text-foreground/80\">FUSA</strong> LABS® — ALL RIGHTS RESERVED"
+      }
+    },
+    "pages": {
+      "equipo": {
+        "volverLabel": "Back to team",
+        "resumenLabel": "Summary",
+        "contactarLabel": "Contact us",
+        "charlaText": "Let's explore how we can make this work for your business."
+      },
+      "productos": {
+        "volverLabel": "Back to products",
+        "queResuelveLabel": "What it solves",
+        "dondeAgregaLabel": "Where it adds value",
+        "idealParaLabel": "Ideal for",
+        "caracteristicasLabel": "Features",
+        "planesLabel": "Plans",
+        "popularLabel": "Popular"
       }
     }
   }
