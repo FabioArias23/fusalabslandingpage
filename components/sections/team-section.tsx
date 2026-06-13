@@ -36,7 +36,7 @@ export function TeamSection({ data }: TeamSectionProps) {
           className="w-full text-center mb-12 sm:mb-16 md:mb-20"
         >
           <h2 className="font-heading text-2xl xs:text-3xl sm:text-4xl md:text-6xl scale-y-110 origin-center tracking-tight text-foreground/90">
-            Conoce al Staff
+            {team.title || "Conoce al Staff"}
           </h2>
         </motion.div>
 
