@@ -35,58 +35,6 @@ export interface TeamSection {
   members: TeamMember[];
 }
 
-// Product Types
-export interface PricingPlan {
-  name: string;
-  price: string;
-  period: string;
-  periodEn?: string;
-  highlight?: boolean;
-}
-
-export interface ProductFeatures {
-  es: string[];
-  en: string[];
-}
-
-export interface Product {
-  name: string;
-  slug: string;
-  icon: string;
-  tagline: {
-    es: string;
-    en: string;
-  };
-  description: {
-    es: string;
-    en: string;
-  };
-  whatSolves: {
-    es: string[];
-    en: string[];
-  };
-  whereItAddsValue: {
-    es: string[];
-    en: string[];
-  };
-  idealFor: {
-    es: string;
-    en: string;
-  };
-  tags: string[];
-  features: ProductFeatures;
-  pricing: {
-    plans: PricingPlan[];
-  } | null;
-  demoUrl: string;
-  appUrl: string;
-  docsUrl: string;
-  active: boolean;
-}
-
-export interface ProductsConfig {
-  products: Record<string, Product>;
-}
 
 // Service Types
 export interface ServiceItem {
@@ -104,45 +52,6 @@ export interface ServiceStep {
   description: string;
 }
 
-export interface ConsultingArea {
-  icon: string;
-  title: string;
-  description: string;
-}
-
-export interface ServiceFormField {
-  nameLabel: string;
-  namePlaceholder: string;
-  companyLabel: string;
-  companyPlaceholder: string;
-  emailLabel: string;
-  emailPlaceholder: string;
-  typeLabel: string;
-  typeOptions: string[];
-  descriptionLabel: string;
-  descriptionPlaceholder: string;
-}
-
-export interface ServiceForm {
-  title: string;
-  fields: ServiceFormField;
-  submitButton: string;
-}
-
-export interface ServiceFormIntro {
-  title: string;
-  description: string;
-}
-
-export interface ServicesPage {
-  title: string;
-  subtitle: string;
-  subtitle2: string;
-  devSteps: ServiceStep[];
-  consultingAreas: ConsultingArea[];
-  formIntro: ServiceFormIntro;
-  form: ServiceForm;
-}
 
 // Landing Data Types
 export interface NavigationConfig {
@@ -182,7 +91,11 @@ export interface LandingData {
       steps: ServiceStep[];
     };
     team: TeamSection;
-    servicesPage: ServicesPage;
+    pages: {
+      equipo: {
+        volverLabel: string;
+      }
+    };
     footer: {
       social: string[];
       navigation: {
@@ -230,7 +143,11 @@ export interface LandingData {
       steps: ServiceStep[];
     };
     team: TeamSection;
-    servicesPage: ServicesPage;
+    pages: {
+      equipo: {
+        volverLabel: string;
+      }
+    };
     footer: {
       social: string[];
       navigation: {

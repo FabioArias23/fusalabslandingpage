@@ -161,7 +161,7 @@
       "subtitle": "Productos propios diseñados para automatizar procesos, organizar información y ampliar capacidad operativa."
     },
     "team": {
-      "title": "",
+      "title": "Conoce al Staff",
       "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> es una <strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong> que ayuda a las empresas B2B<br class='hidden md:block' /> a <strong class='dark:text-white dark:font-medium!'>automatizar</strong> sus procesos, <strong class='dark:text-white dark:font-medium!'>consolidar</strong> su infraestructura digital y <strong class='dark:text-white dark:font-medium!'>proyectar</strong><br class='hidden md:block' /> una identidad de marca que transmita autoridad y <strong class='dark:text-white dark:font-medium!'>confianza</strong> en su sector.",
       "members": [
         {
@@ -565,94 +565,6 @@
         "placeholder": "Tu email"
       }
     },
-    "servicesPage": {
-      "title": "Servicios",
-      "subtitle": "Diseñamos e implementamos soluciones tecnológicas a medida para equipos que necesitan operar mejor, automatizar procesos y escalar con criterio.",
-      "subtitle2": "Combinamos arquitectura, desarrollo, automatización e inteligencia artificial para convertir necesidades reales en sistemas utilizables, mantenibles y listos para producción.",
-      "devSteps": [
-        {
-          "num": "01",
-          "icon": "Search",
-          "title": "Diagnóstico",
-          "description": "Entendemos el problema, el contexto operativo y las restricciones del proyecto para definir una solución viable."
-        },
-        {
-          "num": "02",
-          "icon": "Code2",
-          "title": "Diseño e implementación",
-          "description": "Traducimos la estrategia en arquitectura, desarrollo e integración con foco en claridad, escalabilidad y ejecución."
-        },
-        {
-          "num": "03",
-          "icon": "Rocket",
-          "title": "Puesta en marcha",
-          "description": "Acompañamos el despliegue, la validación y la mejora continua para que la solución funcione en entornos reales."
-        }
-      ],
-      "consultingAreas": [
-        {
-          "icon": "Layers",
-          "title": "Arquitectura de soluciones",
-          "description": "Definición técnica, estructura de sistemas y diseño de soluciones pensadas para crecer con orden."
-        },
-        {
-          "icon": "Code2",
-          "title": "Desarrollo de software",
-          "description": "Construcción de aplicaciones y plataformas adaptadas a necesidades reales de operación."
-        },
-        {
-          "icon": "Cpu",
-          "title": "Inteligencia artificial aplicada",
-          "description": "Integración de capacidades de IA en procesos, productos y sistemas existentes."
-        },
-        {
-          "icon": "Zap",
-          "title": "Automatización de procesos",
-          "description": "Reducción de tareas repetitivas, mejora de flujos y aumento de eficiencia operativa."
-        },
-        {
-          "icon": "TrendingUp",
-          "title": "Marketing y growth",
-          "description": "Automatización comercial, generación de demanda y optimización de procesos de adquisición."
-        },
-        {
-          "icon": "Settings",
-          "title": "Operaciones y expansión",
-          "description": "Acompañamiento en procesos de crecimiento, organización operativa y articulación comercial."
-        },
-        {
-          "icon": "Shield",
-          "title": "Sistemas técnicos especializados",
-          "description": "Aplicación de conocimiento técnico en contextos específicos que requieren mayor precisión y criterio."
-        }
-      ],
-      "formIntro": {
-        "title": "¿Tenés un proyecto en mente?",
-        "description": "Contanos qué estás construyendo, qué querés optimizar o qué proceso necesitás resolver. Te ayudamos a definir el camino técnico más conveniente para llevarlo a producción."
-      },
-      "form": {
-        "title": "Envianos tu consulta",
-        "fields": {
-          "nameLabel": "Nombre*",
-          "namePlaceholder": "Tu nombre",
-          "companyLabel": "Empresa",
-          "companyPlaceholder": "Tu empresa",
-          "emailLabel": "Email*",
-          "emailPlaceholder": "tu@email.com",
-          "typeLabel": "Tipo de proyecto",
-          "typeOptions": [
-            "Desarrollo a medida",
-            "Consultoría IA",
-            "Integración de sistemas",
-            "Automatización",
-            "Otro"
-          ],
-          "descriptionLabel": "Descripción del proyecto",
-          "descriptionPlaceholder": "Contanos sobre tu proyecto..."
-        },
-        "submitButton": "Enviar consulta"
-      }
-    },
     "footer": {
       "social": [
         "Instagram",
@@ -705,15 +617,6 @@
         "resumenLabel": "Resumen",
         "contactarLabel": "Contactanos",
         "charlaText": "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"
-      },
-      "productos": {
-        "volverLabel": "Volver a productos",
-        "queResuelveLabel": "Qué resuelve",
-        "dondeAgregaLabel": "Dónde agrega valor",
-        "idealParaLabel": "Ideal para",
-        "caracteristicasLabel": "Características",
-        "planesLabel": "Planes",
-        "popularLabel": "Popular"
       }
     }
   },
@@ -774,8 +677,8 @@
           "icon": "Cpu",
           "media": [
             "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/ia-services/Automatizacion n8n cool 2.webp",
-            "/assets/services/ia-services/Automatizacion-n8n-_5_.webp"
+            "/assets/services/ia-services/automatizacion-n8n-cool-2.webp",
+            "/assets/services/ia-services/automatizacion-n8n-5.webp"
           ]
         },
         {
@@ -946,7 +849,7 @@
       "subtitle": "Proprietary products designed to automate processes, organize information, and expand operational capacity."
     },
     "team": {
-      "title": "",
+      "title": "Meet Us",
       "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> is an <strong class='dark:text-white dark:font-medium!'>AI-powered software agency</strong> that empowers B2B companies to <strong class='dark:text-white dark:font-medium!'>streamline their operations</strong>, <strong class='dark:text-white dark:font-medium!'>solidify their digital infrastructure</strong>, and <strong class='dark:text-white dark:font-medium!'>project</strong> a brand identity that commands authority and <strong class='dark:text-white dark:font-medium!'>trust</strong> within their industry.",
       "members": [
         {
@@ -1350,94 +1253,6 @@
         "placeholder": "Your email"
       }
     },
-    "servicesPage": {
-      "title": "Services",
-      "subtitle": "We design and implement tailor-made technology solutions for teams that need to operate better, automate processes, and scale with criteria.",
-      "subtitle2": "We combine architecture, development, automation, and artificial intelligence to transform real needs into usable, maintainable systems ready for production.",
-      "devSteps": [
-        {
-          "num": "01",
-          "icon": "Search",
-          "title": "Diagnosis",
-          "description": "We understand the problem, the operational context, and project constraints to define a viable solution."
-        },
-        {
-          "num": "02",
-          "icon": "Code2",
-          "title": "Design & Implementation",
-          "description": "We translate strategy into architecture, development, and integration with a focus on clarity, scalability, and execution."
-        },
-        {
-          "num": "03",
-          "icon": "Rocket",
-          "title": "Launch",
-          "description": "We support deployment, validation, and continuous improvement so the solution works in real environments."
-        }
-      ],
-      "consultingAreas": [
-        {
-          "icon": "Layers",
-          "title": "Solution architecture",
-          "description": "Technical definition, system structure, and solution design built to grow in an orderly manner."
-        },
-        {
-          "icon": "Code2",
-          "title": "Software development",
-          "description": "Building applications and platforms tailored to real operational needs."
-        },
-        {
-          "icon": "Cpu",
-          "title": "Applied artificial intelligence",
-          "description": "Integrating AI capabilities into existing processes, products, and systems."
-        },
-        {
-          "icon": "Zap",
-          "title": "Process automation",
-          "description": "Reducing repetitive tasks, improving workflows, and increasing operational efficiency."
-        },
-        {
-          "icon": "TrendingUp",
-          "title": "Marketing & growth",
-          "description": "Commercial automation, demand generation, and optimization of acquisition processes."
-        },
-        {
-          "icon": "Settings",
-          "title": "Operations & expansion",
-          "description": "Support in growth processes, operational organization, and commercial articulation."
-        },
-        {
-          "icon": "Shield",
-          "title": "Specialized technical systems",
-          "description": "Application of technical knowledge in specific contexts that require greater precision and criteria."
-        }
-      ],
-      "formIntro": {
-        "title": "Have a project in mind?",
-        "description": "Tell us what you're building, what you want to optimize, or what process you need to solve. We'll help you define the most convenient technical path to take it to production."
-      },
-      "form": {
-        "title": "Send us your inquiry",
-        "fields": {
-          "nameLabel": "Name*",
-          "namePlaceholder": "Your name",
-          "companyLabel": "Company",
-          "companyPlaceholder": "Your company",
-          "emailLabel": "Email*",
-          "emailPlaceholder": "your@email.com",
-          "typeLabel": "Project type",
-          "typeOptions": [
-            "Custom development",
-            "AI Consulting",
-            "Systems integration",
-            "Automation",
-            "Other"
-          ],
-          "descriptionLabel": "Project description",
-          "descriptionPlaceholder": "Tell us about your project..."
-        },
-        "submitButton": "Send inquiry"
-      }
-    },
     "footer": {
       "social": [
         "Instagram",
@@ -1490,15 +1305,6 @@
         "resumenLabel": "Summary",
         "contactarLabel": "Contact us",
         "charlaText": "Let's explore how we can make this work for your business."
-      },
-      "productos": {
-        "volverLabel": "Back to products",
-        "queResuelveLabel": "What it solves",
-        "dondeAgregaLabel": "Where it adds value",
-        "idealParaLabel": "Ideal for",
-        "caracteristicasLabel": "Features",
-        "planesLabel": "Plans",
-        "popularLabel": "Popular"
       }
     }
   }
