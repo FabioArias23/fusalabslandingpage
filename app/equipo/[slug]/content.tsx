@@ -80,7 +80,6 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
   }
 
   const linkedinUrl = member.linkedin || "https://www.linkedin.com/company/fusa-labs";
-  const instagramUrl = member.instagram || "https://www.instagram.com/fusa.labs";
   const showGithub = ["facu", "jesus", "adri", "fabio"].some(name => slug.toLowerCase().includes(name));
 
   const volverLabel = isEnglish ? "Back to team" : "Volver atrás";
@@ -123,11 +122,13 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
                       <Linkedin className="size-6" />
                     </a>
                   </Button>
-                  <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
-                    <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
-                      <Instagram className="size-6" />
-                    </a>
-                  </Button>
+                  {member.instagram && (
+                    <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
+                      <a href={member.instagram} target="_blank" rel="noopener noreferrer">
+                        <Instagram className="size-6" />
+                      </a>
+                    </Button>
+                  )}
                   {showGithub && (
                     <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
                       <a href={member.github || "https://github.com/fusalabs"} target="_blank" rel="noopener noreferrer">
