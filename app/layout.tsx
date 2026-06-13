@@ -35,7 +35,6 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
-import { MouseGradient } from "@/components/MouseGradient";
 import { BackToTop } from "@/components/BackToTop";
 import { WhatsAppFAB } from "@/components/WhatsAppFAB";
 import AdaptiveAurora from "@/components/animations/AdaptiveAurora";
@@ -66,7 +65,6 @@ export default function RootLayout({
         <ThemeProvider>
           <LocaleProvider initialLang={initialLang}>
             <AdaptiveAurora />
-            {/* <MouseGradient /> */}
             <Nav />
             {children}
             <Footer />
