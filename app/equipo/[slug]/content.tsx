@@ -144,7 +144,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
           <section className="space-y-4">
             <h3 className="text-lg font-semibold">{equipo.resumenLabel}</h3>
             <div className="text-muted-foreground dark:text-white! leading-relaxed space-y-6">
-              <p>{member.resumen || member.bio}</p>
+              <p>{member.bio}</p>
               
               <div className="pt-2 flex flex-col sm:flex-row sm:items-center gap-2 border-t border-border/20">
                 <span className="opacity-80 italic mt-4 sm:mt-0">
