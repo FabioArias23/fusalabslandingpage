@@ -4,36 +4,9 @@
       "title": "Fusa Labs | Soluciones AI & Software",
       "description": "Modernizando negocios con inteligencia artificial y software a medida."
     },
-    "branding": {
-      "name": "FUSA LABS",
-      "suffix": "SYSTEMS",
-      "tagline": "® 2026 FUSA LABS SYSTEMS",
-      "footer": "FUSA LABS / 2026"
-    },
-    "navigation": {
-      "languageLabel": "ENGLISH",
-      "menuItems": [
-        "Equipo",
-        "Contacto"
-      ],
-      "ctaButton": "CONTACTO"
-    },
     "hero": {
-      "tags": [
-        "Redes Multiagente",
-        "Venture Builder",
-        "SaaS con IA",
-        "Escalabilidad"
-      ],
-      "title": "¿Procesos repetitivos,<br class='hidden md:block' /> software inadecuado<br class='hidden md:block' /> o marca imperceptible?",
       "subtitle": "",
       "description": "Concentrate en lo que importa y <span class=\"text-foreground font-bold\">volvé a</span> <span class=\"text-foreground font-bold\">tomar el control</span> <span class=\"text-foreground font-bold\">de tu negocio</span>.<br class='hidden md:block' /> Del resto nos encargamos nosotros.",
-      "highlightedText": "redes de agentes de IA",
-      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4",
-      "animatedWords": [
-        "repetitivos",
-        "tediosos"
-      ],
       "ctaButton": "Empezá hoy mismo",
       "titleLines": {
         "line1Before": "Procesos",
@@ -105,7 +78,7 @@
         "nameLabel": "Tu nombre*",
         "namePlaceholder": "Juan Ramirez",
         "emailLabel": "Correo electrónico*",
-        "emailPlaceholder": "juan@site.com",
+        "emailPlaceholder": "juanramirez@gmail.com",
         "messageLabel": "Mensaje",
         "messagePlaceholder": "Tu mensaje",
         "submitButton": "Enviar mensaje",
@@ -132,38 +105,6 @@
         }
       ]
     },
-    "trustPoints": [
-      {
-        "icon": "Shield",
-        "title": "Arquitectura soberana",
-        "description": "Tu código, tu infraestructura, sin vendor lock-in. Control total sobre tu stack."
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "IA orientada a ROI",
-        "description": "No modelos aislados. IA integrada directamente en tu stack para resultados medibles."
-      },
-      {
-        "icon": "Code2",
-        "title": "Stack de última generación",
-        "description": "Siempre con las mejores herramientas del mercado."
-      },
-      {
-        "icon": "Users",
-        "title": "Equipo real de ingenieros",
-        "description": "Ingenieros electromecánicos, aeroespaciales y de software. No freelancers rotativos."
-      }
-    ],
-    "cta": {
-      "title": "¿Listo para integrar IA?",
-      "subtitle": "Hablemos sobre cómo podemos potenciar tu negocio con soluciones de IA a medida.",
-      "buttonText": "Empecemos",
-      "buttonLink": "#contacto"
-    },
-    "productsSection": {
-      "title": "Nuestros productos",
-      "subtitle": "Productos propios diseñados para automatizar procesos, organizar información y ampliar capacidad operativa."
-    },
     "team": {
       "title": "Conoce al Staff",
       "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> es una <strong class='dark:text-white dark:font-medium!'>Agencia de Software con IA</strong> que ayuda a las empresas B2B<br class='hidden md:block' /> a <strong class='dark:text-white dark:font-medium!'>automatizar</strong> sus procesos, <strong class='dark:text-white dark:font-medium!'>consolidar</strong> su infraestructura digital y <strong class='dark:text-white dark:font-medium!'>proyectar</strong><br class='hidden md:block' /> una identidad de marca que transmita autoridad y <strong class='dark:text-white dark:font-medium!'>confianza</strong> en su sector.",
@@ -171,426 +112,90 @@
         {
           "name": "Jesus Fleitas",
           "slug": "jesus-fleitas",
-          "email": "jesusfleitas909@gmail.com",
           "title": "Founder & Design Marketing Strategist",
           "bio": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de arquitecturas de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica de sistemas con el diseño. Creo que conectar estos dos mundos nos permite construir ecosistemas que no solo comunican, sino que funcionan con precisión.",
-          "highlight": "Management",
           "linkedin": "https://www.linkedin.com/in/jesusfleitas/",
-          "github": "https://github.com/jerchufleitas",
-          "resumen": "Hola, soy Jesús Fleitas, tengo 29 años y soy un apasionado de la aviación y el diseño de arquitecturas de marcas. Como estudiante de Ingeniería Aeroespacial, mi propósito en Fusa Labs es fusionar la precisión técnica de sistemas con el diseño. Creo que conectar estos dos mundos nos permite construir ecosistemas que no solo comunican, sino que funcionan con precisión.",
-          "aporte": "Fusiona la infraestructura técnica con la narrativa de marca, optimizando la conexión entre lo que el sistema hace y lo que comunica.",
-          "foto": "/img/equipo/jesus-fleitas.jpg",
-          "categoria": "operations",
-          "subcategoria": "Founder & Technical Strategist",
-          "logros": [
-            {
-              "metric": "Precision",
-              "label": "Management & Strategic Briefing"
-            },
-            {
-              "metric": "Creative",
-              "label": "Marketing & Branding Design"
-            },
-            {
-              "metric": "AI Native",
-              "label": "AI Strategy & Implementation"
-            },
-            {
-              "metric": "Optimization",
-              "label": "Process Optimization"
-            }
-          ],
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de coordinación y gestión",
-          "position": "center 65%",
           "instagram": "https://www.instagram.com/jesusfleitas.ia",
-          "phone": "+5493704563060",
-          "proyectos": [
-            {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/1.jpg"
-            },
-            {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/3.jpg"
-            }
-          ]
+          "github": "https://github.com/jerchufleitas",
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "position": "center 65%"
         },
         {
           "name": "Fabio Arias",
           "slug": "fabio-arias",
-          "email": "fabio-adrian-arias@hotmail.com",
           "title": "Full-Stack Developer",
           "bio": "Hola, soy Fabio Arias. Como Ingeniero en IA (Azure AI Associate), mi rol en Fusa Labs es liderar la integración técnica entre Inteligencia Artificial y arquitecturas full-stack complejas. Especialista en el ecosistema JavaScript y TypeScript, construyo plataformas de alto rendimiento empleando Angular, React y Node.js. Diseño bases de datos escalables integrando robustas soluciones con MongoDB, Firebase y MySQL. Toda esta experiencia me permite desarrollar sistemas extremadamente sólidos, eficientes y siempre preparados para garantizar la escalabilidad comercial.",
-          "highlight": "Producto",
           "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
-          "resumen": "Hola, soy Fabio Arias. Como Ingeniero en IA (Azure AI Associate), mi rol en Fusa Labs es liderar la integración técnica entre Inteligencia Artificial y arquitecturas full-stack complejas. Especialista en el ecosistema JavaScript y TypeScript, construyo plataformas de alto rendimiento empleando Angular, React y Node.js. Diseño bases de datos escalables integrando robustas soluciones con MongoDB, Firebase y MySQL. Toda esta experiencia me permite desarrollar sistemas extremadamente sólidos, eficientes y siempre preparados para garantizar la escalabilidad comercial.",
-          "aporte": "Ejecuta la implementación técnica de productos y features. Conecta requerimientos de negocio con soluciones técnicas escalables.",
-          "foto": "/img/equipo/fabio-arias.jpg",
-          "categoria": "tech",
-          "subcategoria": "Full-Stack Development",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "El código es el medio, no el fin. Lo que importa es resolver problemas reales.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de desarrollo fullstack",
-          "position": "center 10%",
-          "zoom": 1,
           "instagram": "https://www.instagram.com/fabioadriarias/",
-          "proyectos": [
-            {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/1.jpg"
-            },
-            {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
-            }
-          ],
-          "github": "https://github.com/FabioArias23"
+          "github": "https://github.com/FabioArias23",
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "position": "center 10%",
+          "zoom": 1
         },
         {
           "name": "Adrián Gamarra",
           "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
           "title": "Founder & CEO — Product, AI & Growth",
           "bio": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Mi origen en periodismo y marketing forjó mi enfoque: pensar los productos siempre desde el usuario, la conversión y el negocio. Lidero la visión estratégica y la arquitectura de agentes de IA, conectando necesidades con soluciones viables. Diseño flujos conversacionales y métricas clave para asegurar que cada desarrollo funcione, escale y genere ventas. Combino tecnología e innovación para construir sistemas autónomos que potencian el crecimiento comercial y operativo de todos nuestros clientes.",
-          "highlight": "Founder",
           "linkedin": "https://www.linkedin.com/in/adriangmrra/",
-          "resumen": "Soy Adrián Gamarra, fundador de Fusa Labs y CEO de Future IA & Automatización. Mi origen en periodismo y marketing forjó mi enfoque: pensar los productos siempre desde el usuario, la conversión y el negocio. Lidero la visión estratégica y la arquitectura de agentes de IA, conectando necesidades con soluciones viables. Diseño flujos conversacionales y métricas clave para asegurar que cada desarrollo funcione, escale y genere ventas. Combino tecnología e innovación para construir sistemas autónomos que potencian el crecimiento comercial y operativo de todos nuestros clientes.",
-          "aporte": "Define la visión de producto, la estrategia comercial, la arquitectura de agentes de IA y las métricas de crecimiento en todos los proyectos de Fusa Labs. Conecta negocio, tecnología y marketing en cada decisión.",
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "El mejor marketing no se siente como marketing. Es有价值 que el usuario busca.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultorías de growth y estrategia de contenidos",
-          "position": "center 28%",
           "instagram": "https://www.instagram.com/adriangmrra/",
-          "proyectos": [
-            {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
-            },
-            {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
-            }
-          ],
-          "github": "https://github.com/adriangmrraa"
+          "github": "https://github.com/adriangmrraa",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "position": "center 28%"
         },
         {
           "name": "Pedro Enríquez",
           "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
           "title": "Project Manager",
           "bio": "Hola, soy Pedro Enríquez, licenciado en Relaciones Internacionales y analista en negocios globales. Mi trayectoria se centra en la gestión estratégica, el análisis de datos y el monitoreo de proyectos para asegurar la eficiencia operativa y la alta calidad. En Fusa Labs, gestiono el alcance de cada proyecto, aplicando mi visión de negocios globales para crear ecosistemas digitales que cumplan con la excelencia técnica. Mi enfoque es conectar la estrategia con la automatización inteligente para desarrollar soluciones que escalen y ofrezcan valor real al mercado.",
-          "highlight": "Project Management",
           "linkedin": "https://www.linkedin.com/in/pedro-agustin-enriquez-825983319/",
-          "resumen": "Hola, soy Pedro Enríquez, licenciado en Relaciones Internacionales y analista en negocios globales. Mi trayectoria se centra en la gestión estratégica, el análisis de datos y el monitoreo de proyectos para asegurar la eficiencia operativa y la alta calidad. En Fusa Labs, gestiono el alcance de cada proyecto, aplicando mi visión de negocios globales para crear ecosistemas digitales que cumplan con la excelencia técnica. Mi enfoque es conectar la estrategia con la automatización inteligente para desarrollar soluciones que escalen y ofrezcan valor real al mercado.",
-          "aporte": "Estructura operaciones internacionales, coordina procesos de gestoría entre actores y jurisdicciones, y transforma hallazgos de investigación en mensajes claros de alto impacto.",
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "Gestión Empresarial Internacional",
-          "logros": [
-            {
-              "metric": "Leadership",
-              "label": "Scrum master"
-            },
-            {
-              "metric": "Strategic",
-              "label": "International management"
-            },
-            {
-              "metric": "Execution",
-              "label": "Project management"
-            },
-            {
-              "metric": "Technical",
-              "label": "Data analytics"
-            }
-          ],
-          "cta": "Los negocios internacionales se construyen con confianza, no con contratos.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para expansión internacional y alianzas estratégicas",
-          "position": "center 26%",
           "instagram": "https://www.instagram.com/pedroenriquez__/",
-          "proyectos": [
-            {
-              "title": "RELACIONES SUBNACIONALES",
-              "description": "Estrategias de internacionalización para gobiernos locales: conectando el territorio con recursos y oportunidades globales.",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/1.jpg"
-            },
-            {
-              "title": "LA PARADOJA",
-              "description": "La Globalización desafía a un nuevo paradigma de desarrollo territorial.  —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/2.jpg"
-            },
-            {
-              "title": "PARADIPLOMACIA PRODUCTIVA",
-              "description": "Análisis del rol de los gobiernos locales en la promoción económica y la internacionalización de las industrias regionales.—Nota de opinión. ",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/3.jpg"
-            }
-          ]
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "position": "center 26%"
         },
         {
           "name": "Ezequiel Lopez",
           "slug": "ezequiel-lopez",
-          "email": "ezequiel128@gmail.com",
           "title": "Electromechanical Eng.",
           "bio": "Hola, soy Ezequiel Lopez. Como Ingeniero Electromecánico con especialización en automatización industrial, mi propósito en Fusa Labs es llevar el rigor de la ingeniería física a los sistemas digitales. Mi formación en sistemas de control y automatización por la UNNE-RCIA me permite diseñar ecosistemas tecnológicos resilientes. Traduzco principios de eficiencia industrial al desarrollo de integraciones, asegurando que cada proceso automatizado funcione con absoluta fiabilidad. Optimizo flujos operativos para garantizar que el negocio escale de manera continua.",
-          "highlight": "Infra",
           "linkedin": "https://www.linkedin.com/in/matias-ezequiel-lopez-chamorro-b5675430b/",
-          "resumen": "Hola, soy Ezequiel Lopez. Como Ingeniero Electromecánico con especialización en automatización industrial, mi propósito en Fusa Labs es llevar el rigor de la ingeniería física a los sistemas digitales. Mi formación en sistemas de control y automatización por la UNNE-RCIA me permite diseñar ecosistemas tecnológicos resilientes. Traduzco principios de eficiencia industrial al desarrollo de integraciones, asegurando que cada proceso automatizado funcione con absoluta fiabilidad. Optimizo flujos operativos para garantizar que el negocio escale de manera continua.",
-          "aporte": "Diseña e implementa soluciones de infraestructura operativa. Integra sistemas físicos con plataformas digitales para operaciones robustas.",
+          "instagram": "https://www.instagram.com/ezelopezch/",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
           "position": "center 0%",
-          "zoom": 1,
-          "categoria": "tech",
-          "subcategoria": "Electromecánica & IoT",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "El futuro de la industria está en la convergencia entre lo físico y lo digital.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de automatización industrial e IoT",
-          "instagram": "https://www.instagram.com/ezelopezch/",
-          "proyectos": [
-            {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/1.jpg"
-            },
-            {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/3.jpg"
-            }
-          ]
+          "zoom": 1
         },
         {
           "name": "Facundo Majda",
           "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
           "title": "AI Engineer & Solutions Architect",
           "bio": "Hola, soy Facundo Majda. Como desarrollador especializado en IA y arquitecturas backend escalables, mi rol en Fusa Labs es construir la base técnica de la innovación. Diseño sistemas de alto rendimiento, abarcando desde APIs y data pipelines hasta integraciones con grandes modelos de lenguaje (LLMs). Aplico patrones de ingeniería durante todo el ciclo del producto, desde la prueba de concepto hasta su despliegue en producción. Mediante el ajuste fino (tuning) y evaluaciones rigurosas, garantizo soluciones tecnológicamente sólidas, eficientes y preparadas para escalar.",
-          "highlight": "Arquitectura",
           "linkedin": "https://www.linkedin.com/in/facundo-majda/",
-          "resumen": "Hola, soy Facundo Majda. Como desarrollador especializado en IA y arquitecturas backend escalables, mi rol en Fusa Labs es construir la base técnica de la innovación. Diseño sistemas de alto rendimiento, abarcando desde APIs y data pipelines hasta integraciones con grandes modelos de lenguaje (LLMs). Aplico patrones de ingeniería durante todo el ciclo del producto, desde la prueba de concepto hasta su despliegue en producción. Mediante el ajuste fino (tuning) y evaluaciones rigurosas, garantizo soluciones tecnológicamente sólidas, eficientes y preparadas para escalar.",
-          "aporte": "Lidera la definición técnica de soluciones, la arquitectura de productos y la implementación de sistemas que conectan estrategia, escalabilidad y ejecución.",
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Arquitectura",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "La mejor arquitectura es quella que no se nota. Cuando funciona bien, nadie la ve.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para proyectos de arquitectura e implementación de IA",
-          "github": "https://github.com/FacundoMajda"
+          "github": "https://github.com/FacundoMajda",
+          "foto": "/img/equipo/facundo-majda.jpg"
         },
         {
           "name": "Patricio Martin Polo",
           "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
           "title": "Accountant & Foreign Trade",
           "bio": "Hola, soy Patricio Martin Polo. Con una triple formación como Contador Público, Licenciado en Comercio Exterior y Despachante de Aduanas, conecto el rigor regulatorio con la eficiencia de la IA en Fusa Labs. Soy responsable de construir estructuras operativas globales que son tan resilientes como nuestra tecnología. Al optimizar la gestión fiscal y la logística comercial, permito que la innovación se expanda sin fronteras. Me especializo en transformar obstáculos administrativos en flujos de trabajo automatizados que generan un impacto real en el negocio.",
-          "highlight": "Operación",
           "linkedin": "https://www.linkedin.com/in/patricio-mart%C3%ADn-peso-polo-despachante-de-aduanas-746478264/",
-          "resumen": "Hola, soy Patricio Martin Polo. Con una triple formación como Contador Público, Licenciado en Comercio Exterior y Despachante de Aduanas, conecto el rigor regulatorio con la eficiencia de la IA en Fusa Labs. Soy responsable de construir estructuras operativas globales que son tan resilientes como nuestra tecnología. Al optimizar la gestión fiscal y la logística comercial, permito que la innovación se expanda sin fronteras. Me especializo en transformar obstáculos administrativos en flujos de trabajo automatizados que generan un impacto real en el negocio.",
-          "aporte": "Gestiona la estructura operativa y financiera de operaciones de comercio exterior. Asegura compliance y optimización fiscal en cadenas de valor.",
+          "instagram": "https://www.instagram.com/pmpp96/",
           "foto": "/img/equipo/patricio-polo.jpg",
           "position": "80% 62%",
-          "zoom": 1.2,
-          "categoria": "business",
-          "subcategoria": "Finanzas & Comercio",
-          "logros": [
-            {
-              "metric": "Strategic",
-              "label": "Financial optimization"
-            },
-            {
-              "metric": "Global",
-              "label": "Foreign trade"
-            },
-            {
-              "metric": "Operational",
-              "label": "Customs strategy"
-            },
-            {
-              "metric": "Compliance",
-              "label": "B2B compliance"
-            }
-          ],
-          "cta": "Los números cuentan la verdad. Mi trabajo es hacer que hablen a favor del negocio.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para consultas de comercio exterior y optimización fiscal",
-          "instagram": "https://www.instagram.com/pmpp96/",
-          "proyectos": [
-            {
-              "title": "EFICIENCIA ADUANERA",
-              "description": "Simplificación de garantías para optimizar la carga operativa y los tiempos de despacho.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/1.jpg"
-            },
-            {
-              "title": "GLOBAL TRADE COMPLIANCE",
-              "description": "Normativa e Incoterms: asegurando cumplimiento y gestión de riesgos en la cadena global.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/2.jpg"
-            },
-            {
-              "title": "INTELIGENCIA ESTRATÉGICA",
-              "description": "Tratados y misiones: herramientas para la expansión global. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/3.jpg"
-            }
-          ]
+          "zoom": 1.2
         },
         {
           "name": "Lisandro Ratto",
           "slug": "lisandro-ratto",
-          "email": "lisandroratto@gmail.com",
           "title": "PR & HR Degree",
           "bio": "Hola, soy Lisandro Ratto. Como especialista en Relaciones Públicas y Recursos Humanos, mi rol en Fusa Labs es potenciar el talento y la comunicación institucional. Conecto nuestra cultura interna con la presencia digital, garantizando que el factor humano escale a la par de la tecnología. Integrando herramientas CRM y marketing, diseño estrategias de reclutamiento y employer branding. Mi misión es optimizar la gestión operativa para asegurar que el desarrollo de cada talento impulse el éxito del negocio y la evolución constante de nuestras soluciones de software.",
-          "highlight": "Talent",
           "linkedin": "https://www.linkedin.com/in/lisandro-ratto-847942180/",
-          "resumen": "Hola, soy Lisandro Ratto. Como especialista en Relaciones Públicas y Recursos Humanos, mi rol en Fusa Labs es potenciar el talento y la comunicación institucional. Conecto nuestra cultura interna con la presencia digital, garantizando que el factor humano escale a la par de la tecnología. Integrando herramientas CRM y marketing, diseño estrategias de reclutamiento y employer branding. Mi misión es optimizar la gestión operativa para asegurar que el desarrollo de cada talento impulse el éxito del negocio y la evolución constante de nuestras soluciones de software.",
-          "aporte": "Construye la identidad institucional de Fusa hacia adentro y hacia afuera. Gestiona employer branding y adquisición de talento especializado.",
+          "instagram": "https://www.instagram.com/lisanpic/",
           "foto": "/img/equipo/lisandro-ratto.jpg",
           "position": "center 18%",
-          "zoom": 1,
-          "categoria": "operations",
-          "subcategoria": "RRHH & Cultura",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Las personas no se quedan por el salary. Se quedan por la cultura y el propósito.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Disponible para procesos de reclutamiento y estrategia de employer branding",
-          "instagram": "https://www.instagram.com/lisanpic/",
-          "proyectos": [
-            {
-              "title": "Skills para Agentes IA",
-              "description": "¿Tu Agente alucina en sus respuestas?\nEstas son las mejores SKILLS que borran el ruido del contexto.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/1.jpg"
-            },
-            {
-              "title": "Inversion revolucionarIA",
-              "description": "Estos son los 3 pilares clave que OpenAi planea integrar en ciencia, seguridad y sociedad. —Nota de opinión.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Prompts profesionales que generan imágenes de alta calidad para tus productos y campañas.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/3.jpg"
-            }
-          ]
+          "zoom": 1
         }
       ]
-    },
-    "lab": {
-      "badge": "Innovation Lab",
-      "title": "Lab de Ideas.",
-      "description": "Donde exploramos el límite de lo posible. Proyectos experimentales y prototipos. I+D",
-      "ctaButton": "Explorar el Journal",
-      "newsletter": {
-        "label": "Newsletter",
-        "placeholder": "Tu email"
-      }
-    },
-    "footer": {
-      "social": [
-        "Instagram",
-        "Github",
-        "Mail",
-        "WhatsApp"
-      ],
-      "navigation": {
-        "title": "Navegación",
-        "links": [
-          "Inicio"
-        ]
-      },
-      "location": {
-        "title": "Ubicación",
-        "text": "Sede en Argentina.\nFormosa."
-      },
-      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
-      "status": {
-        "text": "Ronda de inversión abierta",
-        "active": false
-      }
     },
     "global": {
       "nav": {
@@ -620,7 +225,7 @@
         "volverLabel": "Volver atrás",
         "resumenLabel": "Resumen",
         "contactarLabel": "Contactanos",
-        "charlaText": "¿Querés que charlemos sobre cómo aplicar esto en tu empresa?"
+        "charlaText": "Veamos cómo podemos hacer que esto funcione para tu negocio."
       }
     }
   },
@@ -629,31 +234,9 @@
       "title": "Fusa Labs | AI & Software Solutions",
       "description": "Modernizing businesses with artificial intelligence and custom software."
     },
-    "branding": {
-      "name": "FUSA LABS",
-      "suffix": "SYSTEMS",
-      "tagline": "® 2026 FUSA LABS SYSTEMS",
-      "footer": "FUSA LABS / 2026"
-    },
-    "navigation": {
-      "languageLabel": "ESPAÑOL",
-      "menuItems": [
-        "Team",
-        "Contact"
-      ],
-      "ctaButton": "CONTACT US"
-    },
     "hero": {
-      "tags": [],
-      "title": "Repetitive processes,<br class='hidden md:block' /> inadequate software<br class='hidden md:block' /> or an imperceptible brand?",
       "subtitle": "",
       "description": "Focus on what matters and <span class=\"text-foreground font-bold\">take</span> <br class='hidden md:block' /> <span class=\"text-foreground font-bold\">control of your business</span> again. We'll handle the rest.",
-      "highlightedText": "AI agent networks",
-      "videoUrl": "https://framerusercontent.com/assets/O5EOvvLBC8yOJKwEcDAmQg5gU.mp4",
-      "animatedWords": [
-        "Repetitive",
-        "Tedious"
-      ],
       "ctaButton": "Start Today!",
       "titleLines": {
         "line1Before": "",
@@ -717,78 +300,6 @@
         }
       ]
     },
-    "methodology": {
-      "sectionLabel": "lorem ipsum",
-      "title": "How we build impact.",
-      "description": "Complete operations audit to identify processes that can be simplified without changing your current structure.",
-      "steps": [
-        {
-          "num": "01",
-          "title": "Strategic Analysis",
-          "description": "Complete operations audit to identify processes that can be simplified without changing your current structure."
-        },
-        {
-          "num": "02",
-          "title": "Integrated Architecture",
-          "description": "System design that connects directly with your existing databases and applications, without forced migrations."
-        },
-        {
-          "num": "03",
-          "title": "Non-Disruptive Deployment",
-          "description": "Gradual installation that keeps everything running during the transition, on your server or our controlled environment."
-        },
-        {
-          "num": "04",
-          "title": "Practical Iteration",
-          "description": "Constant review based on real usage, adjusting only what really impacts your day-to-day."
-        }
-      ]
-    },
-    "pricing": {
-      "badge": "lorem ipsum",
-      "title": "Pricing.",
-      "modes": {
-        "suscripcion": {
-          "label": "Subscription",
-          "card1": {
-            "title": "SaaS Solutions",
-            "description1": "Flexible monthly subscription.",
-            "description2": "No long-term commitments."
-          },
-          "card2": {
-            "title": "Subscription-based model",
-            "subtitle": "Contact us for personalized options",
-            "priceFrom": "From $99",
-            "priceTo": "custom",
-            "period": "/month",
-            "features": [
-              "Solutions starting at $99/month"
-            ],
-            "deliveryLabel": "Delivery time",
-            "deliveryTime": "Recurring",
-            "ctaButton": "Contact Us"
-          }
-        },
-        "instalacion": {
-          "label": "Installation",
-          "card1": {
-            "title": "Custom development?",
-            "description": "Contact us to receive a personalized proposal."
-          },
-          "card2": {
-            "price": "From $1,000",
-            "period": "/installation",
-            "features": [
-              "Implementation and customization",
-              "Integration with your stack"
-            ],
-            "deliveryLabel": "Delivery time",
-            "deliveryTime": "3-4 weeks",
-            "ctaButton": "Contact Us"
-          }
-        }
-      }
-    },
     "contact": {
       "title": "Have a project<br class='hidden md:block' /> in mind<span class='dark:text-[#1C058E]'>?</span>",
       "greeting": "Tell us about your project<br class='hidden md:block' /> and we'll get back to you instantly.",
@@ -824,38 +335,6 @@
         }
       ]
     },
-    "trustPoints": [
-      {
-        "icon": "Shield",
-        "title": "Sovereign architecture",
-        "description": "Your code, your infrastructure, no vendor lock-in. Full control over your stack."
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "ROI-focused AI",
-        "description": "Not isolated models. AI integrated directly into your stack for measurable results."
-      },
-      {
-        "icon": "Code2",
-        "title": "Cutting-edge stack",
-        "description": "Always with the best tools on the market."
-      },
-      {
-        "icon": "Users",
-        "title": "Real engineering team",
-        "description": "Electromechanical, aerospace, and software engineers. Not rotating freelancers."
-      }
-    ],
-    "cta": {
-      "title": "Ready to integrate AI?",
-      "subtitle": "Let's talk about how we can boost your business with tailor-made AI solutions.",
-      "buttonText": "Let's get started",
-      "buttonLink": "#contacto"
-    },
-    "productsSection": {
-      "title": "Our products",
-      "subtitle": "Proprietary products designed to automate processes, organize information, and expand operational capacity."
-    },
     "team": {
       "title": "Meet Us",
       "subtitle": "<strong class='dark:text-white dark:font-medium!'>Fusa Labs</strong> is an <strong class='dark:text-white dark:font-medium!'>AI-powered software agency</strong> that empowers B2B companies to <strong class='dark:text-white dark:font-medium!'>streamline their operations</strong>, <strong class='dark:text-white dark:font-medium!'>solidify their digital infrastructure</strong>, and <strong class='dark:text-white dark:font-medium!'>project</strong> a brand identity that commands authority and <strong class='dark:text-white dark:font-medium!'>trust</strong> within their industry.",
@@ -863,426 +342,90 @@
         {
           "name": "Jesus Fleitas",
           "slug": "jesus-fleitas",
-          "email": "jesusfleitas909@gmail.com",
           "title": "Founder & Design Marketing Strategist",
           "bio": "I’m Jesús Fleitas, a 29-year-old aviation enthusiast and brand architect. Currently pursuing a degree in Aerospace Engineering, I’ve focused my purpose at Fusa Labs on merging systems-level rigor with creative design. For me, connecting these disciplines is the key to creating ecosystems that go beyond storytelling to function with high-performance accuracy.",
-          "highlight": "Projects",
           "linkedin": "https://www.linkedin.com/in/jesusfleitas/",
-          "github": "https://github.com/jerchufleitas",
-          "resumen": "I’m Jesús Fleitas, a 29-year-old aviation enthusiast and brand architect. Currently pursuing a degree in Aerospace Engineering, I’ve focused my purpose at Fusa Labs on merging systems-level rigor with creative design. For me, connecting these disciplines is the key to creating ecosystems that go beyond storytelling to function with high-performance accuracy.",
-          "aporte": "Coordinates projects between technical and commercial teams. Connects product capabilities with market needs.",
-          "foto": "/img/equipo/jesus-fleitas.jpg",
-          "categoria": "operations",
-          "subcategoria": "Project Management",
-          "logros": [
-            {
-              "metric": "Precision",
-              "label": "Management & Strategic Briefing"
-            },
-            {
-              "metric": "Creative",
-              "label": "Marketing & Branding Design"
-            },
-            {
-              "metric": "AI Native",
-              "label": "AI Strategy & Implementation"
-            },
-            {
-              "metric": "Optimization",
-              "label": "Process Optimization"
-            }
-          ],
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for coordination and management projects",
-          "position": "center 65%",
           "instagram": "https://www.instagram.com/jesusfleitas.ia",
-          "phone": "+5493704563060",
-          "proyectos": [
-            {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/1.jpg"
-            },
-            {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
-              "image": "/img/equipo/proyectos personales/jesus-fleitas/3.jpg"
-            }
-          ]
+          "github": "https://github.com/jerchufleitas",
+          "foto": "/img/equipo/jesus-fleitas.jpg",
+          "position": "center 65%"
         },
         {
           "name": "Fabio Arias",
           "slug": "fabio-arias",
-          "email": "fabio-adrian-arias@hotmail.com",
           "title": "Full-Stack Developer",
           "bio": "Hi, I'm Fabio Arias. As an AI Engineer (Azure AI Associate), my role at Fusa Labs is to lead the technical integration between Artificial Intelligence and complex full-stack architectures. Specializing in the JavaScript and TypeScript ecosystems, I build high-performance platforms using Angular, React, and Node.js. I design scalable databases integrating robust solutions with MongoDB, Firebase, and MySQL. This deep expertise enables me to develop extremely solid, highly efficient systems fully prepared to guarantee continuous operational and business scalability.",
-          "highlight": "Product",
           "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
-          "resumen": "Hi, I'm Fabio Arias. As an AI Engineer (Azure AI Associate), my role at Fusa Labs is to lead the technical integration between Artificial Intelligence and complex full-stack architectures. Specializing in the JavaScript and TypeScript ecosystems, I build high-performance platforms using Angular, React, and Node.js. I design scalable databases integrating robust solutions with MongoDB, Firebase, and MySQL. This deep expertise enables me to develop extremely solid, highly efficient systems fully prepared to guarantee continuous operational and business scalability.",
-          "aporte": "Executes technical implementation of products and features. Connects business requirements with scalable technical solutions.",
-          "foto": "/img/equipo/fabio-arias.jpg",
-          "categoria": "tech",
-          "subcategoria": "Full-Stack Development",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "Code is the means, not the end. What matters is solving real problems.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for fullstack development projects",
-          "position": "center 10%",
-          "zoom": 1,
           "instagram": "https://www.instagram.com/fabioadriarias/",
-          "proyectos": [
-            {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/1.jpg"
-            },
-            {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
-              "image": "/img/equipo/proyectos personales/fabio-arias/3.jpg"
-            }
-          ],
-          "github": "https://github.com/FabioArias23"
+          "github": "https://github.com/FabioArias23",
+          "foto": "/img/equipo/fabio-arias.jpg",
+          "position": "center 10%",
+          "zoom": 1
         },
         {
           "name": "Adrián Gamarra",
           "slug": "adrian-gamarra",
-          "email": "gamarraadrian200@gmail.com",
           "title": "Founder & CEO — Product, AI & Growth",
           "bio": "I'm Adrián Gamarra, Founder of Fusa Labs & CEO of Future AI & Automation. My journalism and marketing roots forge my approach: designing products driven by user experience, conversion, and business impact. I spearhead our strategic vision and AI agent architecture, bridging needs with viable solutions. By crafting conversational flows and key metrics, I ensure every deployment performs, scales, and drives revenue. I engineer autonomous systems that empower clients to accelerate their commercial and operational growth.",
-          "highlight": "Founder",
           "linkedin": "https://www.linkedin.com/in/adriangmrra/",
-          "resumen": "I'm Adrián Gamarra, Founder of Fusa Labs & CEO of Future AI & Automation. My journalism and marketing roots forge my approach: designing products driven by user experience, conversion, and business impact. I spearhead our strategic vision and AI agent architecture, bridging needs with viable solutions. By crafting conversational flows and key metrics, I ensure every deployment performs, scales, and drives revenue. I engineer autonomous systems that empower clients to accelerate their commercial and operational growth.",
-          "aporte": "Define la visión de producto, la estrategia comercial, la arquitectura de agentes de IA y las métricas de crecimiento en todos los proyectos de Fusa Labs. Conecta negocio, tecnología y marketing en cada decisión.",
-          "foto": "/img/equipo/adrian-gamarra.jpg",
-          "categoria": "business",
-          "subcategoria": "Marketing & Growth",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The best marketing doesn't feel like marketing. It's valuable content that users are looking for.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for growth consulting and content strategy",
-          "position": "center 28%",
           "instagram": "https://www.instagram.com/adriangmrra/",
-          "proyectos": [
-            {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/1.jpg"
-            },
-            {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
-              "image": "/img/equipo/proyectos personales/adrian-gamarra/3.jpg"
-            }
-          ],
-          "github": "https://github.com/adriangmrraa"
+          "github": "https://github.com/adriangmrraa",
+          "foto": "/img/equipo/adrian-gamarra.jpg",
+          "position": "center 28%"
         },
         {
           "name": "Pedro Enríquez",
           "slug": "pedro-enriquez",
-          "email": "agustinenriquez321@gmail.com",
           "title": "Project Manager",
           "bio": "Hi, I’m Pedro Enríquez, an International Relations professional and Global Business Analyst. My career is built on a foundation of strategic management, data analysis, and rigorous project monitoring, all aimed at driving operational efficiency and top-tier quality. In my role at Fusa Labs, I oversee project lifecycles, applying a global business lens to create robust digital environments. I am dedicated to aligning high-level strategy with smart automation to build scalable solutions that create a meaningful impact in today’s market.",
-          "highlight": "Project Management",
           "linkedin": "https://www.linkedin.com/in/pedro-agustin-enriquez-825983319/",
-          "resumen": "Hi, I’m Pedro Enríquez, an International Relations professional and Global Business Analyst. My career is built on a foundation of strategic management, data analysis, and rigorous project monitoring, all aimed at driving operational efficiency and top-tier quality. In my role at Fusa Labs, I oversee project lifecycles, applying a global business lens to create robust digital environments. I am dedicated to aligning high-level strategy with smart automation to build scalable solutions that create a meaningful impact in today’s market.",
-          "aporte": "Structures international operations, coordinates management workflows across regions, and translates research insights into clear positioning and persuasive messaging.",
-          "foto": "/img/equipo/pedro-enriquez0.jpg",
-          "categoria": "business",
-          "subcategoria": "International Business Management",
-          "logros": [
-            {
-              "metric": "Leadership",
-              "label": "Scrum master"
-            },
-            {
-              "metric": "Strategic",
-              "label": "International management"
-            },
-            {
-              "metric": "Execution",
-              "label": "Project management"
-            },
-            {
-              "metric": "Technical",
-              "label": "Data analytics"
-            }
-          ],
-          "cta": "International business is built with trust, not contracts.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for international expansion and strategic alliances",
-          "position": "center 26%",
           "instagram": "https://www.instagram.com/pedroenriquez__/",
-          "proyectos": [
-            {
-              "title": "SUBNATIONAL RELATIONS",
-              "description": "Internationalization strategies for local governments: connecting the territory with global resources and opportunities.",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/1.jpg"
-            },
-            {
-              "title": "THE PARADOX",
-              "description": "Globalization challenges a new territorial development paradigm. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/2.jpg"
-            },
-            {
-              "title": "PRODUCTIVE PARADIPLOMACY",
-              "description": "Analysis of the local governments' role in economic promotion and the internationalization of regional industries.",
-              "image": "/img/equipo/proyectos personales/pedro-enriquez/3.jpg"
-            }
-          ]
+          "foto": "/img/equipo/pedro-enriquez0.jpg",
+          "position": "center 26%"
         },
         {
           "name": "Ezequiel Lopez",
           "slug": "ezequiel-lopez",
-          "email": "ezequiel128@gmail.com",
           "title": "Electromechanical Eng.",
           "bio": "Hi, I'm Ezequiel Lopez. As an Electromechanical Engineer specializing in industrial automation, my mission at Fusa Labs is to bring the precision of physical engineering into digital systems. My background in control and automation from UNNE-RCIA enables me to design highly resilient tech ecosystems. I translate industrial efficiency principles into software integrations, ensuring every automated process operates with absolute reliability. I optimize operational workflows to guarantee seamless and continuous business scalability.",
-          "highlight": "Infra",
           "linkedin": "https://www.linkedin.com/in/matias-ezequiel-lopez-chamorro-b5675430b/",
-          "resumen": "Hi, I'm Ezequiel Lopez. As an Electromechanical Engineer specializing in industrial automation, my mission at Fusa Labs is to bring the precision of physical engineering into digital systems. My background in control and automation from UNNE-RCIA enables me to design highly resilient tech ecosystems. I translate industrial efficiency principles into software integrations, ensuring every automated process operates with absolute reliability. I optimize operational workflows to guarantee seamless and continuous business scalability.",
-          "aporte": "Designs and implements operational infrastructure solutions. Integrates physical systems with digital platforms for robust operations.",
+          "instagram": "https://www.instagram.com/ezelopezch/",
           "foto": "/img/equipo/ezequiel-lopez.jpg",
           "position": "center 0%",
-          "zoom": 1,
-          "categoria": "tech",
-          "subcategoria": "Electromechanics & IoT",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The future of industry is in the convergence between physical and digital.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for industrial automation and IoT projects",
-          "instagram": "https://www.instagram.com/ezelopezch/",
-          "proyectos": [
-            {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/1.jpg"
-            },
-            {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
-              "image": "/img/equipo/proyectos personales/ezequiel-lopez/3.jpg"
-            }
-          ]
+          "zoom": 1
         },
         {
           "name": "Facundo Majda",
           "slug": "facundo-majda",
-          "email": "facundomajda19@gmail.com",
           "title": "AI Engineer & Solutions Architect",
           "bio": "Hi, I'm Facundo Majda. As a developer specializing in AI and scalable backend architectures, my role at Fusa Labs is building the technical foundation for innovation. I design high-performance systems, from APIs and data pipelines to Large Language Model (LLM) integrations. I apply robust engineering patterns across the entire product lifecycle—from PoC to production deployment. Through fine-tuning and rigorous testing, I ensure our solutions are technologically sound, highly efficient, and built to scale.",
-          "highlight": "Architecture",
           "linkedin": "https://www.linkedin.com/in/facundo-majda/",
-          "resumen": "Hi, I'm Facundo Majda. As a developer specializing in AI and scalable backend architectures, my role at Fusa Labs is building the technical foundation for innovation. I design high-performance systems, from APIs and data pipelines to Large Language Model (LLM) integrations. I apply robust engineering patterns across the entire product lifecycle—from PoC to production deployment. Through fine-tuning and rigorous testing, I ensure our solutions are technologically sound, highly efficient, and built to scale.",
-          "aporte": "Leads technical solution definition, product architecture, and systems implementation that connect strategy, scalability, and execution.",
-          "foto": "/img/equipo/facundo-majda.jpg",
-          "categoria": "tech",
-          "subcategoria": "AI/ML & Architecture",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "The best architecture is the one you don't notice. When it works well, no one sees it.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for architecture and AI implementation projects",
-          "github": "https://github.com/FacundoMajda"
+          "github": "https://github.com/FacundoMajda",
+          "foto": "/img/equipo/facundo-majda.jpg"
         },
         {
           "name": "Patricio Martin Polo",
           "slug": "patricio-polo",
-          "email": "gypp54@gmail.com",
           "title": "Accountant & Foreign Trade",
           "bio": "Hi, I’m Patricio Martin Polo. With a triple background as a Certified Public Accountant, International Trade expert, and Customs Broker, I bridge the gap between regulatory rigor and AI-driven efficiency at Fusa Labs. I am responsible for building operational backbones for our global projects that are every bit as resilient as our technology. By streamlining fiscal management and trade logistics, I empower innovation to expand globally. I specialize in transforming administrative hurdles into seamless automated workflows that deliver real-world impact.",
-          "highlight": "Operations",
           "linkedin": "https://www.linkedin.com/in/patricio-mart%C3%ADn-peso-polo-despachante-de-aduanas-746478264/",
-          "resumen": "Hi, I’m Patricio Martin Polo. With a triple background as a Certified Public Accountant, International Trade expert, and Customs Broker, I bridge the gap between regulatory rigor and AI-driven efficiency at Fusa Labs. I am responsible for building operational backbones for our global projects that are every bit as resilient as our technology. By streamlining fiscal management and trade logistics, I empower innovation to expand globally. I specialize in transforming administrative hurdles into seamless automated workflows that deliver real-world impact.",
-          "aporte": "Manages operational and financial structure for foreign trade operations. Ensures compliance and tax optimization in value chains.",
+          "instagram": "https://www.instagram.com/pmpp96/",
           "foto": "/img/equipo/patricio-polo.jpg",
           "position": "80% 62%",
-          "zoom": 1.2,
-          "categoria": "business",
-          "subcategoria": "Finance & Trade",
-          "logros": [
-            {
-              "metric": "Strategic",
-              "label": "Financial optimization"
-            },
-            {
-              "metric": "Global",
-              "label": "Foreign trade"
-            },
-            {
-              "metric": "Operational",
-              "label": "Customs strategy"
-            },
-            {
-              "metric": "Compliance",
-              "label": "B2B compliance"
-            }
-          ],
-          "cta": "Numbers tell the truth. My job is to make them speak for the business.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for foreign trade and tax optimization consulting",
-          "instagram": "https://www.instagram.com/pmpp96/",
-          "proyectos": [
-            {
-              "title": "CUSTOMS EFFICIENCY",
-              "description": "Simplification of the customs guarantee system for importers and exporters. Optimizing operational burden and clearance times.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/1.jpg"
-            },
-            {
-              "title": "GLOBAL TRADE COMPLIANCE",
-              "description": "Strategic guide on international regulations and Incoterms application. Ensuring compliance and minimizing risks in the global supply chain.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/2.jpg"
-            },
-            {
-              "title": "STRATEGIC INTELLIGENCE",
-              "description": "Trade agreements and missions: strategic tools for global expansion. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/patricio-polo/3.jpg"
-            }
-          ]
+          "zoom": 1.2
         },
         {
           "name": "Lisandro Ratto",
           "slug": "lisandro-ratto",
-          "email": "lisandroratto@gmail.com",
           "title": "PR & HR Degree",
           "bio": "Hi, I'm Lisandro Ratto. As a specialist in Public Relations and Human Resources, my primary role at Fusa Labs is to elevate our talent and institutional communication. I seamlessly connect our internal culture with our digital presence, ensuring the human factor scales alongside our technology. By integrating CRM tools and marketing, I design advanced recruitment and employer branding strategies. My mission is to optimize operational management to ensure that every talent's development drives business success and the continuous evolution of our software solutions.",
-          "highlight": "Talent",
           "linkedin": "https://www.linkedin.com/in/lisandro-ratto-847942180/",
-          "resumen": "Hi, I'm Lisandro Ratto. As a specialist in Public Relations and Human Resources, my primary role at Fusa Labs is to elevate our talent and institutional communication. I seamlessly connect our internal culture with our digital presence, ensuring the human factor scales alongside our technology. By integrating CRM tools and marketing, I design advanced recruitment and employer branding strategies. My mission is to optimize operational management to ensure that every talent's development drives business success and the continuous evolution of our software solutions.",
-          "aporte": "Builds Fusa's institutional identity internally and externally. Manages employer branding and specialized talent acquisition.",
+          "instagram": "https://www.instagram.com/lisanpic/",
           "foto": "/img/equipo/lisandro-ratto.jpg",
           "position": "center 18%",
-          "zoom": 1,
-          "categoria": "operations",
-          "subcategoria": "HR & Culture",
-          "logros": [
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            },
-            {
-              "metric": "lorem ipsum",
-              "label": "lorem ipsum"
-            }
-          ],
-          "cta": "People don't stay for salary. They stay for culture and purpose.",
-          "disponible": true,
-          "links": [],
-          "disponibilidad": "Available for recruitment processes and employer branding strategy",
-          "instagram": "https://www.instagram.com/lisanpic/",
-          "proyectos": [
-            {
-              "title": "AI Agent Skills",
-              "description": "Is your AI Agent hallucinating in its responses? These are the best SKILLS that clear context noise.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/1.jpg"
-            },
-            {
-              "title": "Revolutionary Investment",
-              "description": "These are the 3 key pillars that OpenAI plans to integrate into science, security, and society. —Opinion piece.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/2.jpg"
-            },
-            {
-              "title": "Nano Banana 2 Like a PRO",
-              "description": "50+ Professional prompts that generate high-quality images for your products and campaigns.",
-              "image": "/img/equipo/proyectos personales/lisandro-ratto/3.jpg"
-            }
-          ]
+          "zoom": 1
         }
       ]
-    },
-    "lab": {
-      "badge": "Innovation Lab",
-      "title": "Ideas Lab.",
-      "description": "Where we explore the edge of the possible. Experimental projects and prototypes. R&D",
-      "ctaButton": "Explore Journal",
-      "newsletter": {
-        "label": "Newsletter",
-        "placeholder": "Your email"
-      }
-    },
-    "footer": {
-      "social": [
-        "Instagram",
-        "Github",
-        "Mail",
-        "WhatsApp"
-      ],
-      "navigation": {
-        "title": "Navigation",
-        "links": [
-          "Home"
-        ]
-      },
-      "location": {
-        "title": "Location",
-        "text": "HQ in Argentina.\nFormosa."
-      },
-      "copyright": "© 2026 FUSA LABS® — ALL RIGHTS RESERVED",
-      "status": {
-        "text": "Investment round open",
-        "active": false
-      }
     },
     "global": {
       "nav": {
@@ -1312,7 +455,7 @@
         "volverLabel": "Back to team",
         "resumenLabel": "Summary",
         "contactarLabel": "Contact us",
-        "charlaText": "Let's explore how we can make this work for your business."
+        "charlaText": "Let us explore how we can make this work for your business."
       }
     }
   }

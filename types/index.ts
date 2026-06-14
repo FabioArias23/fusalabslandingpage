@@ -1,32 +1,14 @@
-// Team Member Types
 export interface TeamMember {
   name: string;
   slug: string;
-  email: string;
   title: string;
   bio: string;
-  highlight: string;
   linkedin: string;
   instagram?: string;
-  resumen: string;
-  aporte: string;
+  github?: string;
   foto: string;
-  categoria: string;
-  subcategoria: string;
-  logros: { metric: string; label: string }[];
-  disponible: boolean;
-  links: string[];
-  disponibilidad: string;
   position?: string;
   zoom?: number;
-  phone?: string;
-  proyectos?: {
-    title: string;
-    description: string;
-    image: string;
-    url?: string;
-  }[];
-  github?: string;
 }
 
 export interface TeamSection {
@@ -35,47 +17,17 @@ export interface TeamSection {
   members: TeamMember[];
 }
 
-
-// Service Types
 export interface ServiceItem {
-  num: string;
-  title: string;
-  description: string;
-  tags: string[];
   icon: string;
-}
-
-export interface ServiceStep {
-  num: string;
-  icon?: string;
   title: string;
   description: string;
-}
-
-
-// Landing Data Types
-export interface NavigationConfig {
-  languageLabel: string;
-  menuItems: string[];
-  ctaButton: string;
 }
 
 export interface LandingData {
   es: {
-    branding: {
-      name: string;
-      suffix: string;
-      tagline: string;
-      footer: string;
-    };
-    navigation: NavigationConfig;
     hero: {
-      tags: string[];
-      title: string;
       subtitle: string;
       description: string;
-      highlightedText: string;
-      videoUrl: string;
     };
     services: {
       sectionNumber: string;
@@ -83,64 +35,6 @@ export interface LandingData {
       title: string;
       subtitle: string;
       items: ServiceItem[];
-    };
-    methodology: {
-      sectionLabel: string;
-      title: string;
-      description: string;
-      steps: ServiceStep[];
-    };
-    team: TeamSection;
-    pages: {
-      equipo: {
-        volverLabel: string;
-      }
-    };
-    footer: {
-      social: string[];
-      navigation: {
-        title: string;
-        links: string[];
-      };
-      location: {
-        title: string;
-        text: string;
-      };
-      copyright: string;
-      status: {
-        text: string;
-        active: boolean;
-      };
-    };
-  };
-  en: {
-    branding: {
-      name: string;
-      suffix: string;
-      tagline: string;
-      footer: string;
-    };
-    navigation: NavigationConfig;
-    hero: {
-      tags: string[];
-      title: string;
-      subtitle: string;
-      description: string;
-      highlightedText: string;
-      videoUrl: string;
-    };
-    services: {
-      sectionNumber: string;
-      sectionLabel: string;
-      title: string;
-      subtitle: string;
-      items: ServiceItem[];
-    };
-    methodology: {
-      sectionLabel: string;
-      title: string;
-      description: string;
-      steps: ServiceStep[];
     };
     team: TeamSection;
     seo: {
@@ -150,23 +44,36 @@ export interface LandingData {
     pages: {
       equipo: {
         volverLabel: string;
+        resumenLabel: string;
+        contactarLabel: string;
+        charlaText: string;
       }
     };
-    footer: {
-      social: string[];
-      navigation: {
-        title: string;
-        links: string[];
-      };
-      location: {
-        title: string;
-        text: string;
-      };
-      copyright: string;
-      status: {
-        text: string;
-        active: boolean;
-      };
+  };
+  en: {
+    hero: {
+      subtitle: string;
+      description: string;
+    };
+    services: {
+      sectionNumber: string;
+      sectionLabel: string;
+      title: string;
+      subtitle: string;
+      items: ServiceItem[];
+    };
+    team: TeamSection;
+    seo: {
+      title: string;
+      description: string;
+    };
+    pages: {
+      equipo: {
+        volverLabel: string;
+        resumenLabel: string;
+        contactarLabel: string;
+        charlaText: string;
+      }
     };
   };
 }
