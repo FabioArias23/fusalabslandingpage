@@ -48,3 +48,7 @@ npm install
 
 # 2. Levantar el servidor de desarrollo
 npm run dev
+
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/908dd015-c7ba-45f5-aa67-7b0299724be2" />
