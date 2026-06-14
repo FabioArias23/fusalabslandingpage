@@ -37,9 +37,9 @@
           "author": "Adrián Gamarra",
           "icon": "Cpu",
           "media": [
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/ia-services/automatizacion-n8n-cool-2.webp",
-            "/assets/services/ia-services/automatizacion-n8n-5.webp"
+            "/assets/services/ia-services/bbb1.webp",
+            "/assets/services/ia-services/ccc.webp",
+            "/assets/services/ia-services/aaa.webp"
           ]
         },
         {
@@ -50,9 +50,9 @@
           "author": "Facundo Majda",
           "icon": "Code2",
           "media": [
-            "/assets/services/software-services/1.jpg",
-            "/assets/services/software-services/2.jpg",
-            "/assets/services/software-services/3.jpg"
+            "/assets/services/software-services/444.webp",
+            "/assets/services/software-services/555.webp",
+            "/assets/services/software-services/666.webp"
           ]
         },
         {
@@ -63,9 +63,9 @@
           "author": "Jesus Fleitas",
           "icon": "TrendingUp",
           "media": [
-            "/assets/services/marketing-services/1.jpg",
-            "/assets/services/marketing-services/2.jpg",
-            "/assets/services/marketing-services/3.jpg"
+            "/assets/services/marketing-services/111.webp",
+            "/assets/services/marketing-services/222.webp",
+            "/assets/services/marketing-services/333.webp"
           ]
         }
       ]
@@ -267,9 +267,9 @@
           "author": "Adrián Gamarra",
           "icon": "Cpu",
           "media": [
-            "/assets/services/ia-services/ia-automation.webp",
-            "/assets/services/ia-services/automatizacion-n8n-cool-2.webp",
-            "/assets/services/ia-services/automatizacion-n8n-5.webp"
+            "/assets/services/ia-services/bbb1.webp",
+            "/assets/services/ia-services/ccc.webp",
+            "/assets/services/ia-services/aaa.webp"
           ]
         },
         {
@@ -280,9 +280,9 @@
           "author": "Facundo Majda",
           "icon": "Code2",
           "media": [
-            "/assets/services/software-services/1.jpg",
-            "/assets/services/software-services/2.jpg",
-            "/assets/services/software-services/3.jpg"
+            "/assets/services/software-services/444.webp",
+            "/assets/services/software-services/555.webp",
+            "/assets/services/software-services/666.webp"
           ]
         },
         {
@@ -293,9 +293,9 @@
           "author": "Jesús Fleitas",
           "icon": "TrendingUp",
           "media": [
-            "/assets/services/marketing-services/1.jpg",
-            "/assets/services/marketing-services/2.jpg",
-            "/assets/services/marketing-services/3.jpg"
+            "/assets/services/marketing-services/111.webp",
+            "/assets/services/marketing-services/222.webp",
+            "/assets/services/marketing-services/333.webp"
           ]
         }
       ]

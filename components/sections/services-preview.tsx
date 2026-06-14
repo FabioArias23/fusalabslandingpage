@@ -18,6 +18,7 @@ import landingData from "@/data/landingData.json";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { PillarCarousel } from "./services/pillar-carousel";
+import { Pillar3DDeck } from "./services/pillar-3d-deck";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Cpu,
@@ -68,10 +69,14 @@ export function ServicesPreviewSection({
               index !== pillars.length - 1 && "border-b border-white/5",
             )}
           >
-            <PillarCarousel
-              pillar={pillar}
-              Icon={iconMap[pillar.icon] || Cpu}
-            />
+            {["Cpu", "TrendingUp", "Code2"].includes(pillar.icon) ? (
+              <Pillar3DDeck pillar={pillar} />
+            ) : (
+              <PillarCarousel
+                pillar={pillar}
+                Icon={iconMap[pillar.icon] || Cpu}
+              />
+            )}
           </motion.div>
         ))}
       </div>
