@@ -2,7 +2,7 @@
   <img src="./public/assets/docs/headlandingfusa.png" alt="FUSA LABS Landing Page Cover" width="100%" />
 </p>
 
-# FUSA LABS - Landing Page 🌌
+# 🌌 FUSA LABS - Landing Page 
 
 Plataforma web corporativa y de alta conversión para **FUSA LABS** (AI Venture Builder). Diseñada con una estética minimalista, *High-Tech* y *Cyber Corporate* para transmitir autoridad y escalabilidad global en el desarrollo de Inteligencia Artificial y Automatización.
 
