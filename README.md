@@ -37,6 +37,10 @@ Este proyecto utiliza el nuevo motor de Tailwind 4. Las variables viven y se orq
 ### Tipografías
 - **Headings (Títulos):** `Conthrax` (Cargada localmente via webfonts).
 - **Body / UI:** `Inter` (Variable font para máxima legibilidad).
+  
+##404 Error page
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/908dd015-c7ba-45f5-aa67-7b0299724be2" />
 
 ## 💻 Desarrollo Local
 
@@ -51,4 +55,4 @@ npm run dev
 
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/908dd015-c7ba-45f5-aa67-7b0299724be2" />
+
