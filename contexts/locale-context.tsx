@@ -69,8 +69,18 @@ export function LocaleProvider({
     setLang((prev) => (prev === "es" ? "en" : "es"));
   }, []);
 
+function SeoUpdater({ title, description }: { title: string; description: string }) {
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+    </>
+  );
+}
+
   return (
     <LocaleContext.Provider value={{ lang, data, isEnglish, toggleLang }}>
+      <SeoUpdater title={data.seo.title} description={data.seo.description} />
       {children}
     </LocaleContext.Provider>
   );

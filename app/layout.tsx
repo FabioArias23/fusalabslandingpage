@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Viewport } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -23,11 +23,7 @@ const conthrax = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Fusa Labs | Soluciones AI & Software",
-  description:
-    "Modernizando negocios con inteligencia artificial y software a medida.",
-};
+
 
 export const viewport: Viewport = {
   width: "device-width",

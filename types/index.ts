@@ -143,6 +143,10 @@ export interface LandingData {
       steps: ServiceStep[];
     };
     team: TeamSection;
+    seo: {
+      title: string;
+      description: string;
+    };
     pages: {
       equipo: {
         volverLabel: string;

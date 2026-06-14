@@ -1,5 +1,9 @@
 {
   "es": {
+    "seo": {
+      "title": "Fusa Labs | Soluciones AI & Software",
+      "description": "Modernizando negocios con inteligencia artificial y software a medida."
+    },
     "branding": {
       "name": "FUSA LABS",
       "suffix": "SYSTEMS",
@@ -621,6 +625,10 @@
     }
   },
   "en": {
+    "seo": {
+      "title": "Fusa Labs | AI & Software Solutions",
+      "description": "Modernizing businesses with artificial intelligence and custom software."
+    },
     "branding": {
       "name": "FUSA LABS",
       "suffix": "SYSTEMS",
