@@ -16,6 +16,7 @@ interface TeamMember {
 interface TeamSectionProps {
   data: {
     team: {
+      title?: string;
       subtitle: string;
       members: TeamMember[];
     };
