@@ -1,38 +1,10 @@
 "use client";
 
 import * as React from "react";
-import {
-  Cpu,
-  Code2,
-  Layers,
-  Zap,
-  Target,
-  Shield,
-  TrendingUp,
-  Users,
-  Search,
-  Rocket,
-  CheckCircle,
-} from "lucide-react";
 import landingData from "@/data/landingData.json";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { PillarCarousel } from "./services/pillar-carousel";
 import { Pillar3DDeck } from "./services/pillar-3d-deck";
-
-const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Cpu,
-  Layers,
-  Zap,
-  Target,
-  Shield,
-  TrendingUp,
-  Code2,
-  Users,
-  Search,
-  Rocket,
-  CheckCircle,
-};
 
 export function ServicesPreviewSection({
   data,
@@ -69,14 +41,7 @@ export function ServicesPreviewSection({
               index !== pillars.length - 1 && "border-b border-white/5",
             )}
           >
-            {["Cpu", "TrendingUp", "Code2"].includes(pillar.icon) ? (
-              <Pillar3DDeck pillar={pillar} />
-            ) : (
-              <PillarCarousel
-                pillar={pillar}
-                Icon={iconMap[pillar.icon] || Cpu}
-              />
-            )}
+            <Pillar3DDeck pillar={pillar} />
           </motion.div>
         ))}
       </div>
