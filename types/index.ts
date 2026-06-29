@@ -6,6 +6,7 @@ export interface TeamMember {
   linkedin: string;
   instagram?: string;
   github?: string;
+  portfolio?: string;
   foto: string;
   position?: string;
   zoom?: number;

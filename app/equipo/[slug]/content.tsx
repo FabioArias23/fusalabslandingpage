@@ -9,7 +9,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, MessageSquare } from "lucide-react";
+import { ArrowLeft, MessageSquare, Globe } from "lucide-react";
 
 const Instagram = ({ className }: { className?: string }) => (
   <svg
@@ -82,6 +82,7 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
 
   const linkedinUrl = member.linkedin || "https://www.linkedin.com/company/fusa-labs";
   const showGithub = !!member.github;
+  const showPortfolio = !!member.portfolio;
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 pt-32 pb-12 sm:pt-40 md:pt-48 md:pb-16">
@@ -130,6 +131,13 @@ export function TeamMemberContent({ slug }: TeamMemberContentProps) {
                     <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
                       <a href={member.github} target="_blank" rel="noopener noreferrer">
                         <Github className="size-6" />
+                      </a>
+                    </Button>
+                  )}
+                  {showPortfolio && (
+                    <Button variant="ghost" size="icon" asChild className="size-[54px] rounded-full bg-white/5 hover:bg-white/10 text-[#1C058E]! transition-all hover:scale-110">
+                      <a href={member.portfolio} target="_blank" rel="noopener noreferrer" title="Portfolio">
+                        <Globe className="size-6" />
                       </a>
                     </Button>
                   )}

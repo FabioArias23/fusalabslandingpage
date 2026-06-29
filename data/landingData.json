@@ -123,12 +123,13 @@
         {
           "name": "Fabio Arias",
           "slug": "fabio-arias",
-          "title": "Full-Stack Developer",
-          "bio": "Hola, soy Fabio Arias. Como Ingeniero en IA (Azure AI Associate), mi rol en Fusa Labs es liderar la integración técnica entre Inteligencia Artificial y arquitecturas full-stack complejas. Especialista en el ecosistema JavaScript y TypeScript, construyo plataformas de alto rendimiento empleando Angular, React y Node.js. Diseño bases de datos escalables integrando robustas soluciones con MongoDB, Firebase y MySQL. Toda esta experiencia me permite desarrollar sistemas extremadamente sólidos, eficientes y siempre preparados para garantizar la escalabilidad comercial.",
+          "title": "Founder & Técnico Líder",
+          "bio": "Hola, soy Fabio Arias, Founder y Técnico Líder de Fusa Labs, con más de 5 años de experiencia. Como Ingeniero en IA (Azure AI Associate), mi rol es liderar la integración técnica entre Inteligencia Artificial y arquitecturas full-stack complejas. Especialista en el ecosistema JavaScript y TypeScript, construyo plataformas de alto rendimiento empleando Angular, React y Node.js. Diseño bases de datos escalables integrando robustas soluciones con MongoDB, Firebase y MySQL. Toda esta experiencia me permite desarrollar sistemas extremadamente sólidos, eficientes y siempre preparados para garantizar la escalabilidad comercial.",
           "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
           "instagram": "https://www.instagram.com/fabioadriarias/",
           "github": "https://github.com/FabioArias23",
-          "foto": "/img/equipo/fabio-arias.jpg",
+          "portfolio": "https://portfoliov3-nx4j.onrender.com/",
+          "foto": "/img/equipo/fabio-arias-nuevo.jpg",
           "position": "center 10%",
           "zoom": 1
         },
@@ -358,7 +359,8 @@
           "linkedin": "https://www.linkedin.com/in/fabio-arias-0515691b9/",
           "instagram": "https://www.instagram.com/fabioadriarias/",
           "github": "https://github.com/FabioArias23",
-          "foto": "/img/equipo/fabio-arias.jpg",
+          "portfolio": "https://portfoliov3-nx4j.onrender.com/",
+          "foto": "/img/equipo/fabio-arias-nuevo.jpg",
           "position": "center 10%",
           "zoom": 1
         },
